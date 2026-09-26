@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;600;700;800&family=Source+Sans+3:wght@400;600&display=swap');
+
 :root {
   --color-breu: #0b0b0c;
   --color-piche: #18181a;
@@ -11,9 +13,9 @@
   --color-rosa: #d6ad59;
   --color-rosa-fundo: #c89b3c;
   --color-rosa-claro: #e7d7b5;
-  --font-titulo: Arial, -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-leitura: Arial, -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-mono: Consolas, Monaco, monospace;
+  --font-titulo: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-leitura: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -31,31 +33,37 @@ body { background-color: var(--color-breu); color: var(--color-neve); font-famil
   position: fixed; inset: 0;
 }
 
-/* Fundo editorial sem imagem pesada na primeira dobra. */
+/* Fundo autoral da hero: linhas topográficas discretas e centro livre para a mensagem. */
 .hero-autoral-bg {
   position: absolute;
   inset: 0;
   z-index: 0;
   overflow: hidden;
   background-color: var(--color-breu);
-  background-image: radial-gradient(ellipse at 50% 43%, rgba(200,155,60,.13), transparent 48%), linear-gradient(140deg, #0b0b0c 8%, #1d1a16 52%, #0b0b0c 92%);
+  background-image: url('imagens/hero-autoral-desktop.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: saturate(0.9) contrast(1.03);
 }
 
 .hero-autoral-bg::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, rgba(11,11,12,.15), transparent 45%, #0b0b0c);
+  background: radial-gradient(ellipse at center, transparent 20%, rgba(10, 10, 11, 0.12) 68%, rgba(10, 10, 11, 0.38) 100%);
 }
 
 @media (max-width: 767px) {
   .hero-autoral-bg {
-    background-image: radial-gradient(ellipse at 50% 40%, rgba(200,155,60,.12), transparent 58%), linear-gradient(160deg, #0b0b0c, #211d17 52%, #0b0b0c);
+    background-image: url('imagens/hero-autoral-mobile.jpg');
+    background-position: center;
   }
 
   .hero-autoral-bg::after {
     background:
-      linear-gradient(to bottom, rgba(11, 11, 12, 0.1), transparent 72%, #0b0b0c);
+      linear-gradient(to bottom, rgba(10, 10, 11, 0.2), transparent 18%, transparent 72%, rgba(10, 10, 11, 0.38)),
+      radial-gradient(ellipse at center, transparent 12%, rgba(10, 10, 11, 0.14) 72%, rgba(10, 10, 11, 0.32) 100%);
   }
 }
 
@@ -76,9 +84,8 @@ body { background-color: var(--color-breu); color: var(--color-neve); font-famil
 .hero-shell { position: relative; }
 .hero-main { display: flex; align-items: center; justify-content: center; }
 .hero-content { width: 100%; padding-top: 4rem; padding-bottom: 6rem; }
-.hero-content h1 { font-family: Georgia, 'Times New Roman', serif; letter-spacing: -.045em; }
+.hero-content h1 { letter-spacing: -.045em; }
 .hero-content h1 span { display: block; }
-.hero-content h1 span + span { color: #e7d7b5; }
 .bg-rosa-fundo { color: #0b0b0c; }
 .hero-content nav a { display: inline-flex; align-items: center; min-height: 44px; }
 #whats-flutuante { z-index: 50; }

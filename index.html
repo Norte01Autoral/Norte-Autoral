@@ -7,17 +7,23 @@
   <title>Norte Autoral | Soluções digitais para negócios</title>
   <meta name="description" content="Sites, presença digital, automações e sistemas pensados para ajudar sua empresa a ser encontrada, atender melhor e organizar a operação." />
   <meta name="author" content="Norte Autoral" />
+  <link rel="canonical" href="https://norte-autoral.vercel.app/" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Norte Autoral | Soluções digitais para negócios" />
   <meta property="og:description" content="Sites, presença digital, automações e sistemas sob medida para negócios." />
   <meta property="og:site_name" content="Norte Autoral" />
   <meta property="og:locale" content="pt_BR" />
-  <meta property="og:image" content="og.png" />
+  <meta property="og:url" content="https://norte-autoral.vercel.app/" />
+  <meta property="og:image" content="https://norte-autoral.vercel.app/og.png" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
 
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preload" as="image" href="imagens/hero-autoral-desktop.jpg" media="(min-width: 768px)" />
+  <link rel="preload" as="image" href="imagens/hero-autoral-mobile.jpg" media="(max-width: 767px)" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="assets.css" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -40,7 +46,7 @@
         <header class="relative z-30">
           <nav class="mx-auto flex max-w-[1440px] items-center justify-between px-5 py-5 sm:px-10 sm:py-7">
             <a href="#topo" aria-label="Norte Autoral, início" data-marca-barra="true" class="flex items-center gap-2.5 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-rosa">
-              <span class="brand-mark" aria-hidden="true">NA</span>
+              <img src="imagens/logo-n.png" alt="" width="28" height="28" class="h-7 w-7 object-contain" />
               <span class="font-titulo text-[18px] font-extrabold tracking-[-0.03em] text-neve">Norte Autoral</span>
             </a>
             <ul class="hidden items-center gap-9 md:flex">
@@ -49,8 +55,8 @@
               <li><a href="#sobre" class="text-[14px] font-medium text-prata transition-colors hover:text-neve focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-rosa">Sobre</a></li>
               <li><a href="#contato" class="text-[14px] font-medium text-prata transition-colors hover:text-neve focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-rosa">Contato</a></li>
             </ul>
-            <a href="#contato" class="group inline-flex min-h-11 items-center gap-2.5 rounded-md bg-rosa-fundo px-4 py-2 font-titulo text-[13px] font-semibold text-breu transition-colors hover:bg-rosa focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-rosa sm:px-5 sm:py-2.5 sm:text-[14px]">
-              <span class="sm:hidden">Contato</span>
+            <a href="https://wa.me/5586999900235?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Norte%20Autoral%20e%20quero%20come%C3%A7ar%20um%20projeto." target="_blank" rel="noopener noreferrer" class="group inline-flex min-h-11 items-center gap-2.5 rounded-md bg-rosa-fundo px-4 py-2 font-titulo text-[13px] font-semibold text-breu transition-colors hover:bg-rosa focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-rosa sm:px-5 sm:py-2.5 sm:text-[14px]">
+              <span class="sm:hidden">Começar</span>
               <span class="hidden sm:inline">Começar um projeto</span>
             </a>
           </nav>
@@ -59,7 +65,10 @@
         <!-- Hero Dobra Principal -->
         <div id="topo" class="hero-main relative z-20 flex-1">
           <div data-final="true" class="hero-content flex flex-col items-center justify-center px-4 text-center sm:px-6">
-            <p class="hero-eyebrow mb-5 font-mono text-[11px] tracking-[0.2em] text-rosa-claro uppercase">Norte Autoral · Soluções para negócios</p>
+            <div class="hero-brand mb-5 flex items-center justify-center gap-3 md:mb-7" aria-hidden="true">
+              <img src="imagens/logo-n.png" alt="" width="56" height="56" class="h-10 w-10 object-contain sm:h-11 sm:w-11 md:h-14 md:w-14" />
+              <span class="font-titulo text-[26px] font-extrabold tracking-[-0.03em] text-neve sm:text-[30px] md:text-[46px]">Norte Autoral</span>
+            </div>
             <h1 class="max-w-4xl text-center font-titulo text-[clamp(1.85rem,7.5vw,3rem)] leading-[1.08] font-normal tracking-tighter text-neve md:text-7xl">
               <span class="block">Seu próximo cliente</span>
               <span class="block font-semibold">precisa encontrar você.</span>
@@ -73,8 +82,8 @@
                 Ver soluções
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-4"><path d="M18 8L22 12L18 16"></path><path d="M2 12H22"></path></svg>
               </a>
-              <a href="#contato" class="inline-flex h-11 w-full sm:w-auto items-center justify-center gap-3 sm:gap-4 rounded-md md:h-12 bg-rosa-fundo px-5 sm:px-8 text-sm font-semibold whitespace-nowrap md:text-[15px] text-breu transition-colors hover:bg-rosa focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rosa">
-                Conversar sobre meu projeto
+              <a href="https://wa.me/5586999900235?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Norte%20Autoral.%20Quero%20um%20diagn%C3%B3stico%20para%20entender%20o%20que%20melhorar%20na%20presen%C3%A7a%20digital%20ou%20na%20opera%C3%A7%C3%A3o%20da%20minha%20empresa." target="_blank" rel="noopener noreferrer" class="inline-flex h-11 w-full sm:w-auto items-center justify-center gap-3 sm:gap-4 rounded-md md:h-12 bg-rosa-fundo px-5 sm:px-8 text-sm font-semibold whitespace-nowrap md:text-[15px] text-breu transition-colors hover:bg-rosa focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rosa">
+                Quero um diagnóstico
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-4"><path d="M13 2a9 9 0 0 1 9 9"></path><path d="M13 6a5 5 0 0 1 5 5"></path><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg>
               </a>
             </div>
@@ -236,7 +245,7 @@
 
             <!-- Logo Central -->
             <div class="relative grid size-24 place-items-center rounded-full border border-risco bg-chumbo shadow-lg">
-              <span class="brand-mark" aria-label="Norte Autoral">NA</span>
+              <img src="imagens/logo-n.png" alt="Norte Autoral" width="48" height="48" loading="lazy" decoding="async" class="h-12 w-12 object-contain" />
             </div>
 
           </div>
@@ -479,26 +488,26 @@
       </div>
     </section>
 
-    <!-- Seção 4: Estudos de conceito -->
+    <!-- Seção 4: Projetos Realizados -->
     <section id="trabalhos" aria-labelledby="titulo-trabalhos" class="w-full bg-piche">
       <div class="mx-auto w-full max-w-[1240px] px-5 py-16 sm:px-10 md:py-24">
         <div class="max-w-2xl">
-          <span class="inline-flex items-center rounded-full border border-risco bg-breu px-4 py-1.5 font-mono text-[11px] tracking-[0.16em] text-prata uppercase">Portfólio de conceitos</span>
+          <span class="inline-flex items-center rounded-full border border-risco bg-breu px-4 py-1.5 font-mono text-[11px] tracking-[0.16em] text-prata uppercase">Projetos realizados</span>
           <h2 id="titulo-trabalhos" class="mt-6 font-titulo text-[1.75rem] leading-[1.15] font-normal tracking-tighter text-neve sm:text-4xl md:text-[2.4rem]">
             <span class="block">Veja nossas soluções</span>
             <span class="block font-semibold">na prática.</span>
           </h2>
           <p class="mt-5 max-w-xl text-base leading-relaxed tracking-tight text-prata md:text-lg">
-            Explore propostas visuais criadas para demonstrar como organizamos informação, experiência e contato em diferentes negócios. Estes exemplos são projetos conceito.
+            Explore os sites de referência desenvolvidos pela Norte Autoral e conheça dois dos mais de 150 sistemas que temos em operação.
           </p>
         </div>
 
         <div class="mt-14 flex items-baseline justify-between gap-6 border-b border-risco pb-3">
           <h3 class="font-titulo text-lg font-semibold tracking-tight text-neve">Sites</h3>
-          <span class="font-mono text-[11px] tracking-[0.12em] text-aco uppercase">Demonstrações visuais</span>
+          <span class="font-mono text-[11px] tracking-[0.12em] text-aco uppercase">Projetos de referência</span>
         </div>
 
-        <!-- Grade de estudos de conceito -->
+        <!-- Grade de Sites -->
         <ul class="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <!-- Case 1: Helena Vasques -->
           <li>
@@ -509,10 +518,10 @@
                     <span class="size-1.5 rounded-full bg-risco-forte"></span>
                     <span class="size-1.5 rounded-full bg-risco-forte"></span>
                     <span class="size-1.5 rounded-full bg-risco-forte"></span>
-                    <span class="ml-1.5 truncate font-mono text-[10.5px] text-prata">advocacia · conceito</span>
+                    <span class="ml-1.5 truncate font-mono text-[10.5px] text-prata">helenavasques.adv.br</span>
                   </div>
                   <span class="text-[11px] font-mono text-rosa flex items-center gap-1 group-hover:text-neve transition-colors">
-                    Ver conceito →
+                    Abrir o site →
                   </span>
                 </div>
                 <div class="relative aspect-[16/10] overflow-hidden">
@@ -541,10 +550,10 @@
                     <span class="size-1.5 rounded-full bg-risco-forte"></span>
                     <span class="size-1.5 rounded-full bg-risco-forte"></span>
                     <span class="size-1.5 rounded-full bg-risco-forte"></span>
-                    <span class="ml-1.5 truncate font-mono text-[10.5px] text-prata">academia · conceito</span>
+                    <span class="ml-1.5 truncate font-mono text-[10.5px] text-prata">vexfitness.com.br</span>
                   </div>
                   <span class="text-[11px] font-mono text-rosa flex items-center gap-1 group-hover:text-neve transition-colors">
-                    Ver conceito →
+                    Abrir o site →
                   </span>
                 </div>
                 <div class="relative aspect-[16/10] overflow-hidden">
@@ -573,10 +582,10 @@
                     <span class="size-1.5 rounded-full bg-risco-forte"></span>
                     <span class="size-1.5 rounded-full bg-risco-forte"></span>
                     <span class="size-1.5 rounded-full bg-risco-forte"></span>
-                    <span class="ml-1.5 truncate font-mono text-[10.5px] text-prata">construtora · conceito</span>
+                    <span class="ml-1.5 truncate font-mono text-[10.5px] text-prata">vexconstrutora.com.br</span>
                   </div>
                   <span class="text-[11px] font-mono text-rosa flex items-center gap-1 group-hover:text-neve transition-colors">
-                    Ver conceito →
+                    Abrir o site →
                   </span>
                 </div>
                 <div class="relative aspect-[16/10] overflow-hidden">
@@ -597,6 +606,42 @@
           </li>
         </ul>
 
+        <!-- Subseção Sistemas -->
+        <div class="mt-20 flex flex-col gap-2 border-b border-risco pb-3 sm:flex-row sm:items-baseline sm:justify-between sm:gap-6">
+          <h3 class="font-titulo text-lg font-semibold tracking-tight text-neve">Mais de 150 sistemas em operação.</h3>
+          <span class="font-mono text-[11px] tracking-[0.12em] text-aco uppercase">Conheça dois deles</span>
+        </div>
+
+        <ul class="mt-8 grid gap-8 md:grid-cols-2">
+          <li class="rounded-2xl border border-risco bg-breu p-5 md:p-6">
+            <div class="relative aspect-[16/10] overflow-hidden rounded-xl border border-risco">
+              <img src="imagens/sistemas/dashboard-hotelaria.png" alt="Demonstração visual do painel de hotelaria" loading="lazy" decoding="async" class="object-cover object-top w-full h-full" />
+            </div>
+            <p class="mt-5 font-mono text-[11px] tracking-[0.12em] text-aco uppercase">Hotelaria</p>
+            <h4 class="mt-2 font-titulo text-xl font-semibold tracking-tight text-neve">Ocupação, reserva e caixa numa tela</h4>
+            <p class="mt-3 text-[14.5px] leading-relaxed text-prata">Acompanhe ocupação, reservas e caixa em um único painel. Organize a governança, ajuste tarifas por temporada e consulte a disponibilidade de quartos por mensagem.</p>
+            <div class="mt-4 flex flex-wrap gap-2">
+              <span class="rounded-full border border-risco px-3 py-1 text-[11.5px] text-aco">Painel de ocupação</span>
+              <span class="rounded-full border border-risco px-3 py-1 text-[11.5px] text-aco">Tarifa por temporada</span>
+              <span class="rounded-full border border-risco px-3 py-1 text-[11.5px] text-aco">Agente de consulta</span>
+            </div>
+          </li>
+
+          <li class="rounded-2xl border border-risco bg-breu p-5 md:p-6">
+            <div class="relative aspect-[16/10] overflow-hidden rounded-xl border border-risco">
+              <img src="imagens/sistemas/dashboard-automotivo.png" alt="Demonstração visual do painel automotivo" loading="lazy" decoding="async" class="object-cover object-top w-full h-full" />
+            </div>
+            <p class="mt-5 font-mono text-[11px] tracking-[0.12em] text-aco uppercase">Automotivo</p>
+            <h4 class="mt-2 font-titulo text-xl font-semibold tracking-tight text-neve">Do primeiro contato à revisão</h4>
+            <p class="mt-3 text-[14.5px] leading-relaxed text-prata">Acompanhe cada oportunidade de venda junto ao estoque do pátio. Mantenha o histórico do comprador e organize o retorno à oficina.</p>
+            <div class="mt-4 flex flex-wrap gap-2">
+              <span class="rounded-full border border-risco px-3 py-1 text-[11.5px] text-aco">Funil de venda</span>
+              <span class="rounded-full border border-risco px-3 py-1 text-[11.5px] text-aco">Estoque do pátio</span>
+              <span class="rounded-full border border-risco px-3 py-1 text-[11.5px] text-aco">Agenda da oficina</span>
+            </div>
+          </li>
+        </ul>
+
       </div>
     </section>
 
@@ -611,13 +656,20 @@
               <span class="block font-semibold">quem desenvolve.</span>
             </h2>
             <div class="mt-7 max-w-xl space-y-4 text-base leading-relaxed tracking-tight text-prata md:text-lg">
-              <p>A Norte Autoral é uma operação independente. O contato direto ajuda a entender como sua empresa trabalha e o que o projeto precisa resolver.</p>
+              <p>À frente da Norte Autoral está Gabriel Holanda. O contato direto ajuda a entender como sua empresa trabalha e o que o projeto precisa resolver.</p>
               <p class="text-aco">Antes de definir ferramentas, entendemos o problema. A partir disso, planejamos o site, sistema ou automação que faz sentido para o negócio.</p>
             </div>
           </div>
 
-          <figure class="brand-panel relative grid min-h-[18rem] place-items-center overflow-hidden rounded-2xl border border-risco bg-piche p-6 sm:min-h-[23rem]">
-            <img src="imagens/marca-norte-autoral.png" alt="Norte Autoral — Soluções para negócios" width="500" height="500" loading="lazy" decoding="async" class="relative w-full max-w-[20rem] object-contain" />
+          <figure class="relative">
+            <div class="relative aspect-[4/5] overflow-hidden rounded-2xl border border-risco">
+              <img src="imagens/gabriel-holanda.jpg" alt="Gabriel Holanda, fundador da Norte Autoral" width="820" height="1024" loading="lazy" decoding="async" class="object-cover object-[center_15%] w-full h-full" />
+              <div aria-hidden="true" class="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-t from-breu via-breu/70 to-transparent"></div>
+              <figcaption class="absolute inset-x-0 bottom-0 p-5">
+                <p class="font-titulo text-lg font-semibold tracking-tight text-neve">Gabriel Holanda</p>
+                <p class="mt-0.5 font-mono text-[11px] tracking-[0.12em] text-prata uppercase">Fundador</p>
+              </figcaption>
+            </div>
           </figure>
         </div>
       </div>
@@ -741,7 +793,7 @@
               </div>
               <div>
                 <dt class="font-mono text-[11px] tracking-[0.12em] text-aco uppercase">Atendimento</dt>
-                <dd class="mt-1 text-[15px] text-prata">Atendimento por mensagem, com retorno conforme disponibilidade.</dd>
+                <dd class="mt-1 text-[15px] text-prata">Segunda a sexta, resposta no mesmo dia útil.</dd>
               </div>
             </dl>
           </div>
@@ -803,7 +855,7 @@
         <div class="sm:col-span-2 lg:col-span-1">
           <a href="#topo" aria-label="Norte Autoral, página inicial" class="inline-flex rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-rosa">
             <span class="inline-flex items-center gap-3">
-              <span class="brand-mark" aria-hidden="true">NA</span>
+              <img src="imagens/logo-n.png" alt="" width="40" height="40" loading="lazy" decoding="async" class="h-10 w-10 object-contain" />
               <span class="font-titulo font-extrabold text-[28px] tracking-[-0.03em] text-neve leading-none">Norte Autoral</span>
             </span>
           </a>
@@ -837,6 +889,15 @@
                 <span class="min-w-0">
                   <span class="block text-xs text-aco">E-mail</span>
                   <span class="mt-1 block break-words text-[15px]">contatonorteautoral@gmail.com</span>
+                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-4 shrink-0 text-aco transition-colors group-hover:text-rosa"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/gabrielholanda._" target="_blank" rel="noopener noreferrer" class="group flex min-h-11 items-center justify-between gap-4 py-1 text-prata transition-colors hover:text-rosa">
+                <span class="min-w-0">
+                  <span class="block text-xs text-aco">Instagram</span>
+                  <span class="mt-1 block break-words text-[15px]">@gabrielholanda._</span>
                 </span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-4 shrink-0 text-aco transition-colors group-hover:text-rosa"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
               </a>

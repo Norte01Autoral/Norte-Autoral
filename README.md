@@ -1,11 +1,9 @@
-# Norte Autoral
+﻿# Norte Autoral
 
-Portfólio estático da Norte Autoral. Os três trabalhos exibidos são estudos de conceito para empresas fictícias.
+Portfólio estático da Norte Autoral, publicado em [norte-autoral.vercel.app](https://norte-autoral.vercel.app/).
 
-## Publicação pelo GitHub Pages
+Esta branch contém os arquivos gerados da pasta `MazyOS/clientes/Meu Portifólio SITE/dist/`: página inicial, foto de Gabriel Holanda, imagens, seção de sistemas e três projetos conceito completos. Os estilos, fontes e scripts necessários aos projetos estão incluídos no repositório.
 
-Os arquivos do site estão na raiz da branch `main`, com `index.html` como página inicial. Nas configurações do repositório, selecione **Pages → Deploy from a branch → main → / (root)**.
+A Vercel deve usar esta branch `main`, com a raiz do repositório como diretório do projeto. O site não requer comando de build na Vercel: `index.html` já está na raiz.
 
-O formulário abre uma mensagem pronta no WhatsApp para a pessoa conferir e enviar. O site não recebe nem armazena dados em um servidor.
-
-O endereço definitivo do site ainda não foi configurado; ao defini-lo, atualize as tags `canonical`, `og:url` e `og:image` em `index.html`.
+O formulário abre uma mensagem no WhatsApp para a pessoa conferir e enviar. O site não recebe nem armazena dados em um servidor.

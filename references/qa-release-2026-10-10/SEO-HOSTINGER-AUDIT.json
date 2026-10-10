@@ -1,0 +1,109 @@
+{
+  "domain": "https://norteautoral.site",
+  "retainedFiles": 229,
+  "retainedHtmlPages": 15,
+  "excludedPrefixes": [
+    "cases/",
+    "assets/norte-autoral/cards/",
+    "assets/norte-autoral/cases/",
+    "assets/norte-autoral/case-media/",
+    "assets/norte-autoral/case-runtime/"
+  ],
+  "referencesChecked": 1305,
+  "excludedReferences": [],
+  "pages": [
+    {
+      "file": "404.html",
+      "robots": "noindex, follow",
+      "canonical": null
+    },
+    {
+      "file": "index.html",
+      "robots": "index, follow, max-image-preview:large",
+      "canonical": "https://norteautoral.site/"
+    },
+    {
+      "file": "marketing/portfolio/arquitetura-estudio-linha/index.html",
+      "robots": "noindex, follow",
+      "canonical": null
+    },
+    {
+      "file": "marketing/portfolio/aureo-arquitetura/index.html",
+      "robots": "noindex, follow",
+      "canonical": null
+    },
+    {
+      "file": "marketing/portfolio/confeitaria-margo/index.html",
+      "robots": "noindex, follow",
+      "canonical": null
+    },
+    {
+      "file": "marketing/portfolio/convix-hero/dist/index.html",
+      "robots": "noindex, follow",
+      "canonical": null
+    },
+    {
+      "file": "marketing/portfolio/dentista-clinica-vertice/index.html",
+      "robots": "noindex, follow",
+      "canonical": null
+    },
+    {
+      "file": "marketing/portfolio/instituto-liminar/index.html",
+      "robots": "noindex, follow",
+      "canonical": null
+    },
+    {
+      "file": "marketing/portfolio/lithos-hero/dist/index.html",
+      "robots": "noindex, follow",
+      "canonical": null
+    },
+    {
+      "file": "marketing/portfolio/velorah-hero/dist/index.html",
+      "robots": "noindex, follow",
+      "canonical": null
+    },
+    {
+      "file": "marketing/portfolio/verene-odontologia/index.html",
+      "robots": "noindex, follow",
+      "canonical": null
+    },
+    {
+      "file": "privacy.html",
+      "robots": "index, follow",
+      "canonical": "https://norteautoral.site/privacy"
+    },
+    {
+      "file": "site-do-jd.html",
+      "robots": "noindex, follow",
+      "canonical": "https://norteautoral.site/site-do-jd"
+    },
+    {
+      "file": "terms.html",
+      "robots": "index, follow",
+      "canonical": "https://norteautoral.site/terms"
+    },
+    {
+      "file": "v3.html",
+      "robots": "noindex, follow",
+      "canonical": "https://norteautoral.site/v3"
+    }
+  ],
+  "jsonLdBlocks": 1,
+  "og": {
+    "width": 1200,
+    "height": 630,
+    "bytes": 64112,
+    "fontsLoaded": true,
+    "visualReview": "Aprovada: logo, título, cinco serviços, nome/cidade e domínio visíveis, sem cortes."
+  },
+  "immutableCacheTests": {
+    "demo-navigation.js": false,
+    "media-performance.js": false,
+    "profile.css": false,
+    "index-D04Epqih.js": true,
+    "index-7O04r-Vl.css": true,
+    "gsap.min-cb9c6262bdd7.js": true,
+    "css2-7c9831d3cb65.css": true
+  },
+  "errors": []
+}

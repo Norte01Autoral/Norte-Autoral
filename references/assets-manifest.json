@@ -1,0 +1,3081 @@
+{
+  "capturedAt": "2026-10-09T20:38:08.673Z",
+  "sourceOrigin": "https://www.sabec.dev",
+  "strategy": "Public frontend mirror with original CSS, JavaScript, animations, React builds and local assets.",
+  "limits": {
+    "files": 500,
+    "perFileBytes": 104857600,
+    "totalBytes": 268435456,
+    "concurrency": 6
+  },
+  "pages": [
+    {
+      "url": "https://www.sabec.dev/",
+      "path": "/index.html",
+      "localReference": "www-root.html",
+      "sourceSha256": "219aba22f5d154611e13fc4d3c4239c1e0305e728fa01b0071eea0f663849c37",
+      "localSha256": "51a9573a447c1a7f728b3a83277bd2e6df3b8572c758e610be23d247cdd5d7ca",
+      "bytes": 163016
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/index.html",
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/index.html",
+      "localReference": "marketing__portfolio__arquitetura-estudio-linha__index.html",
+      "sourceSha256": "1db2700ee1e685f982e80d76ede8a01563761dd4bcb165c5334af3da1f065f4c",
+      "localSha256": "b98868ce6052c60eb64284363e0a1946f3650dfb036e9fc75885dcd17c7c5003",
+      "bytes": 45641
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/index.html",
+      "path": "/marketing/portfolio/aureo-arquitetura/index.html",
+      "localReference": "marketing__portfolio__aureo-arquitetura__index.html",
+      "sourceSha256": "7192fe955c0ca00a05a6914251e30f35e87617700df90bdb7b0d06f88d7356b1",
+      "localSha256": "7f8e5aee24b63105185a3b8e03c38dc14d0f3ca1ba4bfd0c2f917a44257bcba1",
+      "bytes": 58570
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/index.html",
+      "path": "/marketing/portfolio/confeitaria-margo/index.html",
+      "localReference": "marketing__portfolio__confeitaria-margo__index.html",
+      "sourceSha256": "cc642ef9fcbad35d4e27eb474b157e151ad3a4120c49926f5e837f9262a13dc5",
+      "localSha256": "d9290319a3f6ce8d39a454be964a027023ccadba6f02cb1f04dd955dbd7fa141",
+      "bytes": 58934
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/convix-hero/dist/index.html",
+      "path": "/marketing/portfolio/convix-hero/dist/index.html",
+      "localReference": "marketing__portfolio__convix-hero__dist__index.html",
+      "sourceSha256": "3de0f434a7604f211aad1ea73780dd3c7c047c07df1313dcc4367ef2143e4efd",
+      "localSha256": "018edc1c37c05b8680694bb9846dc405e81b90d766d88f902106e9de1c609823",
+      "bytes": 511
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/index.html",
+      "path": "/marketing/portfolio/dentista-clinica-vertice/index.html",
+      "localReference": "marketing__portfolio__dentista-clinica-vertice__index.html",
+      "sourceSha256": "5a0bfde0bde8d5a69feb641b37eba31e4b718157c4eb8c96d4e9f6272750002d",
+      "localSha256": "3f4b3300294e4ec9358e16b84f17159b674ab5fc3a7fd36dad36633c871de8a9",
+      "bytes": 44829
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/instituto-liminar/index.html",
+      "path": "/marketing/portfolio/instituto-liminar/index.html",
+      "localReference": "marketing__portfolio__instituto-liminar__index.html",
+      "sourceSha256": "79f969087015ea3b7d4e38568e64ae26104034e95bb204f4e04a4550ec717213",
+      "localSha256": "4d4241260b680140c9a4ad104a7eacd1e7eeddc77c81aa616e6ffdcea04e6321",
+      "bytes": 52044
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/lithos-hero/dist/index.html",
+      "path": "/marketing/portfolio/lithos-hero/dist/index.html",
+      "localReference": "marketing__portfolio__lithos-hero__dist__index.html",
+      "sourceSha256": "6a43b0388d2c81c3d0825428efd5918a6aebe55362e2bb408d495418293fb6d1",
+      "localSha256": "d9a3a82977ed6af332d03891ffc8f13de854960f3484259a45d2d4dd84e74e3e",
+      "bytes": 492
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/velorah-hero/dist/index.html",
+      "path": "/marketing/portfolio/velorah-hero/dist/index.html",
+      "localReference": "marketing__portfolio__velorah-hero__dist__index.html",
+      "sourceSha256": "bbdec47ca44091a8268e95e21c2610416372ae63d5e11cefe2ce0a526a4c7505",
+      "localSha256": "6f56f2c59a60fbede82828ad85813632e7985a15c31bf4bf9b9c45cfb47fe903",
+      "bytes": 596
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/verene-odontologia/index.html",
+      "path": "/marketing/portfolio/verene-odontologia/index.html",
+      "localReference": "marketing__portfolio__verene-odontologia__index.html",
+      "sourceSha256": "82a0bd2bf92f9bd9ef76f8607f55cd13e455a49178b84b3ad95909bb7826beed",
+      "localSha256": "68533b0e7e0f1d4cb377c63c402a318b8713ece986c11a1e363e910a875f0e72",
+      "bytes": 42066
+    },
+    {
+      "url": "https://www.sabec.dev/privacy",
+      "path": "/privacy.html",
+      "localReference": "privacy.html",
+      "sourceSha256": "ba47a308aa2f20334702ab37de2068629716b348fd3eb060a75bf080ef3d50c5",
+      "localSha256": "95bfab182d3803c50bd54bbf33454d93e6ad3a1c3f3f7dc1c624b1eeda5f2ea1",
+      "bytes": 9452
+    },
+    {
+      "url": "https://www.sabec.dev/site-do-jd",
+      "path": "/site-do-jd.html",
+      "localReference": "site-do-jd.html",
+      "sourceSha256": "05a9e6612ef6e226fc2363449dbc7cc3f3ec46edb23b0fa9b566a998aeca1b7f",
+      "localSha256": "9b37927a97fc8a4389e09e670a181c9567b26ce99ec779a0d3ef9891abc59eb7",
+      "bytes": 23628
+    },
+    {
+      "url": "https://www.sabec.dev/terms",
+      "path": "/terms.html",
+      "localReference": "terms.html",
+      "sourceSha256": "88e23d70e9b60122b53c31985ba4236b031ba914fb136ac75a8a6788fdd50613",
+      "localSha256": "e6c503c73a1bb915fc7fc4bec4cb5b85028324cae9392c9c11915e76775ebb2a",
+      "bytes": 7495
+    },
+    {
+      "url": "https://www.sabec.dev/v3",
+      "path": "/v3.html",
+      "localReference": "v3.html",
+      "sourceSha256": "9e0d9d67e364af9d38a01010e75a4a657ac016c3ccaea40cb4d794c6b9a719f1",
+      "localSha256": "fb4219bf8aae21d93ba31eb24e8e0220bbee4286ac00e0951ad28b888b9ef456",
+      "bytes": 111547
+    }
+  ],
+  "resources": [
+    {
+      "url": "https://www.sabec.dev/assets/og-image.png",
+      "path": "/assets/og-image.png",
+      "kind": "meta-image",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "19fed6d3408613ccf9dfa5002ba33b21b3dec8a148fc7f016d50071b7b03467a",
+      "bytes": 64088,
+      "contentType": "image/png",
+      "finalUrl": "https://www.sabec.dev/assets/og-image.png",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 64088,
+      "localSha256": "19fed6d3408613ccf9dfa5002ba33b21b3dec8a148fc7f016d50071b7b03467a"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap",
+      "path": "/vendor/fonts.googleapis.com/css2-7c9831d3cb65.css",
+      "kind": "link-preload",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "51acaf1e2c47c413f445821d0ab650d61ba3caab23d15fbfecfe4e4b851185eb",
+      "bytes": 20008,
+      "contentType": "text/css; charset=utf-8",
+      "finalUrl": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 19984,
+      "localSha256": "e0ac6627d0f1efe97362f7d7fb0a04563a965cf1d4f92ce6e33b2b38831b47b7"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/portfolio-thumbs/lithos-hero.jpg",
+      "path": "/assets/portfolio-thumbs/lithos-hero.jpg",
+      "kind": "link-preload",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "32df3da55ab0304805cfae4a300e5f462c6287c2c6521faaed91461e710f6e1e",
+      "bytes": 158970,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/assets/portfolio-thumbs/lithos-hero.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 158970,
+      "localSha256": "32df3da55ab0304805cfae4a300e5f462c6287c2c6521faaed91461e710f6e1e"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/portfolio-thumbs/dentista-clinica-vertice.jpg",
+      "path": "/assets/portfolio-thumbs/dentista-clinica-vertice.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "e44d8eacd16888357bd455dbdb64bdbddd97fde1155907900dfb35d3a90f9b6a",
+      "bytes": 88327,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/assets/portfolio-thumbs/dentista-clinica-vertice.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 88327,
+      "localSha256": "e44d8eacd16888357bd455dbdb64bdbddd97fde1155907900dfb35d3a90f9b6a"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/cases/jd-capa.jpg",
+      "path": "/assets/cases/jd-capa.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "9f8c71140b4feb5b1178e76f74adc77ab7177370974a069a9388d50a737af7f0",
+      "bytes": 181940,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/assets/cases/jd-capa.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 181940,
+      "localSha256": "9f8c71140b4feb5b1178e76f74adc77ab7177370974a069a9388d50a737af7f0"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/cases/jd-arte.jpg",
+      "path": "/assets/cases/jd-arte.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "1c126a3f83fe40ae845a23e3f4c28fbdaa40553a416f452b001aa38ea4a78fd1",
+      "bytes": 124076,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/assets/cases/jd-arte.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 124076,
+      "localSha256": "1c126a3f83fe40ae845a23e3f4c28fbdaa40553a416f452b001aa38ea4a78fd1"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/cases/jd-galeria.jpg",
+      "path": "/assets/cases/jd-galeria.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "65b1c774b76845a504c5527d337bc9fc36bcf71241c7a269ca4763b5270cd86c",
+      "bytes": 166373,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/assets/cases/jd-galeria.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 166373,
+      "localSha256": "65b1c774b76845a504c5527d337bc9fc36bcf71241c7a269ca4763b5270cd86c"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/cases/jd-galeria-2.jpg",
+      "path": "/assets/cases/jd-galeria-2.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "de72ba84c381aac7eb4bdcd3710f1f2e40da1d2ac04cd824ab709c982c6f7406",
+      "bytes": 172365,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/assets/cases/jd-galeria-2.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 172365,
+      "localSha256": "de72ba84c381aac7eb4bdcd3710f1f2e40da1d2ac04cd824ab709c982c6f7406"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/cases/jd-celular.jpg",
+      "path": "/assets/cases/jd-celular.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "0b5562ef3a31bde255928d287eec2594988c22b4eee6031dd2f99afe64ad2caf",
+      "bytes": 96238,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/assets/cases/jd-celular.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 96238,
+      "localSha256": "0b5562ef3a31bde255928d287eec2594988c22b4eee6031dd2f99afe64ad2caf"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/cases/ana-capa.jpg",
+      "path": "/assets/cases/ana-capa.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "19fa674424139eb22318a5b45a3ef218e68c0ffbd04ba3dd3fdcda8c7afccbe1",
+      "bytes": 52460,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/assets/cases/ana-capa.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 52460,
+      "localSha256": "19fa674424139eb22318a5b45a3ef218e68c0ffbd04ba3dd3fdcda8c7afccbe1"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/cases/ana-celular.jpg",
+      "path": "/assets/cases/ana-celular.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "0acbf381e97fb1f4902941d7bacbf7bfda190aae1aef351064b7e5b7cbcb2bc2",
+      "bytes": 56945,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/assets/cases/ana-celular.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 56945,
+      "localSha256": "0acbf381e97fb1f4902941d7bacbf7bfda190aae1aef351064b7e5b7cbcb2bc2"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/cases/sabec-v3.jpg",
+      "path": "/assets/cases/sabec-v3.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "f8fa84b4501aa08efc59ff526da43cd4b2592085a6ade48fdca4e8f8bacde614",
+      "bytes": 100925,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/assets/cases/sabec-v3.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 100925,
+      "localSha256": "f8fa84b4501aa08efc59ff526da43cd4b2592085a6ade48fdca4e8f8bacde614"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/portfolio-thumbs/velorah-hero.jpg",
+      "path": "/assets/portfolio-thumbs/velorah-hero.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "0ede40f9ec87b3ac565d7c6f405c576d90b5a1dd6eb47f3a940a3ce15d643374",
+      "bytes": 160368,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/assets/portfolio-thumbs/velorah-hero.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 160368,
+      "localSha256": "0ede40f9ec87b3ac565d7c6f405c576d90b5a1dd6eb47f3a940a3ce15d643374"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/portfolio-thumbs/convix-hero.jpg",
+      "path": "/assets/portfolio-thumbs/convix-hero.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "4c02eb65ab96a8c4e1cda8c583dac5dd4089b959f673ec2aee4a72ab07fa55e0",
+      "bytes": 205001,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/assets/portfolio-thumbs/convix-hero.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 205001,
+      "localSha256": "4c02eb65ab96a8c4e1cda8c583dac5dd4089b959f673ec2aee4a72ab07fa55e0"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/portfolio-thumbs/aureo-arquitetura.jpg",
+      "path": "/assets/portfolio-thumbs/aureo-arquitetura.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "5a2c5ccbc515cc950929fc7cc5ccdbb993084de3b57029d57a0d0ff25f3bdffb",
+      "bytes": 106458,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/assets/portfolio-thumbs/aureo-arquitetura.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 106458,
+      "localSha256": "5a2c5ccbc515cc950929fc7cc5ccdbb993084de3b57029d57a0d0ff25f3bdffb"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/portfolio-thumbs/confeitaria-margo.jpg",
+      "path": "/assets/portfolio-thumbs/confeitaria-margo.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "3d7ca5c95148bafeacf4e6f23021fa50ba37208468d320fcd0456f6bd229d385",
+      "bytes": 93491,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/assets/portfolio-thumbs/confeitaria-margo.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 93491,
+      "localSha256": "3d7ca5c95148bafeacf4e6f23021fa50ba37208468d320fcd0456f6bd229d385"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/portfolio-thumbs/instituto-liminar.jpg",
+      "path": "/assets/portfolio-thumbs/instituto-liminar.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "ffc44f719e43ee77a8a547f4b82bea627476f00232afa421a96bddf092306b38",
+      "bytes": 108407,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/assets/portfolio-thumbs/instituto-liminar.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 108407,
+      "localSha256": "ffc44f719e43ee77a8a547f4b82bea627476f00232afa421a96bddf092306b38"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/portfolio-thumbs/verene-odontologia.jpg",
+      "path": "/assets/portfolio-thumbs/verene-odontologia.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "73b3e65d444d78cc9a4eab2b2edb34f9a3decb45e38866d36c0cf2455e78d283",
+      "bytes": 61452,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/assets/portfolio-thumbs/verene-odontologia.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 61452,
+      "localSha256": "73b3e65d444d78cc9a4eab2b2edb34f9a3decb45e38866d36c0cf2455e78d283"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/portfolio-thumbs/arquitetura-estudio-linha.jpg",
+      "path": "/assets/portfolio-thumbs/arquitetura-estudio-linha.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "3223a290d45dc774b69d36a6d76a7863aad614e38bc04ef9207637145766040d",
+      "bytes": 114714,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/assets/portfolio-thumbs/arquitetura-estudio-linha.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 114714,
+      "localSha256": "3223a290d45dc774b69d36a6d76a7863aad614e38bc04ef9207637145766040d"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/portfolio-thumbs/portrait.jpeg",
+      "path": "/assets/portfolio-thumbs/portrait.jpeg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "2bdf5984e9d0ebbff55a7afcb8f27a16a4af2aa2ffa3d0c0f845baa4e2c4e0de",
+      "bytes": 130573,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/assets/portfolio-thumbs/portrait.jpeg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 130573,
+      "localSha256": "2bdf5984e9d0ebbff55a7afcb8f27a16a4af2aa2ffa3d0c0f845baa4e2c4e0de"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+      "path": "/vendor/cdn.jsdelivr.net/gsap.min-bf5b26673eee.js",
+      "kind": "script-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "28033e449a31ebcc396e5be8b13b63152bf03094288fb5867034321927bce087",
+      "bytes": 72214,
+      "contentType": "application/javascript; charset=utf-8",
+      "finalUrl": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 72214,
+      "localSha256": "28033e449a31ebcc396e5be8b13b63152bf03094288fb5867034321927bce087"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js",
+      "path": "/vendor/cdn.jsdelivr.net/ScrollTrigger.min-8275e947aa32.js",
+      "kind": "script-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "ad33c2df9ada8a663c2147357828f980d0b7ca731ef33eb3c6e4f327c3b2cda5",
+      "bytes": 43380,
+      "contentType": "application/javascript; charset=utf-8",
+      "finalUrl": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 43380,
+      "localSha256": "ad33c2df9ada8a663c2147357828f980d0b7ca731ef33eb3c6e4f327c3b2cda5"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js",
+      "path": "/vendor/cdn.jsdelivr.net/lenis.min-273ca89be0ce.js",
+      "kind": "script-src",
+      "from": [
+        "https://www.sabec.dev/"
+      ],
+      "status": "downloaded",
+      "sha256": "55a065df7880463fdb4f88cc57f498a9711c5a85b3c82c1c6b81888c32a33850",
+      "bytes": 12790,
+      "contentType": "application/javascript; charset=utf-8",
+      "finalUrl": "https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 12790,
+      "localSha256": "55a065df7880463fdb4f88cc57f498a9711c5a85b3c82c1c6b81888c32a33850"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Archivo:wght@300;400;500;600&display=swap",
+      "path": "/vendor/fonts.googleapis.com/css2-1c6f77753dc2.css",
+      "kind": "link-stylesheet",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "80d79fd1a90fb6510228e6cf8f9535b7a726ea5524f9bad19b98c96888387120",
+      "bytes": 15510,
+      "contentType": "text/css; charset=utf-8",
+      "finalUrl": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Archivo:wght@300;400;500;600&display=swap",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 15297,
+      "localSha256": "0e76421c3a6cfd4009383b879a4fc019bddb97afdb173b6dcfb4e20146bf618a"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/img/fachada-ouro.jpg",
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/fachada-ouro.jpg",
+      "kind": "video-poster",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "de15a3ba138f30b4109b0b4cb29e753929c1449a781c7c878cc192515b1c077e",
+      "bytes": 282949,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/img/fachada-ouro.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 282949,
+      "localSha256": "de15a3ba138f30b4109b0b4cb29e753929c1449a781c7c878cc192515b1c077e"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/video/hero.mp4",
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/assets/video/hero.mp4",
+      "kind": "source-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "e867b61ff8e43855e04b4d64e9b7e83113216e8e19ee1900a74d975158b6921d",
+      "bytes": 10199231,
+      "contentType": "video/mp4",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/video/hero.mp4",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 10199231,
+      "localSha256": "e867b61ff8e43855e04b4d64e9b7e83113216e8e19ee1900a74d975158b6921d"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/img/detalhe-sombra.jpg",
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/detalhe-sombra.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "a3b525021f81870d10719504607e6214acd49f0cee6ca74fd48d11747f9f6887",
+      "bytes": 265553,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/img/detalhe-sombra.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 265553,
+      "localSha256": "a3b525021f81870d10719504607e6214acd49f0cee6ca74fd48d11747f9f6887"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/img/estar-pe-direito.jpg",
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/estar-pe-direito.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "820e4b1521926fc7cb99637af4d12d271aed44d857cbae89cf909eb6a1ca5a20",
+      "bytes": 333175,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/img/estar-pe-direito.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 333175,
+      "localSha256": "820e4b1521926fc7cb99637af4d12d271aed44d857cbae89cf909eb6a1ca5a20"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/img/escada-luz.jpg",
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/escada-luz.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "f2ebcb2c86f88e16b94393d65198508faedd71aa4b5db288cf8e67d4c043ff3f",
+      "bytes": 222934,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/img/escada-luz.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 222934,
+      "localSha256": "f2ebcb2c86f88e16b94393d65198508faedd71aa4b5db288cf8e67d4c043ff3f"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/img/patio-azul.jpg",
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/patio-azul.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "98c400118a56af9931f9f69e526c0c9303e14e8a9dbc23c8e76976a08c7b8187",
+      "bytes": 364218,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/img/patio-azul.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 364218,
+      "localSha256": "98c400118a56af9931f9f69e526c0c9303e14e8a9dbc23c8e76976a08c7b8187"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/img/varanda-ripas.jpg",
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/varanda-ripas.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "0ec7ffa18acd626a3f7256ab463059eeb9535f23e96c38ff8602118d1b438d23",
+      "bytes": 333881,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/img/varanda-ripas.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 333881,
+      "localSha256": "0ec7ffa18acd626a3f7256ab463059eeb9535f23e96c38ff8602118d1b438d23"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+      "path": "/vendor/cdnjs.cloudflare.com/gsap.min-cb9c6262bdd7.js",
+      "kind": "script-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "28033e449a31ebcc396e5be8b13b63152bf03094288fb5867034321927bce087",
+      "bytes": 72214,
+      "contentType": "application/javascript; charset=utf-8",
+      "finalUrl": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 72214,
+      "localSha256": "28033e449a31ebcc396e5be8b13b63152bf03094288fb5867034321927bce087"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js",
+      "path": "/vendor/cdnjs.cloudflare.com/ScrollTrigger.min-36c29c028158.js",
+      "kind": "script-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "ad33c2df9ada8a663c2147357828f980d0b7ca731ef33eb3c6e4f327c3b2cda5",
+      "bytes": 43380,
+      "contentType": "application/javascript; charset=utf-8",
+      "finalUrl": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 43380,
+      "localSha256": "ad33c2df9ada8a663c2147357828f980d0b7ca731ef33eb3c6e4f327c3b2cda5"
+    },
+    {
+      "url": "https://unpkg.com/lenis@1.1.13/dist/lenis.min.js",
+      "path": "/vendor/unpkg.com/lenis.min-fc91f338f7a5.js",
+      "kind": "script-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "b2958f142f832f0d5e547cdef77e6fadfce16bea60982fc8bbf50395a2439df8",
+      "bytes": 13485,
+      "contentType": "text/javascript; charset=utf-8",
+      "finalUrl": "https://unpkg.com/lenis@1.1.13/dist/lenis.min.js",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 13485,
+      "localSha256": "b2958f142f832f0d5e547cdef77e6fadfce16bea60982fc8bbf50395a2439df8"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap",
+      "path": "/vendor/fonts.googleapis.com/css2-fd4652e6c730.css",
+      "kind": "link-stylesheet",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "81de06d80f07c4c788ac4209b737fa9687e7717b36ff492472a9c17e249cf827",
+      "bytes": 19441,
+      "contentType": "text/css; charset=utf-8",
+      "finalUrl": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 19357,
+      "localSha256": "8a2b3a708b261bb4061f7aeddaacd955ffdd0edaffa6df12b6405fde795bd98c"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/img/hero-fachada.jpg",
+      "path": "/marketing/portfolio/aureo-arquitetura/assets/img/hero-fachada.jpg",
+      "kind": "video-poster",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "84ab106678f635d652082bfe05b59b247253132515c2909ecb3cd57b994f3c01",
+      "bytes": 327595,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/img/hero-fachada.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 327595,
+      "localSha256": "84ab106678f635d652082bfe05b59b247253132515c2909ecb3cd57b994f3c01"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/video/hero.mp4",
+      "path": "/marketing/portfolio/aureo-arquitetura/assets/video/hero.mp4",
+      "kind": "source-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "4104eafd18d29d9b925b998573aebbdf1f7ed8fc5ff13750307732a02662248c",
+      "bytes": 12237458,
+      "contentType": "video/mp4",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/video/hero.mp4",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 12237458,
+      "localSha256": "4104eafd18d29d9b925b998573aebbdf1f7ed8fc5ff13750307732a02662248c"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/img/detalhe-concreto.jpg",
+      "path": "/marketing/portfolio/aureo-arquitetura/assets/img/detalhe-concreto.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "31a5193aef0b1e6b6dae6f5d489eb1974980d612608d80b1e6a7687944113e40",
+      "bytes": 703296,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/img/detalhe-concreto.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 703296,
+      "localSha256": "31a5193aef0b1e6b6dae6f5d489eb1974980d612608d80b1e6a7687944113e40"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/img/torres-carmel.jpg",
+      "path": "/marketing/portfolio/aureo-arquitetura/assets/img/torres-carmel.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "f77e8526527a7a9bb0e449c35127d8c76f5df475e123d39fba0304638667c08b",
+      "bytes": 587167,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/img/torres-carmel.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 587167,
+      "localSha256": "f77e8526527a7a9bb0e449c35127d8c76f5df475e123d39fba0304638667c08b"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/img/complexo-aereo.jpg",
+      "path": "/marketing/portfolio/aureo-arquitetura/assets/img/complexo-aereo.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "ef520a0a8e8fcfce1a236d0799785b7fcd2b261443cf4f69d3da33f579b6af39",
+      "bytes": 412474,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/img/complexo-aereo.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 412474,
+      "localSha256": "ef520a0a8e8fcfce1a236d0799785b7fcd2b261443cf4f69d3da33f579b6af39"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/img/memorial-parabola.jpg",
+      "path": "/marketing/portfolio/aureo-arquitetura/assets/img/memorial-parabola.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "ad5d5dd636a43a4b311c08ff1c25b032a3a657b4cce060041cde044602a8745b",
+      "bytes": 297567,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/img/memorial-parabola.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 297567,
+      "localSha256": "ad5d5dd636a43a4b311c08ff1c25b032a3a657b4cce060041cde044602a8745b"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/img/interior-living.jpg",
+      "path": "/marketing/portfolio/aureo-arquitetura/assets/img/interior-living.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "3804166782d840efbc256fc7beed8c06c9057a935002b8c3aa23e312abd2b547",
+      "bytes": 672007,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/img/interior-living.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 672007,
+      "localSha256": "3804166782d840efbc256fc7beed8c06c9057a935002b8c3aa23e312abd2b547"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600&family=Inter:wght@300;400;500;600&display=swap",
+      "path": "/vendor/fonts.googleapis.com/css2-21d5d0e318fa.css",
+      "kind": "link-stylesheet",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "f4666ea993817f0b435b0a2822acd08ce4ee6132b53f1dc26f34ebe04dd45a75",
+      "bytes": 20676,
+      "contentType": "text/css; charset=utf-8",
+      "finalUrl": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600&family=Inter:wght@300;400;500;600&display=swap",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 20760,
+      "localSha256": "5d87c39ce318eb2868154fefbc448688c398e9b8ec13ada5f47748c917abb661"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/img/hero-brunch.jpg",
+      "path": "/marketing/portfolio/confeitaria-margo/assets/img/hero-brunch.jpg",
+      "kind": "video-poster",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "c25e97b1afe0207e2c98d909d986d24404f54dfb9addd30a1e4089ae07c07804",
+      "bytes": 200573,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/img/hero-brunch.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 200573,
+      "localSha256": "c25e97b1afe0207e2c98d909d986d24404f54dfb9addd30a1e4089ae07c07804"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/video/hero.mp4",
+      "path": "/marketing/portfolio/confeitaria-margo/assets/video/hero.mp4",
+      "kind": "source-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "a9d436408bc0008833fe3f0d952ad6da986d46f63ea28405b11a721412748c7f",
+      "bytes": 10389262,
+      "contentType": "video/mp4",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/video/hero.mp4",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 10389262,
+      "localSha256": "a9d436408bc0008833fe3f0d952ad6da986d46f63ea28405b11a721412748c7f"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/img/bolo-frutas.jpg",
+      "path": "/marketing/portfolio/confeitaria-margo/assets/img/bolo-frutas.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "a991d319202d88833bebf049f61be99a968655c9eb3fe30c9a84292d6d0e08aa",
+      "bytes": 133649,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/img/bolo-frutas.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 133649,
+      "localSha256": "a991d319202d88833bebf049f61be99a968655c9eb3fe30c9a84292d6d0e08aa"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/img/brigadeiros.jpg",
+      "path": "/marketing/portfolio/confeitaria-margo/assets/img/brigadeiros.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "efe3de0b570d85be044c23207620c7cf5857623f451ee1de0aca51bee15fdca5",
+      "bytes": 224639,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/img/brigadeiros.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 224639,
+      "localSha256": "efe3de0b570d85be044c23207620c7cf5857623f451ee1de0aca51bee15fdca5"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/img/naked-cake.jpg",
+      "path": "/marketing/portfolio/confeitaria-margo/assets/img/naked-cake.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "dbc9136435245c7e7cd21883f4b58f84ddaea254a4feed69b8050562c2f1f4ac",
+      "bytes": 153367,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/img/naked-cake.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 153367,
+      "localSha256": "dbc9136435245c7e7cd21883f4b58f84ddaea254a4feed69b8050562c2f1f4ac"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/img/tortinha-limao.jpg",
+      "path": "/marketing/portfolio/confeitaria-margo/assets/img/tortinha-limao.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "e928e0a60ba2414c403706bcb8256b23cc68754af909620b90ed193010d1c875",
+      "bytes": 110190,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/img/tortinha-limao.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 110190,
+      "localSha256": "e928e0a60ba2414c403706bcb8256b23cc68754af909620b90ed193010d1c875"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/img/croissants.jpg",
+      "path": "/marketing/portfolio/confeitaria-margo/assets/img/croissants.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "b1758241b1e89b74ef44ef200e2446fefeca885b2130acf363473f2ec0917b88",
+      "bytes": 201775,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/img/croissants.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 201775,
+      "localSha256": "b1758241b1e89b74ef44ef200e2446fefeca885b2130acf363473f2ec0917b88"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/convix-hero/dist/assets/index-D04Epqih.js",
+      "path": "/marketing/portfolio/convix-hero/dist/assets/index-D04Epqih.js",
+      "kind": "script-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/convix-hero/dist/index.html"
+      ],
+      "status": "downloaded",
+      "bytes": 156462,
+      "sha256": "926a4fb8fd74d1dd7f9d0e54a4942ed614a56e48d0b9276ec41b21470b1945bc",
+      "httpStatus": 200,
+      "cached": true,
+      "contentType": "text/javascript",
+      "sourceReference": "marketing__portfolio__convix-hero__dist__assets__index-D04Epqih.js",
+      "localBytes": 156447,
+      "localSha256": "6b17c07e62564d8a4f2447c6e2695dc9616329ac32d1ac7db6863c192f6a1c20"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/convix-hero/dist/assets/index-7O04r-Vl.css",
+      "path": "/marketing/portfolio/convix-hero/dist/assets/index-7O04r-Vl.css",
+      "kind": "link-stylesheet",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/convix-hero/dist/index.html"
+      ],
+      "status": "downloaded",
+      "bytes": 10899,
+      "sha256": "87ec352f1b97cd0839ed33aeb451aed0e221c557f742c16719cbc36fca3354d3",
+      "httpStatus": 200,
+      "cached": true,
+      "contentType": "text/css",
+      "sourceReference": "marketing__portfolio__convix-hero__dist__assets__index-7O04r-Vl.css",
+      "localBytes": 10836,
+      "localSha256": "d34d00028172acfe6d20b96404627c14dfc6c556e0aa7eea9d0caf728ab01360"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..650;1,9..144,300..650&family=Inter:wght@300;400;500;600&display=swap",
+      "path": "/vendor/fonts.googleapis.com/css2-b8077b83075f.css",
+      "kind": "link-stylesheet",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "f271a38a9156dc35a2d923faa4ae609902cbebdbf5f5e510358c35b210730f4d",
+      "bytes": 12606,
+      "contentType": "text/css; charset=utf-8",
+      "finalUrl": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..650;1,9..144,300..650&family=Inter:wght@300;400;500;600&display=swap",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 12690,
+      "localSha256": "fa6f113b009e6047a9a110ce2e076f50c33d6b64195bc19e75e7472dfd20711b"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/img/recepcao.jpg",
+      "path": "/marketing/portfolio/dentista-clinica-vertice/assets/img/recepcao.jpg",
+      "kind": "video-poster",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "8b6d57e8142b5e81da982eb93e3f0fc9f0d0e36b74aa8bcf63b26b58c562560e",
+      "bytes": 105075,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/img/recepcao.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 105075,
+      "localSha256": "8b6d57e8142b5e81da982eb93e3f0fc9f0d0e36b74aa8bcf63b26b58c562560e"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/video/hero.mp4",
+      "path": "/marketing/portfolio/dentista-clinica-vertice/assets/video/hero.mp4",
+      "kind": "source-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "e6dac2ed595b2166b2def9d1f57404409333fe73d4e75cc1ecafd38c64c5bc61",
+      "bytes": 15388313,
+      "contentType": "video/mp4",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/video/hero.mp4",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 15388313,
+      "localSha256": "e6dac2ed595b2166b2def9d1f57404409333fe73d4e75cc1ecafd38c64c5bc61"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/img/alinhador-macro.jpg",
+      "path": "/marketing/portfolio/dentista-clinica-vertice/assets/img/alinhador-macro.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "a949347c140250282610e844d22d5ab9a6a6ae379ecb10b76caa86831ee1f54f",
+      "bytes": 50732,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/img/alinhador-macro.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 50732,
+      "localSha256": "a949347c140250282610e844d22d5ab9a6a6ae379ecb10b76caa86831ee1f54f"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/img/sorriso.jpg",
+      "path": "/marketing/portfolio/dentista-clinica-vertice/assets/img/sorriso.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "1d6230ace2ff4ec76fe30d86a985d2ec030c6d649a9f978d1134940733aca862",
+      "bytes": 104769,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/img/sorriso.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 104769,
+      "localSha256": "1d6230ace2ff4ec76fe30d86a985d2ec030c6d649a9f978d1134940733aca862"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/img/implante-3d.jpg",
+      "path": "/marketing/portfolio/dentista-clinica-vertice/assets/img/implante-3d.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "cc081b7ffd7600f8b97409d5ee9545051ba16012cffe18c8add2a8f1215b38db",
+      "bytes": 39659,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/img/implante-3d.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 39659,
+      "localSha256": "cc081b7ffd7600f8b97409d5ee9545051ba16012cffe18c8add2a8f1215b38db"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/img/consultorio.jpg",
+      "path": "/marketing/portfolio/dentista-clinica-vertice/assets/img/consultorio.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "c4c8a6bf572cb539a96109d8ba333741939fcb48c3398da5d10c3aac6b50f2bb",
+      "bytes": 99046,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/img/consultorio.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 99046,
+      "localSha256": "c4c8a6bf572cb539a96109d8ba333741939fcb48c3398da5d10c3aac6b50f2bb"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/img/imagem-3d.jpg",
+      "path": "/marketing/portfolio/dentista-clinica-vertice/assets/img/imagem-3d.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "ee6de0994c8835f45ce7fc142e96a5b65cfa3d6d7f1478bc5e108fb8cbcb34f3",
+      "bytes": 80964,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/img/imagem-3d.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 80964,
+      "localSha256": "ee6de0994c8835f45ce7fc142e96a5b65cfa3d6d7f1478bc5e108fb8cbcb34f3"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap",
+      "path": "/vendor/fonts.googleapis.com/css2-60987a8b44cb.css",
+      "kind": "link-stylesheet",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/instituto-liminar/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "a92fd9d05f2b4233f36fec6641b3009fa1d76c62da33c23640100158c9304ae1",
+      "bytes": 12663,
+      "contentType": "text/css; charset=utf-8",
+      "finalUrl": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 12720,
+      "localSha256": "9ddf11e7ecc1bfccd548d4a95a92d67710ed97637117740ef63fba10e35ce71a"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/img/hero-biblioteca.jpg",
+      "path": "/marketing/portfolio/instituto-liminar/assets/img/hero-biblioteca.jpg",
+      "kind": "video-poster",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/instituto-liminar/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "06e8ef09223f0a49b2c13e0852b49de7378fa0481d763a573123f8fa90f58a7c",
+      "bytes": 248236,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/img/hero-biblioteca.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 248236,
+      "localSha256": "06e8ef09223f0a49b2c13e0852b49de7378fa0481d763a573123f8fa90f58a7c"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/video/hero.mp4",
+      "path": "/marketing/portfolio/instituto-liminar/assets/video/hero.mp4",
+      "kind": "source-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/instituto-liminar/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "68c2a238c61b8df5fb578b99fe7fb991c4444e4badaf848c3dfd4c2de8ca3019",
+      "bytes": 10129943,
+      "contentType": "video/mp4",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/video/hero.mp4",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 10129943,
+      "localSha256": "68c2a238c61b8df5fb578b99fe7fb991c4444e4badaf848c3dfd4c2de8ca3019"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/img/maos-livro.jpg",
+      "path": "/marketing/portfolio/instituto-liminar/assets/img/maos-livro.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/instituto-liminar/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "5ac65623dde1535772859e45a62dc1a8b8fcaa01d9a69fdd7aa63bebabf38836",
+      "bytes": 114685,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/img/maos-livro.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 114685,
+      "localSha256": "5ac65623dde1535772859e45a62dc1a8b8fcaa01d9a69fdd7aa63bebabf38836"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/img/manuscrito.jpg",
+      "path": "/marketing/portfolio/instituto-liminar/assets/img/manuscrito.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/instituto-liminar/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "bc28377cde29a456d28c4aaecd73504dcb7271ab3793349a69695602feda9965",
+      "bytes": 111397,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/img/manuscrito.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 111397,
+      "localSha256": "bc28377cde29a456d28c4aaecd73504dcb7271ab3793349a69695602feda9965"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/img/diva.jpg",
+      "path": "/marketing/portfolio/instituto-liminar/assets/img/diva.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/instituto-liminar/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "eac1b7bc36a2daa1dca9947c5dba569ef8e6c0a466add8282c7b5016d7558f4f",
+      "bytes": 265923,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/img/diva.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 265923,
+      "localSha256": "eac1b7bc36a2daa1dca9947c5dba569ef8e6c0a466add8282c7b5016d7558f4f"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/img/motivo-grafico.jpg",
+      "path": "/marketing/portfolio/instituto-liminar/assets/img/motivo-grafico.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/instituto-liminar/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "4fceceae1331c6d435985d372fe21355e7015b78bda2e7b2c26e1a0971d6faa6",
+      "bytes": 49738,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/img/motivo-grafico.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 49738,
+      "localSha256": "4fceceae1331c6d435985d372fe21355e7015b78bda2e7b2c26e1a0971d6faa6"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/img/anfiteatro.jpg",
+      "path": "/marketing/portfolio/instituto-liminar/assets/img/anfiteatro.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/instituto-liminar/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "c79c8fe1e0ee0578a5f6e285a1a90310047faa9ed71240c6f119e7fcf8444698",
+      "bytes": 178436,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/img/anfiteatro.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 178436,
+      "localSha256": "c79c8fe1e0ee0578a5f6e285a1a90310047faa9ed71240c6f119e7fcf8444698"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/lithos-hero/dist/assets/index-CMXdz8kw.js",
+      "path": "/marketing/portfolio/lithos-hero/dist/assets/index-CMXdz8kw.js",
+      "kind": "script-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/lithos-hero/dist/index.html"
+      ],
+      "status": "downloaded",
+      "bytes": 150137,
+      "sha256": "b724a1befc24acc06df8ef37195c5d320daa32c7816bcd06eaa276ce83fd0171",
+      "httpStatus": 200,
+      "cached": true,
+      "contentType": "text/javascript",
+      "sourceReference": "marketing__portfolio__lithos-hero__dist__assets__index-CMXdz8kw.js",
+      "localBytes": 149827,
+      "localSha256": "af5f6aca8fa6ec2fb46a91bc5589fddbe06046400eb502730a9ec5ba2a785ed9"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/lithos-hero/dist/assets/index-DIp2DAYC.css",
+      "path": "/marketing/portfolio/lithos-hero/dist/assets/index-DIp2DAYC.css",
+      "kind": "link-stylesheet",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/lithos-hero/dist/index.html"
+      ],
+      "status": "downloaded",
+      "bytes": 11118,
+      "sha256": "fcec30f4368cff5c321ef4c772648bff7389c8691224af8bd293617f05c01eb7",
+      "httpStatus": 200,
+      "cached": true,
+      "contentType": "text/css",
+      "sourceReference": "marketing__portfolio__lithos-hero__dist__assets__index-DIp2DAYC.css",
+      "localBytes": 11032,
+      "localSha256": "8f6a9c5fc174677d91b7c0586189fea58207166f50a1855a883238ae7096db89"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Instrument+Serif&display=swap",
+      "path": "/vendor/fonts.googleapis.com/css2-f377038b3ae4.css",
+      "kind": "link-stylesheet",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/velorah-hero/dist/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "9478661c7f586ded9a60d81a5caabc1768bd9908945fd8cf5beb978fe5c9503b",
+      "bytes": 5836,
+      "contentType": "text/css; charset=utf-8",
+      "finalUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Instrument+Serif&display=swap",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 5866,
+      "localSha256": "f348cad47fbd2452d4ed1939885e8873df8a8f5322b315176f55f5d858ff36fc"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/velorah-hero/dist/assets/index-xMIOyhaI.js",
+      "path": "/marketing/portfolio/velorah-hero/dist/assets/index-xMIOyhaI.js",
+      "kind": "script-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/velorah-hero/dist/index.html"
+      ],
+      "status": "downloaded",
+      "bytes": 169816,
+      "sha256": "bba9f74a2435afb17a635640022fb93caf09ec9883449e8ec2efd22ab446ee7b",
+      "httpStatus": 200,
+      "cached": true,
+      "contentType": "text/javascript",
+      "sourceReference": "marketing__portfolio__velorah-hero__dist__assets__index-xMIOyhaI.js",
+      "localBytes": 169796,
+      "localSha256": "74850b453dc25f83965715d121c0fb5ee6aac6f71e71c8d3dc1cbd73f04cd955"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/velorah-hero/dist/assets/index-BPhN6xXn.css",
+      "path": "/marketing/portfolio/velorah-hero/dist/assets/index-BPhN6xXn.css",
+      "kind": "link-stylesheet",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/velorah-hero/dist/index.html"
+      ],
+      "status": "downloaded",
+      "bytes": 11143,
+      "sha256": "22e35ccbdf1b49bc0d93c5097529fa4892775d36986d17581424f6f22b7de66a",
+      "httpStatus": 200,
+      "cached": true,
+      "contentType": "text/css",
+      "sourceReference": "marketing__portfolio__velorah-hero__dist__assets__index-BPhN6xXn.css",
+      "localBytes": 11143,
+      "localSha256": "22e35ccbdf1b49bc0d93c5097529fa4892775d36986d17581424f6f22b7de66a"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap",
+      "path": "/vendor/fonts.googleapis.com/css2-d7111b17d24a.css",
+      "kind": "link-stylesheet",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/verene-odontologia/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "f01ca6bb8df73fb2076d6a4fcd9914f62b20c8386df792ba7de70802e7389d75",
+      "bytes": 15630,
+      "contentType": "text/css; charset=utf-8",
+      "finalUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 15553,
+      "localSha256": "6d33cca6046da44fdb29be8d85ee94c165fd4005586103e5bd4f67c0987617a2"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/img/hero-recepcao.jpg",
+      "path": "/marketing/portfolio/verene-odontologia/assets/img/hero-recepcao.jpg",
+      "kind": "video-poster",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/verene-odontologia/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "ce8be7ee81255da72574b150b13301f567038dbcb7ce503a2baf47c6517ab1a7",
+      "bytes": 132092,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/img/hero-recepcao.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 132092,
+      "localSha256": "ce8be7ee81255da72574b150b13301f567038dbcb7ce503a2baf47c6517ab1a7"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/video/hero.mp4",
+      "path": "/marketing/portfolio/verene-odontologia/assets/video/hero.mp4",
+      "kind": "source-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/verene-odontologia/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "680d0d802ef49681310e91ea79bd518fa099cdf7053712c029ee922c35487f2c",
+      "bytes": 7096122,
+      "contentType": "video/mp4",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/video/hero.mp4",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 7096122,
+      "localSha256": "680d0d802ef49681310e91ea79bd518fa099cdf7053712c029ee922c35487f2c"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/img/implante-3d.jpg",
+      "path": "/marketing/portfolio/verene-odontologia/assets/img/implante-3d.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/verene-odontologia/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "eb6ec6e28a9fd7fc52be8291b4510a45f35d44a296f6f1731319be79e8469d5a",
+      "bytes": 127315,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/img/implante-3d.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 127315,
+      "localSha256": "eb6ec6e28a9fd7fc52be8291b4510a45f35d44a296f6f1731319be79e8469d5a"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/img/alinhador.jpg",
+      "path": "/marketing/portfolio/verene-odontologia/assets/img/alinhador.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/verene-odontologia/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "db018880e84573172a9aefb065aa54b0467976df199147f20f9aba596c025d08",
+      "bytes": 169801,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/img/alinhador.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 169801,
+      "localSha256": "db018880e84573172a9aefb065aa54b0467976df199147f20f9aba596c025d08"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/img/protese-ceramica.jpg",
+      "path": "/marketing/portfolio/verene-odontologia/assets/img/protese-ceramica.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/verene-odontologia/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "f908b4192d3473029a7867da740b39ba56f1b8a7a8f4dbeff4b628db3de8fab3",
+      "bytes": 189684,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/img/protese-ceramica.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 189684,
+      "localSha256": "f908b4192d3473029a7867da740b39ba56f1b8a7a8f4dbeff4b628db3de8fab3"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/img/sorriso.jpg",
+      "path": "/marketing/portfolio/verene-odontologia/assets/img/sorriso.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/verene-odontologia/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "a7c3897f219cdbab7e6a3b02bbf972506400b875b88b12c27c4ddc2f84969075",
+      "bytes": 266785,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/img/sorriso.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 266785,
+      "localSha256": "a7c3897f219cdbab7e6a3b02bbf972506400b875b88b12c27c4ddc2f84969075"
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/img/consultorio.jpg",
+      "path": "/marketing/portfolio/verene-odontologia/assets/img/consultorio.jpg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/verene-odontologia/index.html"
+      ],
+      "status": "downloaded",
+      "sha256": "f56d119b4813521bdc8e192ef16fb9acc6b90899840ce7a652e9d0e9c7a733aa",
+      "bytes": 169690,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/img/consultorio.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 169690,
+      "localSha256": "f56d119b4813521bdc8e192ef16fb9acc6b90899840ce7a652e9d0e9c7a733aa"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap",
+      "path": "/vendor/fonts.googleapis.com/css2-e2d224bd0e2a.css",
+      "kind": "link-stylesheet",
+      "from": [
+        "https://www.sabec.dev/privacy"
+      ],
+      "status": "downloaded",
+      "sha256": "77c4644c6f22ce37b1f327dcb90778506d1cc2e89e79c1c57e76987563ca98b0",
+      "bytes": 12372,
+      "contentType": "text/css; charset=utf-8",
+      "finalUrl": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 12381,
+      "localSha256": "2f70bde8c16f27c794f574dcc6b02e6b166b1322287f9f5a505ed69a4c495377"
+    },
+    {
+      "url": "https://www.sabec.dev/site-do-jd/img/og.jpg",
+      "path": "/site-do-jd/img/og.jpg",
+      "kind": "meta-image",
+      "from": [
+        "https://www.sabec.dev/site-do-jd"
+      ],
+      "status": "downloaded",
+      "sha256": "6eff1a26b0a40018bace4cb5da2511af70b8d9ea5888f6dfb2c532e94b69f821",
+      "bytes": 125818,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://www.sabec.dev/site-do-jd/img/og.jpg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 125818,
+      "localSha256": "6eff1a26b0a40018bace4cb5da2511af70b8d9ea5888f6dfb2c532e94b69f821"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/sabec-logo.svg",
+      "path": "/assets/sabec-logo.svg",
+      "kind": "link-icon",
+      "from": [
+        "https://www.sabec.dev/site-do-jd"
+      ],
+      "status": "downloaded",
+      "sha256": "5ce1fab6d084ef283245d5c9130a197a990c4b5c63ba9c5e5d9fe6d51eb9fd44",
+      "bytes": 2804,
+      "contentType": "image/svg+xml",
+      "finalUrl": "https://www.sabec.dev/assets/sabec-logo.svg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 2804,
+      "localSha256": "5ce1fab6d084ef283245d5c9130a197a990c4b5c63ba9c5e5d9fe6d51eb9fd44"
+    },
+    {
+      "url": "https://www.sabec.dev/assets/Logotipo%20Branco%20e%20Azul.svg",
+      "path": "/assets/Logotipo Branco e Azul.svg",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/site-do-jd"
+      ],
+      "status": "downloaded",
+      "sha256": "5ce1fab6d084ef283245d5c9130a197a990c4b5c63ba9c5e5d9fe6d51eb9fd44",
+      "bytes": 2804,
+      "contentType": "image/svg+xml",
+      "finalUrl": "https://www.sabec.dev/assets/Logotipo%20Branco%20e%20Azul.svg",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 2804,
+      "localSha256": "5ce1fab6d084ef283245d5c9130a197a990c4b5c63ba9c5e5d9fe6d51eb9fd44"
+    },
+    {
+      "url": "https://www.sabec.dev/site-do-jd/img/template.webp",
+      "path": "/site-do-jd/img/template.webp",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/site-do-jd"
+      ],
+      "status": "downloaded",
+      "sha256": "62eb8bc708bffce6aa8dba8b7b7b4327d69472c127fd4255bbf40c1e34806451",
+      "bytes": 207824,
+      "contentType": "image/webp",
+      "finalUrl": "https://www.sabec.dev/site-do-jd/img/template.webp",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 207824,
+      "localSha256": "62eb8bc708bffce6aa8dba8b7b7b4327d69472c127fd4255bbf40c1e34806451"
+    },
+    {
+      "url": "https://www.sabec.dev/site-do-jd/img/painel-textos.webp",
+      "path": "/site-do-jd/img/painel-textos.webp",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/site-do-jd"
+      ],
+      "status": "downloaded",
+      "sha256": "699d94b38cc53b4754399813ce06284f0c314e0b663b63fb79cef712723a2094",
+      "bytes": 44610,
+      "contentType": "image/webp",
+      "finalUrl": "https://www.sabec.dev/site-do-jd/img/painel-textos.webp",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 44610,
+      "localSha256": "699d94b38cc53b4754399813ce06284f0c314e0b663b63fb79cef712723a2094"
+    },
+    {
+      "url": "https://www.sabec.dev/site-do-jd/img/painel-precos.webp",
+      "path": "/site-do-jd/img/painel-precos.webp",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/site-do-jd"
+      ],
+      "status": "downloaded",
+      "sha256": "0aa242f3eea9913b573e300dc86ab23141a368f203dd23b900347717de88a4e1",
+      "bytes": 32724,
+      "contentType": "image/webp",
+      "finalUrl": "https://www.sabec.dev/site-do-jd/img/painel-precos.webp",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 32724,
+      "localSha256": "0aa242f3eea9913b573e300dc86ab23141a368f203dd23b900347717de88a4e1"
+    },
+    {
+      "url": "https://www.sabec.dev/site-do-jd/img/painel-artes.webp",
+      "path": "/site-do-jd/img/painel-artes.webp",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/site-do-jd"
+      ],
+      "status": "downloaded",
+      "sha256": "de4f381dc5b80a8821bbb8e73d9352a2a970b086661bab8ca7cef8d3c537d3b1",
+      "bytes": 61366,
+      "contentType": "image/webp",
+      "finalUrl": "https://www.sabec.dev/site-do-jd/img/painel-artes.webp",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 61366,
+      "localSha256": "de4f381dc5b80a8821bbb8e73d9352a2a970b086661bab8ca7cef8d3c537d3b1"
+    },
+    {
+      "url": "https://www.sabec.dev/site-do-jd/img/site-pc.webp",
+      "path": "/site-do-jd/img/site-pc.webp",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/site-do-jd"
+      ],
+      "status": "downloaded",
+      "sha256": "499b73ae474ebf67d9d02d955ca2f2174380ed06d6c9426e8fe988fbc90bae90",
+      "bytes": 185442,
+      "contentType": "image/webp",
+      "finalUrl": "https://www.sabec.dev/site-do-jd/img/site-pc.webp",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 185442,
+      "localSha256": "499b73ae474ebf67d9d02d955ca2f2174380ed06d6c9426e8fe988fbc90bae90"
+    },
+    {
+      "url": "https://www.sabec.dev/site-do-jd/img/site-celular.webp",
+      "path": "/site-do-jd/img/site-celular.webp",
+      "kind": "img-src",
+      "from": [
+        "https://www.sabec.dev/site-do-jd"
+      ],
+      "status": "downloaded",
+      "sha256": "efce0e52fbf15c6bc6642226db61c652159c589d788eed026f49a75f6e58f7a3",
+      "bytes": 143956,
+      "contentType": "image/webp",
+      "finalUrl": "https://www.sabec.dev/site-do-jd/img/site-celular.webp",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 143956,
+      "localSha256": "efce0e52fbf15c6bc6642226db61c652159c589d788eed026f49a75f6e58f7a3"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap",
+      "path": "/vendor/fonts.googleapis.com/css2-236b4f255c07.css",
+      "kind": "captured-bundle-asset",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/convix-hero/dist/assets/index-7O04r-Vl.css"
+      ],
+      "status": "downloaded",
+      "sha256": "02c98fda1346eb9673714ee82b6ebf7e7b5d353a183df20059181d6fe2fd1c7a",
+      "bytes": 11677,
+      "contentType": "text/css; charset=utf-8",
+      "finalUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 11737,
+      "localSha256": "d339accd65619d6c1273af0fb53f8c15457c222700920f7a4c6fb9b0d5aefda4"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,400;1,500;1,600&display=swap",
+      "path": "/vendor/fonts.googleapis.com/css2-8c98a1fdc272.css",
+      "kind": "captured-bundle-asset",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/lithos-hero/dist/assets/index-DIp2DAYC.css"
+      ],
+      "status": "downloaded",
+      "sha256": "46f11665c04e08ada98c256ccff92faea7b4d6444f06270191ccf8d2a6c9279e",
+      "bytes": 17305,
+      "contentType": "text/css; charset=utf-8",
+      "finalUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,400;1,500;1,600&display=swap",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 17326,
+      "localSha256": "53b18bc534b3a545fcfe174709e448c3691c22d9d537c30a404f3afdba82f98a"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260314_131748_f2ca2a28-fed7-44c8-b9a9-bd9acdd5ec31.mp4",
+      "path": "/vendor/d8j0ntlcm91z4.cloudfront.net/hf_20260314_131748_f2ca2a28-fed7-44c8-b9a9-bd9acdd5ec31-94d9b3db9d75.mp4",
+      "kind": "captured-bundle-asset",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/velorah-hero/dist/assets/index-xMIOyhaI.js"
+      ],
+      "status": "downloaded",
+      "sha256": "c5c37853107ca51166f453662a4ccbfd668a020e7cd70ffa0b5a3be0351d458b",
+      "bytes": 14142575,
+      "contentType": "video/mp4",
+      "finalUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260314_131748_f2ca2a28-fed7-44c8-b9a9-bd9acdd5ec31.mp4",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 14142575,
+      "localSha256": "c5c37853107ca51166f453662a4ccbfd668a020e7cd70ffa0b5a3be0351d458b"
+    },
+    {
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_195923_b0ba8ace-1d1d-4f2c-9a28-1ab84b330680.png&w=1280&q=85",
+      "path": "/vendor/images.higgs.ai/asset-ab30e8b4fba2.webp",
+      "kind": "captured-bundle-asset",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/lithos-hero/dist/assets/index-CMXdz8kw.js"
+      ],
+      "status": "downloaded",
+      "sha256": "f51eed91483cf12cb0d54b4f3175ab4055007cbf182021c46548945c3e4fd951",
+      "bytes": 99334,
+      "contentType": "image/webp",
+      "finalUrl": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_195923_b0ba8ace-1d1d-4f2c-9a28-1ab84b330680.png&w=1280&q=85",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 99334,
+      "localSha256": "f51eed91483cf12cb0d54b4f3175ab4055007cbf182021c46548945c3e4fd951"
+    },
+    {
+      "url": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_201152_bba90a12-bf12-459f-91f0-51f237dbaf3b.png&w=1280&q=85",
+      "path": "/vendor/images.higgs.ai/asset-145988049866.webp",
+      "kind": "captured-bundle-asset",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/lithos-hero/dist/assets/index-CMXdz8kw.js"
+      ],
+      "status": "downloaded",
+      "sha256": "25d3778a57ba0435a47ab3c10147dbedbfa070ba37dc600dfeebb9664aefae19",
+      "bytes": 138224,
+      "contentType": "image/webp",
+      "finalUrl": "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_201152_bba90a12-bf12-459f-91f0-51f237dbaf3b.png&w=1280&q=85",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 138224,
+      "localSha256": "25d3778a57ba0435a47ab3c10147dbedbfa070ba37dc600dfeebb9664aefae19"
+    },
+    {
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260424_064411_9e9d7f84-9277-41f4-ab10-59172d89e6be.mp4",
+      "path": "/vendor/d8j0ntlcm91z4.cloudfront.net/hf_20260424_064411_9e9d7f84-9277-41f4-ab10-59172d89e6be-2681d41b24d4.mp4",
+      "kind": "captured-bundle-asset",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/convix-hero/dist/assets/index-D04Epqih.js"
+      ],
+      "status": "downloaded",
+      "sha256": "e4e39fcdb72315e19992647084247beb859cffde1c6d8514c570a0acca67686c",
+      "bytes": 33022200,
+      "contentType": "video/mp4",
+      "finalUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260424_064411_9e9d7f84-9277-41f4-ab10-59172d89e6be.mp4",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 33022200,
+      "localSha256": "e4e39fcdb72315e19992647084247beb859cffde1c6d8514c570a0acca67686c"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1557683316-973673baf926?w=1600&q=60",
+      "path": "/vendor/images.unsplash.com/photo-1557683316-973673baf926-565cff88977e.jpg",
+      "kind": "captured-bundle-asset",
+      "from": [
+        "https://www.sabec.dev/marketing/portfolio/convix-hero/dist/assets/index-D04Epqih.js"
+      ],
+      "status": "downloaded",
+      "sha256": "fa6ac4a3302c9aff0e13c89be3a1d4a98aea4b1320dc18e4a2fae94fe677ef41",
+      "bytes": 29472,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://images.unsplash.com/photo-1557683316-973673baf926?w=1600&q=60",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 29472,
+      "localSha256": "fa6ac4a3302c9aff0e13c89be3a1d4a98aea4b1320dc18e4a2fae94fe677ef41"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2",
+      "path": "/vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc-95b9ea830580.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "ca157063339ac4ad418f214f3abfed119b0798ab4d377386ce5c9e5a7a435ebd",
+      "bytes": 25960,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 25960,
+      "localSha256": "ca157063339ac4ad418f214f3abfed119b0798ab4d377386ce5c9e5a7a435ebd"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2",
+      "path": "/vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc-1e8edb2fc100.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "71d5ee93cc1e9f1d520a3a8b66456de18c7879d8df09d57fcd2eaff75fef0075",
+      "bytes": 18748,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 18748,
+      "localSha256": "71d5ee93cc1e9f1d520a3a8b66456de18c7879d8df09d57fcd2eaff75fef0075"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2",
+      "path": "/vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc-6d0a674525fe.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "6e9e020a25f9b56d418f2c085b1d3c09725a4da23fe693a5b463064606732190",
+      "bytes": 11232,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 11232,
+      "localSha256": "6e9e020a25f9b56d418f2c085b1d3c09725a4da23fe693a5b463064606732190"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2",
+      "path": "/vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc-dbc85b0dfbaa.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "1be3448e292fbf05ffe176fe1e43f135013d50b1e7d324ad1a558f623d3bb6f6",
+      "bytes": 18996,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 18996,
+      "localSha256": "1be3448e292fbf05ffe176fe1e43f135013d50b1e7d324ad1a558f623d3bb6f6"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2",
+      "path": "/vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc-4c2d4a14f23a.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "5c66f9e07e90c6d4ac4922cc68d60de26c17b1858e677fb5e603fce3952b3ff2",
+      "bytes": 10252,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 10252,
+      "localSha256": "5c66f9e07e90c6d4ac4922cc68d60de26c17b1858e677fb5e603fce3952b3ff2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2",
+      "path": "/vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc-a9d11b3ffe7a.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "34b9c504cab7a73e37b746343a449132e56cf7b5481af2cb81dc74dcff25c956",
+      "bytes": 85068,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 85068,
+      "localSha256": "34b9c504cab7a73e37b746343a449132e56cf7b5481af2cb81dc74dcff25c956"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "path": "/vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7-e3237528af75.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+      "bytes": 48256,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 48256,
+      "localSha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx3cwhsk.woff2",
+      "path": "/vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx3cwhsk-6b5e37b52d26.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "62213be8a78b42f1e29d1452d91e2f8b3e745572a9dd98d3941e39fa00b37d76",
+      "bytes": 1640,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx3cwhsk.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 1640,
+      "localSha256": "62213be8a78b42f1e29d1452d91e2f8b3e745572a9dd98d3941e39fa00b37d76"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxTcwhsk.woff2",
+      "path": "/vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxTcwhsk-eb83d8d40af4.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "e17cfd15fb96909d64095015f958207063a0c07191da3512df7d560a781aebdf",
+      "bytes": 8872,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxTcwhsk.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 8872,
+      "localSha256": "e17cfd15fb96909d64095015f958207063a0c07191da3512df7d560a781aebdf"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxPcwhsk.woff2",
+      "path": "/vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxPcwhsk-99e400330f36.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "0a557721b1f8b36d3f3f84442689a71ca4a744300abcb46a1953f51bfc663b66",
+      "bytes": 6836,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxPcwhsk.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 6836,
+      "localSha256": "0a557721b1f8b36d3f3f84442689a71ca4a744300abcb46a1953f51bfc663b66"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx_cwhsk.woff2",
+      "path": "/vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx_cwhsk-c4064400db37.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "c89b9cc0bc6262bd4f8d8494b6961601f3aefa829d08c2e3635f4d501d3a47c2",
+      "bytes": 5888,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx_cwhsk.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 5888,
+      "localSha256": "c89b9cc0bc6262bd4f8d8494b6961601f3aefa829d08c2e3635f4d501d3a47c2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx7cwhsk.woff2",
+      "path": "/vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx7cwhsk-b19c2080652a.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "db5ff4db83e580426280e9337a58dc57d3a83784a1b03ad80914651594441d52",
+      "bytes": 11624,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx7cwhsk.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 11624,
+      "localSha256": "db5ff4db83e580426280e9337a58dc57d3a83784a1b03ad80914651594441d52"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg.woff2",
+      "path": "/vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg-cc27b3047125.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "83c005d49d8a6a50474c73a5a36ac0468076e9c4a29da7bdb14995d80560a5be",
+      "bytes": 31432,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 31432,
+      "localSha256": "83c005d49d8a6a50474c73a5a36ac0468076e9c4a29da7bdb14995d80560a5be"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb54C-s0.woff2",
+      "path": "/vendor/fonts.gstatic.com/V8mDoQDjQSkFtoMM3T6r8E7mPb54C-s0-5d47749e9553.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "8895e3d49825128bfa5238e4c96e9b432d7a3dadbe5c17c6081267398305dc71",
+      "bytes": 6712,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb54C-s0.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 6712,
+      "localSha256": "8895e3d49825128bfa5238e4c96e9b432d7a3dadbe5c17c6081267398305dc71"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb94C-s0.woff2",
+      "path": "/vendor/fonts.gstatic.com/V8mDoQDjQSkFtoMM3T6r8E7mPb94C-s0-cc7d24aa9461.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "952dddb45d2f96f71cbf3b7f510b24379afc3c89ea02fcf89d377b45d62c0166",
+      "bytes": 18940,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb94C-s0.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 18940,
+      "localSha256": "952dddb45d2f96f71cbf3b7f510b24379afc3c89ea02fcf89d377b45d62c0166"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2",
+      "path": "/vendor/fonts.gstatic.com/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw-98a0d4ac28a1.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d",
+      "bytes": 22288,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 22288,
+      "localSha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/archivo/v25/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLySOxK-vA.woff2",
+      "path": "/vendor/fonts.gstatic.com/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLySOxK-vA-fe23a35d5845.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Archivo:wght@300;400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "5a621c5598a31392555104ccdc41a46c3104f1cc22666024a8afb881ca9adaab",
+      "bytes": 13240,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/archivo/v25/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLySOxK-vA.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 13240,
+      "localSha256": "5a621c5598a31392555104ccdc41a46c3104f1cc22666024a8afb881ca9adaab"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/archivo/v25/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLyTOxK-vA.woff2",
+      "path": "/vendor/fonts.gstatic.com/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLyTOxK-vA-6a6431245d46.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Archivo:wght@300;400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "ff4f17d21930e36d6d93baba663e624cb767afc3feebf7adaebd82242638de05",
+      "bytes": 32608,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/archivo/v25/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLyTOxK-vA.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 32608,
+      "localSha256": "ff4f17d21930e36d6d93baba663e624cb767afc3feebf7adaebd82242638de05"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/archivo/v25/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLydOxI.woff2",
+      "path": "/vendor/fonts.gstatic.com/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLydOxI-c6ab97fead73.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Archivo:wght@300;400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "8f704806dbedeaaeca334b11ec348bc3ac3a439d6431544b3afb54f534ee4967",
+      "bytes": 34928,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/archivo/v25/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLydOxI.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 34928,
+      "localSha256": "8f704806dbedeaaeca334b11ec348bc3ac3a439d6431544b3afb54f534ee4967"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtFmSq17w.woff2",
+      "path": "/vendor/fonts.gstatic.com/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtFmSq17w-4ae4c5dabe8f.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Archivo:wght@300;400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "ae25de0507a445fd9e953e90432ae75b1ee2eccb48370a6ced4934551eb56fc3",
+      "bytes": 25184,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtFmSq17w.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 25184,
+      "localSha256": "ae25de0507a445fd9e953e90432ae75b1ee2eccb48370a6ced4934551eb56fc3"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtMmSq17w.woff2",
+      "path": "/vendor/fonts.gstatic.com/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtMmSq17w-954d638259f9.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Archivo:wght@300;400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "cb13c04533ee98c94e49a053b9f4d39bf616fd7ba6360d71aead92a78dc571f7",
+      "bytes": 21300,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtMmSq17w.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 21300,
+      "localSha256": "cb13c04533ee98c94e49a053b9f4d39bf616fd7ba6360d71aead92a78dc571f7"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtHmSq17w.woff2",
+      "path": "/vendor/fonts.gstatic.com/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtHmSq17w-4c494e010d00.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Archivo:wght@300;400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "b8ecb4ae898cd9ccae2f2d18fd364f6593bb67776060f9b5d833cec65d34d112",
+      "bytes": 11516,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtHmSq17w.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 11516,
+      "localSha256": "b8ecb4ae898cd9ccae2f2d18fd364f6593bb67776060f9b5d833cec65d34d112"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtGmSq17w.woff2",
+      "path": "/vendor/fonts.gstatic.com/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtGmSq17w-8fbaa36df2a8.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Archivo:wght@300;400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "cd5bf126b2c84ab41b254a6a9a1ffb5c326a0f9f82c22fb4704daa31c9aaa415",
+      "bytes": 34392,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtGmSq17w.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 34392,
+      "localSha256": "cd5bf126b2c84ab41b254a6a9a1ffb5c326a0f9f82c22fb4704daa31c9aaa415"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtImSo.woff2",
+      "path": "/vendor/fonts.gstatic.com/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtImSo-291655adcb38.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Archivo:wght@300;400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "6f2f5c3b1abc3d0bb035a927f66a90ca873f94fc31c4966c8d024142c2036e55",
+      "bytes": 39260,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtImSo.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 39260,
+      "localSha256": "6f2f5c3b1abc3d0bb035a927f66a90ca873f94fc31c4966c8d024142c2036e55"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKgS4.woff2",
+      "path": "/vendor/fonts.gstatic.com/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKgS4-c4be89389609.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Archivo:wght@300;400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "a4d7cf345b8091e1d2c8c5c8fa3bd0f9bb9d00bc8988185471db398ddb5ae4c4",
+      "bytes": 23416,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKgS4.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 23416,
+      "localSha256": "a4d7cf345b8091e1d2c8c5c8fa3bd0f9bb9d00bc8988185471db398ddb5ae4c4"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKgS4.woff2",
+      "path": "/vendor/fonts.gstatic.com/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKgS4-535639032664.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Archivo:wght@300;400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "017fab69b4be8ffc08ca312823327989ade6dc3d948f0afa125e12ec2e5e7ca1",
+      "bytes": 21168,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKgS4.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 21168,
+      "localSha256": "017fab69b4be8ffc08ca312823327989ade6dc3d948f0afa125e12ec2e5e7ca1"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKgS4.woff2",
+      "path": "/vendor/fonts.gstatic.com/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKgS4-c74911618d2d.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Archivo:wght@300;400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "6252e819a7665ae512c2d046308a9016ada63c06d0d8f96984c4b29f6c9e1bd2",
+      "bytes": 11220,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKgS4.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 11220,
+      "localSha256": "6252e819a7665ae512c2d046308a9016ada63c06d0d8f96984c4b29f6c9e1bd2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKgS4.woff2",
+      "path": "/vendor/fonts.gstatic.com/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKgS4-a55f75e9e7fa.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Archivo:wght@300;400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "cfa9a397d86f66c5c51775a2500a712d5f632a04f0c5eca6930dfaf612d4566d",
+      "bytes": 33736,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKgS4.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 33736,
+      "localSha256": "cfa9a397d86f66c5c51775a2500a712d5f632a04f0c5eca6930dfaf612d4566d"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtK.woff2",
+      "path": "/vendor/fonts.gstatic.com/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtK-d9ec821052ff.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Archivo:wght@300;400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "d80df8ff5aecd299a61549f9e29ab1ed0b9b05f4ea71d50fe978e07d5240b235",
+      "bytes": 37640,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtK.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 37640,
+      "localSha256": "d80df8ff5aecd299a61549f9e29ab1ed0b9b05f4ea71d50fe978e07d5240b235"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/fraunces/v38/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjdfeQ_5Y.woff2",
+      "path": "/vendor/fonts.gstatic.com/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjdfeQ_5Y-ccf0fecc501d.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "23af38108404d4b05ea87498afc5a104a3fe878b6339d162472e914a2c8bfa93",
+      "bytes": 22128,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/fraunces/v38/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjdfeQ_5Y.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 22128,
+      "localSha256": "23af38108404d4b05ea87498afc5a104a3fe878b6339d162472e914a2c8bfa93"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/fraunces/v38/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjdPeQ_5Y.woff2",
+      "path": "/vendor/fonts.gstatic.com/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjdPeQ_5Y-437e9d07ede1.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "4983926d3a16544eedcd2233448bd8a43f711e7bf1fabaae8431e78e0b798635",
+      "bytes": 71460,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/fraunces/v38/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjdPeQ_5Y.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 71460,
+      "localSha256": "4983926d3a16544eedcd2233448bd8a43f711e7bf1fabaae8431e78e0b798635"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/fraunces/v38/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjeveQ.woff2",
+      "path": "/vendor/fonts.gstatic.com/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjeveQ-e10563a873a3.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "066710ce7ed235a339d3d6cdcc8b55c0bea5632232662d83aacea25852108271",
+      "bytes": 81520,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/fraunces/v38/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjeveQ.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 81520,
+      "localSha256": "066710ce7ed235a339d3d6cdcc8b55c0bea5632232662d83aacea25852108271"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/fraunces/v38/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxCBTeO-U.woff2",
+      "path": "/vendor/fonts.gstatic.com/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxCBTeO-U-a4c5fe4f4f21.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "f18853f63a870ebef013e30e789d8d544f102e4acd94988e57c223d9c796ddf4",
+      "bytes": 19700,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/fraunces/v38/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxCBTeO-U.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 19700,
+      "localSha256": "f18853f63a870ebef013e30e789d8d544f102e4acd94988e57c223d9c796ddf4"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/fraunces/v38/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxCFTeO-U.woff2",
+      "path": "/vendor/fonts.gstatic.com/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxCFTeO-U-7cdca5ec1a66.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "a2930b27d13a228bd9ab6a49269b5f800237892ad560cb9dd7fab01b1620f88e",
+      "bytes": 59388,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/fraunces/v38/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxCFTeO-U.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 59388,
+      "localSha256": "a2930b27d13a228bd9ab6a49269b5f800237892ad560cb9dd7fab01b1620f88e"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/fraunces/v38/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxC9TeA.woff2",
+      "path": "/vendor/fonts.gstatic.com/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxC9TeA-6a8370661dae.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "7234ed860a9cc83045413c4faee63c960a8f2d1917adcf728119307d56e0d783",
+      "bytes": 67304,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/fraunces/v38/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxC9TeA.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 67304,
+      "localSha256": "7234ed860a9cc83045413c4faee63c960a8f2d1917adcf728119307d56e0d783"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1iIq129k.woff2",
+      "path": "/vendor/fonts.gstatic.com/-F63fjptAgt5VM-kVkqdyU8n1iIq129k-d1b233760bed.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "f8c22ec1804bd6966b70f43ac7c327025645b4c09597117fca2a5a6c750106fe",
+      "bytes": 6912,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1iIq129k.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 6912,
+      "localSha256": "f8c22ec1804bd6966b70f43ac7c327025645b4c09597117fca2a5a6c750106fe"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1isq129k.woff2",
+      "path": "/vendor/fonts.gstatic.com/-F63fjptAgt5VM-kVkqdyU8n1isq129k-f9c74283b169.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "7635422bd10ddbbcb0e0caa1154b928298f5c8319b8c00b30978d4395f4783ce",
+      "bytes": 8356,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1isq129k.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 8356,
+      "localSha256": "7635422bd10ddbbcb0e0caa1154b928298f5c8319b8c00b30978d4395f4783ce"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1iAq129k.woff2",
+      "path": "/vendor/fonts.gstatic.com/-F63fjptAgt5VM-kVkqdyU8n1iAq129k-2a73cdecea5c.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "62632b6375305e70ddcafdd895218e6ae41a184fcd280a69c739460604ca00a9",
+      "bytes": 5868,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1iAq129k.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 5868,
+      "localSha256": "62632b6375305e70ddcafdd895218e6ae41a184fcd280a69c739460604ca00a9"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1iEq129k.woff2",
+      "path": "/vendor/fonts.gstatic.com/-F63fjptAgt5VM-kVkqdyU8n1iEq129k-ae5fc1eadb05.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "6bc0f226a5b7884a8170e3f62c63d7675609d4631bdc5931b5cdab81821f00eb",
+      "bytes": 13348,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1iEq129k.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 13348,
+      "localSha256": "6bc0f226a5b7884a8170e3f62c63d7675609d4631bdc5931b5cdab81821f00eb"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1i8q1w.woff2",
+      "path": "/vendor/fonts.gstatic.com/-F63fjptAgt5VM-kVkqdyU8n1i8q1w-7e3d7e3c7de8.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "08949f728dc52d528e69b1667d15c89a5686a4ee9a296ff90983985f99c380f7",
+      "bytes": 14708,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1i8q1w.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 14708,
+      "localSha256": "08949f728dc52d528e69b1667d15c89a5686a4ee9a296ff90983985f99c380f7"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJwl1FgtIU.woff2",
+      "path": "/vendor/fonts.gstatic.com/-F6qfjptAgt5VM-kVkqdyU8n3twJwl1FgtIU-ed3206e8ede4.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "3febe5c7f22e4b07b4552738673c3dbe8bced2dc5f48b866edf7ccd9552d109a",
+      "bytes": 6972,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJwl1FgtIU.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 6972,
+      "localSha256": "3febe5c7f22e4b07b4552738673c3dbe8bced2dc5f48b866edf7ccd9552d109a"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJwlRFgtIU.woff2",
+      "path": "/vendor/fonts.gstatic.com/-F6qfjptAgt5VM-kVkqdyU8n3twJwlRFgtIU-c70f6b078a09.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "1d89462e86cb8e87e7e9d6f6635605bd7c3081baca6caaecee84916bf7b60edc",
+      "bytes": 8460,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJwlRFgtIU.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 8460,
+      "localSha256": "1d89462e86cb8e87e7e9d6f6635605bd7c3081baca6caaecee84916bf7b60edc"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJwl9FgtIU.woff2",
+      "path": "/vendor/fonts.gstatic.com/-F6qfjptAgt5VM-kVkqdyU8n3twJwl9FgtIU-b06594e3dfbc.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "781633d95de88040fb77141d1e65d928c87c0144691fbc74da5a64d137a7e910",
+      "bytes": 6040,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJwl9FgtIU.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 6040,
+      "localSha256": "781633d95de88040fb77141d1e65d928c87c0144691fbc74da5a64d137a7e910"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJwl5FgtIU.woff2",
+      "path": "/vendor/fonts.gstatic.com/-F6qfjptAgt5VM-kVkqdyU8n3twJwl5FgtIU-203ce92810c0.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "6bb06407c97584b0867a959e05e8874693bfeb8c317de190811c51598f2d99ea",
+      "bytes": 13432,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJwl5FgtIU.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 13432,
+      "localSha256": "6bb06407c97584b0867a959e05e8874693bfeb8c317de190811c51598f2d99ea"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJwlBFgg.woff2",
+      "path": "/vendor/fonts.gstatic.com/-F6qfjptAgt5VM-kVkqdyU8n3twJwlBFgg-eb889034c083.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "01d285447409c8a588692162439a038b8cbd7871309ee20267b0d2d91c6e8e22",
+      "bytes": 14888,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3twJwlBFgg.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 14888,
+      "localSha256": "01d285447409c8a588692162439a038b8cbd7871309ee20267b0d2d91c6e8e22"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxTKYbABA.woff2",
+      "path": "/vendor/fonts.gstatic.com/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxTKYbABA-13ff14c8cbbd.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "7d0037a170882a49e65a45c38ef195237bb07b1cc791d078379f0ac0d7ae1935",
+      "bytes": 23568,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxTKYbABA.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 23568,
+      "localSha256": "7d0037a170882a49e65a45c38ef195237bb07b1cc791d078379f0ac0d7ae1935"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxaKYbABA.woff2",
+      "path": "/vendor/fonts.gstatic.com/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxaKYbABA-fd8b74284fe6.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "9409ee21811f0f5272b7e1d828fe8838005b0573481ef906e7e55b63f6610ab0",
+      "bytes": 29512,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxaKYbABA.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 29512,
+      "localSha256": "9409ee21811f0f5272b7e1d828fe8838005b0573481ef906e7e55b63f6610ab0"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxdKYbABA.woff2",
+      "path": "/vendor/fonts.gstatic.com/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxdKYbABA-560980fcddc4.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "f598dd0700f155e2facfaa8ecfacace397d4c2c153e9ce37ab7ad310e8505bc2",
+      "bytes": 19500,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxdKYbABA.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 19500,
+      "localSha256": "f598dd0700f155e2facfaa8ecfacace397d4c2c153e9ce37ab7ad310e8505bc2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxRKYbABA.woff2",
+      "path": "/vendor/fonts.gstatic.com/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxRKYbABA-99228c3b93e7.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "73e7f7b1c980416ae0c2461268b14c7cfcce0668e683dc43fbb11a82a227b9f2",
+      "bytes": 13160,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxRKYbABA.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 13160,
+      "localSha256": "73e7f7b1c980416ae0c2461268b14c7cfcce0668e683dc43fbb11a82a227b9f2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxQKYbABA.woff2",
+      "path": "/vendor/fonts.gstatic.com/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxQKYbABA-f582230492bf.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "d160e20920ae4d6556518d352d3af27a74e9b0de3d8fe17b1c1044fc75aa2f81",
+      "bytes": 30964,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxQKYbABA.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 30964,
+      "localSha256": "d160e20920ae4d6556518d352d3af27a74e9b0de3d8fe17b1c1044fc75aa2f81"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxeKYY.woff2",
+      "path": "/vendor/fonts.gstatic.com/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxeKYY-6d5e7fb80500.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "e2291e842cf5af167122a22881a740c7f2dda7716f1e8cd76680264f4a859470",
+      "bytes": 45712,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxeKYY.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 45712,
+      "localSha256": "e2291e842cf5af167122a22881a740c7f2dda7716f1e8cd76680264f4a859470"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/spacemono/v17/i7dPIFZifjKcF5UAWdDRYE58RWq7.woff2",
+      "path": "/vendor/fonts.gstatic.com/i7dPIFZifjKcF5UAWdDRYE58RWq7-63296b0a0d86.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "a748973d5d192a27d69862f5af5f9182d4420d3a924e7b992ae82182e9b12cd8",
+      "bytes": 7272,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/spacemono/v17/i7dPIFZifjKcF5UAWdDRYE58RWq7.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 7272,
+      "localSha256": "a748973d5d192a27d69862f5af5f9182d4420d3a924e7b992ae82182e9b12cd8"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/spacemono/v17/i7dPIFZifjKcF5UAWdDRYE98RWq7.woff2",
+      "path": "/vendor/fonts.gstatic.com/i7dPIFZifjKcF5UAWdDRYE98RWq7-08e268f050ba.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "44ad50c760fa8f5b62da3d489edb40adebabaf97988b9b0adbbc3f0be859050a",
+      "bytes": 15832,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/spacemono/v17/i7dPIFZifjKcF5UAWdDRYE98RWq7.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 15832,
+      "localSha256": "44ad50c760fa8f5b62da3d489edb40adebabaf97988b9b0adbbc3f0be859050a"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/spacemono/v17/i7dPIFZifjKcF5UAWdDRYEF8RQ.woff2",
+      "path": "/vendor/fonts.gstatic.com/i7dPIFZifjKcF5UAWdDRYEF8RQ-b978e4a38f40.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "fb4a81a2d0a893e5c38c394a7e716a1cef0b24610a0af49c96f6d529bd66bf2b",
+      "bytes": 16520,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/spacemono/v17/i7dPIFZifjKcF5UAWdDRYEF8RQ.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 16520,
+      "localSha256": "fb4a81a2d0a893e5c38c394a7e716a1cef0b24610a0af49c96f6d529bd66bf2b"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/spacemono/v17/i7dMIFZifjKcF5UAWdDRaPpZUFqaHjyV.woff2",
+      "path": "/vendor/fonts.gstatic.com/i7dMIFZifjKcF5UAWdDRaPpZUFqaHjyV-59802b9ab070.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "97f6df0559c6393b851812484ae859b7c539815d5fcdab7d17234492480fa16c",
+      "bytes": 7332,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/spacemono/v17/i7dMIFZifjKcF5UAWdDRaPpZUFqaHjyV.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 7332,
+      "localSha256": "97f6df0559c6393b851812484ae859b7c539815d5fcdab7d17234492480fa16c"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/spacemono/v17/i7dMIFZifjKcF5UAWdDRaPpZUFuaHjyV.woff2",
+      "path": "/vendor/fonts.gstatic.com/i7dMIFZifjKcF5UAWdDRaPpZUFuaHjyV-3d1febe5209a.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "52edd9a8959ec3e68d618e2a4757182c0e61bfeea61679850cad8744a68cadf3",
+      "bytes": 15808,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/spacemono/v17/i7dMIFZifjKcF5UAWdDRaPpZUFuaHjyV.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 15808,
+      "localSha256": "52edd9a8959ec3e68d618e2a4757182c0e61bfeea61679850cad8744a68cadf3"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/spacemono/v17/i7dMIFZifjKcF5UAWdDRaPpZUFWaHg.woff2",
+      "path": "/vendor/fonts.gstatic.com/i7dMIFZifjKcF5UAWdDRaPpZUFWaHg-ca181a34b6a2.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "2d46bd159b53f55c41167a4f1540a074649464194fd1e416f5b4694a6c0f282c",
+      "bytes": 16724,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/spacemono/v17/i7dMIFZifjKcF5UAWdDRaPpZUFWaHg.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 16724,
+      "localSha256": "2d46bd159b53f55c41167a4f1540a074649464194fd1e416f5b4694a6c0f282c"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-6zsTjmbI.woff2",
+      "path": "/vendor/fonts.gstatic.com/jizBRFtNs2ka5fXjeivQ4LroWlx-6zsTjmbI-41fe32a095c1.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Instrument+Serif&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "290e6267dd833bf5f899eba4c29ad0a9b09dbe53f6075b18af38057159e1ff20",
+      "bytes": 11604,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-6zsTjmbI.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 11604,
+      "localSha256": "290e6267dd833bf5f899eba4c29ad0a9b09dbe53f6075b18af38057159e1ff20"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-6zUTjg.woff2",
+      "path": "/vendor/fonts.gstatic.com/jizBRFtNs2ka5fXjeivQ4LroWlx-6zUTjg-05103e2a779c.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Instrument+Serif&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "5eb09b5ac0e28b67c2f041c8ba6d244604ca0c0980d65912ab2d47fed84ddc31",
+      "bytes": 21032,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-6zUTjg.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 21032,
+      "localSha256": "5eb09b5ac0e28b67c2f041c8ba6d244604ca0c0980d65912ab2d47fed84ddc31"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnohkk72xU.woff2",
+      "path": "/vendor/fonts.gstatic.com/nuFkD-vYSZviVYUb_rj3ij__anPXDTnohkk72xU-a13031654d66.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "51b2dac698333379dc3a3486393fba787d17f1dcbcb50f46582ca759d53c25fc",
+      "bytes": 23304,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnohkk72xU.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 23304,
+      "localSha256": "51b2dac698333379dc3a3486393fba787d17f1dcbcb50f46582ca759d53c25fc"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojUk72xU.woff2",
+      "path": "/vendor/fonts.gstatic.com/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojUk72xU-3effa9311007.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "6b8bfd228577635a5f45bee13c8dd4a900eba6aeb36af1680838aea3cbd7e412",
+      "bytes": 9568,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojUk72xU.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 9568,
+      "localSha256": "6b8bfd228577635a5f45bee13c8dd4a900eba6aeb36af1680838aea3cbd7e412"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojEk72xU.woff2",
+      "path": "/vendor/fonts.gstatic.com/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojEk72xU-891feccf9363.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "b9dff4aec6d8ef27af595330c808c455fcc3ff46881642aa6028ed4e27a96f89",
+      "bytes": 23380,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojEk72xU.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 23380,
+      "localSha256": "b9dff4aec6d8ef27af595330c808c455fcc3ff46881642aa6028ed4e27a96f89"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7.woff2",
+      "path": "/vendor/fonts.gstatic.com/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7-a50b218eceed.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "54af24bd0f911f0fd7399d5445ea2023ff501d6a69f2d728f1213072f977ab14",
+      "bytes": 38804,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 38804,
+      "localSha256": "54af24bd0f911f0fd7399d5445ea2023ff501d6a69f2d728f1213072f977ab14"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTjYgFE_.woff2",
+      "path": "/vendor/fonts.gstatic.com/nuFiD-vYSZviVYUb_rj3ij__anPXDTjYgFE_-edff4874961e.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "c108681cba6a9820bff52f4a1a4a1d9edf356b347bd79b7c61e916028e8a8b54",
+      "bytes": 21152,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTjYgFE_.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 21152,
+      "localSha256": "c108681cba6a9820bff52f4a1a4a1d9edf356b347bd79b7c61e916028e8a8b54"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTPYgFE_.woff2",
+      "path": "/vendor/fonts.gstatic.com/nuFiD-vYSZviVYUb_rj3ij__anPXDTPYgFE_-2f08df1456fc.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "ef6446229b59773e671021650ef3882cf35806dae723ce047de87c0a6633039a",
+      "bytes": 9112,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTPYgFE_.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 9112,
+      "localSha256": "ef6446229b59773e671021650ef3882cf35806dae723ce047de87c0a6633039a"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTLYgFE_.woff2",
+      "path": "/vendor/fonts.gstatic.com/nuFiD-vYSZviVYUb_rj3ij__anPXDTLYgFE_-3cb6b7b1979e.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "42898ad49a6b23f32b109243e1df596edf831015ed685f429e4dafbb181d599d",
+      "bytes": 21140,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTLYgFE_.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 21140,
+      "localSha256": "42898ad49a6b23f32b109243e1df596edf831015ed685f429e4dafbb181d599d"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2",
+      "path": "/vendor/fonts.gstatic.com/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA-363014d7c907.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "e0c764a8e9e1cce92163c55bac4b2ad6cd4cf8c696ce2289ab5c41565e65b7e2",
+      "bytes": 38404,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 38404,
+      "localSha256": "e0c764a8e9e1cce92163c55bac4b2ad6cd4cf8c696ce2289ab5c41565e65b7e2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTN1OVgaY.woff2",
+      "path": "/vendor/fonts.gstatic.com/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTN1OVgaY-c6fc7b9765f8.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "d6c74dfddab488c40652ff116952624a88f8fa1de196732fd58b8e042a8967d2",
+      "bytes": 1172,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTN1OVgaY.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 1172,
+      "localSha256": "d6c74dfddab488c40652ff116952624a88f8fa1de196732fd58b8e042a8967d2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTPlOVgaY.woff2",
+      "path": "/vendor/fonts.gstatic.com/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTPlOVgaY-a4f137da62e9.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "26c9ed511def1f0fd3d1b5fe6d5c0c594d9ef8dd2435d2ff240ea265a416b6e4",
+      "bytes": 5356,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTPlOVgaY.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 5356,
+      "localSha256": "26c9ed511def1f0fd3d1b5fe6d5c0c594d9ef8dd2435d2ff240ea265a416b6e4"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTOVOVgaY.woff2",
+      "path": "/vendor/fonts.gstatic.com/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTOVOVgaY-34fd0b568f48.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "5b6dee4610cdaab7c4218c1692aa9a536414010eef4e5b3cfb25f45007811bcc",
+      "bytes": 4284,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTOVOVgaY.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 4284,
+      "localSha256": "5b6dee4610cdaab7c4218c1692aa9a536414010eef4e5b3cfb25f45007811bcc"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTNVOVgaY.woff2",
+      "path": "/vendor/fonts.gstatic.com/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTNVOVgaY-4111c0bd35f4.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "bb7b98e92899b511e8f3e99c924142f4421896b2cbc9406c3727c25427662cc9",
+      "bytes": 4040,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTNVOVgaY.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 4040,
+      "localSha256": "bb7b98e92899b511e8f3e99c924142f4421896b2cbc9406c3727c25427662cc9"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTNFOVgaY.woff2",
+      "path": "/vendor/fonts.gstatic.com/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTNFOVgaY-2230dde9020b.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "879df9319f1cbf633bee1dd489e376a9e1e8c458f4abddcfe381cb83b5e6b027",
+      "bytes": 7528,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTNFOVgaY.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 7528,
+      "localSha256": "879df9319f1cbf633bee1dd489e376a9e1e8c458f4abddcfe381cb83b5e6b027"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTOlOV.woff2",
+      "path": "/vendor/fonts.gstatic.com/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTOlOV-eb47aeb9c5d1.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a",
+      "bytes": 21832,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTOlOV.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 21832,
+      "localSha256": "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjgn7MsNo.woff2",
+      "path": "/vendor/fonts.gstatic.com/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjgn7MsNo-ad94e0845b56.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "d0014821252a8a770bf7551641572f239a8ede83d75652d84fef0c3627751baf",
+      "bytes": 12384,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjgn7MsNo.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 12384,
+      "localSha256": "d0014821252a8a770bf7551641572f239a8ede83d75652d84fef0c3627751baf"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7M.woff2",
+      "path": "/vendor/fonts.gstatic.com/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7M-0d985700e838.woff2",
+      "kind": "css-url",
+      "from": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap"
+      ],
+      "status": "downloaded",
+      "sha256": "5a51946dfffa82972bc98745359c46761515641fda557c25116459a9f83da4a7",
+      "bytes": 22128,
+      "contentType": "font/woff2",
+      "finalUrl": "https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7M.woff2",
+      "httpStatus": 200,
+      "cached": true,
+      "localBytes": 22128,
+      "localSha256": "5a51946dfffa82972bc98745359c46761515641fda557c25116459a9f83da4a7"
+    }
+  ],
+  "failures": [],
+  "integrations": {
+    "analytics": "Removed from local HTML",
+    "leadForms": "/api/lead (local unavailable response; original Web3Forms key removed)",
+    "outboundLinks": "Preserved; third-party websites are not mirrored"
+  },
+  "totals": {
+    "pages": 14,
+    "resources": 173,
+    "downloaded": 173,
+    "failed": 0,
+    "sourceBytes": 126815415
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "galleryFinal": [
+    {
+      "href": "/v3",
+      "src": "/assets/norte-autoral/portfolio-v3.jpg",
+      "loaded": true
+    },
+    {
+      "href": "/marketing/portfolio/velorah-hero/dist/index.html",
+      "src": "/assets/portfolio-thumbs/velorah-hero.jpg",
+      "loaded": true
+    },
+    {
+      "href": "/marketing/portfolio/lithos-hero/dist/index.html",
+      "src": "/assets/portfolio-thumbs/lithos-hero.jpg",
+      "loaded": true
+    },
+    {
+      "href": "/marketing/portfolio/dentista-clinica-vertice/index.html",
+      "src": "/assets/portfolio-thumbs/dentista-clinica-vertice.jpg",
+      "loaded": true
+    },
+    {
+      "href": "/marketing/portfolio/convix-hero/dist/index.html",
+      "src": "/assets/portfolio-thumbs/convix-hero.jpg",
+      "loaded": false
+    },
+    {
+      "href": "/marketing/portfolio/aureo-arquitetura/index.html",
+      "src": "/assets/portfolio-thumbs/aureo-arquitetura.jpg",
+      "loaded": false
+    },
+    {
+      "href": "/marketing/portfolio/confeitaria-margo/index.html",
+      "src": "/assets/portfolio-thumbs/confeitaria-margo.jpg",
+      "loaded": false
+    },
+    {
+      "href": "/marketing/portfolio/instituto-liminar/index.html",
+      "src": "/assets/portfolio-thumbs/instituto-liminar.jpg",
+      "loaded": false
+    },
+    {
+      "href": "/marketing/portfolio/verene-odontologia/index.html",
+      "src": "/assets/portfolio-thumbs/verene-odontologia.jpg",
+      "loaded": false
+    },
+    {
+      "href": "/marketing/portfolio/arquitetura-estudio-linha/index.html",
+      "src": "/assets/portfolio-thumbs/arquitetura-estudio-linha.jpg",
+      "loaded": false
+    }
+  ],
+  "errors": []
+}

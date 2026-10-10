@@ -1,0 +1,107 @@
+{
+  "bundles": [
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/velorah-hero/dist/assets/index-BPhN6xXn.css",
+      "status": 200,
+      "bytes": 11143,
+      "localReference": "marketing__portfolio__velorah-hero__dist__assets__index-BPhN6xXn.css",
+      "absoluteUrls": [],
+      "assetStrings": [],
+      "imports": [],
+      "sourceMapStatus": 404
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/convix-hero/dist/assets/index-7O04r-Vl.css",
+      "status": 200,
+      "bytes": 10899,
+      "localReference": "marketing__portfolio__convix-hero__dist__assets__index-7O04r-Vl.css",
+      "absoluteUrls": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap"
+      ],
+      "assetStrings": [],
+      "imports": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap"
+      ],
+      "sourceMapStatus": 404
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/lithos-hero/dist/assets/index-DIp2DAYC.css",
+      "status": 200,
+      "bytes": 11118,
+      "localReference": "marketing__portfolio__lithos-hero__dist__assets__index-DIp2DAYC.css",
+      "absoluteUrls": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,400;1,500;1,600&display=swap"
+      ],
+      "assetStrings": [],
+      "imports": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,400;1,500;1,600&display=swap"
+      ],
+      "sourceMapStatus": 404
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/velorah-hero/dist/assets/index-xMIOyhaI.js",
+      "status": 200,
+      "bytes": 169816,
+      "localReference": "marketing__portfolio__velorah-hero__dist__assets__index-xMIOyhaI.js",
+      "absoluteUrls": [
+        "https://reactjs.org/docs/error-decoder.html?invariant=",
+        "http://www.w3.org/1999/xlink",
+        "http://www.w3.org/XML/1998/namespace",
+        "http://www.w3.org/2000/svg",
+        "http://www.w3.org/1998/Math/MathML",
+        "http://www.w3.org/1999/xhtml",
+        "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260314_131748_f2ca2a28-fed7-44c8-b9a9-bd9acdd5ec31.mp4"
+      ],
+      "assetStrings": [
+        "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260314_131748_f2ca2a28-fed7-44c8-b9a9-bd9acdd5ec31.mp4"
+      ],
+      "imports": [
+        ":[{from:[w]}],"
+      ],
+      "sourceMapStatus": 404
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/lithos-hero/dist/assets/index-CMXdz8kw.js",
+      "status": 200,
+      "bytes": 150137,
+      "localReference": "marketing__portfolio__lithos-hero__dist__assets__index-CMXdz8kw.js",
+      "absoluteUrls": [
+        "https://reactjs.org/docs/error-decoder.html?invariant=",
+        "http://www.w3.org/1999/xlink",
+        "http://www.w3.org/XML/1998/namespace",
+        "http://www.w3.org/2000/svg",
+        "http://www.w3.org/1998/Math/MathML",
+        "http://www.w3.org/1999/xhtml",
+        "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_195923_b0ba8ace-1d1d-4f2c-9a28-1ab84b330680.png&w=1280&q=85",
+        "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_201152_bba90a12-bf12-459f-91f0-51f237dbaf3b.png&w=1280&q=85"
+      ],
+      "assetStrings": [
+        "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_195923_b0ba8ace-1d1d-4f2c-9a28-1ab84b330680.png&w=1280&q=85",
+        "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260609_201152_bba90a12-bf12-459f-91f0-51f237dbaf3b.png&w=1280&q=85"
+      ],
+      "imports": [],
+      "sourceMapStatus": 404
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/convix-hero/dist/assets/index-D04Epqih.js",
+      "status": 200,
+      "bytes": 156462,
+      "localReference": "marketing__portfolio__convix-hero__dist__assets__index-D04Epqih.js",
+      "absoluteUrls": [
+        "https://reactjs.org/docs/error-decoder.html?invariant=",
+        "http://www.w3.org/1999/xlink",
+        "http://www.w3.org/XML/1998/namespace",
+        "http://www.w3.org/2000/svg",
+        "http://www.w3.org/1998/Math/MathML",
+        "http://www.w3.org/1999/xhtml",
+        "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260424_064411_9e9d7f84-9277-41f4-ab10-59172d89e6be.mp4",
+        "https://images.unsplash.com/photo-1557683316-973673baf926?w=1600&q=60"
+      ],
+      "assetStrings": [
+        "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260424_064411_9e9d7f84-9277-41f4-ab10-59172d89e6be.mp4"
+      ],
+      "imports": [],
+      "sourceMapStatus": 404
+    }
+  ]
+}

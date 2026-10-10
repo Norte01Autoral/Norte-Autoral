@@ -1,0 +1,224 @@
+{
+  "routes": [
+    {
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/index.html",
+      "status": 200,
+      "errors": [],
+      "failures": [],
+      "bad": [],
+      "title": "Estúdio Linha · Arquitetura residencial autoral em Londrina",
+      "fontStatus": "loaded",
+      "overflow": false,
+      "images": [],
+      "videos": [
+        {
+          "src": "http://127.0.0.1:4173/marketing/portfolio/arquitetura-estudio-linha/assets/video/hero.mp4",
+          "readyState": 1,
+          "error": null
+        }
+      ]
+    },
+    {
+      "path": "/marketing/portfolio/aureo-arquitetura/index.html",
+      "status": 200,
+      "errors": [],
+      "failures": [],
+      "bad": [],
+      "title": "Áureo Arquitetura · residencial e incorporadora · desde MMV",
+      "fontStatus": "loaded",
+      "overflow": false,
+      "images": [],
+      "videos": [
+        {
+          "src": "http://127.0.0.1:4173/marketing/portfolio/aureo-arquitetura/assets/video/hero.mp4",
+          "readyState": 1,
+          "error": null
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "errors": [],
+      "failures": [],
+      "bad": [],
+      "title": "Sabec° | Sites, sistemas sob medida e Sabec/Os em Londrina",
+      "fontStatus": "loaded",
+      "overflow": false,
+      "images": [],
+      "videos": []
+    },
+    {
+      "path": "/marketing/portfolio/dentista-clinica-vertice/index.html",
+      "status": 200,
+      "errors": [],
+      "failures": [],
+      "bad": [],
+      "title": "Clínica Vértice · Ortodontia e implantes em Londrina",
+      "fontStatus": "loaded",
+      "overflow": false,
+      "images": [],
+      "videos": [
+        {
+          "src": "http://127.0.0.1:4173/marketing/portfolio/dentista-clinica-vertice/assets/video/hero.mp4",
+          "readyState": 1,
+          "error": null
+        }
+      ]
+    },
+    {
+      "path": "/marketing/portfolio/confeitaria-margo/index.html",
+      "status": 200,
+      "errors": [],
+      "failures": [],
+      "bad": [],
+      "title": "Margô · Confeitaria autoral em Londrina",
+      "fontStatus": "loaded",
+      "overflow": false,
+      "images": [
+        "http://127.0.0.1:4173/marketing/portfolio/confeitaria-margo/index.html"
+      ],
+      "videos": [
+        {
+          "src": "http://127.0.0.1:4173/marketing/portfolio/confeitaria-margo/assets/video/hero.mp4",
+          "readyState": 1,
+          "error": null
+        }
+      ]
+    },
+    {
+      "path": "/marketing/portfolio/convix-hero/dist/index.html",
+      "status": 200,
+      "errors": [],
+      "failures": [],
+      "bad": [],
+      "title": "Convix Software — Software para Agências de PR",
+      "fontStatus": "loaded",
+      "overflow": false,
+      "images": [],
+      "videos": [
+        {
+          "src": "http://127.0.0.1:4173/vendor/d8j0ntlcm91z4.cloudfront.net/hf_20260424_064411_9e9d7f84-9277-41f4-ab10-59172d89e6be-2681d41b24d4.mp4",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "path": "/marketing/portfolio/velorah-hero/dist/index.html",
+      "status": 200,
+      "errors": [],
+      "failures": [],
+      "bad": [],
+      "title": "Velorah — Estúdio Digital",
+      "fontStatus": "loaded",
+      "overflow": false,
+      "images": [],
+      "videos": [
+        {
+          "src": "http://127.0.0.1:4173/vendor/d8j0ntlcm91z4.cloudfront.net/hf_20260314_131748_f2ca2a28-fed7-44c8-b9a9-bd9acdd5ec31-94d9b3db9d75.mp4",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "path": "/marketing/portfolio/instituto-liminar/index.html",
+      "status": 200,
+      "errors": [],
+      "failures": [],
+      "bad": [],
+      "title": "Instituto Liminar · Ensino superior em psicanálise",
+      "fontStatus": "loaded",
+      "overflow": false,
+      "images": [],
+      "videos": [
+        {
+          "src": "http://127.0.0.1:4173/marketing/portfolio/instituto-liminar/assets/video/hero.mp4",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "path": "/marketing/portfolio/lithos-hero/dist/index.html",
+      "status": 200,
+      "errors": [],
+      "failures": [],
+      "bad": [],
+      "title": "Lithos — Geologia Interativa",
+      "fontStatus": "loaded",
+      "overflow": false,
+      "images": [],
+      "videos": [],
+      "recheckedAfterTemplateFix": true
+    },
+    {
+      "path": "/site-do-jd",
+      "status": 200,
+      "errors": [],
+      "failures": [],
+      "bad": [],
+      "title": "Como eu fiz o site do JD com IA",
+      "fontStatus": "loaded",
+      "overflow": false,
+      "images": [],
+      "videos": []
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "errors": [],
+      "failures": [],
+      "bad": [],
+      "title": "Política de Privacidade — Sabec°",
+      "fontStatus": "loaded",
+      "overflow": false,
+      "images": [],
+      "videos": []
+    },
+    {
+      "path": "/marketing/portfolio/verene-odontologia/index.html",
+      "status": 200,
+      "errors": [],
+      "failures": [],
+      "bad": [],
+      "title": "Verene Odontologia · Implantes e reabilitação de alto padrão",
+      "fontStatus": "loaded",
+      "overflow": false,
+      "images": [],
+      "videos": [
+        {
+          "src": "http://127.0.0.1:4173/marketing/portfolio/verene-odontologia/assets/video/hero.mp4",
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "path": "/v3",
+      "status": 200,
+      "errors": [],
+      "failures": [],
+      "bad": [],
+      "title": "Sabec° | Agência de IA em Londrina e Sabec/Os",
+      "fontStatus": "loaded",
+      "overflow": false,
+      "images": [],
+      "videos": []
+    },
+    {
+      "path": "/terms",
+      "status": 200,
+      "errors": [],
+      "failures": [],
+      "bad": [],
+      "title": "Termos de Uso — Sabec°",
+      "fontStatus": "loaded",
+      "overflow": false,
+      "images": [],
+      "videos": []
+    }
+  ],
+  "offlineBlocked": []
+}

@@ -1,0 +1,18 @@
+{
+  "domain": "https://norteautoral.site",
+  "File": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\Projeto MazyOS\\clone-v1-hostinger.zip",
+  "Entries": 229,
+  "Bytes": 130058716,
+  "SHA256": "61A469DF25EF08C7361F12396AB81471E6797B1936962493993F7A5405F79022",
+  "RootIndex": true,
+  "ExcludedPrefixes": {
+    "value": [
+      "cases/",
+      "assets/norte-autoral/cards/",
+      "assets/norte-autoral/cases/",
+      "assets/norte-autoral/case-media/",
+      "assets/norte-autoral/case-runtime/"
+    ],
+    "Count": 5
+  }
+}

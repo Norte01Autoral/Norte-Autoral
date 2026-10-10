@@ -1,0 +1,225 @@
+{
+  "nav": {
+    "name": "http://127.0.0.1:4173/",
+    "entryType": "navigation",
+    "startTime": 0,
+    "duration": 4316.100000023842,
+    "navigationId": 1444,
+    "initiatorType": "navigation",
+    "deliveryType": "",
+    "nextHopProtocol": "http/1.1",
+    "renderBlockingStatus": "non-blocking",
+    "contentType": "text/html",
+    "contentEncoding": "",
+    "workerStart": 0,
+    "workerRouterEvaluationStart": 0,
+    "workerCacheLookupStart": 0,
+    "workerMatchedSourceType": "",
+    "workerFinalSourceType": "",
+    "redirectStart": 0,
+    "redirectEnd": 0,
+    "fetchStart": 3.200000047683716,
+    "domainLookupStart": 3.200000047683716,
+    "domainLookupEnd": 3.200000047683716,
+    "connectStart": 3.200000047683716,
+    "secureConnectionStart": 0,
+    "connectEnd": 3.200000047683716,
+    "requestStart": 15.600000023841858,
+    "responseStart": 42.200000047683716,
+    "firstInterimResponseStart": 0,
+    "finalResponseHeadersStart": 42.200000047683716,
+    "responseEnd": 57.700000047683716,
+    "transferSize": 154488,
+    "encodedBodySize": 154188,
+    "decodedBodySize": 154188,
+    "responseStatus": 200,
+    "serverTiming": [],
+    "unloadEventStart": 0,
+    "unloadEventEnd": 0,
+    "domInteractive": 2970.4000000953674,
+    "domContentLoadedEventStart": 3005.600000023842,
+    "domContentLoadedEventEnd": 3688.7000000476837,
+    "domComplete": 3706.2000000476837,
+    "loadEventStart": 3706.4000000953674,
+    "loadEventEnd": 4316.100000023842,
+    "type": "navigate",
+    "redirectCount": 0,
+    "activationStart": 0,
+    "criticalCHRestart": 0,
+    "notRestoredReasons": null,
+    "confidence": {
+      "randomizedTriggerRate": 0.4994798,
+      "value": "low"
+    }
+  },
+  "resources": [
+    {
+      "name": "/vendor/fonts.googleapis.com/css2-7c9831d3cb65.css",
+      "bytes": 20284,
+      "encoded": 19984,
+      "duration": 117.29999995231628
+    },
+    {
+      "name": "/assets/norte-autoral/profile.css",
+      "bytes": 3281,
+      "encoded": 2981,
+      "duration": 111.79999995231628
+    },
+    {
+      "name": "/assets/norte-autoral/logo-n-128.png",
+      "bytes": 11352,
+      "encoded": 11052,
+      "duration": 164.79999995231628
+    },
+    {
+      "name": "/vendor/cdn.jsdelivr.net/gsap.min-bf5b26673eee.js",
+      "bytes": 72514,
+      "encoded": 72214,
+      "duration": 246.69999992847443
+    },
+    {
+      "name": "/vendor/cdn.jsdelivr.net/ScrollTrigger.min-8275e947aa32.js",
+      "bytes": 43680,
+      "encoded": 43380,
+      "duration": 186.80000007152557
+    },
+    {
+      "name": "/vendor/cdn.jsdelivr.net/lenis.min-273ca89be0ce.js",
+      "bytes": 13090,
+      "encoded": 12790,
+      "duration": 249
+    },
+    {
+      "name": "/assets/media-performance.js",
+      "bytes": 2260,
+      "encoded": 1960,
+      "duration": 352.89999997615814
+    },
+    {
+      "name": "/vendor/fonts.gstatic.com/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw-98a0d4ac28a1.woff2",
+      "bytes": 22588,
+      "encoded": 22288,
+      "duration": 763.0999999046326
+    },
+    {
+      "name": "/vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg-cc27b3047125.woff2",
+      "bytes": 31732,
+      "encoded": 31432,
+      "duration": 761.8999999761581
+    },
+    {
+      "name": "/vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7-e3237528af75.woff2",
+      "bytes": 48556,
+      "encoded": 48256,
+      "duration": 774.5
+    },
+    {
+      "name": "/assets/norte-autoral/favicon.ico",
+      "bytes": 58814,
+      "encoded": 58514,
+      "duration": 16
+    }
+  ],
+  "observations": {
+    "lcp": [
+      {
+        "start": 1848,
+        "duration": 0,
+        "value": 0,
+        "hadRecentInput": false,
+        "url": "",
+        "tag": "A"
+      }
+    ],
+    "cls": [
+      {
+        "start": 4352.700000047684,
+        "duration": 0,
+        "value": 0.015657673115462106,
+        "hadRecentInput": false,
+        "url": "",
+        "tag": ""
+      }
+    ],
+    "longtasks": [
+      {
+        "start": 266.90000009536743,
+        "duration": 899,
+        "value": 0,
+        "hadRecentInput": false,
+        "url": "",
+        "tag": ""
+      },
+      {
+        "start": 1211.9000000953674,
+        "duration": 1185,
+        "value": 0,
+        "hadRecentInput": false,
+        "url": "",
+        "tag": ""
+      },
+      {
+        "start": 3003.5,
+        "duration": 694,
+        "value": 0,
+        "hadRecentInput": false,
+        "url": "",
+        "tag": ""
+      },
+      {
+        "start": 3705.600000023842,
+        "duration": 613,
+        "value": 0,
+        "hadRecentInput": false,
+        "url": "",
+        "tag": ""
+      },
+      {
+        "start": 4319.100000023842,
+        "duration": 109,
+        "value": 0,
+        "hadRecentInput": false,
+        "url": "",
+        "tag": ""
+      },
+      {
+        "start": 4464.400000095367,
+        "duration": 63,
+        "value": 0,
+        "hadRecentInput": false,
+        "url": "",
+        "tag": ""
+      },
+      {
+        "start": 4528.700000047684,
+        "duration": 399,
+        "value": 0,
+        "hadRecentInput": false,
+        "url": "",
+        "tag": ""
+      },
+      {
+        "start": 6211.600000023842,
+        "duration": 55,
+        "value": 0,
+        "hadRecentInput": false,
+        "url": "",
+        "tag": ""
+      }
+    ]
+  },
+  "canvas": [
+    {
+      "id": "beam",
+      "w": 1440,
+      "h": 900
+    }
+  ],
+  "viewport": 1440,
+  "documentWidth": 1440,
+  "logo": {
+    "src": "/assets/norte-autoral/logo-n-128.png",
+    "naturalWidth": 128
+  },
+  "errors": []
+}

@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="robots" content="noindex, follow">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Estúdio Linha · Arquitetura residencial autoral em Londrina</title>
+<meta name="description" content="Estúdio Linha. Arquitetura residencial autoral em Londrina. Casas desenhadas a partir da luz natural e da convivência com a natureza." />
+
+<link href="/vendor/fonts.googleapis.com/css2-1c6f77753dc2.css" rel="stylesheet" />
+
+<style>
+/* ============================================================
+   ESTÚDIO LINHA · v2
+   Conceito: a linha como fio condutor. Luz, linha, casa.
+   ============================================================ */
+:root{
+  --paper:#ede8df;
+  --paper-dim:#e3ddd1;
+  --ink:#15170f;
+  --moss:#1c231b;          /* verde profundo das seções escuras */
+  --moss-2:#242d23;
+  --sage:#75795f;
+  --sun:#c2702e;           /* âmbar da luz */
+  --sun-soft:#d99a63;
+  --line:rgba(21,23,15,.16);
+  --line-paper:rgba(237,232,223,.18);
+
+  --serif:'Cormorant Garamond', Georgia, serif;
+  --sans:'Archivo', system-ui, sans-serif;
+
+  --pad:clamp(20px,5vw,84px);
+  --maxw:1680px;
+
+  --ease:cubic-bezier(.22,1,.36,1);
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-weight:400;
+  line-height:1.55;
+  overflow-x:hidden;
+}
+html.lenis,html.lenis body{height:auto}
+.lenis.lenis-smooth{scroll-behavior:auto!important}
+
+::selection{background:var(--sun);color:var(--paper)}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+
+/* foco visível e acessível (teclado) sem poluir o clique de mouse */
+:focus{outline:none}
+a:focus-visible,.btn:focus-visible,button:focus-visible{
+  outline:2px solid var(--sun);outline-offset:4px;border-radius:4px;
+}
+
+/* ---------- grão de filme ---------- */
+.grain{
+  position:fixed;inset:0;z-index:90;pointer-events:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");
+  opacity:.05;
+}
+
+/* ---------- helpers ---------- */
+.label{
+  font-size:.66rem;letter-spacing:.36em;text-transform:uppercase;
+  font-weight:500;color:var(--sage);
+}
+.idx{
+  font-family:var(--serif);font-style:italic;font-weight:400;
+  color:var(--sun);font-size:.95rem;letter-spacing:.06em;
+}
+.wrap{max-width:var(--maxw);margin:0 auto;padding-inline:var(--pad)}
+.sec-head{display:flex;align-items:baseline;gap:18px;margin-bottom:clamp(44px,7vh,90px)}
+
+.frame{position:relative;overflow:hidden;background:var(--moss)}
+.frame img{width:100%;height:100%;object-fit:cover}
+.frame .tag{
+  position:absolute;left:16px;bottom:14px;z-index:2;
+  font-size:.58rem;letter-spacing:.3em;text-transform:uppercase;font-weight:500;
+  color:rgba(237,232,223,.85);
+  text-shadow:0 1px 8px rgba(0,0,0,.45);
+}
+
+/* ============================================================
+   INTRO (a linha que abre a casa)
+   ============================================================ */
+.intro{
+  position:fixed;inset:0;z-index:200;
+  background:var(--moss);color:var(--paper);
+  display:flex;align-items:center;justify-content:center;
+  will-change:transform;
+}
+.intro.gone{display:none}
+.intro-inner{display:flex;flex-direction:column;align-items:center;gap:14px}
+.intro-mask{display:block;overflow:hidden}
+.intro-word{
+  display:block;font-family:var(--serif);font-weight:300;
+  font-size:clamp(1.8rem,4.6vw,3.4rem);letter-spacing:.04em;line-height:1.1;
+  will-change:transform;
+}
+.intro-word em{font-style:italic;color:var(--sun-soft)}
+.intro-line{
+  display:block;width:min(46vw,420px);height:1px;background:var(--paper);
+  transform:scaleX(0);transform-origin:left;opacity:.85;will-change:transform;
+}
+/* sem JS / sem GSAP, a intro não pode prender a página */
+html:not(.js-anim) .intro{display:none}
+
+/* ============================================================
+   NAV (muda depois do hero)
+   ============================================================ */
+.nav{
+  position:fixed;inset:0 0 auto 0;z-index:120;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:20px var(--pad);
+  color:var(--ink);
+  transition:transform .5s var(--ease), background .5s var(--ease),
+             padding .5s var(--ease), box-shadow .5s var(--ease);
+}
+.nav .brand{font-family:var(--serif);font-size:1.4rem;font-weight:400;letter-spacing:.02em;line-height:1}
+.nav .brand em{font-style:italic;color:var(--sun)}
+.nav nav{display:flex;align-items:center;gap:32px}
+.nav nav a{
+  font-size:.68rem;letter-spacing:.26em;text-transform:uppercase;font-weight:500;
+  opacity:.75;transition:opacity .3s ease;
+}
+.nav nav a:hover{opacity:1}
+@media(min-width:901px){
+  .nav:not(.solid) nav{color:var(--paper)}
+  .nav:not(.solid) nav a{opacity:.9}
+}
+.nav.solid{
+  background:rgba(237,232,223,.9);
+  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
+  padding-top:13px;padding-bottom:13px;
+  box-shadow:0 1px 0 var(--line);
+}
+.nav.hidden{transform:translateY(-110%)}
+.btn{
+  display:inline-flex;align-items:center;gap:12px;
+  font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;font-weight:600;
+  padding:14px 26px;border:1px solid currentColor;border-radius:999px;
+  transition:background .4s var(--ease),color .4s var(--ease),gap .4s var(--ease),border-color .4s var(--ease);
+  white-space:nowrap;
+}
+.btn .dot{width:6px;height:6px;border-radius:50%;background:var(--sun);flex:none;transition:background .4s var(--ease)}
+.btn:hover{gap:18px;background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.btn--sun{background:var(--sun);border-color:var(--sun);color:var(--paper)}
+.btn--sun .dot{background:var(--paper)}
+.btn--sun:hover{background:var(--ink);border-color:var(--ink)}
+.nav-cta.btn{padding:10px 18px}
+@media(max-width:780px){
+  .nav nav a:not(.nav-cta){display:none}
+}
+
+/* ============================================================
+   HERO · assimétrico, tipografia gigante sobre a foto
+   ============================================================ */
+.hero{
+  position:relative;min-height:100svh;
+  display:flex;flex-direction:column;justify-content:flex-end;
+  padding:0 0 clamp(36px,5vh,64px) 0;
+}
+.hero-media{
+  position:absolute;top:0;right:0;bottom:0;width:min(60vw,980px);
+  overflow:hidden;
+}
+.hero-media img,
+.hero-media video{
+  width:100%;height:112%;object-fit:cover;will-change:transform;
+}
+.hero-media::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(21,23,15,.18),rgba(21,23,15,0) 35%,rgba(21,23,15,.3) 100%);
+}
+.hero-media .tag{left:auto;right:18px;bottom:16px}
+.hero-side{
+  position:absolute;left:calc(var(--pad)*.32);top:46%;
+  transform:translateY(-50%) rotate(180deg);
+  writing-mode:vertical-rl;
+  font-size:.62rem;letter-spacing:.4em;text-transform:uppercase;font-weight:500;
+  color:var(--sage);white-space:nowrap;
+}
+.hero-body{position:relative;z-index:2;padding-inline:var(--pad)}
+.hero h1{
+  font-family:var(--serif);font-weight:300;
+  font-size:clamp(4.4rem,16vw,17.5rem);
+  line-height:.82;letter-spacing:-.02em;
+  margin-bottom:clamp(26px,4vh,52px);
+}
+.hero h1 .hl{display:block;overflow:hidden;padding-bottom:.07em;margin-bottom:-.07em}
+.hero h1 .hw{display:block;will-change:transform}
+.hero h1 .hl:nth-child(2){margin-left:clamp(30px,9vw,170px)}
+.hero h1 .hl:nth-child(3){margin-left:calc(100vw - min(60vw,980px) - var(--pad) + 3vw)}
+.hero h1 .it{font-style:italic;color:var(--sun)}
+.hero h1 .hl:nth-child(3) .hw{
+  color:var(--paper);
+  text-shadow:0 2px 30px rgba(21,23,15,.35);
+}
+.js-anim .hero h1 .hw{transform:translateY(115%)}
+
+.hero-foot{
+  display:flex;align-items:flex-end;gap:clamp(24px,4vw,60px);flex-wrap:wrap;
+  border-top:1px solid var(--line);
+  padding-top:24px;
+  max-width:min(62vw,860px);
+}
+.hero-foot p{
+  max-width:36ch;font-weight:300;
+  font-size:clamp(.95rem,1.3vw,1.1rem);color:#3c3e33;
+}
+.hero-cue{
+  display:flex;align-items:center;gap:12px;margin-left:auto;
+  font-size:.62rem;letter-spacing:.3em;text-transform:uppercase;font-weight:500;color:var(--sage);
+  white-space:nowrap;
+}
+.hero-cue .bar{display:block;width:1px;height:44px;background:var(--line);position:relative;overflow:hidden}
+.hero-cue .bar::after{
+  content:"";position:absolute;inset:0;background:var(--sun);
+  animation:cue 2.3s var(--ease) infinite;
+}
+@keyframes cue{0%{transform:translateY(-100%)}55%{transform:translateY(0)}100%{transform:translateY(100%)}}
+
+@media(max-width:900px){
+  .hero{min-height:auto;padding-top:108px}
+  .hero-media{position:relative;width:auto;margin:34px var(--pad) 0;aspect-ratio:4/5;max-height:68svh;order:1}
+  .hero-media img,.hero-media video{height:115%}
+  .hero-side{display:none}
+  .hero h1{font-size:clamp(4rem,19vw,8rem)}
+  .hero h1 .hl:nth-child(3){margin-left:clamp(12px,6vw,70px)}
+  .hero h1 .hl:nth-child(3) .hw{color:var(--ink);text-shadow:none}
+  .hero-body{display:contents}
+  .hero h1{padding-inline:var(--pad)}
+  .hero-foot{max-width:none;order:2;margin:30px var(--pad) 0;align-items:stretch}
+  .hero-foot .btn--sun{
+    margin-left:0;justify-content:center;width:100%;
+    padding-inline:20px;letter-spacing:.16em;white-space:normal;text-align:center;
+  }
+  .hero-cue{display:none}
+}
+
+/* ============================================================
+   MARQUEE
+   ============================================================ */
+.marquee{
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  overflow:hidden;padding:clamp(16px,2.4vh,26px) 0;
+  background:var(--paper);
+}
+.m-track{display:flex;align-items:center;width:max-content;will-change:transform;
+  animation:marq 36s linear infinite;}
+.m-track > span{flex:none;display:flex;align-items:center;gap:clamp(28px,4vw,56px);padding-right:clamp(28px,4vw,56px)}
+.m-serif{font-family:var(--serif);font-style:italic;font-weight:300;font-size:clamp(1.5rem,2.8vw,2.6rem);color:var(--ink);white-space:nowrap}
+.m-sans{font-size:.72rem;letter-spacing:.34em;text-transform:uppercase;font-weight:500;color:var(--sage);white-space:nowrap}
+.m-dot{width:7px;height:7px;background:var(--sun);border-radius:50%;flex:none}
+@keyframes marq{to{transform:translateX(-50%)}}
+
+/* ============================================================
+   MANIFESTO · texto que acende com o scroll
+   ============================================================ */
+.manifesto{padding-block:clamp(110px,16vh,210px) clamp(90px,13vh,170px)}
+.manifesto .grid{
+  display:grid;grid-template-columns:repeat(12,1fr);gap:clamp(24px,4vw,56px);
+}
+.manifesto .fill-wrap{grid-column:1 / 9}
+.fill-text{
+  font-family:var(--serif);font-weight:300;
+  font-size:clamp(1.9rem,4.6vw,4.4rem);line-height:1.12;letter-spacing:-.01em;
+}
+.fill-text em{font-style:italic;color:var(--sun)}
+.fill-text .w{opacity:1}
+.js-anim .fill-text .w{opacity:.13}
+.manifesto .aside{
+  grid-column:10 / 13;display:flex;flex-direction:column;gap:26px;
+  padding-top:14px;
+}
+.manifesto .aside p{font-size:.95rem;font-weight:300;color:#43453a;line-height:1.75}
+.manifesto .aside .frame{aspect-ratio:1/1;margin-top:8px}
+.manifesto .aside .frame img{will-change:transform}
+@media(max-width:900px){
+  .manifesto .fill-wrap,.manifesto .aside{grid-column:1 / -1}
+  .manifesto .aside{margin-top:36px}
+  .manifesto .aside .frame{max-width:340px}
+}
+
+/* fio vertical que costura as seções */
+.thread{
+  width:1px;height:clamp(80px,14vh,160px);background:var(--line);
+  margin:0 auto;transform-origin:top;
+}
+
+/* ============================================================
+   MÉTODO · coluna fixa + passos com números fantasma
+   ============================================================ */
+.method{padding-block:clamp(80px,12vh,160px) clamp(100px,15vh,190px)}
+.method .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:clamp(24px,4vw,56px);align-items:start}
+.method .left{grid-column:1 / 5;position:sticky;top:120px}
+.method .left h2{
+  font-family:var(--serif);font-weight:300;
+  font-size:clamp(2.4rem,5vw,4.6rem);line-height:.95;letter-spacing:-.01em;
+  margin-top:18px;
+}
+.method .left h2 em{font-style:italic;color:var(--sun)}
+.method .left p{margin-top:22px;max-width:30ch;font-weight:300;font-size:.97rem;color:#43453a}
+.method .steps{grid-column:6 / 13}
+.step{
+  position:relative;padding:clamp(34px,5vh,56px) 0 clamp(34px,5vh,56px) clamp(80px,9vw,150px);
+}
+.step .step-line{
+  position:absolute;top:0;left:0;right:0;height:1px;background:var(--line);
+  transform-origin:left;
+}
+.step .ghost{
+  position:absolute;left:0;top:clamp(26px,3.6vh,44px);
+  font-family:var(--serif);font-style:italic;font-weight:300;
+  font-size:clamp(3.2rem,6.6vw,6.6rem);line-height:1;
+  color:transparent;-webkit-text-stroke:1px rgba(21,23,15,.3);
+  pointer-events:none;user-select:none;
+}
+.step h3{
+  font-family:var(--serif);font-weight:400;
+  font-size:clamp(1.7rem,3.2vw,2.9rem);line-height:1;letter-spacing:-.01em;
+}
+.step p{margin-top:14px;max-width:52ch;font-weight:300;font-size:.97rem;color:#43453a}
+.step .step-k{margin-top:16px;display:inline-block}
+@media(max-width:900px){
+  .method .left{grid-column:1 / -1;position:static}
+  .method .steps{grid-column:1 / -1;margin-top:48px}
+}
+
+/* ============================================================
+   PROJETOS · pin + scroll horizontal (momento assinatura)
+   ============================================================ */
+.gallery{background:var(--moss);color:var(--paper);overflow:hidden;position:relative}
+.gallery .label{color:rgba(237,232,223,.5)}
+.g-head{padding:clamp(90px,13vh,160px) var(--pad) clamp(20px,4vh,48px)}
+.g-head h2{
+  font-family:var(--serif);font-weight:300;
+  font-size:clamp(2.4rem,7.4vw,6.8rem);line-height:.92;letter-spacing:-.015em;
+  margin-top:18px;max-width:16ch;
+}
+.g-head h2 em{font-style:italic;color:var(--sun-soft)}
+.g-pin{height:100svh;position:relative;display:flex;align-items:center;overflow:hidden}
+.g-track{display:flex;align-items:center;gap:clamp(40px,6vw,110px);padding-inline:var(--pad);will-change:transform}
+.panel{flex:none;position:relative}
+.panel .frame{border-radius:2px}
+.panel .frame img{width:114%;max-width:none;position:relative;left:-7%;will-change:transform}
+.panel--p1 .frame{width:min(62vw,580px);aspect-ratio:4/5}
+.panel--p2 .frame{width:min(46vw,430px);aspect-ratio:3/4}
+.panel--p3 .frame{width:min(80vw,920px);aspect-ratio:16/9}
+.panel--p4 .frame{width:min(58vw,540px);aspect-ratio:4/5}
+.panel h3{
+  font-family:var(--serif);font-weight:300;font-style:italic;
+  font-size:clamp(2.2rem,5.4vw,5rem);line-height:.9;letter-spacing:-.01em;
+  margin-top:-.52em;margin-left:clamp(-40px,-3vw,-12px);
+  position:relative;z-index:3;
+  text-shadow:0 2px 26px rgba(21,23,15,.5);
+}
+.panel .p-meta{
+  display:flex;gap:22px;align-items:baseline;flex-wrap:wrap;
+  margin-top:18px;
+}
+.panel .p-meta .p-tag{
+  font-size:.62rem;letter-spacing:.28em;text-transform:uppercase;font-weight:500;
+  color:rgba(237,232,223,.55);white-space:nowrap;
+}
+.panel .p-meta p{font-weight:300;font-size:.92rem;color:rgba(237,232,223,.78);max-width:40ch}
+.panel--intro{width:min(34vw,420px)}
+.panel--intro .label{display:block;margin-bottom:18px}
+.panel--intro p{
+  font-family:var(--serif);font-weight:300;
+  font-size:clamp(1.5rem,2.4vw,2.2rem);line-height:1.2;
+}
+.panel--intro p em{font-style:italic;color:var(--sun-soft)}
+
+.g-ui{
+  position:absolute;left:var(--pad);right:var(--pad);bottom:clamp(22px,4vh,44px);
+  display:flex;align-items:flex-end;gap:26px;z-index:5;pointer-events:none;
+}
+.g-count{font-family:var(--serif);font-weight:300;line-height:.8;white-space:nowrap}
+.g-count .cur{font-size:clamp(2.6rem,5vw,4.6rem);font-style:italic;color:var(--sun-soft)}
+.g-count .tot{font-size:.9rem;letter-spacing:.2em;color:rgba(237,232,223,.55);margin-left:10px}
+.g-bar{flex:1;height:1px;background:var(--line-paper);position:relative;margin-bottom:12px}
+.g-bar span{position:absolute;inset:0;width:0;background:var(--sun)}
+.g-hint{
+  font-size:.6rem;letter-spacing:.32em;text-transform:uppercase;font-weight:500;
+  color:rgba(237,232,223,.5);margin-bottom:6px;white-space:nowrap;
+}
+
+/* fallback empilhado (mobile / reduced motion) */
+.gallery.static .g-pin{height:auto;display:block;padding-bottom:clamp(70px,10vh,110px)}
+.gallery.static .g-track{flex-direction:column;align-items:stretch;gap:clamp(56px,10vw,90px);transform:none!important}
+.gallery.static .panel{width:100%!important}
+.gallery.static .panel .frame{width:100%!important}
+.gallery.static .panel--p3 .frame{aspect-ratio:4/3}
+.gallery.static .panel h3{margin-left:0}
+.gallery.static .panel--intro{width:100%!important;padding-top:10px}
+.gallery.static .g-ui{display:none}
+
+/* ============================================================
+   NÚMEROS + DEPOIMENTO
+   ============================================================ */
+.proof{padding-block:clamp(110px,16vh,210px)}
+.proof .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:clamp(28px,4vw,60px);align-items:center}
+.proof .quote{grid-column:1 / 7}
+.proof blockquote{
+  font-family:var(--serif);font-weight:300;
+  font-size:clamp(1.7rem,3.4vw,3.1rem);line-height:1.12;letter-spacing:-.005em;
+  margin-top:24px;
+}
+.proof blockquote em{font-style:italic;color:var(--sun)}
+.proof .cite{margin-top:26px;font-size:.85rem}
+.proof .cite b{font-weight:600}
+.proof .cite span{display:block;color:var(--sage);font-size:.76rem;letter-spacing:.05em;margin-top:2px}
+.proof .stats{grid-column:8 / 13;display:grid;grid-template-columns:1fr 1fr;gap:clamp(34px,4vw,52px) clamp(26px,3vw,44px)}
+.stat{border-top:1px solid var(--line);padding-top:18px}
+.stat .n{
+  font-family:var(--serif);font-weight:300;
+  font-size:clamp(3rem,6vw,5.8rem);line-height:.85;letter-spacing:-.02em;
+}
+.stat .n .suf{font-style:italic;color:var(--sun)}
+.stat .k{margin-top:12px;display:block}
+@media(max-width:900px){
+  .proof .quote,.proof .stats{grid-column:1 / -1}
+  .proof .stats{margin-top:52px}
+}
+
+/* ============================================================
+   CTA FINAL
+   ============================================================ */
+.cta{
+  position:relative;background:var(--moss);color:var(--paper);
+  padding:clamp(130px,20vh,260px) 0;overflow:hidden;
+}
+.cta-bg{position:absolute;inset:0;z-index:0;overflow:hidden}
+.cta-bg img{width:100%;height:115%;object-fit:cover;opacity:.34;will-change:transform}
+.cta-bg::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,var(--moss) 0%,rgba(28,35,27,.55) 45%,var(--moss) 100%);
+}
+.cta-ghost{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:1;
+  font-family:var(--serif);font-style:italic;font-weight:300;
+  font-size:clamp(9rem,32vw,32rem);line-height:1;white-space:nowrap;
+  color:transparent;-webkit-text-stroke:1px rgba(237,232,223,.13);
+  pointer-events:none;user-select:none;will-change:transform;
+}
+.cta .inner{position:relative;z-index:2;text-align:center}
+.cta .label{color:rgba(237,232,223,.55)}
+.cta h2{
+  font-family:var(--serif);font-weight:300;
+  font-size:clamp(2.4rem,7vw,6.4rem);line-height:1;letter-spacing:-.015em;
+  margin:22px auto 18px;max-width:16ch;
+}
+.cta h2 a{
+  background-image:linear-gradient(currentColor,currentColor);
+  background-repeat:no-repeat;background-size:0% 1px;background-position:0 96%;
+  transition:background-size .7s var(--ease);
+}
+.cta h2 a em{font-style:italic;color:var(--sun-soft)}
+.cta h2 a:hover{background-size:100% 1px}
+.cta .sub{
+  max-width:46ch;margin:0 auto 44px;font-weight:300;
+  font-size:clamp(.92rem,1.2vw,1.05rem);color:rgba(237,232,223,.7);
+}
+.cta .btn{color:var(--paper);font-size:.78rem;padding:18px 34px}
+.cta .btn:hover{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.foot{
+  background:var(--moss);color:rgba(237,232,223,.62);
+  border-top:1px solid var(--line-paper);padding:52px 0 42px;
+}
+.foot .row{display:flex;align-items:flex-end;justify-content:space-between;gap:32px;flex-wrap:wrap}
+.foot .brand{font-family:var(--serif);font-size:1.7rem;color:var(--paper);font-weight:300}
+.foot .brand em{font-style:italic;color:var(--sun-soft)}
+.foot .meta{font-size:.78rem;line-height:1.8;letter-spacing:.02em}
+.foot .meta a{border-bottom:1px solid rgba(237,232,223,.3);transition:border-color .3s ease}
+.foot .meta a:hover{border-color:var(--sun-soft)}
+.foot .demo{
+  margin-top:34px;padding-top:22px;border-top:1px solid rgba(237,232,223,.12);
+  font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(237,232,223,.4);
+  line-height:2;
+}
+.foot .demo b{color:var(--sun-soft);font-weight:500}
+
+/* ============================================================
+   REDUCED MOTION
+   ============================================================ */
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .js-anim .hero h1 .hw{transform:none}
+  .js-anim .fill-text .w{opacity:1}
+  .m-track{animation:none}
+  .hero-cue .bar::after{display:none}
+  .intro{display:none!important}
+}
+</style>
+<link rel="stylesheet" href="/assets/demo-navigation.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============ INTRO ============ -->
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro-inner">
+    <span class="intro-mask"><span class="intro-word" id="introTop">Estúdio</span></span>
+    <span class="intro-line" id="introLine"></span>
+    <span class="intro-mask"><span class="intro-word" id="introBot"><em>Linha</em></span></span>
+  </div>
+</div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <a class="brand" href="#top">Estúdio <em>Linha</em></a>
+  <nav>
+    <a href="#manifesto">O estúdio</a>
+    <a href="#metodo">Método</a>
+    <a href="#projetos">Projetos</a>
+    <a class="nav-cta btn" href="https://wa.me/5543000000000" target="_blank" rel="noopener">
+      <span class="dot"></span> Conversar
+    </a>
+  </nav>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-media" id="heroMedia">
+    <video id="heroVid" muted playsinline preload="auto" poster="/marketing/portfolio/arquitetura-estudio-linha/assets/img/fachada-ouro.jpg" aria-label="Fachada de residência minimalista em concreto e madeira ao entardecer, com espelho de água e jardim">
+      <source src="/marketing/portfolio/arquitetura-estudio-linha/assets/video/hero.mp4" type="video/mp4" />
+    </video>
+    <span class="tag">Residência Pomar · Londrina, PR</span>
+  </div>
+  <span class="hero-side">Arquitetura residencial autoral · Londrina, Paraná</span>
+
+  <div class="hero-body">
+    <h1 aria-label="Luz, linha, casa.">
+      <span class="hl"><span class="hw it">Luz,</span></span>
+      <span class="hl"><span class="hw">linha,</span></span>
+      <span class="hl"><span class="hw">casa.</span></span>
+    </h1>
+
+    <div class="hero-foot">
+      <p>Cada projeto começa pelo caminho do sol no seu terreno e termina na casa em que a sua rotina respira.</p>
+      <a class="btn btn--sun" href="https://wa.me/5543000000000" target="_blank" rel="noopener">
+        <span class="dot"></span> Vamos conversar sobre seu projeto
+      </a>
+      <div class="hero-cue"><span>Role</span><span class="bar"></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="m-track" id="mTrack">
+    <span>
+      <span class="m-serif">Luz natural</span><span class="m-dot"></span>
+      <span class="m-sans">Arquitetura residencial</span><span class="m-dot"></span>
+      <span class="m-serif">Biofilia</span><span class="m-dot"></span>
+      <span class="m-sans">Londrina · Paraná</span><span class="m-dot"></span>
+      <span class="m-serif">Projeto autoral</span><span class="m-dot"></span>
+      <span class="m-sans">Um projeto por vez</span><span class="m-dot"></span>
+    </span>
+    <span>
+      <span class="m-serif">Luz natural</span><span class="m-dot"></span>
+      <span class="m-sans">Arquitetura residencial</span><span class="m-dot"></span>
+      <span class="m-serif">Biofilia</span><span class="m-dot"></span>
+      <span class="m-sans">Londrina · Paraná</span><span class="m-dot"></span>
+      <span class="m-serif">Projeto autoral</span><span class="m-dot"></span>
+      <span class="m-sans">Um projeto por vez</span><span class="m-dot"></span>
+    </span>
+  </div>
+</div>
+
+<!-- ============ MANIFESTO ============ -->
+<section class="manifesto wrap" id="manifesto">
+  <div class="sec-head reveal">
+    <span class="idx">01 / 05</span>
+    <span class="label">O estúdio</span>
+  </div>
+
+  <div class="grid">
+    <div class="fill-wrap">
+      <p class="fill-text" id="fillText">
+        Antes da planta, observamos. O lado em que o sol nasce, as árvores que
+        ficam, o vento que atravessa o lote. A sua casa nasce desse encontro:
+        a <em>luz desenha</em>, a natureza entra, a <em>linha organiza</em>.
+      </p>
+    </div>
+    <div class="aside">
+      <p class="reveal">O Estúdio Linha trabalha um projeto por vez, com tempo. Da primeira conversa à entrega das chaves, o mesmo olhar acompanha cada decisão, do partido ao puxador.</p>
+      <div class="frame reveal" id="asideFrame">
+        <img src="/marketing/portfolio/arquitetura-estudio-linha/assets/img/detalhe-sombra.jpg" alt="Sombra de folhas projetada pela luz do sol sobre parede de concreto aparente" />
+        <span class="tag">A luz como material</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="thread" data-thread></div>
+
+<!-- ============ MÉTODO ============ -->
+<section class="method wrap" id="metodo">
+  <div class="grid">
+    <div class="left">
+      <div class="sec-head reveal" style="margin-bottom:0">
+        <span class="idx">02 / 05</span>
+        <span class="label">O método</span>
+      </div>
+      <h2 class="reveal">Quatro passos, <em>um traço.</em></h2>
+      <p class="reveal">Um processo lento de propósito. A pressa apaga o que o terreno tem para dizer.</p>
+    </div>
+
+    <div class="steps">
+      <article class="step">
+        <span class="step-line"></span>
+        <span class="ghost" aria-hidden="true">01</span>
+        <h3>Escuta</h3>
+        <p>Uma conversa longa antes de qualquer traço. Como você acorda, recebe, trabalha, descansa. O projeto começa pela sua rotina, não pelo desenho.</p>
+        <span class="step-k label">Primeira conversa</span>
+      </article>
+      <article class="step">
+        <span class="step-line"></span>
+        <span class="ghost" aria-hidden="true">02</span>
+        <h3>Terreno</h3>
+        <p>Visitamos o lote em horários diferentes do dia. Mapeamos o percurso do sol, a direção do vento e as árvores que permanecem no projeto.</p>
+        <span class="step-k label">Leitura do lugar</span>
+      </article>
+      <article class="step">
+        <span class="step-line"></span>
+        <span class="ghost" aria-hidden="true">03</span>
+        <h3>Desenho</h3>
+        <p>O anteprojeto chega como experiência: maquete física, estudo da luz cômodo a cômodo e materiais na sua mão, não só pranchas técnicas.</p>
+        <span class="step-k label">Projeto autoral</span>
+      </article>
+      <article class="step">
+        <span class="step-line"></span>
+        <span class="ghost" aria-hidden="true">04</span>
+        <h3>Obra</h3>
+        <p>Acompanhamento presencial do alicerce ao acabamento, para que o desenho chegue inteiro até o dia em que você recebe a chave.</p>
+        <span class="step-k label">Do canteiro à chave</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJETOS (pin + horizontal) ============ -->
+<section class="gallery" id="projetos">
+  <div class="g-head reveal">
+    <div class="sec-head" style="margin-bottom:0">
+      <span class="idx">03 / 05</span>
+      <span class="label">Projetos selecionados</span>
+    </div>
+    <h2>Menos parede, <em>mais paisagem.</em></h2>
+  </div>
+
+  <div class="g-pin" id="gPin">
+    <div class="g-track" id="gTrack">
+
+      <div class="panel panel--intro">
+        <span class="label">2022 a 2024</span>
+        <p>Quatro casas em três cidades do norte do Paraná. Cada uma guarda um jeito próprio de <em>receber o dia.</em></p>
+      </div>
+
+      <article class="panel panel--p1" data-panel>
+        <div class="frame">
+          <img src="/marketing/portfolio/arquitetura-estudio-linha/assets/img/estar-pe-direito.jpg" alt="Estar de pé-direito duplo com parede de concreto, marcenaria em madeira e vidro do piso ao teto voltado para o jardim" />
+          <span class="tag">Estar · luz da manhã</span>
+        </div>
+        <h3>Residência Pomar</h3>
+        <div class="p-meta">
+          <span class="p-tag">2024 · Londrina, PR</span>
+          <p>O estar de pé-direito duplo abre inteiro para o pomar que já existia no lote.</p>
+        </div>
+      </article>
+
+      <article class="panel panel--p2" data-panel>
+        <div class="frame">
+          <img src="/marketing/portfolio/arquitetura-estudio-linha/assets/img/escada-luz.jpg" alt="Escada escultural de concreto sob claraboia, com jardim vertical de samambaias na parede ao lado" />
+          <span class="tag">Escada · claraboia</span>
+        </div>
+        <h3>Casa Aroeira</h3>
+        <div class="p-meta">
+          <span class="p-tag">2023 · Cambé, PR</span>
+          <p>Uma escada escultural sob a claraboia, acompanhada por um jardim vertical de samambaias.</p>
+        </div>
+      </article>
+
+      <article class="panel panel--p3" data-panel>
+        <div class="frame">
+          <img src="/marketing/portfolio/arquitetura-estudio-linha/assets/img/patio-azul.jpg" alt="Pátio interno de residência moderna ao anoitecer, com árvore central e espelho de água refletindo a casa iluminada" />
+          <span class="tag">Pátio · hora azul</span>
+        </div>
+        <h3>Residência Pátio</h3>
+        <div class="p-meta">
+          <span class="p-tag">2023 · Londrina, PR</span>
+          <p>A casa abraça um pátio com uma árvore só e um espelho de água que dobra o céu.</p>
+        </div>
+      </article>
+
+      <article class="panel panel--p4" data-panel>
+        <div class="frame">
+          <img src="/marketing/portfolio/arquitetura-estudio-linha/assets/img/varanda-ripas.jpg" alt="Varanda coberta com pergolado de ripas de madeira desenhando sombras listradas no piso de concreto" />
+          <span class="tag">Varanda · fim de tarde</span>
+        </div>
+        <h3>Casa Horizonte</h3>
+        <div class="p-meta">
+          <span class="p-tag">2022 · Ibiporã, PR</span>
+          <p>A varanda em ripas de madeira desenha uma sombra diferente a cada hora do dia.</p>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="g-ui" aria-hidden="true">
+      <div class="g-count"><span class="cur" id="gIdx">01</span><span class="tot">/ 04</span></div>
+      <div class="g-bar"><span id="gBar"></span></div>
+      <span class="g-hint">Role para avançar</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NÚMEROS + DEPOIMENTO ============ -->
+<section class="proof wrap">
+  <div class="grid">
+    <div class="quote">
+      <div class="sec-head reveal" style="margin-bottom:0">
+        <span class="idx">04 / 05</span>
+        <span class="label">Quem mora</span>
+      </div>
+      <blockquote class="reveal">
+        Eles entenderam a luz antes de entenderem a planta. Hoje a casa acorda
+        com a gente. <em>É exatamente onde a gente queria morar.</em>
+      </blockquote>
+      <div class="cite reveal">
+        <b>Família Antunes</b>
+        <span>Residência Pomar · Londrina, PR</span>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat reveal">
+        <div class="n"><span class="count" data-to="42">0</span></div>
+        <span class="k label">Projetos entregues</span>
+      </div>
+      <div class="stat reveal">
+        <div class="n"><span class="count" data-to="11">0</span></div>
+        <span class="k label">Anos de estúdio</span>
+      </div>
+      <div class="stat reveal">
+        <div class="n"><span class="count" data-to="3">0</span></div>
+        <span class="k label">Cidades atendidas</span>
+      </div>
+      <div class="stat reveal">
+        <div class="n"><span class="count" data-to="100">0</span><span class="suf">%</span></div>
+        <span class="k label">Obras acompanhadas</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta" id="contato">
+  <div class="cta-bg" id="ctaBg">
+    <img src="/marketing/portfolio/arquitetura-estudio-linha/assets/img/patio-azul.jpg" alt="" aria-hidden="true" />
+  </div>
+  <div class="cta-ghost" id="ctaGhost" aria-hidden="true">linha</div>
+  <div class="inner wrap">
+    <span class="label reveal">05 / 05 · Contato</span>
+    <h2 class="reveal">
+      <a href="https://wa.me/5543000000000" target="_blank" rel="noopener">
+        Vamos conversar sobre <em>seu projeto</em>
+      </a>
+    </h2>
+    <p class="sub reveal">Conte do seu terreno, do seu tempo e do jeito que a sua família vive. A primeira conversa não tem compromisso.</p>
+    <a class="btn reveal" href="https://wa.me/5543000000000" target="_blank" rel="noopener">
+      <span class="dot"></span> Chamar no WhatsApp
+    </a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="row">
+      <div class="brand">Estúdio <em>Linha</em></div>
+      <div class="meta">
+        Arquitetura residencial autoral<br />
+        Londrina, Paraná<br />
+        <a href="https://wa.me/5543000000000" target="_blank" rel="noopener">WhatsApp do estúdio</a>
+      </div>
+    </div>
+    <div class="demo">
+      Site demonstrativo (template) produzido pela <a href="/">Norte Autoral · Gabriel Holanda</a><br />
+      Estúdio Linha é uma marca fictícia, sem vínculo com empresas ou profissionais reais.
+    </div>
+  </div>
+</footer>
+
+<!-- ============ LIBS ============ -->
+<script src="/vendor/cdnjs.cloudflare.com/gsap.min-cb9c6262bdd7.js"></script>
+<script src="/vendor/cdnjs.cloudflare.com/ScrollTrigger.min-36c29c028158.js"></script>
+<script src="/vendor/unpkg.com/lenis.min-fc91f338f7a5.js"></script>
+
+<script>
+(function(){
+  "use strict";
+
+  var reduce  = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var hasGSAP = typeof window.gsap !== 'undefined' && typeof window.ScrollTrigger !== 'undefined';
+  var isMobile = window.matchMedia('(max-width: 900px)').matches;
+  /* Qualquer toque (tablet, iPad, notebook touch, celular largo), em qualquer
+     largura. Usado pra nunca prender a tela (pin) no toque. */
+  var isTouch = window.matchMedia('(hover: none), (pointer: coarse)').matches;
+  /* Pin+scrub do hero só em mouse (ponteiro fino com hover). Qualquer toque
+     cai no fallback de loop, mesmo acima de 900px. */
+  var heroScrubOK = window.matchMedia('(min-width: 769px) and (hover: hover) and (pointer: fine)').matches;
+  var anim = hasGSAP && !reduce;
+
+  if (anim) document.documentElement.classList.add('js-anim');
+
+  function setCountsFinal(){
+    document.querySelectorAll('.count').forEach(function(el){
+      el.textContent = el.getAttribute('data-to');
+    });
+  }
+
+  /* ---------- NAV: solid após o hero + esconde descendo ---------- */
+  var nav = document.getElementById('nav');
+  var hero = document.getElementById('top');
+  var lastY = 0;
+  function onNav(){
+    var y = window.scrollY;
+    var past = y > (hero ? hero.offsetHeight - 90 : 600);
+    nav.classList.toggle('solid', past);
+    if (past && y > lastY + 6) nav.classList.add('hidden');
+    else if (y < lastY - 6 || !past) nav.classList.remove('hidden');
+    lastY = y;
+  }
+  window.addEventListener('scroll', onNav, {passive:true});
+  onNav();
+
+  if (!anim){
+    /* sem GSAP ou com reduced motion: página estática e completa */
+    setCountsFinal();
+    var intro0 = document.getElementById('intro');
+    if (intro0) intro0.classList.add('gone');
+    document.getElementById('projetos').classList.add('static');
+    return;
+  }
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  /* ---------- LENIS amarrado ao ticker do GSAP ---------- */
+  var lenis = null;
+  if (typeof window.Lenis !== 'undefined'){
+    lenis = new Lenis({
+      duration:1.15,
+      easing:function(t){return Math.min(1,1.001-Math.pow(2,-10*t));},
+      smoothWheel:true
+    });
+    lenis.on('scroll', ScrollTrigger.update);
+    gsap.ticker.add(function(time){ lenis.raf(time*1000); });
+    gsap.ticker.lagSmoothing(0);
+  }
+
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var id = a.getAttribute('href');
+      if (id.length < 2) return;
+      var el = document.querySelector(id);
+      if (!el) return;
+      e.preventDefault();
+      if (lenis) lenis.scrollTo(el, {offset:0});
+      else el.scrollIntoView({behavior:'smooth'});
+    });
+  });
+
+  /* ---------- INTRO: a linha abre a casa ---------- */
+  var intro = document.getElementById('intro');
+  var heroVid = document.querySelector('#heroMedia video');
+
+  var heroTl = gsap.timeline({paused:true});
+  heroTl
+    .to('.hero h1 .hw', {y:0, yPercent:0, duration:1.3, ease:'expo.out', stagger:.13}, 0)
+    .fromTo(heroVid, {scale:1.22}, {scale:1.06, duration:1.8, ease:'expo.out'}, 0)
+    .from('.hero-side', {opacity:0, duration:.9, ease:'power2.out'}, .5)
+    .from('.hero-foot > *', {opacity:0, y:26, duration:.9, ease:'power3.out', stagger:.1}, .45);
+
+  /* estado inicial via CSS (.js-anim) traduzido pro GSAP */
+  gsap.set('.hero h1 .hw', {yPercent:115});
+
+  var introTl = gsap.timeline({
+    onComplete:function(){
+      intro.classList.add('gone');
+      ScrollTrigger.refresh();
+    }
+  });
+  introTl
+    .to('#introLine', {scaleX:1, duration:.7, ease:'expo.inOut'})
+    .from('#introTop', {yPercent:130, duration:.7, ease:'expo.out'}, '-=.25')
+    .from('#introBot', {yPercent:-130, duration:.7, ease:'expo.out'}, '<')
+    .to('.intro', {yPercent:-100, duration:.9, ease:'expo.inOut', delay:.45})
+    .add(function(){ heroTl.play(); }, '-=.55');
+
+  /* ---------- HERO ----------
+     Mouse (ponteiro fino + hover, >=769px): vídeo preso ao scroll (scrub
+     quadro a quadro, pin).
+     Qualquer toque (tablet, iPad, notebook touch, celular largo, <=900px):
+     sem pin, vídeo toca em loop suave, scroll nativo livre.
+     A troca é por matchMedia (heroScrubOK), então o desktop com mouse fica
+     idêntico e o reduced-motion já saiu antes (return em !anim). */
+  var heroDur = 5.04;
+  var grabDur = function(){
+    if (heroVid.duration && isFinite(heroVid.duration) && heroVid.duration > 0) heroDur = heroVid.duration;
+  };
+  heroVid.addEventListener('loadedmetadata', grabDur);
+  grabDur();
+
+  if (!heroScrubOK){
+    /* fallback suave: vídeo cobrindo o hero, sem prender a página */
+    heroVid.loop = true;
+    heroVid.muted = true;
+    heroVid.setAttribute('playsinline','');
+    var tryPlay = function(){ var p = heroVid.play(); if (p && p.catch) p.catch(function(){}); };
+    if (heroVid.readyState >= 2) tryPlay();
+    else heroVid.addEventListener('canplay', tryPlay, {once:true});
+  } else {
+    try { heroVid.pause(); heroVid.currentTime = 0; } catch (e) {}
+    ScrollTrigger.create({
+      trigger:'#top', start:'top top', end:'+=160%', pin:true, pinSpacing:true, scrub:true,
+      onUpdate:function(self){
+        var p = self.progress;
+        if (heroVid.readyState >= 1) heroVid.currentTime = Math.min(heroDur - 0.05, Math.max(0, p * heroDur));
+      }
+    });
+    gsap.to('.hero h1', {
+      yPercent:-16, opacity:.4, ease:'none',
+      scrollTrigger:{trigger:'.hero', start:'top top', end:'bottom top', scrub:true}
+    });
+  }
+
+  /* ---------- REVEALS ---------- */
+  gsap.utils.toArray('.reveal').forEach(function(el){
+    gsap.from(el, {
+      opacity:0, y:44, duration:1, ease:'power3.out',
+      scrollTrigger:{trigger:el, start:'top 87%'}
+    });
+  });
+
+  /* ---------- fio vertical ---------- */
+  gsap.utils.toArray('[data-thread]').forEach(function(el){
+    gsap.from(el, {scaleY:0, ease:'none',
+      scrollTrigger:{trigger:el, start:'top 92%', end:'bottom 60%', scrub:true}});
+  });
+
+  /* ---------- MANIFESTO: palavras que acendem ---------- */
+  var fill = document.getElementById('fillText');
+  function splitWords(el){
+    Array.prototype.slice.call(el.childNodes).forEach(function(node){
+      if (node.nodeType === 3){
+        var frag = document.createDocumentFragment();
+        node.textContent.split(/(\s+)/).forEach(function(part){
+          if (!part) return;
+          if (/^\s+$/.test(part)){ frag.appendChild(document.createTextNode(' ')); }
+          else {
+            var s = document.createElement('span');
+            s.className = 'w'; s.textContent = part;
+            frag.appendChild(s);
+          }
+        });
+        el.replaceChild(frag, node);
+      } else if (node.nodeType === 1){
+        splitWords(node);
+      }
+    });
+  }
+  if (fill){
+    splitWords(fill);
+    gsap.to(fill.querySelectorAll('.w'), {
+      opacity:1, ease:'none', stagger:.6,
+      scrollTrigger:{trigger:fill, start:'top 78%', end:'bottom 45%', scrub:true}
+    });
+  }
+
+  /* foto do manifesto com parallax interno */
+  var asideImg = document.querySelector('#asideFrame img');
+  if (asideImg){
+    gsap.fromTo(asideImg, {yPercent:-8, scale:1.16}, {yPercent:8, scale:1.16, ease:'none',
+      scrollTrigger:{trigger:'#asideFrame', start:'top bottom', end:'bottom top', scrub:true}});
+  }
+
+  /* ---------- MÉTODO: linhas que crescem + número fantasma ---------- */
+  gsap.utils.toArray('.step').forEach(function(step){
+    gsap.from(step.querySelector('.step-line'), {scaleX:0, duration:1.1, ease:'power3.out',
+      scrollTrigger:{trigger:step, start:'top 85%'}});
+    gsap.from([step.querySelector('h3'), step.querySelector('p'), step.querySelector('.step-k')], {
+      opacity:0, y:30, duration:.9, ease:'power3.out', stagger:.08,
+      scrollTrigger:{trigger:step, start:'top 85%'}
+    });
+    gsap.from(step.querySelector('.ghost'), {opacity:0, x:-24, duration:1.1, ease:'power3.out',
+      scrollTrigger:{trigger:step, start:'top 85%'}});
+  });
+
+  /* ---------- GALERIA: pin + horizontal (assinatura) ---------- */
+  var gallery = document.getElementById('projetos');
+  var track   = document.getElementById('gTrack');
+  var pinEl   = document.getElementById('gPin');
+  var gIdx    = document.getElementById('gIdx');
+  var gBar    = document.getElementById('gBar');
+  var galleryTriggers = [];
+
+  function buildGallery(){
+    galleryTriggers.forEach(function(st){ if (st) st.kill(); });
+    galleryTriggers = [];
+    gsap.set(track, {clearProps:'transform'});
+    track.querySelectorAll('[data-panel] img').forEach(function(img){
+      gsap.set(img, {clearProps:'transform'});
+    });
+
+    if (isMobile || isTouch){
+      gallery.classList.add('static');
+      return;
+    }
+    gallery.classList.remove('static');
+
+    var amount = track.scrollWidth - window.innerWidth;
+    if (amount <= 0) return;
+
+    var panels = gsap.utils.toArray('[data-panel]');
+    var n = panels.length;
+
+    var horiz = gsap.to(track, {
+      x:-amount, ease:'none',
+      scrollTrigger:{
+        trigger:pinEl,
+        start:'top top',
+        end:function(){ return '+=' + amount; },
+        scrub:.65,
+        pin:true,
+        anticipatePin:1,
+        invalidateOnRefresh:true,
+        onUpdate:function(self){
+          if (gBar) gBar.style.width = (self.progress*100).toFixed(2) + '%';
+          if (gIdx && n){
+            var i = Math.min(n, Math.max(1, Math.round(self.progress*(n-1)) + 1));
+            gIdx.textContent = (i < 10 ? '0' : '') + i;
+          }
+        }
+      }
+    });
+    galleryTriggers.push(horiz.scrollTrigger);
+
+    /* parallax interno de cada foto enquanto o trilho anda */
+    panels.forEach(function(p){
+      var img = p.querySelector('img');
+      if (!img) return;
+      var tw = gsap.fromTo(img, {xPercent:-6}, {xPercent:6, ease:'none',
+        scrollTrigger:{
+          trigger:p, containerAnimation:horiz,
+          start:'left right', end:'right left', scrub:true
+        }});
+      galleryTriggers.push(tw.scrollTrigger);
+    });
+  }
+  buildGallery();
+
+  /* ---------- CONTADORES ---------- */
+  gsap.utils.toArray('.count').forEach(function(el){
+    var to = parseFloat(el.getAttribute('data-to')) || 0;
+    var obj = {v:0};
+    ScrollTrigger.create({
+      trigger:el, start:'top 88%', once:true,
+      onEnter:function(){
+        gsap.to(obj, {v:to, duration:1.8, ease:'power2.out',
+          onUpdate:function(){ el.textContent = Math.round(obj.v); }});
+      }
+    });
+  });
+
+  /* ---------- CTA: fundo + palavra fantasma ---------- */
+  gsap.to('#ctaBg img', {
+    yPercent:-10, ease:'none',
+    scrollTrigger:{trigger:'.cta', start:'top bottom', end:'bottom top', scrub:true}
+  });
+  gsap.to('#ctaGhost', {
+    xPercent:-14, ease:'none',
+    scrollTrigger:{trigger:'.cta', start:'top bottom', end:'bottom top', scrub:true}
+  });
+
+  /* ---------- RESIZE ---------- */
+  var rsTimer;
+  window.addEventListener('resize', function(){
+    clearTimeout(rsTimer);
+    rsTimer = setTimeout(function(){
+      var nowMobile = window.matchMedia('(max-width: 900px)').matches;
+      if (nowMobile !== isMobile){
+        isMobile = nowMobile;
+        buildGallery();
+      }
+      ScrollTrigger.refresh();
+    }, 200);
+  }, {passive:true});
+
+  if (document.fonts && document.fonts.ready){
+    document.fonts.ready.then(function(){ ScrollTrigger.refresh(); });
+  }
+  window.addEventListener('load', function(){ ScrollTrigger.refresh(); });
+
+})();
+</script>
+<script src="/assets/demo-navigation.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+[
+  {
+    "y": 1009,
+    "beat": 0.9604,
+    "fragment": 0.9411,
+    "opacity": 1,
+    "pinned": true
+  },
+  {
+    "y": 1244,
+    "beat": 0.9787,
+    "fragment": 0.9961,
+    "opacity": 1,
+    "pinned": true
+  },
+  {
+    "y": 1424,
+    "beat": 0.9927,
+    "fragment": 1.0382,
+    "opacity": 1,
+    "pinned": true
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "source": "/assets/norte-autoral/logo-n.png",
+    "target": "/assets/norte-autoral/logo-n-128.png",
+    "originalBytes": 461365,
+    "optimizedBytes": 11052,
+    "width": 128,
+    "height": 128,
+    "quality": 1,
+    "useDerivative": true
+  },
+  {
+    "source": "/assets/portfolio-heroes/dentista-clinica-vertice.jpg",
+    "target": "/assets/portfolio-heroes/dentista-clinica-vertice.webp",
+    "originalBytes": 139160,
+    "optimizedBytes": 93000,
+    "width": 1440,
+    "height": 900,
+    "quality": 0.9,
+    "useDerivative": true
+  },
+  {
+    "source": "/assets/cases/jd-capa.jpg",
+    "target": "/assets/cases/jd-capa.webp",
+    "originalBytes": 181940,
+    "optimizedBytes": 225450,
+    "width": 1280,
+    "height": 800,
+    "quality": 0.9,
+    "useDerivative": false
+  },
+  {
+    "source": "/assets/cases/jd-arte.jpg",
+    "target": "/assets/cases/jd-arte.webp",
+    "originalBytes": 124076,
+    "optimizedBytes": 134308,
+    "width": 1280,
+    "height": 800,
+    "quality": 0.9,
+    "useDerivative": false
+  },
+  {
+    "source": "/assets/cases/jd-galeria.jpg",
+    "target": "/assets/cases/jd-galeria.webp",
+    "originalBytes": 166373,
+    "optimizedBytes": 185676,
+    "width": 1280,
+    "height": 800,
+    "quality": 0.9,
+    "useDerivative": false
+  },
+  {
+    "source": "/assets/cases/jd-galeria-2.jpg",
+    "target": "/assets/cases/jd-galeria-2.webp",
+    "originalBytes": 172365,
+    "optimizedBytes": 192420,
+    "width": 1280,
+    "height": 800,
+    "quality": 0.9,
+    "useDerivative": false
+  },
+  {
+    "source": "/assets/cases/jd-celular.jpg",
+    "target": "/assets/cases/jd-celular.webp",
+    "originalBytes": 96238,
+    "optimizedBytes": 110972,
+    "width": 520,
+    "height": 1125,
+    "quality": 0.9,
+    "useDerivative": false
+  },
+  {
+    "source": "/assets/cases/ana-capa.jpg",
+    "target": "/assets/cases/ana-capa.webp",
+    "originalBytes": 52460,
+    "optimizedBytes": 50532,
+    "width": 1280,
+    "height": 800,
+    "quality": 0.9,
+    "useDerivative": true
+  },
+  {
+    "source": "/assets/cases/ana-celular.jpg",
+    "target": "/assets/cases/ana-celular.webp",
+    "originalBytes": 56945,
+    "optimizedBytes": 55890,
+    "width": 520,
+    "height": 1125,
+    "quality": 0.9,
+    "useDerivative": true
+  },
+  {
+    "source": "/assets/norte-autoral/portfolio-v3.jpg",
+    "target": "/assets/norte-autoral/portfolio-v3.webp",
+    "originalBytes": 91978,
+    "optimizedBytes": 61908,
+    "width": 760,
+    "height": 950,
+    "quality": 0.9,
+    "useDerivative": true
+  },
+  {
+    "source": "/assets/portfolio-thumbs/velorah-hero.jpg",
+    "target": "/assets/portfolio-thumbs/velorah-hero.webp",
+    "originalBytes": 160368,
+    "optimizedBytes": 92406,
+    "width": 760,
+    "height": 950,
+    "quality": 0.9,
+    "useDerivative": true
+  },
+  {
+    "source": "/assets/portfolio-thumbs/lithos-hero.jpg",
+    "target": "/assets/portfolio-thumbs/lithos-hero.webp",
+    "originalBytes": 158970,
+    "optimizedBytes": 100478,
+    "width": 760,
+    "height": 950,
+    "quality": 0.9,
+    "useDerivative": true
+  },
+  {
+    "source": "/assets/portfolio-thumbs/dentista-clinica-vertice.jpg",
+    "target": "/assets/portfolio-thumbs/dentista-clinica-vertice.webp",
+    "originalBytes": 88327,
+    "optimizedBytes": 84476,
+    "width": 1000,
+    "height": 1241,
+    "quality": 0.9,
+    "useDerivative": true
+  },
+  {
+    "source": "/assets/portfolio-thumbs/convix-hero.jpg",
+    "target": "/assets/portfolio-thumbs/convix-hero.webp",
+    "originalBytes": 205001,
+    "optimizedBytes": 131834,
+    "width": 760,
+    "height": 950,
+    "quality": 0.9,
+    "useDerivative": true
+  },
+  {
+    "source": "/assets/portfolio-thumbs/aureo-arquitetura.jpg",
+    "target": "/assets/portfolio-thumbs/aureo-arquitetura.webp",
+    "originalBytes": 106458,
+    "optimizedBytes": 71314,
+    "width": 760,
+    "height": 424,
+    "quality": 0.9,
+    "useDerivative": true
+  },
+  {
+    "source": "/assets/portfolio-thumbs/confeitaria-margo.jpg",
+    "target": "/assets/portfolio-thumbs/confeitaria-margo.webp",
+    "originalBytes": 93491,
+    "optimizedBytes": 59240,
+    "width": 760,
+    "height": 424,
+    "quality": 0.9,
+    "useDerivative": true
+  },
+  {
+    "source": "/assets/portfolio-thumbs/instituto-liminar.jpg",
+    "target": "/assets/portfolio-thumbs/instituto-liminar.webp",
+    "originalBytes": 108407,
+    "optimizedBytes": 106790,
+    "width": 1000,
+    "height": 558,
+    "quality": 0.9,
+    "useDerivative": true
+  },
+  {
+    "source": "/assets/portfolio-thumbs/verene-odontologia.jpg",
+    "target": "/assets/portfolio-thumbs/verene-odontologia.webp",
+    "originalBytes": 61452,
+    "optimizedBytes": 31958,
+    "width": 760,
+    "height": 424,
+    "quality": 0.9,
+    "useDerivative": true
+  },
+  {
+    "source": "/assets/portfolio-thumbs/arquitetura-estudio-linha.jpg",
+    "target": "/assets/portfolio-thumbs/arquitetura-estudio-linha.webp",
+    "originalBytes": 114714,
+    "optimizedBytes": 110008,
+    "width": 1000,
+    "height": 558,
+    "quality": 0.9,
+    "useDerivative": true
+  },
+  {
+    "source": "/assets/norte-autoral/gabriel-holanda.jpg",
+    "target": "/assets/norte-autoral/gabriel-holanda.webp",
+    "originalBytes": 283923,
+    "optimizedBytes": 85408,
+    "width": 819,
+    "height": 1024,
+    "quality": 0.9,
+    "useDerivative": true
+  }
+]

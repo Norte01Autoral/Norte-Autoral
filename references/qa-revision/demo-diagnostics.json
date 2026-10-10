@@ -1,0 +1,1266 @@
+{
+  "cards": [
+    {
+      "name": "Sabec° v3",
+      "href": "/v3",
+      "target": "_blank",
+      "thumb": "/assets/cases/sabec-v3.jpg"
+    },
+    {
+      "name": "Velorah",
+      "href": "/marketing/portfolio/velorah-hero/dist/index.html",
+      "target": "_blank",
+      "thumb": "/assets/portfolio-thumbs/velorah-hero.jpg"
+    },
+    {
+      "name": "Lithos",
+      "href": "/marketing/portfolio/lithos-hero/dist/index.html",
+      "target": "_blank",
+      "thumb": "/assets/portfolio-thumbs/lithos-hero.jpg"
+    },
+    {
+      "name": "Vértice",
+      "href": "/marketing/portfolio/dentista-clinica-vertice/index.html",
+      "target": "_blank",
+      "thumb": "/assets/portfolio-thumbs/dentista-clinica-vertice.jpg"
+    },
+    {
+      "name": "Convix",
+      "href": "/marketing/portfolio/convix-hero/dist/index.html",
+      "target": "_blank",
+      "thumb": "/assets/portfolio-thumbs/convix-hero.jpg"
+    },
+    {
+      "name": "Áureo",
+      "href": "/marketing/portfolio/aureo-arquitetura/index.html",
+      "target": "_blank",
+      "thumb": "/assets/portfolio-thumbs/aureo-arquitetura.jpg"
+    },
+    {
+      "name": "Margô",
+      "href": "/marketing/portfolio/confeitaria-margo/index.html",
+      "target": "_blank",
+      "thumb": "/assets/portfolio-thumbs/confeitaria-margo.jpg"
+    },
+    {
+      "name": "Liminar",
+      "href": "/marketing/portfolio/instituto-liminar/index.html",
+      "target": "_blank",
+      "thumb": "/assets/portfolio-thumbs/instituto-liminar.jpg"
+    },
+    {
+      "name": "Verene",
+      "href": "/marketing/portfolio/verene-odontologia/index.html",
+      "target": "_blank",
+      "thumb": "/assets/portfolio-thumbs/verene-odontologia.jpg"
+    },
+    {
+      "name": "Estúdio Linha",
+      "href": "/marketing/portfolio/arquitetura-estudio-linha/index.html",
+      "target": "_blank",
+      "thumb": "/assets/portfolio-thumbs/arquitetura-estudio-linha.jpg"
+    }
+  ],
+  "results": [
+    {
+      "card": {
+        "name": "Sabec° v3",
+        "href": "/v3",
+        "target": "_blank",
+        "thumb": "/assets/cases/sabec-v3.jpg"
+      },
+      "status": 200,
+      "errors": [],
+      "failed": [],
+      "bad": [],
+      "content": {
+        "title": "Sabec° | Agência de IA em Londrina e Sabec/Os",
+        "bodyChars": 8321,
+        "h1": [
+          {
+            "text": "VOCÊ MANDA UMA MENSAGEM. O SISTEMA EXECUTA.",
+            "opacity": "1"
+          }
+        ],
+        "anchors": [
+          {
+            "text": "",
+            "href": "#inicio",
+            "targetExists": true
+          },
+          {
+            "text": "O sistema",
+            "href": "#sistema",
+            "targetExists": true
+          },
+          {
+            "text": "O que ele faz",
+            "href": "#resolvo",
+            "targetExists": true
+          },
+          {
+            "text": "Portfólio",
+            "href": "#trabalho",
+            "targetExists": true
+          },
+          {
+            "text": "Processo",
+            "href": "#processo",
+            "targetExists": true
+          },
+          {
+            "text": "Quem",
+            "href": "#quem",
+            "targetExists": true
+          },
+          {
+            "text": "Disponível",
+            "href": "#contato",
+            "targetExists": true
+          },
+          {
+            "text": "Quero ver o sistema →",
+            "href": "#sistema",
+            "targetExists": true
+          },
+          {
+            "text": "Sabec/Os\n        Role pra baixo pra acessaro sistema",
+            "href": "#sistema",
+            "targetExists": true
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Quero o diagnóstico →",
+            "aria": null
+          }
+        ],
+        "images": [
+          {
+            "src": "/assets/portfolio-thumbs/velorah-hero.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/assets/portfolio-thumbs/lithos-hero.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/assets/portfolio-thumbs/convix-hero.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/assets/portfolio-thumbs/confeitaria-margo.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/assets/portfolio-thumbs/aureo-arquitetura.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/assets/portfolio-thumbs/verene-odontologia.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/assets/portfolio-thumbs/portrait.jpeg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          }
+        ],
+        "video": [],
+        "loader": []
+      }
+    },
+    {
+      "card": {
+        "name": "Velorah",
+        "href": "/marketing/portfolio/velorah-hero/dist/index.html",
+        "target": "_blank",
+        "thumb": "/assets/portfolio-thumbs/velorah-hero.jpg"
+      },
+      "status": 200,
+      "errors": [],
+      "failed": [],
+      "bad": [],
+      "content": {
+        "title": "Velorah — Estúdio Digital",
+        "bodyChars": 295,
+        "h1": [
+          {
+            "text": "Onde os sonhos se erguem através do silêncio.",
+            "opacity": "1"
+          }
+        ],
+        "anchors": [
+          {
+            "text": "Início",
+            "href": "#",
+            "targetExists": false
+          },
+          {
+            "text": "Estúdio",
+            "href": "#",
+            "targetExists": false
+          },
+          {
+            "text": "Sobre",
+            "href": "#",
+            "targetExists": false
+          },
+          {
+            "text": "Diário",
+            "href": "#",
+            "targetExists": false
+          },
+          {
+            "text": "Contato",
+            "href": "#",
+            "targetExists": false
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Iniciar Jornada",
+            "aria": null
+          },
+          {
+            "text": "Iniciar Jornada",
+            "aria": null
+          }
+        ],
+        "images": [],
+        "video": [
+          {
+            "poster": null,
+            "src": "http://127.0.0.1:4173/vendor/d8j0ntlcm91z4.cloudfront.net/hf_20260314_131748_f2ca2a28-fed7-44c8-b9a9-bd9acdd5ec31-94d9b3db9d75.mp4",
+            "readyState": 4,
+            "paused": false,
+            "currentTime": 3.032843
+          }
+        ],
+        "loader": []
+      }
+    },
+    {
+      "card": {
+        "name": "Lithos",
+        "href": "/marketing/portfolio/lithos-hero/dist/index.html",
+        "target": "_blank",
+        "thumb": "/assets/portfolio-thumbs/lithos-hero.jpg"
+      },
+      "status": 200,
+      "errors": [],
+      "failed": [],
+      "bad": [],
+      "content": {
+        "title": "Lithos — Geologia Interativa",
+        "bodyChars": 455,
+        "h1": [
+          {
+            "text": "Camadas guardam\nhistórias do tempo",
+            "opacity": "1"
+          }
+        ],
+        "anchors": [],
+        "buttons": [
+          {
+            "text": "Curso",
+            "aria": null
+          },
+          {
+            "text": "Guias de campo",
+            "aria": null
+          },
+          {
+            "text": "Geologia",
+            "aria": null
+          },
+          {
+            "text": "Planos",
+            "aria": null
+          },
+          {
+            "text": "Tour ao vivo",
+            "aria": null
+          },
+          {
+            "text": "Criar conta",
+            "aria": null
+          },
+          {
+            "text": "",
+            "aria": "Abrir menu"
+          },
+          {
+            "text": "Começar a escavar",
+            "aria": null
+          }
+        ],
+        "images": [],
+        "video": [],
+        "loader": []
+      }
+    },
+    {
+      "card": {
+        "name": "Vértice",
+        "href": "/marketing/portfolio/dentista-clinica-vertice/index.html",
+        "target": "_blank",
+        "thumb": "/assets/portfolio-thumbs/dentista-clinica-vertice.jpg"
+      },
+      "status": 200,
+      "errors": [],
+      "failed": [],
+      "bad": [],
+      "content": {
+        "title": "Clínica Vértice · Ortodontia e implantes em Londrina",
+        "bodyChars": 3582,
+        "h1": [
+          {
+            "text": "Seu sorriso,\nplanejado\ncom calma.",
+            "opacity": "1"
+          }
+        ],
+        "anchors": [
+          {
+            "text": "Vértice°",
+            "href": "#topo",
+            "targetExists": true
+          },
+          {
+            "text": "A clínica",
+            "href": "#clinica",
+            "targetExists": true
+          },
+          {
+            "text": "Tratamentos",
+            "href": "#tratamentos",
+            "targetExists": true
+          },
+          {
+            "text": "Estrutura",
+            "href": "#estrutura",
+            "targetExists": true
+          },
+          {
+            "text": "Clínica Vértice°",
+            "href": "#topo",
+            "targetExists": true
+          },
+          {
+            "text": "A clínica",
+            "href": "#clinica",
+            "targetExists": true
+          },
+          {
+            "text": "Tratamentos",
+            "href": "#tratamentos",
+            "targetExists": true
+          },
+          {
+            "text": "Estrutura",
+            "href": "#estrutura",
+            "targetExists": true
+          },
+          {
+            "text": "Método",
+            "href": "#metodo",
+            "targetExists": true
+          },
+          {
+            "text": "Ver tratamentos",
+            "href": "#tratamentos",
+            "targetExists": true
+          },
+          {
+            "text": "Ortodontia",
+            "href": "#tratamentos",
+            "targetExists": true
+          },
+          {
+            "text": "Invisalign",
+            "href": "#tratamentos",
+            "targetExists": true
+          },
+          {
+            "text": "Implantes",
+            "href": "#tratamentos",
+            "targetExists": true
+          },
+          {
+            "text": "Reabilitação total",
+            "href": "#tratamentos",
+            "targetExists": true
+          },
+          {
+            "text": "Av. Higienópolis, Londrina, PR",
+            "href": "#topo",
+            "targetExists": true
+          }
+        ],
+        "buttons": [],
+        "images": [
+          {
+            "src": "/marketing/portfolio/dentista-clinica-vertice/assets/img/alinhador-macro.jpg",
+            "complete": true,
+            "width": 1200,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/dentista-clinica-vertice/assets/img/sorriso.jpg",
+            "complete": true,
+            "width": 1200,
+            "visible": false
+          },
+          {
+            "src": "/marketing/portfolio/dentista-clinica-vertice/assets/img/alinhador-macro.jpg",
+            "complete": true,
+            "width": 1200,
+            "visible": false
+          },
+          {
+            "src": "/marketing/portfolio/dentista-clinica-vertice/assets/img/implante-3d.jpg",
+            "complete": true,
+            "width": 1200,
+            "visible": false
+          },
+          {
+            "src": "/marketing/portfolio/dentista-clinica-vertice/assets/img/consultorio.jpg",
+            "complete": true,
+            "width": 1600,
+            "visible": false
+          },
+          {
+            "src": "/marketing/portfolio/dentista-clinica-vertice/assets/img/imagem-3d.jpg",
+            "complete": true,
+            "width": 1600,
+            "visible": false
+          },
+          {
+            "src": "/marketing/portfolio/dentista-clinica-vertice/assets/img/consultorio.jpg",
+            "complete": true,
+            "width": 1600,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/dentista-clinica-vertice/assets/img/imagem-3d.jpg",
+            "complete": true,
+            "width": 1600,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/dentista-clinica-vertice/assets/img/recepcao.jpg",
+            "complete": true,
+            "width": 1200,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/dentista-clinica-vertice/assets/img/sorriso.jpg",
+            "complete": true,
+            "width": 1200,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/dentista-clinica-vertice/assets/img/implante-3d.jpg",
+            "complete": true,
+            "width": 1200,
+            "visible": true
+          }
+        ],
+        "video": [
+          {
+            "poster": "/marketing/portfolio/dentista-clinica-vertice/assets/img/recepcao.jpg",
+            "src": "http://127.0.0.1:4173/marketing/portfolio/dentista-clinica-vertice/assets/video/hero.mp4",
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0.000003
+          }
+        ],
+        "loader": []
+      }
+    },
+    {
+      "card": {
+        "name": "Convix",
+        "href": "/marketing/portfolio/convix-hero/dist/index.html",
+        "target": "_blank",
+        "thumb": "/assets/portfolio-thumbs/convix-hero.jpg"
+      },
+      "status": 200,
+      "errors": [],
+      "failed": [],
+      "bad": [],
+      "content": {
+        "title": "Convix Software — Software para Agências de PR",
+        "bodyChars": 503,
+        "h1": [
+          {
+            "text": "Moldando Agências\ndo amanhã",
+            "opacity": "1"
+          }
+        ],
+        "anchors": [],
+        "buttons": [
+          {
+            "text": "Acesso antecipadoAcesso",
+            "aria": null
+          },
+          {
+            "text": "",
+            "aria": "Abrir menu"
+          },
+          {
+            "text": "Começar agora",
+            "aria": null
+          },
+          {
+            "text": "Este mês",
+            "aria": null
+          },
+          {
+            "text": "Mês até hoje (MTD)",
+            "aria": null
+          },
+          {
+            "text": "Salvar",
+            "aria": null
+          },
+          {
+            "text": "Cancelar",
+            "aria": null
+          },
+          {
+            "text": "",
+            "aria": "Fechar"
+          }
+        ],
+        "images": [],
+        "video": [
+          {
+            "poster": "/vendor/images.unsplash.com/photo-1557683316-973673baf926-565cff88977e.jpg",
+            "src": "http://127.0.0.1:4173/vendor/d8j0ntlcm91z4.cloudfront.net/hf_20260424_064411_9e9d7f84-9277-41f4-ab10-59172d89e6be-2681d41b24d4.mp4",
+            "readyState": 4,
+            "paused": false,
+            "currentTime": 2.955432
+          }
+        ],
+        "loader": []
+      }
+    },
+    {
+      "card": {
+        "name": "Áureo",
+        "href": "/marketing/portfolio/aureo-arquitetura/index.html",
+        "target": "_blank",
+        "thumb": "/assets/portfolio-thumbs/aureo-arquitetura.jpg"
+      },
+      "status": 200,
+      "errors": [],
+      "failed": [],
+      "bad": [],
+      "content": {
+        "title": "Áureo Arquitetura · residencial e incorporadora · desde MMV",
+        "bodyChars": 4980,
+        "h1": [
+          {
+            "text": "O desenho\nque a cidade\nhabita.",
+            "opacity": "1"
+          }
+        ],
+        "anchors": [
+          {
+            "text": "Áureo\n      Arquitetura · MMV",
+            "href": "#topo",
+            "targetExists": true
+          },
+          {
+            "text": "Manifesto",
+            "href": "#manifesto",
+            "targetExists": true
+          },
+          {
+            "text": "Obras",
+            "href": "#obras",
+            "targetExists": true
+          },
+          {
+            "text": "Percurso",
+            "href": "#percurso",
+            "targetExists": true
+          },
+          {
+            "text": "Equipe",
+            "href": "#equipe",
+            "targetExists": true
+          },
+          {
+            "text": "Conversar",
+            "href": "#contato",
+            "targetExists": true
+          },
+          {
+            "text": "Manifesto",
+            "href": "#manifesto",
+            "targetExists": true
+          },
+          {
+            "text": "Obras",
+            "href": "#obras",
+            "targetExists": true
+          },
+          {
+            "text": "Percurso",
+            "href": "#percurso",
+            "targetExists": true
+          },
+          {
+            "text": "Equipe",
+            "href": "#equipe",
+            "targetExists": true
+          },
+          {
+            "text": "Conversar",
+            "href": "#contato",
+            "targetExists": true
+          },
+          {
+            "text": "Iniciar uma conversa",
+            "href": "#contato",
+            "targetExists": true
+          }
+        ],
+        "buttons": [
+          {
+            "text": "",
+            "aria": "Abrir menu"
+          }
+        ],
+        "images": [
+          {
+            "src": "/marketing/portfolio/aureo-arquitetura/assets/img/detalhe-concreto.jpg",
+            "complete": true,
+            "width": 1792,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/aureo-arquitetura/assets/img/torres-carmel.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/aureo-arquitetura/assets/img/complexo-aereo.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/aureo-arquitetura/assets/img/memorial-parabola.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/aureo-arquitetura/assets/img/interior-living.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          }
+        ],
+        "video": [
+          {
+            "poster": "/marketing/portfolio/aureo-arquitetura/assets/img/hero-fachada.jpg",
+            "src": "http://127.0.0.1:4173/marketing/portfolio/aureo-arquitetura/assets/video/hero.mp4",
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0.000003
+          }
+        ],
+        "loader": []
+      }
+    },
+    {
+      "card": {
+        "name": "Margô",
+        "href": "/marketing/portfolio/confeitaria-margo/index.html",
+        "target": "_blank",
+        "thumb": "/assets/portfolio-thumbs/confeitaria-margo.jpg"
+      },
+      "status": 200,
+      "errors": [],
+      "failed": [],
+      "bad": [],
+      "content": {
+        "title": "Margô · Confeitaria autoral em Londrina",
+        "bodyChars": 4074,
+        "h1": [
+          {
+            "text": "O dia rende mais quando começa com cheiro de forno.",
+            "opacity": "1"
+          }
+        ],
+        "anchors": [
+          {
+            "text": "Margô.",
+            "href": "#topo",
+            "targetExists": true
+          },
+          {
+            "text": "A casa",
+            "href": "#casa",
+            "targetExists": true
+          },
+          {
+            "text": "A vitrine",
+            "href": "#vitrine",
+            "targetExists": true
+          },
+          {
+            "text": "O cardápio",
+            "href": "#cardapio",
+            "targetExists": true
+          },
+          {
+            "text": "O brunch",
+            "href": "#brunch",
+            "targetExists": true
+          },
+          {
+            "text": "Ver a vitrine",
+            "href": "#vitrine",
+            "targetExists": true
+          },
+          {
+            "text": "Bolos sob encomenda",
+            "href": "#cardapio",
+            "targetExists": true
+          },
+          {
+            "text": "Mesa de doces",
+            "href": "#cardapio",
+            "targetExists": true
+          },
+          {
+            "text": "Brunch de sábado",
+            "href": "#brunch",
+            "targetExists": true
+          },
+          {
+            "text": "Caixas de presente",
+            "href": "#cardapio",
+            "targetExists": true
+          }
+        ],
+        "buttons": [
+          {
+            "text": "",
+            "aria": "Abrir menu"
+          }
+        ],
+        "images": [
+          {
+            "src": "/marketing/portfolio/confeitaria-margo/assets/img/bolo-frutas.jpg",
+            "complete": true,
+            "width": 1045,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/confeitaria-margo/assets/img/brigadeiros.jpg",
+            "complete": true,
+            "width": 1400,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/confeitaria-margo/assets/img/naked-cake.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/confeitaria-margo/assets/img/bolo-frutas.jpg",
+            "complete": false,
+            "width": 1045,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/confeitaria-margo/assets/img/brigadeiros.jpg",
+            "complete": false,
+            "width": 1400,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/confeitaria-margo/assets/img/tortinha-limao.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/confeitaria-margo/assets/img/croissants.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "",
+            "complete": true,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/confeitaria-margo/assets/img/croissants.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/confeitaria-margo/assets/img/naked-cake.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          }
+        ],
+        "video": [
+          {
+            "poster": "/marketing/portfolio/confeitaria-margo/assets/img/hero-brunch.jpg",
+            "src": "http://127.0.0.1:4173/marketing/portfolio/confeitaria-margo/assets/video/hero.mp4",
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0.000003
+          }
+        ],
+        "loader": []
+      }
+    },
+    {
+      "card": {
+        "name": "Liminar",
+        "href": "/marketing/portfolio/instituto-liminar/index.html",
+        "target": "_blank",
+        "thumb": "/assets/portfolio-thumbs/instituto-liminar.jpg"
+      },
+      "status": 200,
+      "errors": [],
+      "failed": [],
+      "bad": [],
+      "content": {
+        "title": "Instituto Liminar · Ensino superior em psicanálise",
+        "bodyChars": 4675,
+        "h1": [
+          {
+            "text": "Há um saber que\nnão se ensina:\ntransmite-se.",
+            "opacity": "1"
+          }
+        ],
+        "anchors": [
+          {
+            "text": "Liminar Instituto",
+            "href": "#topo",
+            "targetExists": true
+          },
+          {
+            "text": "Manifesto",
+            "href": "#manifesto",
+            "targetExists": true
+          },
+          {
+            "text": "Formação",
+            "href": "#formacao",
+            "targetExists": true
+          },
+          {
+            "text": "Docentes",
+            "href": "#docentes",
+            "targetExists": true
+          },
+          {
+            "text": "Ecossistema",
+            "href": "#ecossistema",
+            "targetExists": true
+          },
+          {
+            "text": "Encontro 2026",
+            "href": "#encontro",
+            "targetExists": true
+          },
+          {
+            "text": "Fale com o instituto",
+            "href": "#contato",
+            "targetExists": true
+          },
+          {
+            "text": "Manifesto",
+            "href": "#manifesto",
+            "targetExists": true
+          },
+          {
+            "text": "Formação",
+            "href": "#formacao",
+            "targetExists": true
+          },
+          {
+            "text": "Docentes",
+            "href": "#docentes",
+            "targetExists": true
+          },
+          {
+            "text": "Ecossistema",
+            "href": "#ecossistema",
+            "targetExists": true
+          },
+          {
+            "text": "Encontro 2026",
+            "href": "#encontro",
+            "targetExists": true
+          },
+          {
+            "text": "Fale com o instituto",
+            "href": "#contato",
+            "targetExists": true
+          },
+          {
+            "text": "Quero saber do Encontro →",
+            "href": "#contato",
+            "targetExists": true
+          },
+          {
+            "text": "Chamar no WhatsApp →",
+            "href": "#contato",
+            "targetExists": true
+          },
+          {
+            "text": "Escrever por e-mail",
+            "href": "#contato",
+            "targetExists": true
+          },
+          {
+            "text": "(00) 00000-0000",
+            "href": "#contato",
+            "targetExists": true
+          },
+          {
+            "text": "contato@seuinstituto.com.br",
+            "href": "#contato",
+            "targetExists": true
+          },
+          {
+            "text": "@seuinstituto",
+            "href": "#contato",
+            "targetExists": true
+          },
+          {
+            "text": "(00) 00000-0000",
+            "href": "#contato",
+            "targetExists": true
+          },
+          {
+            "text": "contato@seuinstituto.com.br",
+            "href": "#contato",
+            "targetExists": true
+          }
+        ],
+        "buttons": [
+          {
+            "text": "",
+            "aria": "Abrir menu"
+          }
+        ],
+        "images": [
+          {
+            "src": "/marketing/portfolio/instituto-liminar/assets/img/maos-livro.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/instituto-liminar/assets/img/manuscrito.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/instituto-liminar/assets/img/diva.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/instituto-liminar/assets/img/motivo-grafico.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/instituto-liminar/assets/img/anfiteatro.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          }
+        ],
+        "video": [
+          {
+            "poster": "/marketing/portfolio/instituto-liminar/assets/img/hero-biblioteca.jpg",
+            "src": "http://127.0.0.1:4173/marketing/portfolio/instituto-liminar/assets/video/hero.mp4",
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0.000003
+          }
+        ],
+        "loader": []
+      }
+    },
+    {
+      "card": {
+        "name": "Verene",
+        "href": "/marketing/portfolio/verene-odontologia/index.html",
+        "target": "_blank",
+        "thumb": "/assets/portfolio-thumbs/verene-odontologia.jpg"
+      },
+      "status": 200,
+      "errors": [],
+      "failed": [],
+      "bad": [],
+      "content": {
+        "title": "Verene Odontologia · Implantes e reabilitação de alto padrão",
+        "bodyChars": 3692,
+        "h1": [
+          {
+            "text": "O cuidado que você\npercebe antes de\nsentar na cadeira.",
+            "opacity": "1"
+          }
+        ],
+        "anchors": [
+          {
+            "text": "Verene\n    Odontologia",
+            "href": "#topo",
+            "targetExists": true
+          },
+          {
+            "text": "A clínica",
+            "href": "#clinica",
+            "targetExists": true
+          },
+          {
+            "text": "Especialidades",
+            "href": "#especialidades",
+            "targetExists": true
+          },
+          {
+            "text": "A doutora",
+            "href": "#doutora",
+            "targetExists": true
+          },
+          {
+            "text": "Primeira visita",
+            "href": "#visita",
+            "targetExists": true
+          },
+          {
+            "text": "Conhecer a clínica",
+            "href": "#clinica",
+            "targetExists": true
+          }
+        ],
+        "buttons": [
+          {
+            "text": "",
+            "aria": "Abrir menu"
+          }
+        ],
+        "images": [
+          {
+            "src": "/marketing/portfolio/verene-odontologia/assets/img/implante-3d.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/verene-odontologia/assets/img/alinhador.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/verene-odontologia/assets/img/protese-ceramica.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/verene-odontologia/assets/img/sorriso.jpg",
+            "complete": false,
+            "width": 0,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/verene-odontologia/assets/img/consultorio.jpg",
+            "complete": true,
+            "width": 1920,
+            "visible": true
+          }
+        ],
+        "video": [
+          {
+            "poster": "/marketing/portfolio/verene-odontologia/assets/img/hero-recepcao.jpg",
+            "src": "http://127.0.0.1:4173/marketing/portfolio/verene-odontologia/assets/video/hero.mp4",
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0.000003
+          }
+        ],
+        "loader": []
+      }
+    },
+    {
+      "card": {
+        "name": "Estúdio Linha",
+        "href": "/marketing/portfolio/arquitetura-estudio-linha/index.html",
+        "target": "_blank",
+        "thumb": "/assets/portfolio-thumbs/arquitetura-estudio-linha.jpg"
+      },
+      "status": 200,
+      "errors": [],
+      "failed": [],
+      "bad": [],
+      "content": {
+        "title": "Estúdio Linha · Arquitetura residencial autoral em Londrina",
+        "bodyChars": 3093,
+        "h1": [
+          {
+            "text": "Luz,\nlinha,\ncasa.",
+            "opacity": "1"
+          }
+        ],
+        "anchors": [
+          {
+            "text": "Estúdio Linha",
+            "href": "#top",
+            "targetExists": true
+          },
+          {
+            "text": "O estúdio",
+            "href": "#manifesto",
+            "targetExists": true
+          },
+          {
+            "text": "Método",
+            "href": "#metodo",
+            "targetExists": true
+          },
+          {
+            "text": "Projetos",
+            "href": "#projetos",
+            "targetExists": true
+          }
+        ],
+        "buttons": [],
+        "images": [
+          {
+            "src": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/detalhe-sombra.jpg",
+            "complete": true,
+            "width": 1400,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/estar-pe-direito.jpg",
+            "complete": true,
+            "width": 1450,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/escada-luz.jpg",
+            "complete": true,
+            "width": 1344,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/patio-azul.jpg",
+            "complete": true,
+            "width": 1920,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/varanda-ripas.jpg",
+            "complete": true,
+            "width": 1450,
+            "visible": true
+          },
+          {
+            "src": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/patio-azul.jpg",
+            "complete": true,
+            "width": 1920,
+            "visible": true
+          }
+        ],
+        "video": [
+          {
+            "poster": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/fachada-ouro.jpg",
+            "src": "http://127.0.0.1:4173/marketing/portfolio/arquitetura-estudio-linha/assets/video/hero.mp4",
+            "readyState": 4,
+            "paused": true,
+            "currentTime": 0.000003
+          }
+        ],
+        "loader": []
+      }
+    }
+  ],
+  "clickResults": [
+    {
+      "name": "Velorah",
+      "opened": true,
+      "url": "http://127.0.0.1:4173/marketing/portfolio/velorah-hero/dist/index.html"
+    },
+    {
+      "name": "Lithos",
+      "opened": true,
+      "url": "http://127.0.0.1:4173/marketing/portfolio/lithos-hero/dist/index.html"
+    },
+    {
+      "name": "Vértice",
+      "opened": true,
+      "url": "http://127.0.0.1:4173/marketing/portfolio/dentista-clinica-vertice/index.html"
+    },
+    {
+      "name": "Convix",
+      "opened": true,
+      "url": "http://127.0.0.1:4173/marketing/portfolio/convix-hero/dist/index.html"
+    },
+    {
+      "name": "Áureo",
+      "opened": true,
+      "url": "http://127.0.0.1:4173/marketing/portfolio/aureo-arquitetura/index.html"
+    },
+    {
+      "name": "Margô",
+      "opened": true,
+      "url": "http://127.0.0.1:4173/marketing/portfolio/confeitaria-margo/index.html"
+    },
+    {
+      "name": "Liminar",
+      "opened": true,
+      "url": "http://127.0.0.1:4173/marketing/portfolio/instituto-liminar/index.html"
+    },
+    {
+      "name": "Verene",
+      "opened": true,
+      "url": "http://127.0.0.1:4173/marketing/portfolio/verene-odontologia/index.html"
+    },
+    {
+      "name": "Estúdio Linha",
+      "opened": true,
+      "url": "http://127.0.0.1:4173/marketing/portfolio/arquitetura-estudio-linha/index.html"
+    }
+  ]
+}

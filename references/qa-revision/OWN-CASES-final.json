@@ -1,0 +1,396 @@
+[
+  {
+    "slug": "helena-vasques",
+    "mode": "desktop",
+    "url": "http://127.0.0.1:4173/cases/helena-vasques.html",
+    "fit": {
+      "title": "Helena Vasques | Advocacia trabalhista em Brasília | Norte Autoral",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": [],
+      "concept": true,
+      "videos": [],
+      "returnLinks": [
+        "/#sites",
+        "/#sites"
+      ]
+    },
+    "checks": [
+      {
+        "name": "startup-fit",
+        "pass": true
+      },
+      {
+        "name": "nav-situacoes",
+        "pass": true
+      },
+      {
+        "name": "nav-atuacao",
+        "pass": true
+      },
+      {
+        "name": "nav-advogada",
+        "pass": true
+      },
+      {
+        "name": "faq-open",
+        "pass": true
+      },
+      {
+        "name": "faq-close",
+        "pass": true
+      },
+      {
+        "name": "route-reload",
+        "pass": true
+      }
+    ],
+    "errors": [],
+    "missing": []
+  },
+  {
+    "slug": "helena-vasques",
+    "mode": "mobile",
+    "url": "http://127.0.0.1:4173/cases/helena-vasques.html",
+    "fit": {
+      "title": "Helena Vasques | Advocacia trabalhista em Brasília | Norte Autoral",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": [],
+      "concept": true,
+      "videos": [],
+      "returnLinks": [
+        "/#sites",
+        "/#sites"
+      ]
+    },
+    "checks": [
+      {
+        "name": "startup-fit",
+        "pass": true
+      },
+      {
+        "name": "faq-open",
+        "pass": true
+      },
+      {
+        "name": "faq-close",
+        "pass": true
+      },
+      {
+        "name": "route-reload",
+        "pass": true
+      }
+    ],
+    "errors": [],
+    "missing": []
+  },
+  {
+    "slug": "vex-fitness",
+    "mode": "desktop",
+    "url": "http://127.0.0.1:4173/cases/vex-fitness.html",
+    "fit": {
+      "title": "Vex Fitness: academia em Águas Lindas de Goiás, GO | Norte Autoral",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": [],
+      "concept": true,
+      "videos": [],
+      "returnLinks": [
+        "/#sites",
+        "/#sites"
+      ]
+    },
+    "checks": [
+      {
+        "name": "startup-fit",
+        "pass": true
+      },
+      {
+        "name": "filter-lutas",
+        "pass": true,
+        "state": {
+          "selected": "Lutas",
+          "visible": 5,
+          "total": 14
+        }
+      },
+      {
+        "name": "filter-reset",
+        "pass": true
+      },
+      {
+        "name": "annual-prices",
+        "pass": true
+      },
+      {
+        "name": "monthly-prices",
+        "pass": true
+      },
+      {
+        "name": "faq-open",
+        "pass": true
+      },
+      {
+        "name": "faq-close",
+        "pass": true
+      },
+      {
+        "name": "hero-carousel",
+        "pass": true,
+        "before": [
+          {
+            "src": "/assets/norte-autoral/case-media/imagens/case-vex-fitness/hero-forca.jpg",
+            "opacity": "0.0808663"
+          },
+          {
+            "src": "/assets/norte-autoral/case-media/imagens/case-vex-fitness/natacao.jpg",
+            "opacity": "0.919134"
+          },
+          {
+            "src": "/assets/norte-autoral/case-media/imagens/case-vex-fitness/hero-luta.jpg",
+            "opacity": "0"
+          }
+        ],
+        "after": [
+          {
+            "src": "/assets/norte-autoral/case-media/imagens/case-vex-fitness/hero-forca.jpg",
+            "opacity": "0"
+          },
+          {
+            "src": "/assets/norte-autoral/case-media/imagens/case-vex-fitness/natacao.jpg",
+            "opacity": "0"
+          },
+          {
+            "src": "/assets/norte-autoral/case-media/imagens/case-vex-fitness/hero-luta.jpg",
+            "opacity": "1"
+          }
+        ]
+      },
+      {
+        "name": "route-reload",
+        "pass": true
+      }
+    ],
+    "errors": [],
+    "missing": []
+  },
+  {
+    "slug": "vex-fitness",
+    "mode": "mobile",
+    "url": "http://127.0.0.1:4173/cases/vex-fitness.html",
+    "fit": {
+      "title": "Vex Fitness: academia em Águas Lindas de Goiás, GO | Norte Autoral",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": [],
+      "concept": true,
+      "videos": [],
+      "returnLinks": [
+        "/#sites",
+        "/#sites"
+      ]
+    },
+    "checks": [
+      {
+        "name": "startup-fit",
+        "pass": true
+      },
+      {
+        "name": "filter-lutas",
+        "pass": true,
+        "state": {
+          "selected": "Lutas",
+          "visible": 5,
+          "total": 14
+        }
+      },
+      {
+        "name": "filter-reset",
+        "pass": true
+      },
+      {
+        "name": "annual-prices",
+        "pass": true
+      },
+      {
+        "name": "monthly-prices",
+        "pass": true
+      },
+      {
+        "name": "faq-open",
+        "pass": true
+      },
+      {
+        "name": "faq-close",
+        "pass": true
+      },
+      {
+        "name": "hero-carousel",
+        "pass": true,
+        "before": [
+          {
+            "src": "/assets/norte-autoral/case-media/imagens/case-vex-fitness/hero-forca.jpg",
+            "opacity": "1"
+          },
+          {
+            "src": "/assets/norte-autoral/case-media/imagens/case-vex-fitness/natacao.jpg",
+            "opacity": "0"
+          },
+          {
+            "src": "/assets/norte-autoral/case-media/imagens/case-vex-fitness/hero-luta.jpg",
+            "opacity": "0"
+          }
+        ],
+        "after": [
+          {
+            "src": "/assets/norte-autoral/case-media/imagens/case-vex-fitness/hero-forca.jpg",
+            "opacity": "0"
+          },
+          {
+            "src": "/assets/norte-autoral/case-media/imagens/case-vex-fitness/natacao.jpg",
+            "opacity": "0.0081385"
+          },
+          {
+            "src": "/assets/norte-autoral/case-media/imagens/case-vex-fitness/hero-luta.jpg",
+            "opacity": "0.991862"
+          }
+        ]
+      },
+      {
+        "name": "route-reload",
+        "pass": true
+      }
+    ],
+    "errors": [],
+    "missing": []
+  },
+  {
+    "slug": "vex-construtora",
+    "mode": "desktop",
+    "url": "http://127.0.0.1:4173/cases/vex-construtora.html",
+    "fit": {
+      "title": "Vex Construtora — apartamento em Águas Lindas de Goiás | Case Norte Autoral | Norte Autoral",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "brokenImages": [],
+      "concept": true,
+      "videos": [
+        {
+          "src": "http://127.0.0.1:4173/assets/norte-autoral/case-media/imagens/case-vex-construtora/hero.mp4",
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "returnLinks": [
+        "/#sites",
+        "/#sites"
+      ]
+    },
+    "checks": [
+      {
+        "name": "startup-fit",
+        "pass": true
+      },
+      {
+        "name": "empreendimentos-filter",
+        "pass": true,
+        "state": {
+          "selected": "Em obra",
+          "visible": 2,
+          "total": 6
+        }
+      },
+      {
+        "name": "empreendimentos-reset",
+        "pass": true
+      },
+      {
+        "name": "3d-type-b",
+        "pass": true
+      },
+      {
+        "name": "3d-type-a",
+        "pass": true
+      },
+      {
+        "name": "3d-canvas",
+        "pass": true
+      },
+      {
+        "name": "3d-room-focus",
+        "pass": true
+      },
+      {
+        "name": "3d-drag",
+        "pass": true
+      },
+      {
+        "name": "route-reload",
+        "pass": true
+      }
+    ],
+    "errors": [],
+    "missing": []
+  },
+  {
+    "slug": "vex-construtora",
+    "mode": "mobile",
+    "url": "http://127.0.0.1:4173/cases/vex-construtora.html",
+    "fit": {
+      "title": "Vex Construtora — apartamento em Águas Lindas de Goiás | Case Norte Autoral | Norte Autoral",
+      "width": 390,
+      "scrollWidth": 390,
+      "brokenImages": [],
+      "concept": true,
+      "videos": [
+        {
+          "src": "http://127.0.0.1:4173/assets/norte-autoral/case-media/imagens/case-vex-construtora/hero.mp4",
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "returnLinks": [
+        "/#sites",
+        "/#sites"
+      ]
+    },
+    "checks": [
+      {
+        "name": "startup-fit",
+        "pass": true
+      },
+      {
+        "name": "empreendimentos-filter",
+        "pass": true,
+        "state": {
+          "selected": "Em obra",
+          "visible": 2,
+          "total": 6
+        }
+      },
+      {
+        "name": "empreendimentos-reset",
+        "pass": true
+      },
+      {
+        "name": "3d-type-b",
+        "pass": true
+      },
+      {
+        "name": "3d-type-a",
+        "pass": true
+      },
+      {
+        "name": "3d-canvas",
+        "pass": true
+      },
+      {
+        "name": "route-reload",
+        "pass": true
+      }
+    ],
+    "errors": [],
+    "missing": []
+  }
+]

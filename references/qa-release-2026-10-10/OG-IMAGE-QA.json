@@ -1,0 +1,69 @@
+{
+  "file": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\Projeto MazyOS\\clone v1\\public\\assets\\norte-autoral\\og-norte-autoral.jpg",
+  "errors": [],
+  "failedRequests": [],
+  "viewport": {
+    "width": 1200,
+    "height": 630
+  },
+  "scroll": {
+    "width": 1200,
+    "height": 630
+  },
+  "images": [
+    {
+      "src": "/assets/norte-autoral/logo-n.png",
+      "width": 1024,
+      "height": 1024,
+      "loaded": true
+    }
+  ],
+  "boxes": [
+    {
+      "selector": "brand",
+      "x": 70,
+      "y": 58,
+      "width": 1060,
+      "height": 58,
+      "right": 1130,
+      "bottom": 116
+    },
+    {
+      "selector": "eyebrow",
+      "x": 70,
+      "y": 174,
+      "width": 1060,
+      "height": 19,
+      "right": 1130,
+      "bottom": 193
+    },
+    {
+      "selector": "H1",
+      "x": 70,
+      "y": 211,
+      "width": 970,
+      "height": 153.5,
+      "right": 1040,
+      "bottom": 364.5
+    },
+    {
+      "selector": "services",
+      "x": 70,
+      "y": 394.5,
+      "width": 1060,
+      "height": 43,
+      "right": 1130,
+      "bottom": 437.5
+    },
+    {
+      "selector": "footer",
+      "x": 70,
+      "y": 543,
+      "width": 1060,
+      "height": 41,
+      "right": 1130,
+      "bottom": 584
+    }
+  ],
+  "fontsReady": true
+}

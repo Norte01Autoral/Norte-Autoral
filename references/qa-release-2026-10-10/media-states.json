@@ -1,0 +1,51 @@
+[
+  {
+    "label": "visible hero",
+    "delta": 31,
+    "draws": 133,
+    "heroTop": 0,
+    "marquee": "paused"
+  },
+  {
+    "label": "hero outside viewport",
+    "delta": 0,
+    "draws": 142,
+    "heroTop": -1400,
+    "marquee": "paused"
+  },
+  {
+    "label": "synthetic hidden outside hero",
+    "delta": 0,
+    "draws": 142,
+    "heroTop": -1400,
+    "marquee": "paused"
+  },
+  {
+    "label": "synthetic visible outside hero",
+    "delta": 0,
+    "draws": 142,
+    "heroTop": -1400,
+    "marquee": "paused"
+  },
+  {
+    "label": "return to hero",
+    "delta": 34,
+    "draws": 256,
+    "heroTop": 0,
+    "marquee": "paused"
+  },
+  {
+    "label": "synthetic hidden on hero",
+    "delta": 0,
+    "draws": 258,
+    "heroTop": 0,
+    "marquee": "paused"
+  },
+  {
+    "label": "synthetic visible on hero",
+    "delta": 35,
+    "draws": 294,
+    "heroTop": 0,
+    "marquee": "paused"
+  }
+]

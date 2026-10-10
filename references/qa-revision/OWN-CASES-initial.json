@@ -1,0 +1,358 @@
+[
+  {
+    "slug": "helena-vasques",
+    "mode": "desktop",
+    "title": "Helena Vasques | Advocacia trabalhista em Brasília | Norte Autoral",
+    "w": 1440,
+    "scrollW": 1440,
+    "ids": [
+      "topo",
+      "situacoes",
+      "atuacao",
+      "advogada",
+      "metodo",
+      "duvidas",
+      "consulta"
+    ],
+    "brokenImages": [],
+    "buttons": [
+      {
+        "text": "Enviar para a advogada",
+        "aria": null
+      }
+    ],
+    "videos": [],
+    "errors": [
+      "Minified React error #412; visit https://react.dev/errors/412 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    ],
+    "missing": [],
+    "screenshot": "helena-vasques-desktop.png"
+  },
+  {
+    "slug": "helena-vasques",
+    "mode": "mobile",
+    "title": "Helena Vasques | Advocacia trabalhista em Brasília | Norte Autoral",
+    "w": 390,
+    "scrollW": 390,
+    "ids": [
+      "topo",
+      "situacoes",
+      "atuacao",
+      "advogada",
+      "metodo",
+      "duvidas",
+      "consulta"
+    ],
+    "brokenImages": [],
+    "buttons": [
+      {
+        "text": "Enviar para a advogada",
+        "aria": null
+      }
+    ],
+    "videos": [],
+    "errors": [
+      "Minified React error #412; visit https://react.dev/errors/412 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    ],
+    "missing": [],
+    "screenshot": "helena-vasques-mobile.png"
+  },
+  {
+    "slug": "vex-fitness",
+    "mode": "desktop",
+    "title": "Vex Fitness: academia em Águas Lindas de Goiás, GO | Norte Autoral",
+    "w": 1440,
+    "scrollW": 1440,
+    "ids": [
+      "topo",
+      "modalidades",
+      "horarios",
+      "estrutura",
+      "planos",
+      "duvidas",
+      "matricula"
+    ],
+    "brokenImages": [],
+    "buttons": [
+      {
+        "text": "Tudo",
+        "aria": null
+      },
+      {
+        "text": "Lutas",
+        "aria": null
+      },
+      {
+        "text": "Natação",
+        "aria": null
+      },
+      {
+        "text": "Coletivas",
+        "aria": null
+      },
+      {
+        "text": "Sem fidelidade",
+        "aria": null
+      },
+      {
+        "text": "12 meses",
+        "aria": null
+      },
+      {
+        "text": "Marcar aula experimental",
+        "aria": null
+      }
+    ],
+    "videos": [],
+    "errors": [
+      "Minified React error #412; visit https://react.dev/errors/412 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    ],
+    "missing": [],
+    "screenshot": "vex-fitness-desktop.png"
+  },
+  {
+    "slug": "vex-fitness",
+    "mode": "mobile",
+    "title": "Vex Fitness: academia em Águas Lindas de Goiás, GO | Norte Autoral",
+    "w": 390,
+    "scrollW": 390,
+    "ids": [
+      "topo",
+      "modalidades",
+      "horarios",
+      "estrutura",
+      "planos",
+      "duvidas",
+      "matricula"
+    ],
+    "brokenImages": [],
+    "buttons": [
+      {
+        "text": "Tudo",
+        "aria": null
+      },
+      {
+        "text": "Lutas",
+        "aria": null
+      },
+      {
+        "text": "Natação",
+        "aria": null
+      },
+      {
+        "text": "Coletivas",
+        "aria": null
+      },
+      {
+        "text": "Sem fidelidade",
+        "aria": null
+      },
+      {
+        "text": "12 meses",
+        "aria": null
+      },
+      {
+        "text": "Marcar aula experimental",
+        "aria": null
+      }
+    ],
+    "videos": [],
+    "errors": [
+      "Minified React error #412; visit https://react.dev/errors/412 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    ],
+    "missing": [],
+    "screenshot": "vex-fitness-mobile.png"
+  },
+  {
+    "slug": "vex-construtora",
+    "mode": "desktop",
+    "title": "Vex Construtora — apartamento em Águas Lindas de Goiás | Case Norte Autoral | Norte Autoral",
+    "w": 1440,
+    "scrollW": 1440,
+    "ids": [
+      "topo",
+      "empreendimentos",
+      "quem-somos",
+      "apartamento",
+      "processo",
+      "simular"
+    ],
+    "brokenImages": [
+      "http://127.0.0.1:4173/assets/norte-autoral/case-media/imagens/case-vex-construtora/hero.jpg"
+    ],
+    "buttons": [
+      {
+        "text": "Todos",
+        "aria": null
+      },
+      {
+        "text": "Entregue",
+        "aria": null
+      },
+      {
+        "text": "Em obra",
+        "aria": null
+      },
+      {
+        "text": "Lançamento",
+        "aria": null
+      },
+      {
+        "text": "Tipo A2q · 62,2 m²",
+        "aria": null
+      },
+      {
+        "text": "Tipo B3q · 73,6 m²",
+        "aria": null
+      },
+      {
+        "text": "Varanda\n              4,60 × 1,50",
+        "aria": null
+      },
+      {
+        "text": "Sala de estar e jantar\n              4,60 × 3,50",
+        "aria": null
+      },
+      {
+        "text": "Cozinha\n              2,80 × 2,40",
+        "aria": null
+      },
+      {
+        "text": "Área de serviço\n              1,80 × 2,40",
+        "aria": null
+      },
+      {
+        "text": "Quarto 1\n              3,80 × 3,00",
+        "aria": null
+      },
+      {
+        "text": "Quarto 2\n              3,80 × 2,60",
+        "aria": null
+      },
+      {
+        "text": "Banheiro\n              2,00 × 1,80",
+        "aria": null
+      },
+      {
+        "text": "Circulação\n              1,80 × 1,80",
+        "aria": null
+      },
+      {
+        "text": "Ver o resultado",
+        "aria": null
+      }
+    ],
+    "videos": [
+      {
+        "src": "http://127.0.0.1:4173/assets/norte-autoral/case-media/imagens/case-vex-construtora/hero.mp4",
+        "ready": 4
+      }
+    ],
+    "errors": [
+      "Minified React error #412; visit https://react.dev/errors/412 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    ],
+    "missing": [
+      {
+        "status": 404,
+        "url": "http://127.0.0.1:4173/assets/norte-autoral/case-media/imagens/case-vex-construtora/hero.jpg"
+      }
+    ],
+    "screenshot": "vex-construtora-desktop.png"
+  },
+  {
+    "slug": "vex-construtora",
+    "mode": "mobile",
+    "title": "Vex Construtora — apartamento em Águas Lindas de Goiás | Case Norte Autoral | Norte Autoral",
+    "w": 390,
+    "scrollW": 390,
+    "ids": [
+      "topo",
+      "empreendimentos",
+      "quem-somos",
+      "apartamento",
+      "processo",
+      "simular"
+    ],
+    "brokenImages": [
+      "http://127.0.0.1:4173/assets/norte-autoral/case-media/imagens/case-vex-construtora/hero.jpg"
+    ],
+    "buttons": [
+      {
+        "text": "Todos",
+        "aria": null
+      },
+      {
+        "text": "Entregue",
+        "aria": null
+      },
+      {
+        "text": "Em obra",
+        "aria": null
+      },
+      {
+        "text": "Lançamento",
+        "aria": null
+      },
+      {
+        "text": "Tipo A2q · 62,2 m²",
+        "aria": null
+      },
+      {
+        "text": "Tipo B3q · 73,6 m²",
+        "aria": null
+      },
+      {
+        "text": "Varanda\n              4,60 × 1,50",
+        "aria": null
+      },
+      {
+        "text": "Sala de estar e jantar\n              4,60 × 3,50",
+        "aria": null
+      },
+      {
+        "text": "Cozinha\n              2,80 × 2,40",
+        "aria": null
+      },
+      {
+        "text": "Área de serviço\n              1,80 × 2,40",
+        "aria": null
+      },
+      {
+        "text": "Quarto 1\n              3,80 × 3,00",
+        "aria": null
+      },
+      {
+        "text": "Quarto 2\n              3,80 × 2,60",
+        "aria": null
+      },
+      {
+        "text": "Banheiro\n              2,00 × 1,80",
+        "aria": null
+      },
+      {
+        "text": "Circulação\n              1,80 × 1,80",
+        "aria": null
+      },
+      {
+        "text": "Ver o resultado",
+        "aria": null
+      }
+    ],
+    "videos": [
+      {
+        "src": "http://127.0.0.1:4173/assets/norte-autoral/case-media/imagens/case-vex-construtora/hero.mp4",
+        "ready": 4
+      }
+    ],
+    "errors": [
+      "Minified React error #412; visit https://react.dev/errors/412 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    ],
+    "missing": [
+      {
+        "status": 404,
+        "url": "http://127.0.0.1:4173/assets/norte-autoral/case-media/imagens/case-vex-construtora/hero.jpg"
+      }
+    ],
+    "screenshot": "vex-construtora-mobile.png"
+  }
+]

@@ -1,0 +1,6 @@
+import fs from'node:fs/promises';import path from'node:path';import{fileURLToPath}from'node:url';
+const dir=path.dirname(fileURLToPath(import.meta.url));const inv=JSON.parse(await fs.readFile(path.join(dir,'inventory.json'),'utf8'));
+const urls=['https://jdandrade.art/projetos/maldito-destino','https://jdandrade.art/links','https://jdandrade.art/en','https://www.draanascatolin.com.br/privacidade.html'];
+await Promise.all(urls.map(async url=>{const r=await fetch(url);const body=await r.text();const item={url,finalUrl:r.url,status:r.status,bytes:Buffer.byteLength(body),title:body.match(/<title[^>]*>([^<]+)<\/title>/)?.[1],scripts:[...body.matchAll(/<script[^>]*src=["']([^"']+)["']/g)].map(m=>new URL(m[1],r.url).href),urls:[...new Set([...body.matchAll(/(?:src|href|data-src)=["']([^"']+)["']/g)].map(m=>m[1]).filter(s=>!s.startsWith('#')&&!s.startsWith('data:')).map(s=>new URL(s,r.url).href))]};
+await fs.writeFile(path.join(dir,new URL(url).hostname+'__'+new URL(url).pathname.slice(1).replaceAll('/','__')+'.html'),body,'utf8');inv.pages.push(item);console.log(JSON.stringify({url,status:item.status,bytes:item.bytes,title:item.title,scripts:item.scripts}));}));
+await fs.writeFile(path.join(dir,'inventory.json'),JSON.stringify(inv,null,2));

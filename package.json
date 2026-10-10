@@ -1,0 +1,16 @@
+{
+  "name": "clone-v1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfólio Norte Autoral de Gabriel Holanda em Parnaíba, PI, com sites, Meta Ads, Google Ads e Norte/OS; revisão de 10/10/2026 com SEO para norteautoral.site, imagens otimizadas e pacote estático para Hostinger.",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs",
+    "verify": "node scripts/verify.mjs",
+    "build:hostinger": "node scripts/build-hostinger.mjs",
+    "mirror": "node scripts/mirror.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.0"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "live": {
+    "status": 200,
+    "info": {
+      "motionHash": "9888370b287d65c33c23c43da6cdf2b751fb1193c574581e0a5ffb6c2303ac10",
+      "sceneHash": "eaf2512f7940412850af21aad815e7dc3e60dd1101c100589e6f76511af6b5e5",
+      "mainStyleHash": "655c51225001f0075331254367e16790e6a768ebe689640651fa08b40f2dad47",
+      "motionChars": 10347,
+      "sceneChars": 1599,
+      "scripts": [
+        "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+        "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js",
+        "https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"
+      ],
+      "hasHoje": true,
+      "hasJD": true
+    }
+  },
+  "saved": {
+    "info": {
+      "motionHash": "9888370b287d65c33c23c43da6cdf2b751fb1193c574581e0a5ffb6c2303ac10",
+      "sceneHash": "eaf2512f7940412850af21aad815e7dc3e60dd1101c100589e6f76511af6b5e5",
+      "mainStyleHash": "655c51225001f0075331254367e16790e6a768ebe689640651fa08b40f2dad47",
+      "motionChars": 10347,
+      "sceneChars": 1599,
+      "scripts": [
+        "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+        "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js",
+        "https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"
+      ],
+      "hasHoje": true,
+      "hasJD": true
+    }
+  },
+  "local": {
+    "info": {
+      "motionHash": "9888370b287d65c33c23c43da6cdf2b751fb1193c574581e0a5ffb6c2303ac10",
+      "sceneHash": "eaf2512f7940412850af21aad815e7dc3e60dd1101c100589e6f76511af6b5e5",
+      "mainStyleHash": "1fd0171bacb23bcb90a0dad0d5f074c387edf0ae5a207964cf8d46d188a8b74a",
+      "motionChars": 10347,
+      "sceneChars": 1599,
+      "scripts": [
+        "/vendor/cdn.jsdelivr.net/gsap.min-bf5b26673eee.js",
+        "/vendor/cdn.jsdelivr.net/ScrollTrigger.min-8275e947aa32.js",
+        "/vendor/cdn.jsdelivr.net/lenis.min-273ca89be0ce.js"
+      ],
+      "hasHoje": true,
+      "hasJD": true
+    }
+  },
+  "notes": {
+    "mainCssIdenticalIgnoringComments": true,
+    "mainCssIgnoringCommentsHash": "7425543f9e61e0d4f0cb1f6ff85efb751768c3c7ba87fcdf0b9a784a39e84bc9",
+    "mainCssCommentDifference": "The brand name in the opening CSS comment changed from Sabec? to Norte Autoral."
+  }
+}

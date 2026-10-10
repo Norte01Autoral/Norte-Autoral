@@ -1,0 +1,11 @@
+{
+  "mainCssExact": true,
+  "inlineMotionExact": true,
+  "differencesInMotionSpan": [
+    "Three script dependency URLs changed from CDN to local vendor paths"
+  ],
+  "sourceCssSHA256": "655c51225001f0075331254367e16790e6a768ebe689640651fa08b40f2dad47",
+  "localCssSHA256": "655c51225001f0075331254367e16790e6a768ebe689640651fa08b40f2dad47",
+  "sourceInlineMotionSHA256": "1d9c250ec9fb54be5853ac61630367513917e1b22bcdd1ec1c1c40a18a044898",
+  "localInlineMotionSHA256": "1d9c250ec9fb54be5853ac61630367513917e1b22bcdd1ec1c1c40a18a044898"
+}

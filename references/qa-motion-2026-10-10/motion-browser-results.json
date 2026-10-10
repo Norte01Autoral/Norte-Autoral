@@ -1,0 +1,6795 @@
+[
+  {
+    "name": "reference",
+    "url": "https://www.sabec.dev/",
+    "initial": {
+      "title": "Sabec° | Sites, sistemas sob medida e Sabec/Os em Londrina",
+      "sabecReady": true,
+      "js": true,
+      "reduced": false,
+      "gsap": true,
+      "ScrollTrigger": true,
+      "Lenis": true,
+      "hojeOn": true,
+      "wordCount": 59,
+      "triggers": [
+        {
+          "trigger": "",
+          "start": 0,
+          "end": 23461,
+          "pin": false,
+          "scrub": 0.3
+        },
+        {
+          "trigger": "hoje",
+          "start": 1004,
+          "end": 2984,
+          "pin": true,
+          "scrub": 0.8
+        },
+        {
+          "trigger": "processo",
+          "start": 17635,
+          "end": 19330,
+          "pin": true,
+          "scrub": 0.6
+        },
+        {
+          "trigger": "processo",
+          "start": 17635,
+          "end": 19330,
+          "pin": false,
+          "scrub": 0.6
+        },
+        {
+          "trigger": "pstep",
+          "start": -0.25326442988668557,
+          "end": 0.3433350300991501,
+          "pin": false
+        },
+        {
+          "trigger": "pstep",
+          "start": -0.1002954585694051,
+          "end": 0.4963040014164306,
+          "pin": false
+        },
+        {
+          "trigger": "pstep",
+          "start": 0.05267351274787535,
+          "end": 0.6492729727337111,
+          "pin": false
+        },
+        {
+          "trigger": "pstep",
+          "start": 0.2056424840651558,
+          "end": 0.8022419440509915,
+          "pin": false
+        },
+        {
+          "trigger": "proc-end",
+          "start": 0.3586114553824363,
+          "end": 0.9297151646600567,
+          "pin": false
+        },
+        {
+          "trigger": "title split",
+          "start": 537,
+          "end": 1513,
+          "pin": false
+        },
+        {
+          "trigger": "title split",
+          "start": 3345,
+          "end": 4273,
+          "pin": false
+        },
+        {
+          "trigger": "cases-title split",
+          "start": 6410,
+          "end": 7246,
+          "pin": false
+        },
+        {
+          "trigger": "title split",
+          "start": 11254,
+          "end": 12182,
+          "pin": false
+        },
+        {
+          "trigger": "title split",
+          "start": 13205,
+          "end": 14208,
+          "pin": false
+        },
+        {
+          "trigger": "title split",
+          "start": 17194,
+          "end": 18119,
+          "pin": false
+        },
+        {
+          "trigger": "title split",
+          "start": 20003,
+          "end": 20931,
+          "pin": false
+        },
+        {
+          "trigger": "split",
+          "start": 21267,
+          "end": 22255,
+          "pin": false
+        },
+        {
+          "trigger": "kick rv",
+          "start": 3288,
+          "end": 4099,
+          "pin": false
+        },
+        {
+          "trigger": "rule rv",
+          "start": 3325,
+          "end": 4121,
+          "pin": false
+        },
+        {
+          "trigger": "lead rv",
+          "start": 3531,
+          "end": 4419,
+          "pin": false
+        },
+        {
+          "trigger": "kick rv",
+          "start": 6386,
+          "end": 7198,
+          "pin": false
+        },
+        {
+          "trigger": "rv",
+          "start": 9682,
+          "end": 10613,
+          "pin": false
+        },
+        {
+          "trigger": "bridge rv",
+          "start": 10616,
+          "end": 11652,
+          "pin": false
+        },
+        {
+          "trigger": "kick rv",
+          "start": 11196,
+          "end": 12008,
+          "pin": false
+        },
+        {
+          "trigger": "rule rv",
+          "start": 11234,
+          "end": 12030,
+          "pin": false
+        },
+        {
+          "trigger": "lead rv",
+          "start": 11440,
+          "end": 12360,
+          "pin": false
+        },
+        {
+          "trigger": "t-foot rv",
+          "start": 12394,
+          "end": 13210,
+          "pin": false
+        },
+        {
+          "trigger": "bridge rv",
+          "start": 12568,
+          "end": 13604,
+          "pin": false
+        },
+        {
+          "trigger": "kick rv",
+          "start": 13148,
+          "end": 13959,
+          "pin": false
+        },
+        {
+          "trigger": "rule rv",
+          "start": 13185,
+          "end": 13981,
+          "pin": false
+        },
+        {
+          "trigger": "lead rv",
+          "start": 13466,
+          "end": 14354,
+          "pin": false
+        },
+        {
+          "trigger": "os-note rv",
+          "start": 16290,
+          "end": 17101,
+          "pin": false
+        },
+        {
+          "trigger": "bridge rv",
+          "start": 16459,
+          "end": 17495,
+          "pin": false
+        },
+        {
+          "trigger": "kick rv",
+          "start": 17137,
+          "end": 17948,
+          "pin": false
+        },
+        {
+          "trigger": "rule rv",
+          "start": 17174,
+          "end": 17970,
+          "pin": false
+        },
+        {
+          "trigger": "lead rv",
+          "start": 17377,
+          "end": 18297,
+          "pin": false
+        },
+        {
+          "trigger": "bridge bridge-top rv",
+          "start": 19634,
+          "end": 20628,
+          "pin": false
+        },
+        {
+          "trigger": "photo rv",
+          "start": 19984,
+          "end": 21346,
+          "pin": false
+        },
+        {
+          "trigger": "kick rv",
+          "start": 19946,
+          "end": 20757,
+          "pin": false
+        },
+        {
+          "trigger": "rule rv",
+          "start": 19983,
+          "end": 20779,
+          "pin": false
+        },
+        {
+          "trigger": "rv",
+          "start": 20183,
+          "end": 21062,
+          "pin": false
+        },
+        {
+          "trigger": "rv",
+          "start": 20286,
+          "end": 21164,
+          "pin": false
+        },
+        {
+          "trigger": "creds rv",
+          "start": 20398,
+          "end": 21225,
+          "pin": false
+        },
+        {
+          "trigger": "kick rv",
+          "start": 21210,
+          "end": 22021,
+          "pin": false
+        },
+        {
+          "trigger": "rule rv",
+          "start": 21247,
+          "end": 22043,
+          "pin": false
+        },
+        {
+          "trigger": "lead rv",
+          "start": 21513,
+          "end": 22401,
+          "pin": false
+        },
+        {
+          "trigger": "cta-side rv",
+          "start": 21643,
+          "end": 22571,
+          "pin": false
+        },
+        {
+          "trigger": "lead-form",
+          "start": 21210,
+          "end": 22656,
+          "pin": false
+        },
+        {
+          "trigger": "rv-c",
+          "start": 6028,
+          "end": 6989,
+          "pin": false
+        },
+        {
+          "trigger": "rv-c",
+          "start": 6028,
+          "end": 6989,
+          "pin": false
+        },
+        {
+          "trigger": "rv-c",
+          "start": 6028,
+          "end": 6989,
+          "pin": false
+        },
+        {
+          "trigger": "node n1 rv-c",
+          "start": 11606,
+          "end": 12593,
+          "pin": false
+        },
+        {
+          "trigger": "node n2 rv-c",
+          "start": 11616,
+          "end": 12583,
+          "pin": false
+        },
+        {
+          "trigger": "node n3 rv-c",
+          "start": 11606,
+          "end": 12592,
+          "pin": false
+        },
+        {
+          "trigger": "node n4 rv-c",
+          "start": 11606,
+          "end": 12592,
+          "pin": false
+        },
+        {
+          "trigger": "tcard rv-c",
+          "start": 11931,
+          "end": 12940,
+          "pin": false
+        },
+        {
+          "trigger": "tcard rv-c",
+          "start": 11931,
+          "end": 12940,
+          "pin": false
+        },
+        {
+          "trigger": "tcard rv-c",
+          "start": 11931,
+          "end": 12940,
+          "pin": false
+        },
+        {
+          "trigger": "tcard rv-c",
+          "start": 12146,
+          "end": 13130,
+          "pin": false
+        },
+        {
+          "trigger": "tcard rv-c",
+          "start": 12146,
+          "end": 13130,
+          "pin": false
+        },
+        {
+          "trigger": "cap-c rv-c",
+          "start": 15942,
+          "end": 16878,
+          "pin": false
+        },
+        {
+          "trigger": "cap-c rv-c",
+          "start": 15942,
+          "end": 16878,
+          "pin": false
+        },
+        {
+          "trigger": "cap-c rv-c",
+          "start": 15942,
+          "end": 16878,
+          "pin": false
+        },
+        {
+          "trigger": "cap-c rv-c",
+          "start": 16084,
+          "end": 17020,
+          "pin": false
+        },
+        {
+          "trigger": "cap-c rv-c",
+          "start": 16084,
+          "end": 17020,
+          "pin": false
+        },
+        {
+          "trigger": "cap-c rv-c",
+          "start": 16084,
+          "end": 17020,
+          "pin": false
+        },
+        {
+          "trigger": "rv-c",
+          "start": 20422,
+          "end": 21357,
+          "pin": false
+        },
+        {
+          "trigger": "rv-c",
+          "start": 20422,
+          "end": 21357,
+          "pin": false
+        },
+        {
+          "trigger": "rv-c",
+          "start": 20422,
+          "end": 21357,
+          "pin": false
+        },
+        {
+          "trigger": "flow",
+          "start": 11696,
+          "end": 12098,
+          "pin": false,
+          "scrub": 0.5
+        },
+        {
+          "trigger": "scrolly",
+          "start": 3800,
+          "end": 6707,
+          "pin": false
+        },
+        {
+          "trigger": "scrolly feat-scrolly",
+          "start": 6942,
+          "end": 9633,
+          "pin": false
+        },
+        {
+          "trigger": "scrolly wide",
+          "start": 13735,
+          "end": 16642,
+          "pin": false
+        },
+        {
+          "trigger": "photo rv",
+          "start": 19876,
+          "end": 21346,
+          "pin": false,
+          "scrub": true
+        },
+        {
+          "trigger": "hoje",
+          "start": 104,
+          "end": 1904,
+          "pin": false,
+          "scrub": true
+        },
+        {
+          "trigger": "sites",
+          "start": 2984,
+          "end": 11792,
+          "pin": false,
+          "scrub": true
+        },
+        {
+          "trigger": "sob-medida",
+          "start": 10892,
+          "end": 13744,
+          "pin": false,
+          "scrub": true
+        },
+        {
+          "trigger": "sabec-os",
+          "start": 12844,
+          "end": 17635,
+          "pin": false,
+          "scrub": true
+        },
+        {
+          "trigger": "processo",
+          "start": 16735,
+          "end": 18535,
+          "pin": false,
+          "scrub": true
+        },
+        {
+          "trigger": "quem",
+          "start": 19330,
+          "end": 21525,
+          "pin": false,
+          "scrub": true
+        },
+        {
+          "trigger": "bridge-line",
+          "start": 10734,
+          "end": 11067,
+          "pin": false,
+          "scrub": 0.5
+        },
+        {
+          "trigger": "bridge-line",
+          "start": 12686,
+          "end": 13019,
+          "pin": false,
+          "scrub": 0.5
+        },
+        {
+          "trigger": "bridge-line",
+          "start": 16577,
+          "end": 16910,
+          "pin": false,
+          "scrub": 0.5
+        },
+        {
+          "trigger": "bridge-line",
+          "start": 19710,
+          "end": 20043,
+          "pin": false,
+          "scrub": 0.5
+        },
+        {
+          "trigger": "win case-desk",
+          "start": 9018,
+          "end": 10208,
+          "pin": false
+        },
+        {
+          "trigger": "case",
+          "start": 9090,
+          "end": 10306,
+          "pin": false
+        },
+        {
+          "trigger": "feat",
+          "start": 6410,
+          "end": 9690,
+          "pin": false,
+          "scrub": true
+        },
+        {
+          "trigger": "conv",
+          "start": 20903,
+          "end": 21390,
+          "pin": false,
+          "scrub": 0.6
+        },
+        {
+          "trigger": "conv",
+          "start": 21345,
+          "end": 21885,
+          "pin": false
+        }
+      ]
+    },
+    "errors": [],
+    "failed": [
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=4&frm=0&apvc=1&auid=1538797986.1791621477&dt=Sabec%C2%B0%20%7C%20Sites%2C%20sistemas%20sob%20medida%20e%20Sabec%2FOs%20em%20Londrina&tid=AW-18182766046&en=page_view&dl=https%3A%2F%2Fwww.sabec.dev%2F&scrsrc=www.googletagmanager.com&rnd=1828295722.1791621477&navt=n&npa=0&gtm=45be6a72v9256267199za208zd9256267199xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118131809~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791621477175&tfd=1616&tids=AW-18182766046&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/18182766046/?random=1791621477120&cv=11&fst=1791621477120&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a72v9256267199za208zd9256267199xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118131809~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.sabec.dev%2F&rcb=4&frm=0&tiba=Sabec%C2%B0%20%7C%20Sites%2C%20sistemas%20sob%20medida%20e%20Sabec%2FOs%20em%20Londrina&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1538797986.1791621477&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "bad": [],
+    "hojeRange": {
+      "start": 1004,
+      "end": 2984
+    },
+    "hoje": [
+      {
+        "progress": 0,
+        "state": {
+          "scrollY": 1004,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -0.40625,
+              "width": 1440,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -0.40625,
+              "width": 496,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "absolute"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": 146.59375,
+              "width": 1160,
+              "height": 213.1875
+            },
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "position": "absolute"
+          },
+          "frag": {
+            "rect": {
+              "x": 678.0762939453125,
+              "y": 77.85338592529297,
+              "width": 239.441162109375,
+              "height": 125.85572052001953
+            },
+            "opacity": "1",
+            "transform": "matrix(0.994522, -0.104528, 0.104528, 0.994522, 0, 0)",
+            "position": "absolute"
+          },
+          "hcards": [
+            {
+              "opacity": "0",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 50)"
+            },
+            {
+              "opacity": "0",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 50)"
+            },
+            {
+              "opacity": "0",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 50)"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "assets/cases/jd-capa.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "assets/cases/jd-arte.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "assets/cases/jd-galeria.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "assets/cases/jd-galeria-2.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [
+            {
+              "text": "Um",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "site",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "que",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "você",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "vê",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            }
+          ],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 8779.4375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 117.18592834472656,
+              "y": 19709.23046875,
+              "width": 501.909423828125,
+              "height": 627.37890625
+            },
+            "opacity": "1",
+            "transform": "matrix(1.1, 0, 0, 1.1, 0, -34.2206)",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "progress": 0.2,
+        "state": {
+          "scrollY": 1400,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -0.40625,
+              "width": 1440,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "fixed"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -0.40625,
+              "width": 496,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "absolute"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": 146.59375,
+              "width": 1160,
+              "height": 213.1875
+            },
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "position": "absolute"
+          },
+          "frag": {
+            "rect": {
+              "x": 672.5332641601562,
+              "y": 51.79692459106445,
+              "width": 250.5272216796875,
+              "height": 131.682861328125
+            },
+            "opacity": "1",
+            "transform": "matrix(1.04057, -0.109368, 0.109368, 1.04057, 0, -23.1429)",
+            "position": "absolute"
+          },
+          "hcards": [
+            {
+              "opacity": "0",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 50)"
+            },
+            {
+              "opacity": "0",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 50)"
+            },
+            {
+              "opacity": "0",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 50)"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "assets/cases/jd-capa.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "assets/cases/jd-arte.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "assets/cases/jd-galeria.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "assets/cases/jd-galeria-2.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [
+            {
+              "text": "Um",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "site",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "que",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "você",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "vê",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            }
+          ],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 8383.4375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 117.18592834472656,
+              "y": 19313.23046875,
+              "width": 501.909423828125,
+              "height": 627.37890625
+            },
+            "opacity": "1",
+            "transform": "matrix(1.1, 0, 0, 1.1, 0, -34.2206)",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "progress": 0.45,
+        "state": {
+          "scrollY": 1895,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -0.40625,
+              "width": 1440,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "fixed"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -24.977649688720703,
+              "width": 496,
+              "height": 900
+            },
+            "opacity": "0.3857",
+            "transform": "matrix(1, 0, 0, 1, 0, -24.5714)",
+            "position": "absolute"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": 146.59375,
+              "width": 1160,
+              "height": 213.1875
+            },
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "position": "absolute"
+          },
+          "frag": {
+            "rect": {
+              "x": 670.8967895507812,
+              "y": 44.2474250793457,
+              "width": 253.75738525390625,
+              "height": 133.37545776367188
+            },
+            "opacity": "0.9997",
+            "transform": "matrix(1.054, -0.11075, 0.11075, 1.054, -0.0214, -29.8461)",
+            "position": "absolute"
+          },
+          "hcards": [
+            {
+              "opacity": "0",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 50)"
+            },
+            {
+              "opacity": "0",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 50)"
+            },
+            {
+              "opacity": "0",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 50)"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "assets/cases/jd-capa.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "assets/cases/jd-arte.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "assets/cases/jd-galeria.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "assets/cases/jd-galeria-2.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [
+            {
+              "text": "Um",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "site",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "que",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "você",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "vê",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            }
+          ],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 7888.4375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 117.18592834472656,
+              "y": 18818.23046875,
+              "width": 501.909423828125,
+              "height": 627.37890625
+            },
+            "opacity": "1",
+            "transform": "matrix(1.1, 0, 0, 1.1, 0, -34.2206)",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "progress": 0.7,
+        "state": {
+          "scrollY": 2390,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -0.40625,
+              "width": 1440,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "fixed"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -40.40625,
+              "width": 496,
+              "height": 900
+            },
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, -40)",
+            "position": "absolute"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": 117.2176513671875,
+              "width": 1160,
+              "height": 213.1875
+            },
+            "opacity": "0.9792",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.6239)",
+            "position": "absolute"
+          },
+          "frag": {
+            "rect": {
+              "x": 684.1695556640625,
+              "y": 297.41058349609375,
+              "width": 164.03961181640625,
+              "height": 80.99752807617188
+            },
+            "opacity": "0.5948",
+            "transform": "matrix(0.693952, -0.0432792, 0.0432792, 0.693952, -31.6075, 197.128)",
+            "position": "absolute"
+          },
+          "hcards": [
+            {
+              "opacity": "0.9854",
+              "transform": "matrix(0.9988, 0, 0, 0.9988, 0, 0.7303)"
+            },
+            {
+              "opacity": "0.8984",
+              "transform": "matrix(0.9919, 0, 0, 0.9919, 0, 5.0815)"
+            },
+            {
+              "opacity": "0.6731",
+              "transform": "matrix(0.9738, 0, 0, 0.9738, 0, 16.3462)"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "assets/cases/jd-capa.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "assets/cases/jd-arte.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "assets/cases/jd-galeria.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "assets/cases/jd-galeria-2.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [
+            {
+              "text": "Um",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "site",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "que",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "você",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "vê",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            }
+          ],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 7393.4375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 117.18592834472656,
+              "y": 18323.23046875,
+              "width": 501.909423828125,
+              "height": 627.37890625
+            },
+            "opacity": "1",
+            "transform": "matrix(1.1, 0, 0, 1.1, 0, -34.2206)",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "progress": 1,
+        "state": {
+          "scrollY": 2984,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -0.40625,
+              "width": 1440,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 1980)",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -40.40625,
+              "width": 496,
+              "height": 900
+            },
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, -40)",
+            "position": "absolute"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": 116.59375,
+              "width": 1160,
+              "height": 213.1875
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "absolute"
+          },
+          "frag": {
+            "rect": {
+              "x": 701.3968505859375,
+              "y": 663.0912475585938,
+              "width": 36.79998779296875,
+              "height": 16.3800048828125
+            },
+            "opacity": "0",
+            "transform": "matrix(0.16, 0, 0, 0.16, -78, 530.5)",
+            "position": "absolute"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "assets/cases/jd-capa.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "assets/cases/jd-arte.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "assets/cases/jd-galeria.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "assets/cases/jd-galeria-2.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [
+            {
+              "text": "Um",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "site",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "que",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "você",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "vê",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            }
+          ],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 6799.4375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 117.18592834472656,
+              "y": 17729.23046875,
+              "width": 501.909423828125,
+              "height": 627.37890625
+            },
+            "opacity": "1",
+            "transform": "matrix(1.1, 0, 0, 1.1, 0, -34.2206)",
+            "position": "static"
+          }
+        }
+      }
+    ],
+    "jd": [
+      {
+        "step": 1,
+        "state": {
+          "scrollY": 7419,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -4435.40625,
+              "width": 1440,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 1980)",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -4475.40625,
+              "width": 496,
+              "height": 900
+            },
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, -40)",
+            "position": "absolute"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -4318.40625,
+              "width": 1160,
+              "height": 213.1875
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "absolute"
+          },
+          "frag": {
+            "rect": {
+              "x": 701.3968505859375,
+              "y": -3771.90869140625,
+              "width": 36.79998779296875,
+              "height": 16.3798828125
+            },
+            "opacity": "0",
+            "transform": "matrix(0.16, 0, 0, 0.16, -78, 530.5)",
+            "position": "absolute"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "assets/cases/jd-capa.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "assets/cases/jd-arte.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "assets/cases/jd-galeria.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "assets/cases/jd-galeria-2.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [
+            {
+              "text": "Um",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "site",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "que",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "você",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "vê",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 2364.4375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 117.18592834472656,
+              "y": 13294.23046875,
+              "width": 501.909423828125,
+              "height": 627.37890625
+            },
+            "opacity": "1",
+            "transform": "matrix(1.1, 0, 0, 1.1, 0, -34.2206)",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "step": 2,
+        "state": {
+          "scrollY": 7923,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -4939.40625,
+              "width": 1440,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 1980)",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -4979.40625,
+              "width": 496,
+              "height": 900
+            },
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, -40)",
+            "position": "absolute"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -4822.40625,
+              "width": 1160,
+              "height": 213.1875
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "absolute"
+          },
+          "frag": {
+            "rect": {
+              "x": 701.3968505859375,
+              "y": -4275.90869140625,
+              "width": 36.79998779296875,
+              "height": 16.3798828125
+            },
+            "opacity": "0",
+            "transform": "matrix(0.16, 0, 0, 0.16, -78, 530.5)",
+            "position": "absolute"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "jdState": "2",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "assets/cases/jd-capa.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "opacity": "0",
+              "transform": "matrix(1.06954, 0, 0, 1.06954, 0, 0)"
+            },
+            {
+              "class": "i2",
+              "src": "assets/cases/jd-arte.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "opacity": "1",
+              "transform": "matrix(1.00046, 0, 0, 1.00046, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "assets/cases/jd-galeria.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "assets/cases/jd-galeria-2.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "2",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [
+            {
+              "text": "Um",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "site",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "que",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "você",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "vê",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 1860.4375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 117.18592834472656,
+              "y": 12790.23046875,
+              "width": 501.909423828125,
+              "height": 627.37890625
+            },
+            "opacity": "1",
+            "transform": "matrix(1.1, 0, 0, 1.1, 0, -34.2206)",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "step": 3,
+        "state": {
+          "scrollY": 8427,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -5443.40625,
+              "width": 1440,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 1980)",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -5483.40625,
+              "width": 496,
+              "height": 900
+            },
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, -40)",
+            "position": "absolute"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -5326.40625,
+              "width": 1160,
+              "height": 213.1875
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "absolute"
+          },
+          "frag": {
+            "rect": {
+              "x": 701.3968505859375,
+              "y": -4779.90869140625,
+              "width": 36.79998779296875,
+              "height": 16.3798828125
+            },
+            "opacity": "0",
+            "transform": "matrix(0.16, 0, 0, 0.16, -78, 530.5)",
+            "position": "absolute"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "jdState": "3",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "assets/cases/jd-capa.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i2",
+              "src": "assets/cases/jd-arte.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "opacity": "0",
+              "transform": "matrix(1.06959, 0, 0, 1.06959, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "assets/cases/jd-galeria.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "opacity": "1",
+              "transform": "matrix(1.00041, 0, 0, 1.00041, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "assets/cases/jd-galeria-2.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [
+            {
+              "text": "Um",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "site",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "que",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "você",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "vê",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 1356.4375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 117.18592834472656,
+              "y": 12286.23046875,
+              "width": 501.909423828125,
+              "height": 627.37890625
+            },
+            "opacity": "1",
+            "transform": "matrix(1.1, 0, 0, 1.1, 0, -34.2206)",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "step": 4,
+        "state": {
+          "scrollY": 8931,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -5947.40625,
+              "width": 1440,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 1980)",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -5987.40625,
+              "width": 496,
+              "height": 900
+            },
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, -40)",
+            "position": "absolute"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -5830.40625,
+              "width": 1160,
+              "height": 213.1875
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "absolute"
+          },
+          "frag": {
+            "rect": {
+              "x": 701.3968505859375,
+              "y": -5283.90869140625,
+              "width": 36.79998779296875,
+              "height": 16.3798828125
+            },
+            "opacity": "0",
+            "transform": "matrix(0.16, 0, 0, 0.16, -78, 530.5)",
+            "position": "absolute"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "jdState": "4",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "assets/cases/jd-capa.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i2",
+              "src": "assets/cases/jd-arte.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "assets/cases/jd-galeria.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "opacity": "0",
+              "transform": "matrix(1.06949, 0, 0, 1.06949, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "assets/cases/jd-galeria-2.jpg",
+              "complete": true,
+              "naturalWidth": 1280,
+              "opacity": "1",
+              "transform": "matrix(1.00051, 0, 0, 1.00051, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": true,
+              "opacity": "1"
+            }
+          ],
+          "words": [
+            {
+              "text": "Um",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "site",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "que",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "você",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "vê",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 852.4375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 117.18592834472656,
+              "y": 11782.23046875,
+              "width": 501.909423828125,
+              "height": 627.37890625
+            },
+            "opacity": "1",
+            "transform": "matrix(1.1, 0, 0, 1.1, 0, -34.2206)",
+            "position": "static"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "local",
+    "url": "http://127.0.0.1:4173/",
+    "initial": {
+      "title": "Norte Autoral | Sites, sistemas e automações para negócios",
+      "sabecReady": true,
+      "js": true,
+      "reduced": false,
+      "gsap": true,
+      "ScrollTrigger": true,
+      "Lenis": true,
+      "hojeOn": true,
+      "wordCount": 62,
+      "triggers": [
+        {
+          "trigger": "",
+          "start": 0,
+          "end": 23210,
+          "pin": false,
+          "scrub": 0.3
+        },
+        {
+          "trigger": "hoje",
+          "start": 1004,
+          "end": 2984,
+          "pin": true,
+          "scrub": 0.8
+        },
+        {
+          "trigger": "processo",
+          "start": 17537,
+          "end": 19231,
+          "pin": true,
+          "scrub": 0.6
+        },
+        {
+          "trigger": "processo",
+          "start": 17537,
+          "end": 19231,
+          "pin": false,
+          "scrub": 0.6
+        },
+        {
+          "trigger": "pstep",
+          "start": -0.25326442988668557,
+          "end": 0.3433350300991501,
+          "pin": false
+        },
+        {
+          "trigger": "pstep",
+          "start": -0.1002954585694051,
+          "end": 0.4963040014164306,
+          "pin": false
+        },
+        {
+          "trigger": "pstep",
+          "start": 0.05267351274787535,
+          "end": 0.6492729727337111,
+          "pin": false
+        },
+        {
+          "trigger": "pstep",
+          "start": 0.2056424840651558,
+          "end": 0.8022419440509915,
+          "pin": false
+        },
+        {
+          "trigger": "proc-end",
+          "start": 0.3586114553824363,
+          "end": 0.9297151646600567,
+          "pin": false
+        },
+        {
+          "trigger": "title split",
+          "start": 537,
+          "end": 1513,
+          "pin": false
+        },
+        {
+          "trigger": "title split",
+          "start": 3345,
+          "end": 4348,
+          "pin": false
+        },
+        {
+          "trigger": "cases-title split",
+          "start": 6484,
+          "end": 7383,
+          "pin": false
+        },
+        {
+          "trigger": "title split",
+          "start": 11198,
+          "end": 12126,
+          "pin": false
+        },
+        {
+          "trigger": "title split",
+          "start": 13150,
+          "end": 14078,
+          "pin": false
+        },
+        {
+          "trigger": "title split",
+          "start": 17096,
+          "end": 18021,
+          "pin": false
+        },
+        {
+          "trigger": "title split",
+          "start": 19903,
+          "end": 20832,
+          "pin": false
+        },
+        {
+          "trigger": "split",
+          "start": 21181,
+          "end": 22170,
+          "pin": false
+        },
+        {
+          "trigger": "kick rv",
+          "start": 3288,
+          "end": 4099,
+          "pin": false
+        },
+        {
+          "trigger": "rule rv",
+          "start": 3325,
+          "end": 4121,
+          "pin": false
+        },
+        {
+          "trigger": "lead rv",
+          "start": 3606,
+          "end": 4494,
+          "pin": false
+        },
+        {
+          "trigger": "kick rv",
+          "start": 6461,
+          "end": 7272,
+          "pin": false
+        },
+        {
+          "trigger": "rv",
+          "start": 9820,
+          "end": 10750,
+          "pin": false
+        },
+        {
+          "trigger": "bridge rv",
+          "start": 10561,
+          "end": 11597,
+          "pin": false
+        },
+        {
+          "trigger": "kick rv",
+          "start": 11141,
+          "end": 11952,
+          "pin": false
+        },
+        {
+          "trigger": "rule rv",
+          "start": 11178,
+          "end": 11974,
+          "pin": false
+        },
+        {
+          "trigger": "lead rv",
+          "start": 11384,
+          "end": 12304,
+          "pin": false
+        },
+        {
+          "trigger": "t-foot rv",
+          "start": 12338,
+          "end": 13154,
+          "pin": false
+        },
+        {
+          "trigger": "bridge rv",
+          "start": 12512,
+          "end": 13549,
+          "pin": false
+        },
+        {
+          "trigger": "kick rv",
+          "start": 13093,
+          "end": 13904,
+          "pin": false
+        },
+        {
+          "trigger": "rule rv",
+          "start": 13130,
+          "end": 13926,
+          "pin": false
+        },
+        {
+          "trigger": "lead rv",
+          "start": 13336,
+          "end": 14256,
+          "pin": false
+        },
+        {
+          "trigger": "os-note rv",
+          "start": 16191,
+          "end": 17003,
+          "pin": false
+        },
+        {
+          "trigger": "bridge rv",
+          "start": 16361,
+          "end": 17397,
+          "pin": false
+        },
+        {
+          "trigger": "kick rv",
+          "start": 17039,
+          "end": 17850,
+          "pin": false
+        },
+        {
+          "trigger": "rule rv",
+          "start": 17076,
+          "end": 17872,
+          "pin": false
+        },
+        {
+          "trigger": "lead rv",
+          "start": 17279,
+          "end": 18199,
+          "pin": false
+        },
+        {
+          "trigger": "bridge bridge-top rv",
+          "start": 19535,
+          "end": 20528,
+          "pin": false
+        },
+        {
+          "trigger": "photo rv",
+          "start": 19891,
+          "end": 21254,
+          "pin": false
+        },
+        {
+          "trigger": "kick rv",
+          "start": 19846,
+          "end": 20657,
+          "pin": false
+        },
+        {
+          "trigger": "rule rv",
+          "start": 19883,
+          "end": 20679,
+          "pin": false
+        },
+        {
+          "trigger": "rv",
+          "start": 20084,
+          "end": 20933,
+          "pin": false
+        },
+        {
+          "trigger": "rv",
+          "start": 20157,
+          "end": 21036,
+          "pin": false
+        },
+        {
+          "trigger": "creds rv",
+          "start": 20270,
+          "end": 21140,
+          "pin": false
+        },
+        {
+          "trigger": "kick rv",
+          "start": 21124,
+          "end": 21935,
+          "pin": false
+        },
+        {
+          "trigger": "rule rv",
+          "start": 21161,
+          "end": 21957,
+          "pin": false
+        },
+        {
+          "trigger": "lead rv",
+          "start": 21428,
+          "end": 22316,
+          "pin": false
+        },
+        {
+          "trigger": "cta-side rv",
+          "start": 21558,
+          "end": 22485,
+          "pin": false
+        },
+        {
+          "trigger": "lead-form",
+          "start": 21124,
+          "end": 22571,
+          "pin": false
+        },
+        {
+          "trigger": "rv-c",
+          "start": 6103,
+          "end": 7064,
+          "pin": false
+        },
+        {
+          "trigger": "rv-c",
+          "start": 6103,
+          "end": 7064,
+          "pin": false
+        },
+        {
+          "trigger": "rv-c",
+          "start": 6103,
+          "end": 7064,
+          "pin": false
+        },
+        {
+          "trigger": "node n1 rv-c",
+          "start": 11550,
+          "end": 12538,
+          "pin": false
+        },
+        {
+          "trigger": "node n2 rv-c",
+          "start": 11560,
+          "end": 12527,
+          "pin": false
+        },
+        {
+          "trigger": "node n3 rv-c",
+          "start": 11551,
+          "end": 12537,
+          "pin": false
+        },
+        {
+          "trigger": "node n4 rv-c",
+          "start": 11551,
+          "end": 12537,
+          "pin": false
+        },
+        {
+          "trigger": "tcard rv-c",
+          "start": 11875,
+          "end": 12885,
+          "pin": false
+        },
+        {
+          "trigger": "tcard rv-c",
+          "start": 11875,
+          "end": 12885,
+          "pin": false
+        },
+        {
+          "trigger": "tcard rv-c",
+          "start": 11875,
+          "end": 12885,
+          "pin": false
+        },
+        {
+          "trigger": "tcard rv-c",
+          "start": 12091,
+          "end": 13074,
+          "pin": false
+        },
+        {
+          "trigger": "tcard rv-c",
+          "start": 12091,
+          "end": 13074,
+          "pin": false
+        },
+        {
+          "trigger": "cap-c rv-c",
+          "start": 15844,
+          "end": 16780,
+          "pin": false
+        },
+        {
+          "trigger": "cap-c rv-c",
+          "start": 15844,
+          "end": 16780,
+          "pin": false
+        },
+        {
+          "trigger": "cap-c rv-c",
+          "start": 15844,
+          "end": 16780,
+          "pin": false
+        },
+        {
+          "trigger": "cap-c rv-c",
+          "start": 15986,
+          "end": 16921,
+          "pin": false
+        },
+        {
+          "trigger": "cap-c rv-c",
+          "start": 15986,
+          "end": 16921,
+          "pin": false
+        },
+        {
+          "trigger": "cap-c rv-c",
+          "start": 15986,
+          "end": 16921,
+          "pin": false
+        },
+        {
+          "trigger": "rv-c",
+          "start": 20337,
+          "end": 21271,
+          "pin": false
+        },
+        {
+          "trigger": "rv-c",
+          "start": 20337,
+          "end": 21271,
+          "pin": false
+        },
+        {
+          "trigger": "rv-c",
+          "start": 20337,
+          "end": 21271,
+          "pin": false
+        },
+        {
+          "trigger": "flow",
+          "start": 11640,
+          "end": 12043,
+          "pin": false,
+          "scrub": 0.5
+        },
+        {
+          "trigger": "scrolly",
+          "start": 3875,
+          "end": 6782,
+          "pin": false
+        },
+        {
+          "trigger": "scrolly feat-scrolly",
+          "start": 7080,
+          "end": 9771,
+          "pin": false
+        },
+        {
+          "trigger": "scrolly wide",
+          "start": 13637,
+          "end": 16544,
+          "pin": false
+        },
+        {
+          "trigger": "photo rv",
+          "start": 19783,
+          "end": 21254,
+          "pin": false,
+          "scrub": true
+        },
+        {
+          "trigger": "hoje",
+          "start": 104,
+          "end": 1904,
+          "pin": false,
+          "scrub": true
+        },
+        {
+          "trigger": "sites",
+          "start": 2984,
+          "end": 11737,
+          "pin": false,
+          "scrub": true
+        },
+        {
+          "trigger": "sob-medida",
+          "start": 10837,
+          "end": 13689,
+          "pin": false,
+          "scrub": true
+        },
+        {
+          "trigger": "sabec-os",
+          "start": 12789,
+          "end": 17537,
+          "pin": false,
+          "scrub": true
+        },
+        {
+          "trigger": "processo",
+          "start": 16637,
+          "end": 18437,
+          "pin": false,
+          "scrub": true
+        },
+        {
+          "trigger": "quem",
+          "start": 19231,
+          "end": 21439,
+          "pin": false,
+          "scrub": true
+        },
+        {
+          "trigger": "bridge-line",
+          "start": 10679,
+          "end": 11012,
+          "pin": false,
+          "scrub": 0.5
+        },
+        {
+          "trigger": "bridge-line",
+          "start": 12631,
+          "end": 12964,
+          "pin": false,
+          "scrub": 0.5
+        },
+        {
+          "trigger": "bridge-line",
+          "start": 16479,
+          "end": 16812,
+          "pin": false,
+          "scrub": 0.5
+        },
+        {
+          "trigger": "bridge-line",
+          "start": 19610,
+          "end": 19943,
+          "pin": false,
+          "scrub": 0.5
+        },
+        {
+          "trigger": "win case-desk",
+          "start": 9156,
+          "end": 10346,
+          "pin": false
+        },
+        {
+          "trigger": "case",
+          "start": 9228,
+          "end": 10444,
+          "pin": false
+        },
+        {
+          "trigger": "feat",
+          "start": 6547,
+          "end": 9828,
+          "pin": false,
+          "scrub": true
+        },
+        {
+          "trigger": "conv",
+          "start": 20817,
+          "end": 21304,
+          "pin": false,
+          "scrub": 0.6
+        },
+        {
+          "trigger": "conv",
+          "start": 21259,
+          "end": 21799,
+          "pin": false
+        }
+      ]
+    },
+    "errors": [],
+    "failed": [],
+    "bad": [],
+    "hojeRange": {
+      "start": 1004,
+      "end": 2984
+    },
+    "hoje": [
+      {
+        "progress": 0,
+        "state": {
+          "scrollY": 1004,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -0.40625,
+              "width": 1440,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -0.40625,
+              "width": 496,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "absolute"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": 146.59375,
+              "width": 1160,
+              "height": 213.1875
+            },
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "position": "absolute"
+          },
+          "frag": {
+            "rect": {
+              "x": 678.0762939453125,
+              "y": 77.85338592529297,
+              "width": 239.441162109375,
+              "height": 125.85572052001953
+            },
+            "opacity": "1",
+            "transform": "matrix(0.994522, -0.104528, 0.104528, 0.994522, 0, 0)",
+            "position": "absolute"
+          },
+          "hcards": [
+            {
+              "opacity": "0",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 50)"
+            },
+            {
+              "opacity": "0",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 50)"
+            },
+            {
+              "opacity": "0",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 50)"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [
+            {
+              "text": "Um",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "site",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "com",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "a",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "sua",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            }
+          ],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 8916.703125,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 117.18592834472656,
+              "y": 19616.71484375,
+              "width": 501.909423828125,
+              "height": 627.37890625
+            },
+            "opacity": "1",
+            "transform": "matrix(1.1, 0, 0, 1.1, 0, -34.2206)",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "progress": 0.2,
+        "state": {
+          "scrollY": 1400,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -0.40625,
+              "width": 1440,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "fixed"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -0.40625,
+              "width": 496,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "absolute"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": 146.59375,
+              "width": 1160,
+              "height": 213.1875
+            },
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "position": "absolute"
+          },
+          "frag": {
+            "rect": {
+              "x": 672.5332641601562,
+              "y": 51.79692459106445,
+              "width": 250.5272216796875,
+              "height": 131.682861328125
+            },
+            "opacity": "1",
+            "transform": "matrix(1.04057, -0.109368, 0.109368, 1.04057, 0, -23.1429)",
+            "position": "absolute"
+          },
+          "hcards": [
+            {
+              "opacity": "0",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 50)"
+            },
+            {
+              "opacity": "0",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 50)"
+            },
+            {
+              "opacity": "0",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 50)"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [
+            {
+              "text": "Um",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "site",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "com",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "a",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "sua",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            }
+          ],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 8520.703125,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 117.18592834472656,
+              "y": 19220.71484375,
+              "width": 501.909423828125,
+              "height": 627.37890625
+            },
+            "opacity": "1",
+            "transform": "matrix(1.1, 0, 0, 1.1, 0, -34.2206)",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "progress": 0.45,
+        "state": {
+          "scrollY": 1895,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -0.40625,
+              "width": 1440,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "fixed"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -24.977649688720703,
+              "width": 496,
+              "height": 900
+            },
+            "opacity": "0.3857",
+            "transform": "matrix(1, 0, 0, 1, 0, -24.5714)",
+            "position": "absolute"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": 146.59375,
+              "width": 1160,
+              "height": 213.1875
+            },
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, 30)",
+            "position": "absolute"
+          },
+          "frag": {
+            "rect": {
+              "x": 674.2886962890625,
+              "y": 107.2442626953125,
+              "width": 231.33135986328125,
+              "height": 119.78457641601562
+            },
+            "opacity": "0.8995",
+            "transform": "matrix(0.965203, -0.0911824, 0.0911824, 0.965203, -7.8425, 26.3553)",
+            "position": "absolute"
+          },
+          "hcards": [
+            {
+              "opacity": "0",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 50)"
+            },
+            {
+              "opacity": "0",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 50)"
+            },
+            {
+              "opacity": "0",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 50)"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [
+            {
+              "text": "Um",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "site",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "com",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "a",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "sua",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            }
+          ],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 8025.703125,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 117.18592834472656,
+              "y": 18725.71484375,
+              "width": 501.909423828125,
+              "height": 627.37890625
+            },
+            "opacity": "1",
+            "transform": "matrix(1.1, 0, 0, 1.1, 0, -34.2206)",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "progress": 0.7,
+        "state": {
+          "scrollY": 2390,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -0.40625,
+              "width": 1440,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "fixed"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -40.40625,
+              "width": 496,
+              "height": 900
+            },
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, -40)",
+            "position": "absolute"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": 117.2176513671875,
+              "width": 1160,
+              "height": 213.1875
+            },
+            "opacity": "0.9792",
+            "transform": "matrix(1, 0, 0, 1, 0, 0.6239)",
+            "position": "absolute"
+          },
+          "frag": {
+            "rect": {
+              "x": 701.3968505859375,
+              "y": 663.0912475585938,
+              "width": 36.79998779296875,
+              "height": 16.3800048828125
+            },
+            "opacity": "0",
+            "transform": "matrix(0.16, 0, 0, 0.16, -78, 530.5)",
+            "position": "absolute"
+          },
+          "hcards": [
+            {
+              "opacity": "0.9854",
+              "transform": "matrix(0.9988, 0, 0, 0.9988, 0, 0.7303)"
+            },
+            {
+              "opacity": "0.8984",
+              "transform": "matrix(0.9919, 0, 0, 0.9919, 0, 5.0815)"
+            },
+            {
+              "opacity": "0.6731",
+              "transform": "matrix(0.9738, 0, 0, 0.9738, 0, 16.3462)"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [
+            {
+              "text": "Um",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "site",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "com",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "a",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "sua",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            }
+          ],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 7530.703125,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 117.18592834472656,
+              "y": 18230.71484375,
+              "width": 501.909423828125,
+              "height": 627.37890625
+            },
+            "opacity": "1",
+            "transform": "matrix(1.1, 0, 0, 1.1, 0, -34.2206)",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "progress": 1,
+        "state": {
+          "scrollY": 2984,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -0.40625,
+              "width": 1440,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 1980)",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -40.40625,
+              "width": 496,
+              "height": 900
+            },
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, -40)",
+            "position": "absolute"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": 116.59375,
+              "width": 1160,
+              "height": 213.1875
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "absolute"
+          },
+          "frag": {
+            "rect": {
+              "x": 701.3968505859375,
+              "y": 663.0912475585938,
+              "width": 36.79998779296875,
+              "height": 16.3800048828125
+            },
+            "opacity": "0",
+            "transform": "matrix(0.16, 0, 0, 0.16, -78, 530.5)",
+            "position": "absolute"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [
+            {
+              "text": "Um",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "site",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "com",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "a",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            },
+            {
+              "text": "sua",
+              "transform": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 0, 86.1062)"
+            }
+          ],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 6936.703125,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 117.18592834472656,
+              "y": 17636.71484375,
+              "width": 501.909423828125,
+              "height": 627.37890625
+            },
+            "opacity": "1",
+            "transform": "matrix(1.1, 0, 0, 1.1, 0, -34.2206)",
+            "position": "static"
+          }
+        }
+      }
+    ],
+    "jd": [
+      {
+        "step": 1,
+        "state": {
+          "scrollY": 7557,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -4573.40625,
+              "width": 1440,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 1980)",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -4613.40625,
+              "width": 496,
+              "height": 900
+            },
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, -40)",
+            "position": "absolute"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -4456.40625,
+              "width": 1160,
+              "height": 213.1875
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "absolute"
+          },
+          "frag": {
+            "rect": {
+              "x": 701.3968505859375,
+              "y": -3909.90869140625,
+              "width": 36.79998779296875,
+              "height": 16.3798828125
+            },
+            "opacity": "0",
+            "transform": "matrix(0.16, 0, 0, 0.16, -78, 530.5)",
+            "position": "absolute"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [
+            {
+              "text": "Um",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "site",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "com",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "a",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "sua",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 2363.703125,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 117.18592834472656,
+              "y": 13063.71484375,
+              "width": 501.909423828125,
+              "height": 627.37890625
+            },
+            "opacity": "1",
+            "transform": "matrix(1.1, 0, 0, 1.1, 0, -34.2206)",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "step": 2,
+        "state": {
+          "scrollY": 8061,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -5077.40625,
+              "width": 1440,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 1980)",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -5117.40625,
+              "width": 496,
+              "height": 900
+            },
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, -40)",
+            "position": "absolute"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -4960.40625,
+              "width": 1160,
+              "height": 213.1875
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "absolute"
+          },
+          "frag": {
+            "rect": {
+              "x": 701.3968505859375,
+              "y": -4413.90869140625,
+              "width": 36.79998779296875,
+              "height": 16.3798828125
+            },
+            "opacity": "0",
+            "transform": "matrix(0.16, 0, 0, 0.16, -78, 530.5)",
+            "position": "absolute"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "jdState": "2",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.06954, 0, 0, 1.06954, 0, 0)"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "1",
+              "transform": "matrix(1.00046, 0, 0, 1.00046, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "2",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [
+            {
+              "text": "Um",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "site",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "com",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "a",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "sua",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 1859.703125,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 117.18592834472656,
+              "y": 12559.71484375,
+              "width": 501.909423828125,
+              "height": 627.37890625
+            },
+            "opacity": "1",
+            "transform": "matrix(1.1, 0, 0, 1.1, 0, -34.2206)",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "step": 3,
+        "state": {
+          "scrollY": 8565,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -5581.40625,
+              "width": 1440,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 1980)",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -5621.40625,
+              "width": 496,
+              "height": 900
+            },
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, -40)",
+            "position": "absolute"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -5464.40625,
+              "width": 1160,
+              "height": 213.1875
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "absolute"
+          },
+          "frag": {
+            "rect": {
+              "x": 701.3968505859375,
+              "y": -4917.90869140625,
+              "width": 36.79998779296875,
+              "height": 16.3798828125
+            },
+            "opacity": "0",
+            "transform": "matrix(0.16, 0, 0, 0.16, -78, 530.5)",
+            "position": "absolute"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "jdState": "3",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.06949, 0, 0, 1.06949, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "1",
+              "transform": "matrix(1.00051, 0, 0, 1.00051, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [
+            {
+              "text": "Um",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "site",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "com",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "a",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "sua",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 1355.703125,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 117.18592834472656,
+              "y": 12055.71484375,
+              "width": 501.909423828125,
+              "height": 627.37890625
+            },
+            "opacity": "1",
+            "transform": "matrix(1.1, 0, 0, 1.1, 0, -34.2206)",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "step": 4,
+        "state": {
+          "scrollY": 9069,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -6085.40625,
+              "width": 1440,
+              "height": 900
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 1980)",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -6125.40625,
+              "width": 496,
+              "height": 900
+            },
+            "opacity": "0",
+            "transform": "matrix(1, 0, 0, 1, 0, -40)",
+            "position": "absolute"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -5968.40625,
+              "width": 1160,
+              "height": 213.1875
+            },
+            "opacity": "1",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "position": "absolute"
+          },
+          "frag": {
+            "rect": {
+              "x": 701.3968505859375,
+              "y": -5421.90869140625,
+              "width": 36.79998779296875,
+              "height": 16.3798828125
+            },
+            "opacity": "0",
+            "transform": "matrix(0.16, 0, 0, 0.16, -78, 530.5)",
+            "position": "absolute"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "opacity": "1",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "jdState": "4",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.06954, 0, 0, 1.06954, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "1",
+              "transform": "matrix(1.00046, 0, 0, 1.00046, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": true,
+              "opacity": "1"
+            }
+          ],
+          "words": [
+            {
+              "text": "Um",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "site",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "com",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "a",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            {
+              "text": "sua",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          ],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 851.703125,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 117.18592834472656,
+              "y": 11551.71484375,
+              "width": 501.909423828125,
+              "height": 627.37890625
+            },
+            "opacity": "1",
+            "transform": "matrix(1.1, 0, 0, 1.1, 0, -34.2206)",
+            "position": "static"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "local-reduced",
+    "url": "http://127.0.0.1:4173/",
+    "initial": {
+      "title": "Norte Autoral | Sites, sistemas e automações para negócios",
+      "sabecReady": false,
+      "js": false,
+      "reduced": true,
+      "gsap": true,
+      "ScrollTrigger": true,
+      "Lenis": true,
+      "hojeOn": false,
+      "wordCount": 0,
+      "triggers": []
+    },
+    "errors": [],
+    "failed": [],
+    "bad": [],
+    "hojeRange": {
+      "start": 1003.59375,
+      "end": 2653
+    },
+    "hoje": [
+      {
+        "progress": 0,
+        "state": {
+          "scrollY": 1004,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -0.40625,
+              "width": 1440,
+              "height": 1649.40625
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": 167.59375,
+              "width": 1160,
+              "height": 254.875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": 914.46875,
+              "width": 1160,
+              "height": 195.1875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "frag": {
+            "rect": {
+              "x": 140,
+              "y": 466.46875,
+              "width": 230,
+              "height": 110
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 7686.109375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 140,
+              "y": 17102.234375,
+              "width": 456.28125,
+              "height": 570.34375
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "progress": 0.2,
+        "state": {
+          "scrollY": 1333,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -329.40625,
+              "width": 1440,
+              "height": 1649.40625
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -161.40625,
+              "width": 1160,
+              "height": 254.875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": 585.46875,
+              "width": 1160,
+              "height": 195.1875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "frag": {
+            "rect": {
+              "x": 140,
+              "y": 137.46875,
+              "width": 230,
+              "height": 110
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 7357.109375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 140,
+              "y": 16773.234375,
+              "width": 456.28125,
+              "height": 570.34375
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "progress": 0.45,
+        "state": {
+          "scrollY": 1746,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -742.40625,
+              "width": 1440,
+              "height": 1649.40625
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -574.40625,
+              "width": 1160,
+              "height": 254.875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": 172.46875,
+              "width": 1160,
+              "height": 195.1875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "frag": {
+            "rect": {
+              "x": 140,
+              "y": -275.53125,
+              "width": 230,
+              "height": 110
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 6944.109375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 140,
+              "y": 16360.234375,
+              "width": 456.28125,
+              "height": 570.34375
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "progress": 0.7,
+        "state": {
+          "scrollY": 2158,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -1154.40625,
+              "width": 1440,
+              "height": 1649.40625
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -986.40625,
+              "width": 1160,
+              "height": 254.875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -239.53125,
+              "width": 1160,
+              "height": 195.1875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "frag": {
+            "rect": {
+              "x": 140,
+              "y": -687.53125,
+              "width": 230,
+              "height": 110
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 6532.109375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 140,
+              "y": 15948.234375,
+              "width": 456.28125,
+              "height": 570.34375
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "progress": 1,
+        "state": {
+          "scrollY": 2653,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -1649.40625,
+              "width": 1440,
+              "height": 1649.40625
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -1481.40625,
+              "width": 1160,
+              "height": 254.875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -734.53125,
+              "width": 1160,
+              "height": 195.1875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "frag": {
+            "rect": {
+              "x": 140,
+              "y": -1182.53125,
+              "width": 230,
+              "height": 110
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 6037.109375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 140,
+              "y": 15453.234375,
+              "width": 456.28125,
+              "height": 570.34375
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          }
+        }
+      }
+    ],
+    "jd": [
+      {
+        "step": 1,
+        "state": {
+          "scrollY": 6326,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -5322.40625,
+              "width": 1440,
+              "height": 1649.40625
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -5154.40625,
+              "width": 1160,
+              "height": 254.875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -4407.53125,
+              "width": 1160,
+              "height": 195.1875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "frag": {
+            "rect": {
+              "x": 140,
+              "y": -4855.53125,
+              "width": 230,
+              "height": 110
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 2364.109375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 140,
+              "y": 11780.234375,
+              "width": 456.28125,
+              "height": 570.34375
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "step": 2,
+        "state": {
+          "scrollY": 6830,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -5826.40625,
+              "width": 1440,
+              "height": 1649.40625
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -5658.40625,
+              "width": 1160,
+              "height": 254.875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -4911.53125,
+              "width": 1160,
+              "height": 195.1875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "frag": {
+            "rect": {
+              "x": 140,
+              "y": -5359.53125,
+              "width": 230,
+              "height": 110
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "jdState": "2",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "2",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 1860.109375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 140,
+              "y": 11276.234375,
+              "width": 456.28125,
+              "height": 570.34375
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "step": 3,
+        "state": {
+          "scrollY": 7334,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -6330.40625,
+              "width": 1440,
+              "height": 1649.40625
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -6162.40625,
+              "width": 1160,
+              "height": 254.875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -5415.53125,
+              "width": 1160,
+              "height": 195.1875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "frag": {
+            "rect": {
+              "x": 140,
+              "y": -5863.53125,
+              "width": 230,
+              "height": 110
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "jdState": "3",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 1356.109375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 140,
+              "y": 10772.234375,
+              "width": 456.28125,
+              "height": 570.34375
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "step": 4,
+        "state": {
+          "scrollY": 7838,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -6834.40625,
+              "width": 1440,
+              "height": 1649.40625
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -6666.40625,
+              "width": 1160,
+              "height": 254.875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -5919.53125,
+              "width": 1160,
+              "height": 195.1875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "frag": {
+            "rect": {
+              "x": 140,
+              "y": -6367.53125,
+              "width": 230,
+              "height": 110
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "jdState": "4",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": true,
+              "opacity": "1"
+            }
+          ],
+          "words": [],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 852.109375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 140,
+              "y": 10268.234375,
+              "width": 456.28125,
+              "height": 570.34375
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "local-no-libs",
+    "url": "http://127.0.0.1:4173/",
+    "initial": {
+      "title": "Norte Autoral | Sites, sistemas e automações para negócios",
+      "sabecReady": false,
+      "js": false,
+      "reduced": false,
+      "gsap": false,
+      "ScrollTrigger": false,
+      "Lenis": true,
+      "hojeOn": false,
+      "wordCount": 0
+    },
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:4173/vendor/cdn.jsdelivr.net/gsap.min-bf5b26673eee.js",
+        "error": "net::ERR_FAILED"
+      },
+      {
+        "url": "http://127.0.0.1:4173/vendor/cdn.jsdelivr.net/ScrollTrigger.min-8275e947aa32.js",
+        "error": "net::ERR_FAILED"
+      }
+    ],
+    "bad": [],
+    "hojeRange": {
+      "start": 1003.59375,
+      "end": 2653
+    },
+    "hoje": [
+      {
+        "progress": 0,
+        "state": {
+          "scrollY": 1004,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -0.40625,
+              "width": 1440,
+              "height": 1649.40625
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": 167.59375,
+              "width": 1160,
+              "height": 254.875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": 914.46875,
+              "width": 1160,
+              "height": 195.1875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "frag": {
+            "rect": {
+              "x": 140,
+              "y": 466.46875,
+              "width": 230,
+              "height": 110
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 7686.109375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 140,
+              "y": 17102.234375,
+              "width": 456.28125,
+              "height": 570.34375
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "progress": 0.2,
+        "state": {
+          "scrollY": 1333,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -329.40625,
+              "width": 1440,
+              "height": 1649.40625
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -161.40625,
+              "width": 1160,
+              "height": 254.875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": 585.46875,
+              "width": 1160,
+              "height": 195.1875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "frag": {
+            "rect": {
+              "x": 140,
+              "y": 137.46875,
+              "width": 230,
+              "height": 110
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 7357.109375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 140,
+              "y": 16773.234375,
+              "width": 456.28125,
+              "height": 570.34375
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "progress": 0.45,
+        "state": {
+          "scrollY": 1746,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -742.40625,
+              "width": 1440,
+              "height": 1649.40625
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -574.40625,
+              "width": 1160,
+              "height": 254.875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": 172.46875,
+              "width": 1160,
+              "height": 195.1875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "frag": {
+            "rect": {
+              "x": 140,
+              "y": -275.53125,
+              "width": 230,
+              "height": 110
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 6944.109375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 140,
+              "y": 16360.234375,
+              "width": 456.28125,
+              "height": 570.34375
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "progress": 0.7,
+        "state": {
+          "scrollY": 2158,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -1154.40625,
+              "width": 1440,
+              "height": 1649.40625
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -986.40625,
+              "width": 1160,
+              "height": 254.875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -239.53125,
+              "width": 1160,
+              "height": 195.1875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "frag": {
+            "rect": {
+              "x": 140,
+              "y": -687.53125,
+              "width": 230,
+              "height": 110
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 6532.109375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 140,
+              "y": 15948.234375,
+              "width": 456.28125,
+              "height": 570.34375
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "progress": 1,
+        "state": {
+          "scrollY": 2653,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -1649.40625,
+              "width": 1440,
+              "height": 1649.40625
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -1481.40625,
+              "width": 1160,
+              "height": 254.875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -734.53125,
+              "width": 1160,
+              "height": 195.1875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "frag": {
+            "rect": {
+              "x": 140,
+              "y": -1182.53125,
+              "width": 230,
+              "height": 110
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": false,
+              "naturalWidth": 0,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 6037.109375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 140,
+              "y": 15453.234375,
+              "width": 456.28125,
+              "height": 570.34375
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          }
+        }
+      }
+    ],
+    "jd": [
+      {
+        "step": 1,
+        "state": {
+          "scrollY": 6326,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -5322.40625,
+              "width": 1440,
+              "height": 1649.40625
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -5154.40625,
+              "width": 1160,
+              "height": 254.875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -4407.53125,
+              "width": 1160,
+              "height": 195.1875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "frag": {
+            "rect": {
+              "x": 140,
+              "y": -4855.53125,
+              "width": 230,
+              "height": 110
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "jdState": "1",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 2364.109375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 140,
+              "y": 11780.234375,
+              "width": 456.28125,
+              "height": 570.34375
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "step": 2,
+        "state": {
+          "scrollY": 6830,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -5826.40625,
+              "width": 1440,
+              "height": 1649.40625
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -5658.40625,
+              "width": 1160,
+              "height": 254.875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -4911.53125,
+              "width": 1160,
+              "height": 195.1875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "frag": {
+            "rect": {
+              "x": 140,
+              "y": -5359.53125,
+              "width": 230,
+              "height": 110
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "jdState": "2",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.06954, 0, 0, 1.06954, 0, 0)"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "1",
+              "transform": "matrix(1.00046, 0, 0, 1.00046, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "2",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 1860.109375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 140,
+              "y": 11276.234375,
+              "width": 456.28125,
+              "height": 570.34375
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "step": 3,
+        "state": {
+          "scrollY": 7334,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -6330.40625,
+              "width": 1440,
+              "height": 1649.40625
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -6162.40625,
+              "width": 1160,
+              "height": 254.875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -5415.53125,
+              "width": 1160,
+              "height": 195.1875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "frag": {
+            "rect": {
+              "x": 140,
+              "y": -5863.53125,
+              "width": 230,
+              "height": 110
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "jdState": "3",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.06956, 0, 0, 1.06956, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "1",
+              "transform": "matrix(1.00051, 0, 0, 1.00051, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": true,
+              "opacity": "1"
+            },
+            {
+              "s": "4",
+              "on": false,
+              "opacity": "0.32"
+            }
+          ],
+          "words": [],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 1356.109375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 140,
+              "y": 10772.234375,
+              "width": 456.28125,
+              "height": 570.34375
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          }
+        }
+      },
+      {
+        "step": 4,
+        "state": {
+          "scrollY": 7838,
+          "hoje": {
+            "rect": {
+              "x": 0,
+              "y": -6834.40625,
+              "width": 1440,
+              "height": 1649.40625
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "beatA": {
+            "rect": {
+              "x": 140,
+              "y": -6666.40625,
+              "width": 1160,
+              "height": 254.875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "beatB": {
+            "rect": {
+              "x": 140,
+              "y": -5919.53125,
+              "width": 1160,
+              "height": 195.1875
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "frag": {
+            "rect": {
+              "x": 140,
+              "y": -6367.53125,
+              "width": 230,
+              "height": 110
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "relative"
+          },
+          "hcards": [
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            },
+            {
+              "opacity": "1",
+              "transform": "none"
+            }
+          ],
+          "jdState": "4",
+          "jdImages": [
+            {
+              "class": "i1",
+              "src": "/assets/norte-autoral/cases/helena-vasques-01-hero.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i2",
+              "src": "/assets/norte-autoral/cases/helena-vasques-02-situacoes.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.07, 0, 0, 1.07, 0, 0)"
+            },
+            {
+              "class": "i3",
+              "src": "/assets/norte-autoral/cases/helena-vasques-03-atuacao.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "0",
+              "transform": "matrix(1.06961, 0, 0, 1.06961, 0, 0)"
+            },
+            {
+              "class": "i4",
+              "src": "/assets/norte-autoral/cases/helena-vasques-04-advogada.jpg",
+              "complete": true,
+              "naturalWidth": 1440,
+              "opacity": "1",
+              "transform": "matrix(1.00046, 0, 0, 1.00046, 0, 0)"
+            }
+          ],
+          "stepStates": [
+            {
+              "s": "1",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "2",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "3",
+              "on": false,
+              "opacity": "0.32"
+            },
+            {
+              "s": "4",
+              "on": true,
+              "opacity": "1"
+            }
+          ],
+          "words": [],
+          "caseDesk": {
+            "rect": {
+              "x": 185,
+              "y": 852.109375,
+              "width": 624.125,
+              "height": 424.828125
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          },
+          "photo": {
+            "rect": {
+              "x": 140,
+              "y": 10268.234375,
+              "width": 456.28125,
+              "height": 570.34375
+            },
+            "opacity": "1",
+            "transform": "none",
+            "position": "static"
+          }
+        }
+      }
+    ]
+  }
+]

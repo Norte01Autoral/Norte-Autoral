@@ -1,0 +1,15 @@
+import {chromium} from 'playwright';
+import {writeFile} from 'node:fs/promises';
+const browser=await chromium.launch({headless:true,executablePath:process.env.LOCALAPPDATA+'/ms-playwright/chromium-1243/chrome-win64/chrome.exe'});
+const context=await browser.newContext({viewport:{width:1440,height:900},reducedMotion:'reduce'});
+const p=await context.newPage();
+await p.goto('http://127.0.0.1:4173/marketing/portfolio/aureo-arquitetura/index.html');
+await p.locator('a[href^="https://wa.me"]').first().click();
+const aureo={dialogOpen:await p.locator('.mazy-demo-dialog').evaluate(el=>el.open),title:await p.locator('.mazy-demo-dialog h2').innerText(),samePage:p.url().includes('/aureo-arquitetura/'),invite:await p.locator('.mazy-demo-actions a').first().getAttribute('href')};
+await p.goto('http://127.0.0.1:4173/v3');
+const v3={returnText:await p.locator('.mazy-demo-return').innerText(),returnHref:await p.locator('.mazy-demo-return').getAttribute('href')};
+await p.locator('.mazy-demo-return').click();await p.waitForURL('**/#sites');v3.returnedToPortfolio=p.url();
+console.log(JSON.stringify({aureo,v3},null,2));
+await writeFile(new URL('./demo-navigation-supplement.json',import.meta.url),JSON.stringify({aureo,v3},null,2));
+await context.close();await browser.close();
+if(!aureo.dialogOpen||!aureo.samePage||v3.returnHref!=='/#sites')process.exitCode=1;

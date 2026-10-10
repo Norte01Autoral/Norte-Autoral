@@ -1,0 +1,11 @@
+{
+  "empty": {
+    "focus": "nome",
+    "border": "rgb(255, 180, 162)"
+  },
+  "submission": {
+    "text": "Configure seu envio",
+    "enabled": true,
+    "interest": "Sabec/Os"
+  }
+}

@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Como eu fiz o site do JD com IA</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="O passo a passo do jdandrade.art com os prompts que eu mandei pro Claude, na ordem e do jeito que eu escrevi.">
+<meta property="og:title" content="Como eu fiz o site do JD com IA">
+<meta property="og:description" content="O passo a passo com os prompts que eu usei, na ordem.">
+<meta property="og:image" content="https://www.sabec.dev/site-do-jd/img/og.jpg">
+<meta property="og:type" content="article">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="icon" href="/assets/sabec-logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Passo a passo do site do JD. Identidade Sabec°: preto base, luz espectral nas bordas, azul só como ação.
+   Escrito pra ler no celular, que é onde o link chega (DM). Cada passo: o que eu fiz, por quê, o prompt real. */
+:root{
+  --fundo:#0A0A0A; --card:#141414; --card-2:#1B1B1B; --linha:#2A2A2A; --linha-suave:#202020;
+  --texto:#EDE9DF; --texto-2:#9A968D; --texto-3:#5E5B54;
+  --azul:#1F4FFF; --azul-claro:#4D74FF; --gelo:#BCD3FF;
+  --ambar:#E0662F; --ciano:#34BFD2; --violeta:#8A4FE0; --magenta:#C44BC9;
+  --display:"Space Grotesk",system-ui,sans-serif; --corpo:"Inter",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{position:relative;margin:0;background:var(--fundo);color:var(--texto);font:400 16.5px/1.6 var(--corpo);overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:var(--gelo);text-underline-offset:3px}
+.pagina{max-width:760px;margin:0 auto;padding:0 20px 80px}
+
+/* topo com atmosfera espectral (âmbar e violeta nascendo das bordas) */
+.topo{position:relative;padding:28px 0 56px}
+.atmos{position:absolute;top:0;left:0;width:100%;height:880px;z-index:-1;pointer-events:none;
+  background:radial-gradient(42% 60% at 12% 18%,rgba(224,102,47,.42),transparent 70%),
+             radial-gradient(40% 55% at 92% 8%,rgba(138,79,224,.38),transparent 70%),
+             radial-gradient(50% 40% at 60% 92%,rgba(31,79,255,.22),transparent 70%)}
+.marca{display:flex;align-items:center;justify-content:space-between;margin-bottom:56px}
+.marca img{height:22px;width:auto}
+.kicker{font:500 11.5px/1.4 var(--mono);letter-spacing:.24em;text-transform:uppercase;color:var(--texto-2)}
+.kicker::before{content:"↳ "}
+h1{font:500 clamp(36px,8.6vw,62px)/1.02 var(--display);letter-spacing:-.045em;margin:14px 0 22px;text-wrap:balance}
+.abre{font-size:18px;color:var(--texto);max-width:620px}
+.abre + .abre{color:var(--texto-2);font-size:16px}
+.ferramentas{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+.ferramentas span{font:500 12px/1 var(--mono);letter-spacing:.06em;padding:9px 12px;border:1px solid var(--linha);border-radius:999px;background:rgba(20,20,20,.7);color:var(--texto)}
+
+/* passos */
+.passo{position:relative;padding:44px 0 8px;border-top:1px solid var(--linha-suave)}
+.passo-num{font:500 12px/1 var(--mono);letter-spacing:.24em;color:var(--cor,var(--gelo));text-transform:uppercase}
+h2{font:500 clamp(26px,5.6vw,36px)/1.08 var(--display);letter-spacing:-.035em;margin:12px 0 14px;text-wrap:balance}
+.passo p{margin:0 0 14px;color:var(--texto)}
+.passo p.apoio{color:var(--texto-2);font-size:15px}
+.dica{margin:18px 0 6px;padding:14px 16px;border-left:2px solid var(--cor,var(--gelo));background:var(--card);border-radius:0 10px 10px 0;font-size:15px;color:var(--texto)}
+.dica b{font:500 11px/1 var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--cor,var(--gelo));display:block;margin-bottom:8px}
+
+/* prompt: o texto real, com botão de copiar */
+.prompt{margin:16px 0;border:1px solid var(--linha);border-radius:14px;background:var(--card);overflow:hidden}
+.prompt-topo{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 12px 10px 16px;border-bottom:1px solid var(--linha-suave);background:var(--card-2)}
+.prompt-topo span{font:500 11px/1.3 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--texto-2)}
+.copiar{flex:none;font:600 13px/1 var(--corpo);color:#fff;background:var(--azul);border:0;border-radius:8px;padding:9px 14px;cursor:pointer}
+.copiar:hover{background:var(--azul-claro)}
+.copiar.ok{background:#1B1B1B;color:var(--gelo);outline:1px solid var(--linha)}
+.prompt pre{margin:0;padding:16px;white-space:pre-wrap;word-break:break-word;font:500 13.5px/1.62 var(--mono);color:var(--texto)}
+.prompt .anexo{display:block;color:var(--texto-3);font-style:normal}
+.lista-prompts{display:grid;gap:10px;margin:16px 0}
+.lista-prompts .prompt{margin:0}
+.seta{font:500 12px/1 var(--mono);color:var(--texto-3);letter-spacing:.14em;text-transform:uppercase;margin:4px 0 4px 16px}
+
+/* imagens */
+figure{margin:20px 0}
+figure img{border-radius:12px;border:1px solid var(--linha)}
+figcaption{margin-top:8px;font-size:13.5px;color:var(--texto-2)}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.dupla{display:grid;grid-template-columns:2.4fr 1fr;gap:10px;align-items:start}
+
+/* fim */
+.fim{margin-top:56px;padding:34px 24px;border-radius:18px;position:relative;overflow:hidden;isolation:isolate;border:1px solid var(--linha)}
+.fim::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(70% 90% at 0% 0%,rgba(52,191,210,.22),transparent 60%),radial-gradient(70% 90% at 100% 100%,rgba(31,79,255,.4),transparent 60%),var(--card)}
+.fim h2{margin-top:0}
+.botao{display:inline-block;margin-top:8px;font:600 15px/1 var(--corpo);color:#fff;background:var(--azul);padding:15px 20px;border-radius:10px;text-decoration:none}
+.botao:hover{background:var(--azul-claro)}
+.assina{display:flex;align-items:center;gap:14px;margin-top:40px;color:var(--texto-3);font:500 11px/1.4 var(--mono);letter-spacing:.2em;text-transform:uppercase}
+.assina img{height:18px;width:auto;opacity:.9}
+
+@media (max-width:560px){
+  body{font-size:16px}
+  .abre{font-size:17px}
+  .trio{grid-template-columns:1fr 1fr}
+  .trio figure:last-child{grid-column:1 / -1}
+  .trio figure:last-child img{max-height:440px;width:100%;object-fit:cover;object-position:top}
+  .dupla{grid-template-columns:1fr}
+  .dupla figure:last-child{max-width:240px;margin:0 auto}
+  .prompt pre{font-size:13px;padding:14px}
+}
+</style>
+</head>
+<body>
+<div class="atmos" aria-hidden="true"></div>
+<main class="pagina">
+
+  <header class="topo">
+    <div class="marca">
+      <img src="/assets/Logotipo%20Branco%20e%20Azul.svg" alt="Sabec°" width="120" height="22">
+      <span class="kicker">Passo a passo</span>
+    </div>
+    <span class="kicker">Com os prompts que eu usei</span>
+    <h1>Como eu fiz o site do JD com IA</h1>
+    <p class="abre">O <a href="https://jdandrade.art" target="_blank" rel="noopener">jdandrade.art</a> é o portfólio do João Daniel Andrade, artista e escritor. Eu fiz com o Claude Code e o Higgsfield, e a primeira versão foi pro ar no mesmo dia.</p>
+    <p class="abre">Aqui estão os prompts que fizeram diferença, na ordem e do jeito que eu escrevi, com erro de digitação e tudo. As obras da galeria são do JD, feitas à mão por ele.</p>
+    <div class="ferramentas" aria-label="Ferramentas">
+      <span>Higgsfield</span><span>Claude Code</span><span>GitHub</span><span>Vercel</span><span>Domínio próprio</span>
+    </div>
+  </header>
+
+  <section class="passo" style="--cor:var(--ambar)">
+    <div class="passo-num">Passo 1</div>
+    <h2>Desenhe o site antes de pedir o site</h2>
+    <p>Em vez de descrever o site em palavras, eu gerei uma imagem de como ele ficaria, com as cores e o estilo de arte do JD. Usei o Higgsfield com o GPT Image, o modelo de imagem do ChatGPT, e anexei quatro referências: um fundo de gradiente com granulado, duas artes do JD e um site de outro estúdio como referência de layout. O JD gostou da imagem antes de existir uma linha de código.</p>
+    <figure>
+      <img src="/site-do-jd/img/template.webp" alt="Imagem gerada com a cara do site: o nome JD ANDRADE gigante, três cartões com ilustrações e silhuetas de mata na frente" width="1600" height="905" loading="lazy">
+      <figcaption>A imagem que virou a referência do site inteiro.</figcaption>
+    </figure>
+    <div class="prompt">
+      <div class="prompt-topo"><span>Prompt da imagem · Higgsfield · GPT Image</span><button class="copiar" type="button">Copiar</button></div>
+      <pre>High-fidelity desktop portfolio website comp, 1440x900. Panoramic stage website: compact nav above one uninterrupted horizontal illustrated procession. Oversized JD ANDRADE typography recedes behind three scene windows like cinema frames; foreground silhouettes cross frame edges; a lit storybook aperture labeled LIVROS anchors the right, ARTE anchors the left. Red-orange-deep-blue grain fills the canvas, bold editorial rhythm, kinetic but highly legible. Show start of next project strip. Real text only: JD ANDRADE, ARTISTA + ESCRITOR, ARTE, LIVROS; greek all other text.
+<i class="anexo">(anexei 4 imagens: o gradiente com granulado, uma pintura do JD, uma ficha de personagem do JD e o site de referência)</i></pre>
+    </div>
+    <div class="dica"><b>Por que funciona</b>Uma imagem fecha cor, fonte, ordem das seções e clima de uma vez. A IA que vai programar não precisa adivinhar o que você imaginou.</div>
+    <div class="dica"><b>Repare no fim do prompt</b>Só o texto real vai escrito (JD ANDRADE, ARTISTA + ESCRITOR, ARTE, LIVROS). O resto pede "greek", que é texto de mentira. Assim a imagem não inventa palavra errada no meio do layout.</div>
+  </section>
+
+  <section class="passo" style="--cor:var(--violeta)">
+    <div class="passo-num">Passo 2</div>
+    <h2>O primeiro prompt pro Claude</h2>
+    <p>Abri o Claude Code na pasta do projeto, no computador, e mandei isto com a imagem do passo 1 anexada:</p>
+    <div class="prompt">
+      <div class="prompt-topo"><span>Prompt 1 · Claude Code</span><button class="copiar" type="button">Copiar</button></div>
+      <pre>Preciso fazer um site de portfolio para um autor e artista, JD Andrade (joao daniel andrade) que ele fez os livros Maldito destino e Cavaleiro da terra
+
+Esse é o instagram dele, use os mcps pra realmente ver o estilo de arte dele:
+https://www.instagram.com/jdandradeilustra/
+
+https://www.instagram.com/jdandradearte/
+
+Tem um artstation dele:
+https://www.artstation.com/jdandrade
+
+eu gerei um template com o higgsfield e ele gostou:
+<i class="anexo">(anexei a imagem do passo 1)</i>
+nessa imagem eu gostaria que o site fosse interativo, digno de um artista, e que tivesse essas camadas que se movem em efeito paralax, como podemos ver tem a camada da silkhueta das crianças/arbustos, queria que isso
+fosse implementado também</pre>
+    </div>
+    <p>Logo depois, mais duas mensagens curtas:</p>
+    <div class="lista-prompts">
+      <div class="prompt"><div class="prompt-topo"><span>Prompt 2</span><button class="copiar" type="button">Copiar</button></div><pre>se precisar pode usar o higgsfield MCP, tem 1800 creditos, pode gerar quantas imagens necessárias</pre></div>
+      <div class="prompt"><div class="prompt-topo"><span>Prompt 3 · com print das fontes</span><button class="copiar" type="button">Copiar</button></div><pre>https://fonts.google.com/?preview.script=Latn&amp;query=zalando
+
+eu uso essas aqui, normal e a expanded</pre></div>
+    </div>
+    <div class="dica"><b>O que é "MCP"</b>É como o Claude se conecta a outras ferramentas: abrir um site, gerar imagem no Higgsfield, publicar na Vercel. Com isso ligado, eu mando o link do Instagram e ele olha o estilo de verdade, em vez de chutar.</div>
+  </section>
+
+  <section class="passo" style="--cor:var(--ciano)">
+    <div class="passo-num">Passo 3</div>
+    <h2>Ajuste olhando a tela, com print</h2>
+    <p>Daqui pra frente eu não explicava o problema. Tirava um print, marcava onde estava errado e mandava uma frase. Estas foram de verdade, nessa ordem:</p>
+    <div class="lista-prompts">
+      <div class="prompt"><div class="prompt-topo"><span>Com print</span><button class="copiar" type="button">Copiar</button></div><pre>o efeito do parallax quando a gente scrolla pra baixo fica meio estranho, da pra ver as bordas da imagem</pre></div>
+      <div class="prompt"><div class="prompt-topo"><span>Com print</span><button class="copiar" type="button">Copiar</button></div><pre>ajeita só a lua aqui, nao ta batendo</pre></div>
+      <div class="prompt"><div class="prompt-topo"><span>Com print</span><button class="copiar" type="button">Copiar</button></div><pre>adicione a logo maior nesse aqui, e faça um padding maior ,ta grudado no topo</pre></div>
+      <div class="prompt"><div class="prompt-topo"><span>Sem print</span><button class="copiar" type="button">Copiar</button></div><pre>Faz o efeito do mouse na foto dele uma aba de arrastar tipo antes/depois</pre></div>
+      <div class="seta">dois minutos depois</div>
+      <div class="prompt"><div class="prompt-topo"><span>Voltando atrás</span><button class="copiar" type="button">Copiar</button></div><pre>errei, deixa o efeito da lente, deixa o arrastar apenas no mobile</pre></div>
+      <div class="prompt"><div class="prompt-topo"><span>Com print</span><button class="copiar" type="button">Copiar</button></div><pre>ajeite a hero section para mobile, ta estranho</pre></div>
+      <div class="prompt"><div class="prompt-topo"><span>Sem print</span><button class="copiar" type="button">Copiar</button></div><pre>quando scrollo rapido as fotos das artes tem um flicker</pre></div>
+    </div>
+    <div class="dica"><b>Repare</b>Nenhum desses prompts tem termo técnico. Uma frase dizendo o que está estranho e onde, com o print, resolve.</div>
+  </section>
+
+  <section class="passo" style="--cor:var(--magenta)">
+    <div class="passo-num">Passo 4</div>
+    <h2>Cole o pedido do cliente do jeito que veio</h2>
+    <p>Quando o JD viu a primeira versão, ele me mandou uma lista de alterações. Eu não reescrevi nada: colei a lista inteira com uma frase em cima.</p>
+    <div class="prompt">
+      <div class="prompt-topo"><span>Prompt · lista do JD (começo)</span><button class="copiar" type="button">Copiar</button></div>
+      <pre>o cliente pediu algumas alteraçoes
+
+GERAL
+- trocar o laranja do destaque pelo verde que tá na logo
+- link do meu behance tá quebrado, vou mandar ele aqui de novo: https://www.behance.net/joodaandrade
+- colocar Zalando Sans Expanded nos títulos
+
+PÁGINA 1
+- diminuir só um pouco a logo
+- mudar ordem do índice pra SOBRE / ARTE / LIVROS / COMISSÕES (tirar o contato, e deixar opção de contato só no que tá junto com o menu)
+- tirar o "explore" do meio e colocar uma sessão nova de Design
+- tirar o "artista + escritor"
+- vou mandar dps uma silhueta legal pra usar no lugar das que tão ali
+- vou mandar dps quais imagens usar em cada um dos blocos principais
+- colocar o texto "arte" e "livros" dentro do bloco, e quando passa o mouse por cima fica um preto sobrepondo a imagem, dando foco pro texto
+<i class="anexo">(a lista seguia com mais sete seções: Parte 2, Arte, Livros, Universos, Comissões, Sobre e Contato)</i></pre>
+    </div>
+    <p>Depois de aplicar, uma frase pra não quebrar o que já existia:</p>
+    <div class="prompt"><div class="prompt-topo"><span>Prompt</span><button class="copiar" type="button">Copiar</button></div><pre>garanta que o painel admin bate com essas alteraçoes que fizemos</pre></div>
+  </section>
+
+  <section class="passo" style="--cor:var(--gelo)">
+    <div class="passo-num">Passo 5</div>
+    <h2>Um painel pra ele atualizar sozinho</h2>
+    <p>Portfólio de artista muda toda semana. Se cada obra nova dependesse de mim, o site ia ficar velho em um mês. Então pedi um painel com senha, onde o próprio JD edita tudo.</p>
+    <div class="lista-prompts">
+      <div class="prompt"><div class="prompt-topo"><span>O pedido do painel</span><button class="copiar" type="button">Copiar</button></div><pre>Queria que pegasse automaticamente os posts do artstation, mas se fosse dar muito trabalho e nao ficasse igual esse, deixa quieto, vamos fazer uma aba com login e senha protegidos para que ele possa publicar os posts/artes e editar as informaçoes do site, artes em destaque, adicionar livros, editar etc, alterar fotos</pre></div>
+      <div class="prompt"><div class="prompt-topo"><span>Conferindo</span><button class="copiar" type="button">Copiar</button></div><pre>a aba de projetos é customizavel pelo painel de adm?</pre></div>
+      <div class="seta">resposta: sim, com a lista do que dava pra editar</div>
+      <div class="prompt"><div class="prompt-topo"><span>Com print</span><button class="copiar" type="button">Copiar</button></div><pre>Na aba admin e projetos, permita o ajuste da posiçao da imagem de abertura, para nao cortar igual o exemplo acima</pre></div>
+      <div class="prompt"><div class="prompt-topo"><span>Página de links</span><button class="copiar" type="button">Copiar</button></div><pre>https://linktr.ee/jdandradeart ele tem um linktree, vamos fazer uma aba de links, onde ele pode editar pelo painel de ADM</pre></div>
+      <div class="prompt"><div class="prompt-topo"><span>Português e inglês</span><button class="copiar" type="button">Copiar</button></div><pre>faça uma versão em ingles tbm, garanta que os textos possam ser escritos tanto em ptbr quanto em ingles na pagina de admin</pre></div>
+    </div>
+    <div class="trio">
+      <figure><img src="/site-do-jd/img/painel-textos.webp" alt="Painel: texto da seção em inglês e em português" width="720" height="1280" loading="lazy"><figcaption>Cada texto em PT e EN.</figcaption></figure>
+      <figure><img src="/site-do-jd/img/painel-precos.webp" alt="Painel: preços das comissões em dólar e em real" width="720" height="1280" loading="lazy"><figcaption>Preço em dólar pro gringo.</figcaption></figure>
+      <figure><img src="/site-do-jd/img/painel-artes.webp" alt="Painel: lista de artes que dá pra arrastar pra mudar a ordem" width="720" height="1280" loading="lazy"><figcaption>Arrasta pra mudar a ordem.</figcaption></figure>
+    </div>
+    <div class="dica"><b>Uma coisa que eu faria de novo</b>A IA cria uma senha provisória pro painel. Troque por uma sua logo no primeiro dia, e nunca mande essa senha num print.</div>
+  </section>
+
+  <section class="passo" style="--cor:var(--ambar)">
+    <div class="passo-num">Passo 6</div>
+    <h2>Colocar no ar</h2>
+    <p>Três mensagens. A Vercel é onde o site fica hospedado; o GitHub guarda cada versão do código.</p>
+    <div class="lista-prompts">
+      <div class="prompt"><div class="prompt-topo"><span>Publicar</span><button class="copiar" type="button">Copiar</button></div><pre>manda pro vercel, usando o MCP e me mande o link</pre></div>
+      <div class="prompt"><div class="prompt-topo"><span>Atualizar sozinho</span><button class="copiar" type="button">Copiar</button></div><pre>faz o vercel conectar nesse github, que ai quando commita o github o vercel atualiza</pre></div>
+      <div class="prompt"><div class="prompt-topo"><span>Domínio</span><button class="copiar" type="button">Copiar</button></div><pre>ele comprou um dominio no namechap, mande uma mensagem pra eu copiar e colar mandando pra ele configurar o dns</pre></div>
+    </div>
+    <p class="apoio">Com os dois conectados, quando o JD salva alguma coisa no painel, aquilo vira uma versão nova no GitHub e o site se atualiza sozinho. Ninguém precisa me chamar.</p>
+  </section>
+
+  <section class="passo" style="--cor:var(--violeta)">
+    <div class="passo-num">Passo 7</div>
+    <h2>Acabamento: peça nota</h2>
+    <p>No fim, em vez de caçar defeito sozinho, eu pedia pro Claude revisar e dar nota.</p>
+    <div class="lista-prompts">
+      <div class="prompt"><div class="prompt-topo"><span>Celular</span><button class="copiar" type="button">Copiar</button></div><pre>BELEZA, garanta que ta tudo 100% responsivo no mobile, tem</pre></div>
+      <div class="prompt"><div class="prompt-topo"><span>Velocidade</span><button class="copiar" type="button">Copiar</button></div><pre>garanta que o site está performando bem em celulcares menos potentes</pre></div>
+      <div class="prompt"><div class="prompt-topo"><span>Google</span><button class="copiar" type="button">Copiar</button></div><pre>Como tá o SEO do site?</pre></div>
+      <div class="seta">depois da resposta</div>
+      <div class="prompt"><div class="prompt-topo"><span>Prompt</span><button class="copiar" type="button">Copiar</button></div><pre>arrume tudo</pre></div>
+      <div class="prompt"><div class="prompt-topo"><span>A nota</span><button class="copiar" type="button">Copiar</button></div><pre>qual nota vc dá pra esse site? considerando que é um portifólio</pre></div>
+      <div class="seta">depois dos ajustes</div>
+      <div class="prompt"><div class="prompt-topo"><span>De novo</span><button class="copiar" type="button">Copiar</button></div><pre>e agora? veja novamente, considere a nota como design, responsivo, etc, um site pika</pre></div>
+    </div>
+    <div class="dica"><b>Por que pedir nota</b>A pergunta obriga a IA a criticar o próprio trabalho e listar o que falta. Você corrige antes do cliente ver.</div>
+  </section>
+
+  <section class="passo" style="--cor:var(--ciano)">
+    <div class="passo-num">Resultado</div>
+    <h2>O site no ar</h2>
+    <div class="dupla">
+      <figure><img src="/site-do-jd/img/site-pc.webp" alt="jdandrade.art no computador" width="1600" height="1000" loading="lazy"></figure>
+      <figure><img src="/site-do-jd/img/site-celular.webp" alt="jdandrade.art no celular" width="780" height="1688" loading="lazy"></figure>
+    </div>
+    <p><a href="https://jdandrade.art" target="_blank" rel="noopener">jdandrade.art</a></p>
+  </section>
+
+  <aside class="fim">
+    <span class="kicker">Pro seu negócio</span>
+    <h2>Quer um site assim, com a sua cara?</h2>
+    <p>Me conta o que você faz e onde atende.</p>
+    <a class="botao" href="https://wa.me/5543991334218?text=Vi%20o%20passo%20a%20passo%20do%20site%20do%20JD" target="_blank" rel="noopener">Me chama no WhatsApp</a>
+    <p class="apoio" style="margin-top:16px;color:var(--texto-2)">Ou no Instagram: <a href="https://instagram.com/sabec.dev" target="_blank" rel="noopener">@sabec.dev</a></p>
+  </aside>
+
+  <footer class="assina">
+    <img src="/assets/Logotipo%20Branco%20e%20Azul.svg" alt="Sabec°" width="98" height="18">
+    <span>O sistema operacional do seu negócio</span>
+  </footer>
+
+</main>
+<script>
+// copiar: pega o texto do prompt sem as notas de anexo
+document.querySelectorAll('.prompt').forEach(function (bloco) {
+  var botao = bloco.querySelector('.copiar'), pre = bloco.querySelector('pre');
+  if (!botao || !pre) return;
+  botao.addEventListener('click', function () {
+    var copia = pre.cloneNode(true);
+    copia.querySelectorAll('.anexo').forEach(function (n) { n.remove(); });
+    var texto = copia.textContent.replace(/\n{3,}/g, '\n\n').trim();
+    var pronto = function () { botao.textContent = 'Copiado'; botao.classList.add('ok'); setTimeout(function () { botao.textContent = 'Copiar'; botao.classList.remove('ok'); }, 1600); };
+    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(texto).then(pronto, pronto);
+    else { var t = document.createElement('textarea'); t.value = texto; document.body.appendChild(t); t.select(); try { document.execCommand('copy'); } catch (e) {} t.remove(); pronto(); }
+  });
+});
+</script>
+</body>
+</html>

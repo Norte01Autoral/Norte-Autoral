@@ -1,0 +1,159 @@
+[
+  {
+    "slug": "velorah-hero",
+    "status": 200,
+    "errors": [],
+    "title": "Velorah — Estúdio Digital",
+    "description": null,
+    "oldVisible": false,
+    "credits": [],
+    "overflow": 0
+  },
+  {
+    "slug": "lithos-hero",
+    "status": 200,
+    "errors": [],
+    "title": "Lithos — Geologia Interativa",
+    "description": null,
+    "oldVisible": false,
+    "credits": [],
+    "overflow": 0
+  },
+  {
+    "slug": "dentista-clinica-vertice",
+    "status": 200,
+    "errors": [],
+    "title": "Clínica Vértice · Ortodontia e implantes em Londrina",
+    "description": "Clínica Vértice. Ortodontia, Invisalign e implantes em Londrina, PR. Avaliação cuidadosa, plano por escrito e uma equipe que explica antes de fazer.",
+    "oldVisible": false,
+    "credits": [
+      {
+        "text": "Norte Autoral · Gabriel Holanda",
+        "href": "/",
+        "target": null,
+        "parentText": "Site demonstrativo (template) produzido pela Norte Autoral · Gabriel Holanda"
+      }
+    ],
+    "overflow": 0,
+    "footerReturnHidden": true,
+    "returnRestored": true
+  },
+  {
+    "slug": "convix-hero",
+    "status": 200,
+    "errors": [],
+    "title": "Convix Software — Software para Agências de PR",
+    "description": null,
+    "oldVisible": false,
+    "credits": [],
+    "overflow": 0
+  },
+  {
+    "slug": "aureo-arquitetura",
+    "status": 200,
+    "errors": [],
+    "title": "Áureo Arquitetura · residencial e incorporadora · desde MMV",
+    "description": "Escritório demonstrativo de arquitetura residencial e de incorporadora. Mais de mil unidades projetadas, autoria premiada e escala provada em obra. Site demonstrativo (template) produzido pela Norte Autoral · Gabriel Holanda.",
+    "oldVisible": false,
+    "credits": [
+      {
+        "text": "Norte Autoral · Gabriel Holanda",
+        "href": "/",
+        "target": null,
+        "parentText": "SITE DEMONSTRATIVO (TEMPLATE) PRODUZIDO PELA NORTE AUTORAL · GABRIEL HOLANDA"
+      }
+    ],
+    "overflow": 0,
+    "footerReturnHidden": true,
+    "mobile": {
+      "overflow": 0,
+      "footerReturnHidden": false
+    },
+    "returnRestored": true
+  },
+  {
+    "slug": "confeitaria-margo",
+    "status": 200,
+    "errors": [],
+    "title": "Margô · Confeitaria autoral em Londrina",
+    "description": "Bolos sob encomenda, doces de festa e brunch de fim de semana. Confeitaria autoral em Londrina, PR. Tudo assado no dia.",
+    "oldVisible": false,
+    "credits": [
+      {
+        "text": "Norte Autoral · Gabriel Holanda",
+        "href": "/",
+        "target": null,
+        "parentText": "Site demonstrativo (template) produzido pela Norte Autoral · Gabriel Holanda"
+      }
+    ],
+    "overflow": 0,
+    "footerReturnHidden": true,
+    "returnRestored": true
+  },
+  {
+    "slug": "instituto-liminar",
+    "status": 200,
+    "errors": [],
+    "title": "Instituto Liminar · Ensino superior em psicanálise",
+    "description": "Instituto de ensino superior dedicado à psicanálise. Pós-graduações reconhecidas pelo MEC, seminários de Freud a Lacan, cursos e aulas abertas. Online ao vivo, EAD e presencial.",
+    "oldVisible": false,
+    "credits": [
+      {
+        "text": "Norte Autoral · Gabriel Holanda",
+        "href": "/",
+        "target": null,
+        "parentText": "Site demonstrativo (template) produzido pela Norte Autoral · Gabriel Holanda"
+      }
+    ],
+    "overflow": 0,
+    "footerReturnHidden": true,
+    "mobile": {
+      "overflow": 0,
+      "footerReturnHidden": true
+    },
+    "returnRestored": true
+  },
+  {
+    "slug": "verene-odontologia",
+    "status": 200,
+    "errors": [],
+    "title": "Verene Odontologia · Implantes e reabilitação de alto padrão",
+    "description": "Implantodontia, ortodontia, próteses e reabilitação oral. Atendimento particular com planejamento integrado e acompanhamento da mesma profissional do início ao fim. Site demonstrativo (template) produzido pela Norte Autoral · Gabriel Holanda.",
+    "oldVisible": false,
+    "credits": [
+      {
+        "text": "Norte Autoral · Gabriel Holanda",
+        "href": "/",
+        "target": null,
+        "parentText": "Site demonstrativo (template) produzido pela Norte Autoral · Gabriel Holanda"
+      }
+    ],
+    "overflow": 0,
+    "footerReturnHidden": true,
+    "returnRestored": true
+  },
+  {
+    "slug": "arquitetura-estudio-linha",
+    "status": 200,
+    "errors": [],
+    "title": "Estúdio Linha · Arquitetura residencial autoral em Londrina",
+    "description": "Estúdio Linha. Arquitetura residencial autoral em Londrina. Casas desenhadas a partir da luz natural e da convivência com a natureza.",
+    "oldVisible": false,
+    "credits": [
+      {
+        "text": "Norte Autoral · Gabriel Holanda",
+        "href": "/",
+        "target": null,
+        "parentText": "SITE DEMONSTRATIVO (TEMPLATE) PRODUZIDO PELA NORTE AUTORAL · GABRIEL HOLANDA\nESTÚDIO LINHA É UMA MARCA FICTÍCIA, SEM VÍNCULO COM EMPRESAS OU PROFISSIONAIS REAIS."
+      }
+    ],
+    "overflow": 0,
+    "footerReturnHidden": true,
+    "mobile": {
+      "overflow": 0,
+      "footerReturnHidden": true
+    },
+    "returnRestored": true,
+    "creditNavigation": "http://127.0.0.1:4173/"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "state": "1",
+    "images": [
+      {
+        "src": "/assets/cases/jd-capa.jpg",
+        "opacity": "1",
+        "loaded": true
+      },
+      {
+        "src": "/assets/cases/jd-arte.jpg",
+        "opacity": "0",
+        "loaded": true
+      },
+      {
+        "src": "/assets/cases/jd-galeria.jpg",
+        "opacity": "0",
+        "loaded": true
+      },
+      {
+        "src": "/assets/cases/jd-galeria-2.jpg",
+        "opacity": "0",
+        "loaded": true
+      }
+    ],
+    "phone": "block"
+  },
+  {
+    "state": "2",
+    "images": [
+      {
+        "src": "/assets/cases/jd-capa.jpg",
+        "opacity": "0",
+        "loaded": true
+      },
+      {
+        "src": "/assets/cases/jd-arte.jpg",
+        "opacity": "1",
+        "loaded": true
+      },
+      {
+        "src": "/assets/cases/jd-galeria.jpg",
+        "opacity": "0",
+        "loaded": true
+      },
+      {
+        "src": "/assets/cases/jd-galeria-2.jpg",
+        "opacity": "0",
+        "loaded": true
+      }
+    ],
+    "phone": "block"
+  },
+  {
+    "state": "3",
+    "images": [
+      {
+        "src": "/assets/cases/jd-capa.jpg",
+        "opacity": "0",
+        "loaded": true
+      },
+      {
+        "src": "/assets/cases/jd-arte.jpg",
+        "opacity": "0",
+        "loaded": true
+      },
+      {
+        "src": "/assets/cases/jd-galeria.jpg",
+        "opacity": "1",
+        "loaded": true
+      },
+      {
+        "src": "/assets/cases/jd-galeria-2.jpg",
+        "opacity": "0",
+        "loaded": true
+      }
+    ],
+    "phone": "block"
+  },
+  {
+    "state": "4",
+    "images": [
+      {
+        "src": "/assets/cases/jd-capa.jpg",
+        "opacity": "0",
+        "loaded": true
+      },
+      {
+        "src": "/assets/cases/jd-arte.jpg",
+        "opacity": "0",
+        "loaded": true
+      },
+      {
+        "src": "/assets/cases/jd-galeria.jpg",
+        "opacity": "0",
+        "loaded": true
+      },
+      {
+        "src": "/assets/cases/jd-galeria-2.jpg",
+        "opacity": "1",
+        "loaded": true
+      }
+    ],
+    "phone": "block"
+  }
+]

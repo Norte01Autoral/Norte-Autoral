@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+*.log
+references/assets-cache/
+backups/
+*.zip
+*.sha256
+.env
+.env.*
+!.env.example

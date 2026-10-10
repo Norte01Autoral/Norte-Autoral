@@ -1,0 +1,2123 @@
+{
+  "executedAt": "2026-10-10T14:36:57.027Z",
+  "origin": "http://127.0.0.1:4173",
+  "final": [
+    {
+      "viewport": [
+        320,
+        740
+      ],
+      "hero": {
+        "innerWidth": 320,
+        "innerHeight": 740,
+        "client": 320,
+        "scroll": 320,
+        "body": 320,
+        "clipped": []
+      },
+      "sections": [
+        {
+          "id": "#topo",
+          "innerWidth": 320,
+          "innerHeight": 740,
+          "client": 320,
+          "scroll": 320,
+          "body": 320,
+          "clipped": []
+        },
+        {
+          "id": "#hoje",
+          "innerWidth": 320,
+          "innerHeight": 740,
+          "client": 320,
+          "scroll": 320,
+          "body": 320,
+          "clipped": []
+        },
+        {
+          "id": "#sites",
+          "innerWidth": 320,
+          "innerHeight": 740,
+          "client": 320,
+          "scroll": 320,
+          "body": 320,
+          "clipped": []
+        },
+        {
+          "id": "#sob-medida",
+          "innerWidth": 320,
+          "innerHeight": 740,
+          "client": 320,
+          "scroll": 320,
+          "body": 320,
+          "clipped": []
+        },
+        {
+          "id": "#norte-os",
+          "innerWidth": 320,
+          "innerHeight": 740,
+          "client": 320,
+          "scroll": 320,
+          "body": 320,
+          "clipped": []
+        },
+        {
+          "id": "#processo",
+          "innerWidth": 320,
+          "innerHeight": 740,
+          "client": 320,
+          "scroll": 320,
+          "body": 320,
+          "clipped": []
+        },
+        {
+          "id": "#quem",
+          "innerWidth": 320,
+          "innerHeight": 740,
+          "client": 320,
+          "scroll": 320,
+          "body": 320,
+          "clipped": []
+        },
+        {
+          "id": "#contato",
+          "innerWidth": 320,
+          "innerHeight": 740,
+          "client": 320,
+          "scroll": 320,
+          "body": 320,
+          "clipped": []
+        },
+        {
+          "id": "#app",
+          "innerWidth": 320,
+          "innerHeight": 740,
+          "client": 320,
+          "scroll": 320,
+          "body": 320,
+          "clipped": []
+        },
+        {
+          "id": "footer",
+          "innerWidth": 320,
+          "innerHeight": 740,
+          "client": 320,
+          "scroll": 320,
+          "body": 320,
+          "clipped": []
+        }
+      ],
+      "portrait": {
+        "currentSrc": "http://127.0.0.1:4173/assets/norte-autoral/gabriel-holanda.webp",
+        "natural": [
+          819,
+          1024
+        ],
+        "box": [
+          288,
+          360
+        ],
+        "fit": "contain",
+        "position": "50% 0px"
+      },
+      "ads": "Sites, sistemas e Norte/OS para sua empresa. Também trabalho com Meta Ads e Google Ads para conectar sua presença digital às campanhas do negócio."
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "hero": {
+        "innerWidth": 360,
+        "innerHeight": 800,
+        "client": 360,
+        "scroll": 360,
+        "body": 360,
+        "clipped": []
+      },
+      "sections": [
+        {
+          "id": "#topo",
+          "innerWidth": 360,
+          "innerHeight": 800,
+          "client": 360,
+          "scroll": 360,
+          "body": 360,
+          "clipped": []
+        },
+        {
+          "id": "#hoje",
+          "innerWidth": 360,
+          "innerHeight": 800,
+          "client": 360,
+          "scroll": 360,
+          "body": 360,
+          "clipped": []
+        },
+        {
+          "id": "#sites",
+          "innerWidth": 360,
+          "innerHeight": 800,
+          "client": 360,
+          "scroll": 360,
+          "body": 360,
+          "clipped": []
+        },
+        {
+          "id": "#sob-medida",
+          "innerWidth": 360,
+          "innerHeight": 800,
+          "client": 360,
+          "scroll": 360,
+          "body": 360,
+          "clipped": []
+        },
+        {
+          "id": "#norte-os",
+          "innerWidth": 360,
+          "innerHeight": 800,
+          "client": 360,
+          "scroll": 360,
+          "body": 360,
+          "clipped": []
+        },
+        {
+          "id": "#processo",
+          "innerWidth": 360,
+          "innerHeight": 800,
+          "client": 360,
+          "scroll": 360,
+          "body": 360,
+          "clipped": []
+        },
+        {
+          "id": "#quem",
+          "innerWidth": 360,
+          "innerHeight": 800,
+          "client": 360,
+          "scroll": 360,
+          "body": 360,
+          "clipped": []
+        },
+        {
+          "id": "#contato",
+          "innerWidth": 360,
+          "innerHeight": 800,
+          "client": 360,
+          "scroll": 360,
+          "body": 360,
+          "clipped": []
+        },
+        {
+          "id": "#app",
+          "innerWidth": 360,
+          "innerHeight": 800,
+          "client": 360,
+          "scroll": 360,
+          "body": 360,
+          "clipped": []
+        },
+        {
+          "id": "footer",
+          "innerWidth": 360,
+          "innerHeight": 800,
+          "client": 360,
+          "scroll": 360,
+          "body": 360,
+          "clipped": []
+        }
+      ],
+      "portrait": {
+        "currentSrc": "http://127.0.0.1:4173/assets/norte-autoral/gabriel-holanda.webp",
+        "natural": [
+          819,
+          1024
+        ],
+        "box": [
+          328,
+          410
+        ],
+        "fit": "contain",
+        "position": "50% 0px"
+      },
+      "ads": "Sites, sistemas e Norte/OS para sua empresa. Também trabalho com Meta Ads e Google Ads para conectar sua presença digital às campanhas do negócio."
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "hero": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 390,
+        "clipped": []
+      },
+      "sections": [
+        {
+          "id": "#topo",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "id": "#hoje",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "id": "#sites",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "id": "#sob-medida",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "id": "#norte-os",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "id": "#processo",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "id": "#quem",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "id": "#contato",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "id": "#app",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "id": "footer",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        }
+      ],
+      "portrait": {
+        "currentSrc": "http://127.0.0.1:4173/assets/norte-autoral/gabriel-holanda.webp",
+        "natural": [
+          819,
+          1024
+        ],
+        "box": [
+          358,
+          447.5
+        ],
+        "fit": "contain",
+        "position": "50% 0px"
+      },
+      "ads": "Sites, sistemas e Norte/OS para sua empresa. Também trabalho com Meta Ads e Google Ads para conectar sua presença digital às campanhas do negócio."
+    },
+    {
+      "viewport": [
+        412,
+        915
+      ],
+      "hero": {
+        "innerWidth": 412,
+        "innerHeight": 915,
+        "client": 412,
+        "scroll": 412,
+        "body": 412,
+        "clipped": []
+      },
+      "sections": [
+        {
+          "id": "#topo",
+          "innerWidth": 412,
+          "innerHeight": 915,
+          "client": 412,
+          "scroll": 412,
+          "body": 412,
+          "clipped": []
+        },
+        {
+          "id": "#hoje",
+          "innerWidth": 412,
+          "innerHeight": 915,
+          "client": 412,
+          "scroll": 412,
+          "body": 412,
+          "clipped": []
+        },
+        {
+          "id": "#sites",
+          "innerWidth": 412,
+          "innerHeight": 915,
+          "client": 412,
+          "scroll": 412,
+          "body": 412,
+          "clipped": []
+        },
+        {
+          "id": "#sob-medida",
+          "innerWidth": 412,
+          "innerHeight": 915,
+          "client": 412,
+          "scroll": 412,
+          "body": 412,
+          "clipped": []
+        },
+        {
+          "id": "#norte-os",
+          "innerWidth": 412,
+          "innerHeight": 915,
+          "client": 412,
+          "scroll": 412,
+          "body": 412,
+          "clipped": []
+        },
+        {
+          "id": "#processo",
+          "innerWidth": 412,
+          "innerHeight": 915,
+          "client": 412,
+          "scroll": 412,
+          "body": 412,
+          "clipped": []
+        },
+        {
+          "id": "#quem",
+          "innerWidth": 412,
+          "innerHeight": 915,
+          "client": 412,
+          "scroll": 412,
+          "body": 412,
+          "clipped": []
+        },
+        {
+          "id": "#contato",
+          "innerWidth": 412,
+          "innerHeight": 915,
+          "client": 412,
+          "scroll": 412,
+          "body": 412,
+          "clipped": []
+        },
+        {
+          "id": "#app",
+          "innerWidth": 412,
+          "innerHeight": 915,
+          "client": 412,
+          "scroll": 412,
+          "body": 412,
+          "clipped": []
+        },
+        {
+          "id": "footer",
+          "innerWidth": 412,
+          "innerHeight": 915,
+          "client": 412,
+          "scroll": 412,
+          "body": 412,
+          "clipped": []
+        }
+      ],
+      "portrait": {
+        "currentSrc": "http://127.0.0.1:4173/assets/norte-autoral/gabriel-holanda.webp",
+        "natural": [
+          819,
+          1024
+        ],
+        "box": [
+          379.0625,
+          473.828125
+        ],
+        "fit": "contain",
+        "position": "50% 0px"
+      },
+      "ads": "Sites, sistemas e Norte/OS para sua empresa. Também trabalho com Meta Ads e Google Ads para conectar sua presença digital às campanhas do negócio."
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "hero": {
+        "innerWidth": 768,
+        "innerHeight": 1024,
+        "client": 768,
+        "scroll": 768,
+        "body": 768,
+        "clipped": []
+      },
+      "sections": [
+        {
+          "id": "#topo",
+          "innerWidth": 768,
+          "innerHeight": 1024,
+          "client": 768,
+          "scroll": 768,
+          "body": 768,
+          "clipped": []
+        },
+        {
+          "id": "#hoje",
+          "innerWidth": 768,
+          "innerHeight": 1024,
+          "client": 768,
+          "scroll": 768,
+          "body": 768,
+          "clipped": []
+        },
+        {
+          "id": "#sites",
+          "innerWidth": 768,
+          "innerHeight": 1024,
+          "client": 768,
+          "scroll": 768,
+          "body": 768,
+          "clipped": []
+        },
+        {
+          "id": "#sob-medida",
+          "innerWidth": 768,
+          "innerHeight": 1024,
+          "client": 768,
+          "scroll": 768,
+          "body": 768,
+          "clipped": []
+        },
+        {
+          "id": "#norte-os",
+          "innerWidth": 768,
+          "innerHeight": 1024,
+          "client": 768,
+          "scroll": 768,
+          "body": 768,
+          "clipped": []
+        },
+        {
+          "id": "#processo",
+          "innerWidth": 768,
+          "innerHeight": 1024,
+          "client": 768,
+          "scroll": 768,
+          "body": 768,
+          "clipped": []
+        },
+        {
+          "id": "#quem",
+          "innerWidth": 768,
+          "innerHeight": 1024,
+          "client": 768,
+          "scroll": 768,
+          "body": 768,
+          "clipped": []
+        },
+        {
+          "id": "#contato",
+          "innerWidth": 768,
+          "innerHeight": 1024,
+          "client": 768,
+          "scroll": 768,
+          "body": 768,
+          "clipped": []
+        },
+        {
+          "id": "#app",
+          "innerWidth": 768,
+          "innerHeight": 1024,
+          "client": 768,
+          "scroll": 768,
+          "body": 768,
+          "clipped": []
+        },
+        {
+          "id": "footer",
+          "innerWidth": 768,
+          "innerHeight": 1024,
+          "client": 768,
+          "scroll": 768,
+          "body": 768,
+          "clipped": []
+        }
+      ],
+      "portrait": {
+        "currentSrc": "http://127.0.0.1:4173/assets/norte-autoral/gabriel-holanda.webp",
+        "natural": [
+          819,
+          1024
+        ],
+        "box": [
+          420,
+          525
+        ],
+        "fit": "contain",
+        "position": "50% 0px"
+      },
+      "ads": "Sites, sistemas e Norte/OS para sua empresa. Também trabalho com Meta Ads e Google Ads para conectar sua presença digital às campanhas do negócio."
+    },
+    {
+      "viewport": [
+        820,
+        1180
+      ],
+      "hero": {
+        "innerWidth": 820,
+        "innerHeight": 1180,
+        "client": 820,
+        "scroll": 820,
+        "body": 820,
+        "clipped": []
+      },
+      "sections": [
+        {
+          "id": "#topo",
+          "innerWidth": 820,
+          "innerHeight": 1180,
+          "client": 820,
+          "scroll": 820,
+          "body": 820,
+          "clipped": []
+        },
+        {
+          "id": "#hoje",
+          "innerWidth": 820,
+          "innerHeight": 1180,
+          "client": 820,
+          "scroll": 820,
+          "body": 820,
+          "clipped": []
+        },
+        {
+          "id": "#sites",
+          "innerWidth": 820,
+          "innerHeight": 1180,
+          "client": 820,
+          "scroll": 820,
+          "body": 820,
+          "clipped": []
+        },
+        {
+          "id": "#sob-medida",
+          "innerWidth": 820,
+          "innerHeight": 1180,
+          "client": 820,
+          "scroll": 820,
+          "body": 820,
+          "clipped": []
+        },
+        {
+          "id": "#norte-os",
+          "innerWidth": 820,
+          "innerHeight": 1180,
+          "client": 820,
+          "scroll": 820,
+          "body": 820,
+          "clipped": []
+        },
+        {
+          "id": "#processo",
+          "innerWidth": 820,
+          "innerHeight": 1180,
+          "client": 820,
+          "scroll": 820,
+          "body": 820,
+          "clipped": []
+        },
+        {
+          "id": "#quem",
+          "innerWidth": 820,
+          "innerHeight": 1180,
+          "client": 820,
+          "scroll": 820,
+          "body": 820,
+          "clipped": []
+        },
+        {
+          "id": "#contato",
+          "innerWidth": 820,
+          "innerHeight": 1180,
+          "client": 820,
+          "scroll": 820,
+          "body": 820,
+          "clipped": []
+        },
+        {
+          "id": "#app",
+          "innerWidth": 820,
+          "innerHeight": 1180,
+          "client": 820,
+          "scroll": 820,
+          "body": 820,
+          "clipped": []
+        },
+        {
+          "id": "footer",
+          "innerWidth": 820,
+          "innerHeight": 1180,
+          "client": 820,
+          "scroll": 820,
+          "body": 820,
+          "clipped": []
+        }
+      ],
+      "portrait": {
+        "currentSrc": "http://127.0.0.1:4173/assets/norte-autoral/gabriel-holanda.webp",
+        "natural": [
+          819,
+          1024
+        ],
+        "box": [
+          420,
+          525
+        ],
+        "fit": "contain",
+        "position": "50% 0px"
+      },
+      "ads": "Sites, sistemas e Norte/OS para sua empresa. Também trabalho com Meta Ads e Google Ads para conectar sua presença digital às campanhas do negócio."
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "hero": {
+        "innerWidth": 1024,
+        "innerHeight": 768,
+        "client": 1024,
+        "scroll": 1024,
+        "body": 1024,
+        "clipped": []
+      },
+      "sections": [
+        {
+          "id": "#topo",
+          "innerWidth": 1024,
+          "innerHeight": 768,
+          "client": 1024,
+          "scroll": 1024,
+          "body": 1024,
+          "clipped": []
+        },
+        {
+          "id": "#hoje",
+          "innerWidth": 1024,
+          "innerHeight": 768,
+          "client": 1024,
+          "scroll": 1024,
+          "body": 1024,
+          "clipped": []
+        },
+        {
+          "id": "#sites",
+          "innerWidth": 1024,
+          "innerHeight": 768,
+          "client": 1024,
+          "scroll": 1024,
+          "body": 1024,
+          "clipped": []
+        },
+        {
+          "id": "#sob-medida",
+          "innerWidth": 1024,
+          "innerHeight": 768,
+          "client": 1024,
+          "scroll": 1024,
+          "body": 1024,
+          "clipped": []
+        },
+        {
+          "id": "#norte-os",
+          "innerWidth": 1024,
+          "innerHeight": 768,
+          "client": 1024,
+          "scroll": 1024,
+          "body": 1024,
+          "clipped": []
+        },
+        {
+          "id": "#processo",
+          "innerWidth": 1024,
+          "innerHeight": 768,
+          "client": 1024,
+          "scroll": 1024,
+          "body": 1024,
+          "clipped": []
+        },
+        {
+          "id": "#quem",
+          "innerWidth": 1024,
+          "innerHeight": 768,
+          "client": 1024,
+          "scroll": 1024,
+          "body": 1024,
+          "clipped": []
+        },
+        {
+          "id": "#contato",
+          "innerWidth": 1024,
+          "innerHeight": 768,
+          "client": 1024,
+          "scroll": 1024,
+          "body": 1024,
+          "clipped": []
+        },
+        {
+          "id": "#app",
+          "innerWidth": 1024,
+          "innerHeight": 768,
+          "client": 1024,
+          "scroll": 1024,
+          "body": 1024,
+          "clipped": []
+        },
+        {
+          "id": "footer",
+          "innerWidth": 1024,
+          "innerHeight": 768,
+          "client": 1024,
+          "scroll": 1024,
+          "body": 1024,
+          "clipped": []
+        }
+      ],
+      "portrait": {
+        "currentSrc": "http://127.0.0.1:4173/assets/norte-autoral/gabriel-holanda.webp",
+        "natural": [
+          819,
+          1024
+        ],
+        "box": [
+          375.078125,
+          468.84375
+        ],
+        "fit": "contain",
+        "position": "50% 0px"
+      },
+      "ads": "Sites, sistemas e Norte/OS para sua empresa. Também trabalho com Meta Ads e Google Ads para conectar sua presença digital às campanhas do negócio."
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "hero": {
+        "innerWidth": 1280,
+        "innerHeight": 800,
+        "client": 1280,
+        "scroll": 1280,
+        "body": 1280,
+        "clipped": []
+      },
+      "sections": [
+        {
+          "id": "#topo",
+          "innerWidth": 1280,
+          "innerHeight": 800,
+          "client": 1280,
+          "scroll": 1280,
+          "body": 1280,
+          "clipped": []
+        },
+        {
+          "id": "#hoje",
+          "innerWidth": 1280,
+          "innerHeight": 800,
+          "client": 1280,
+          "scroll": 1280,
+          "body": 1280,
+          "clipped": []
+        },
+        {
+          "id": "#sites",
+          "innerWidth": 1280,
+          "innerHeight": 800,
+          "client": 1280,
+          "scroll": 1280,
+          "body": 1280,
+          "clipped": []
+        },
+        {
+          "id": "#sob-medida",
+          "innerWidth": 1280,
+          "innerHeight": 800,
+          "client": 1280,
+          "scroll": 1280,
+          "body": 1280,
+          "clipped": []
+        },
+        {
+          "id": "#norte-os",
+          "innerWidth": 1280,
+          "innerHeight": 800,
+          "client": 1280,
+          "scroll": 1280,
+          "body": 1280,
+          "clipped": []
+        },
+        {
+          "id": "#processo",
+          "innerWidth": 1280,
+          "innerHeight": 800,
+          "client": 1280,
+          "scroll": 1280,
+          "body": 1280,
+          "clipped": []
+        },
+        {
+          "id": "#quem",
+          "innerWidth": 1280,
+          "innerHeight": 800,
+          "client": 1280,
+          "scroll": 1280,
+          "body": 1280,
+          "clipped": []
+        },
+        {
+          "id": "#contato",
+          "innerWidth": 1280,
+          "innerHeight": 800,
+          "client": 1280,
+          "scroll": 1280,
+          "body": 1280,
+          "clipped": []
+        },
+        {
+          "id": "#app",
+          "innerWidth": 1280,
+          "innerHeight": 800,
+          "client": 1280,
+          "scroll": 1280,
+          "body": 1280,
+          "clipped": []
+        },
+        {
+          "id": "footer",
+          "innerWidth": 1280,
+          "innerHeight": 800,
+          "client": 1280,
+          "scroll": 1280,
+          "body": 1280,
+          "clipped": []
+        }
+      ],
+      "portrait": {
+        "currentSrc": "http://127.0.0.1:4173/assets/norte-autoral/gabriel-holanda.webp",
+        "natural": [
+          819,
+          1024
+        ],
+        "box": [
+          460.359375,
+          575.4375
+        ],
+        "fit": "contain",
+        "position": "50% 0px"
+      },
+      "ads": "Sites, sistemas e Norte/OS para sua empresa. Também trabalho com Meta Ads e Google Ads para conectar sua presença digital às campanhas do negócio."
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "hero": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "clipped": []
+      },
+      "sections": [
+        {
+          "id": "#topo",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "id": "#hoje",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "id": "#sites",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "id": "#sob-medida",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "id": "#norte-os",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "id": "#processo",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "id": "#quem",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "id": "#contato",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "id": "#app",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "id": "footer",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        }
+      ],
+      "portrait": {
+        "currentSrc": "http://127.0.0.1:4173/assets/norte-autoral/gabriel-holanda.webp",
+        "natural": [
+          819,
+          1024
+        ],
+        "box": [
+          456.28125,
+          570.34375
+        ],
+        "fit": "contain",
+        "position": "50% 0px"
+      },
+      "ads": "Sites, sistemas e Norte/OS para sua empresa. Também trabalho com Meta Ads e Google Ads para conectar sua presença digital às campanhas do negócio."
+    },
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "hero": {
+        "innerWidth": 1920,
+        "innerHeight": 1080,
+        "client": 1920,
+        "scroll": 1920,
+        "body": 1920,
+        "clipped": []
+      },
+      "sections": [
+        {
+          "id": "#topo",
+          "innerWidth": 1920,
+          "innerHeight": 1080,
+          "client": 1920,
+          "scroll": 1920,
+          "body": 1920,
+          "clipped": []
+        },
+        {
+          "id": "#hoje",
+          "innerWidth": 1920,
+          "innerHeight": 1080,
+          "client": 1920,
+          "scroll": 1920,
+          "body": 1920,
+          "clipped": []
+        },
+        {
+          "id": "#sites",
+          "innerWidth": 1920,
+          "innerHeight": 1080,
+          "client": 1920,
+          "scroll": 1920,
+          "body": 1920,
+          "clipped": []
+        },
+        {
+          "id": "#sob-medida",
+          "innerWidth": 1920,
+          "innerHeight": 1080,
+          "client": 1920,
+          "scroll": 1920,
+          "body": 1920,
+          "clipped": []
+        },
+        {
+          "id": "#norte-os",
+          "innerWidth": 1920,
+          "innerHeight": 1080,
+          "client": 1920,
+          "scroll": 1920,
+          "body": 1920,
+          "clipped": []
+        },
+        {
+          "id": "#processo",
+          "innerWidth": 1920,
+          "innerHeight": 1080,
+          "client": 1920,
+          "scroll": 1920,
+          "body": 1920,
+          "clipped": []
+        },
+        {
+          "id": "#quem",
+          "innerWidth": 1920,
+          "innerHeight": 1080,
+          "client": 1920,
+          "scroll": 1920,
+          "body": 1920,
+          "clipped": []
+        },
+        {
+          "id": "#contato",
+          "innerWidth": 1920,
+          "innerHeight": 1080,
+          "client": 1920,
+          "scroll": 1920,
+          "body": 1920,
+          "clipped": []
+        },
+        {
+          "id": "#app",
+          "innerWidth": 1920,
+          "innerHeight": 1080,
+          "client": 1920,
+          "scroll": 1920,
+          "body": 1920,
+          "clipped": []
+        },
+        {
+          "id": "footer",
+          "innerWidth": 1920,
+          "innerHeight": 1080,
+          "client": 1920,
+          "scroll": 1920,
+          "body": 1920,
+          "clipped": []
+        }
+      ],
+      "portrait": {
+        "currentSrc": "http://127.0.0.1:4173/assets/norte-autoral/gabriel-holanda.webp",
+        "natural": [
+          819,
+          1024
+        ],
+        "box": [
+          452.1875,
+          565.234375
+        ],
+        "fit": "contain",
+        "position": "50% 0px"
+      },
+      "ads": "Sites, sistemas e Norte/OS para sua empresa. Também trabalho com Meta Ads e Google Ads para conectar sua presença digital às campanhas do negócio."
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "hero": {
+        "innerWidth": 844,
+        "innerHeight": 390,
+        "client": 844,
+        "scroll": 844,
+        "body": 844,
+        "clipped": []
+      },
+      "sections": [
+        {
+          "id": "#topo",
+          "innerWidth": 844,
+          "innerHeight": 390,
+          "client": 844,
+          "scroll": 844,
+          "body": 844,
+          "clipped": []
+        },
+        {
+          "id": "#hoje",
+          "innerWidth": 844,
+          "innerHeight": 390,
+          "client": 844,
+          "scroll": 844,
+          "body": 844,
+          "clipped": []
+        },
+        {
+          "id": "#sites",
+          "innerWidth": 844,
+          "innerHeight": 390,
+          "client": 844,
+          "scroll": 844,
+          "body": 844,
+          "clipped": []
+        },
+        {
+          "id": "#sob-medida",
+          "innerWidth": 844,
+          "innerHeight": 390,
+          "client": 844,
+          "scroll": 844,
+          "body": 844,
+          "clipped": []
+        },
+        {
+          "id": "#norte-os",
+          "innerWidth": 844,
+          "innerHeight": 390,
+          "client": 844,
+          "scroll": 844,
+          "body": 844,
+          "clipped": []
+        },
+        {
+          "id": "#processo",
+          "innerWidth": 844,
+          "innerHeight": 390,
+          "client": 844,
+          "scroll": 844,
+          "body": 844,
+          "clipped": []
+        },
+        {
+          "id": "#quem",
+          "innerWidth": 844,
+          "innerHeight": 390,
+          "client": 844,
+          "scroll": 844,
+          "body": 844,
+          "clipped": []
+        },
+        {
+          "id": "#contato",
+          "innerWidth": 844,
+          "innerHeight": 390,
+          "client": 844,
+          "scroll": 844,
+          "body": 844,
+          "clipped": []
+        },
+        {
+          "id": "#app",
+          "innerWidth": 844,
+          "innerHeight": 390,
+          "client": 844,
+          "scroll": 844,
+          "body": 844,
+          "clipped": []
+        },
+        {
+          "id": "footer",
+          "innerWidth": 844,
+          "innerHeight": 390,
+          "client": 844,
+          "scroll": 844,
+          "body": 844,
+          "clipped": []
+        }
+      ],
+      "portrait": {
+        "currentSrc": "http://127.0.0.1:4173/assets/norte-autoral/gabriel-holanda.webp",
+        "natural": [
+          819,
+          1024
+        ],
+        "box": [
+          420,
+          525
+        ],
+        "fit": "contain",
+        "position": "50% 0px"
+      },
+      "ads": "Sites, sistemas e Norte/OS para sua empresa. Também trabalho com Meta Ads e Google Ads para conectar sua presença digital às campanhas do negócio."
+    }
+  ],
+  "templates": [
+    {
+      "route": "/marketing/portfolio/velorah-hero/dist/index.html",
+      "width": 390,
+      "status": 200,
+      "top": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 390,
+        "clipped": []
+      },
+      "bottom": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 390,
+        "clipped": []
+      },
+      "oldCredit": false
+    },
+    {
+      "route": "/marketing/portfolio/velorah-hero/dist/index.html",
+      "width": 1440,
+      "status": 200,
+      "top": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "clipped": []
+      },
+      "bottom": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "clipped": []
+      },
+      "oldCredit": false
+    },
+    {
+      "route": "/marketing/portfolio/lithos-hero/dist/index.html",
+      "width": 390,
+      "status": 200,
+      "top": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 390,
+        "clipped": []
+      },
+      "bottom": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 390,
+        "clipped": []
+      },
+      "oldCredit": false
+    },
+    {
+      "route": "/marketing/portfolio/lithos-hero/dist/index.html",
+      "width": 1440,
+      "status": 200,
+      "top": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "clipped": []
+      },
+      "bottom": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "clipped": []
+      },
+      "oldCredit": false
+    },
+    {
+      "route": "/marketing/portfolio/dentista-clinica-vertice/index.html",
+      "width": 390,
+      "status": 200,
+      "top": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 390,
+        "clipped": []
+      },
+      "bottom": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 390,
+        "clipped": []
+      },
+      "oldCredit": false,
+      "creditVisible": true,
+      "returnHidden": true
+    },
+    {
+      "route": "/marketing/portfolio/dentista-clinica-vertice/index.html",
+      "width": 1440,
+      "status": 200,
+      "top": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "clipped": []
+      },
+      "bottom": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "clipped": []
+      },
+      "oldCredit": false,
+      "creditVisible": true,
+      "returnHidden": true
+    },
+    {
+      "route": "/marketing/portfolio/convix-hero/dist/index.html",
+      "width": 390,
+      "status": 200,
+      "top": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 390,
+        "clipped": []
+      },
+      "bottom": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 390,
+        "clipped": []
+      },
+      "oldCredit": false
+    },
+    {
+      "route": "/marketing/portfolio/convix-hero/dist/index.html",
+      "width": 1440,
+      "status": 200,
+      "top": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "clipped": []
+      },
+      "bottom": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "clipped": []
+      },
+      "oldCredit": false
+    },
+    {
+      "route": "/marketing/portfolio/aureo-arquitetura/index.html",
+      "width": 390,
+      "status": 200,
+      "top": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 390,
+        "clipped": []
+      },
+      "bottom": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 390,
+        "clipped": []
+      },
+      "oldCredit": false,
+      "creditVisible": true,
+      "returnHidden": true
+    },
+    {
+      "route": "/marketing/portfolio/aureo-arquitetura/index.html",
+      "width": 1440,
+      "status": 200,
+      "top": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "clipped": []
+      },
+      "bottom": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "clipped": []
+      },
+      "oldCredit": false,
+      "creditVisible": true,
+      "returnHidden": true
+    },
+    {
+      "route": "/marketing/portfolio/confeitaria-margo/index.html",
+      "width": 390,
+      "status": 200,
+      "top": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 402,
+        "clipped": []
+      },
+      "bottom": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 402,
+        "clipped": []
+      },
+      "oldCredit": false,
+      "creditVisible": true,
+      "returnHidden": true
+    },
+    {
+      "route": "/marketing/portfolio/confeitaria-margo/index.html",
+      "width": 1440,
+      "status": 200,
+      "top": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1470,
+        "clipped": []
+      },
+      "bottom": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1470,
+        "clipped": []
+      },
+      "oldCredit": false,
+      "creditVisible": true,
+      "returnHidden": true
+    },
+    {
+      "route": "/marketing/portfolio/instituto-liminar/index.html",
+      "width": 390,
+      "status": 200,
+      "top": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 390,
+        "clipped": []
+      },
+      "bottom": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 390,
+        "clipped": []
+      },
+      "oldCredit": false,
+      "creditVisible": true,
+      "returnHidden": true
+    },
+    {
+      "route": "/marketing/portfolio/instituto-liminar/index.html",
+      "width": 1440,
+      "status": 200,
+      "top": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "clipped": []
+      },
+      "bottom": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "clipped": []
+      },
+      "oldCredit": false,
+      "creditVisible": true,
+      "returnHidden": true
+    },
+    {
+      "route": "/marketing/portfolio/verene-odontologia/index.html",
+      "width": 390,
+      "status": 200,
+      "top": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 390,
+        "clipped": [
+          {
+            "selector": "",
+            "text": "A clínica",
+            "left": 537.515625,
+            "right": 632.46875
+          },
+          {
+            "selector": "",
+            "text": "Especialidades",
+            "left": 503.09375,
+            "right": 666.90625
+          },
+          {
+            "selector": "",
+            "text": "A doutora",
+            "left": 530.171875,
+            "right": 639.828125
+          },
+          {
+            "selector": "",
+            "text": "Primeira visita",
+            "left": 503.703125,
+            "right": 666.296875
+          },
+          {
+            "selector": "nav-cta",
+            "text": "Agendar avaliação",
+            "left": 490.703125,
+            "right": 679.28125
+          }
+        ]
+      },
+      "bottom": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 390,
+        "clipped": [
+          {
+            "selector": "",
+            "text": "A clínica",
+            "left": 537.515625,
+            "right": 632.46875
+          },
+          {
+            "selector": "",
+            "text": "Especialidades",
+            "left": 503.09375,
+            "right": 666.90625
+          },
+          {
+            "selector": "",
+            "text": "A doutora",
+            "left": 530.171875,
+            "right": 639.828125
+          },
+          {
+            "selector": "",
+            "text": "Primeira visita",
+            "left": 503.703125,
+            "right": 666.296875
+          },
+          {
+            "selector": "nav-cta",
+            "text": "Agendar avaliação",
+            "left": 490.703125,
+            "right": 679.28125
+          }
+        ]
+      },
+      "oldCredit": false,
+      "creditVisible": true,
+      "returnHidden": true
+    },
+    {
+      "route": "/marketing/portfolio/verene-odontologia/index.html",
+      "width": 1440,
+      "status": 200,
+      "top": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "clipped": []
+      },
+      "bottom": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "clipped": []
+      },
+      "oldCredit": false,
+      "creditVisible": true,
+      "returnHidden": true
+    },
+    {
+      "route": "/marketing/portfolio/arquitetura-estudio-linha/index.html",
+      "width": 390,
+      "status": 200,
+      "top": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 390,
+        "clipped": []
+      },
+      "bottom": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "client": 390,
+        "scroll": 390,
+        "body": 390,
+        "clipped": []
+      },
+      "oldCredit": false,
+      "creditVisible": true,
+      "returnHidden": true
+    },
+    {
+      "route": "/marketing/portfolio/arquitetura-estudio-linha/index.html",
+      "width": 1440,
+      "status": 200,
+      "top": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "clipped": []
+      },
+      "bottom": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "clipped": []
+      },
+      "oldCredit": false,
+      "creditVisible": true,
+      "returnHidden": true
+    }
+  ],
+  "functional": [
+    {
+      "type": "normal-motion",
+      "width": 390,
+      "checks": [
+        {
+          "section": "hoje",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "section": "jd",
+          "expected": 1,
+          "active": "1",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "section": "jd",
+          "expected": 2,
+          "active": "2",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "section": "jd",
+          "expected": 3,
+          "active": "3",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "section": "jd",
+          "expected": 4,
+          "active": "4",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "section": "jd",
+          "expected": 3,
+          "active": "3",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "section": "os",
+          "expected": 1,
+          "active": "1",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "section": "os",
+          "expected": 2,
+          "active": "2",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "section": "os",
+          "expected": 3,
+          "active": "3",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "section": "os",
+          "expected": 4,
+          "active": "4",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        },
+        {
+          "section": "os",
+          "expected": 3,
+          "active": "3",
+          "innerWidth": 390,
+          "innerHeight": 844,
+          "client": 390,
+          "scroll": 390,
+          "body": 390,
+          "clipped": []
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "invalid": {
+        "focused": "nome",
+        "opened": 0,
+        "marked": 4
+      },
+      "drafts": [
+        {
+          "url": "https://wa.me/5586999900235?text=Ol%C3%A1%2C%20Gabriel!%20Vim%20pelo%20portf%C3%B3lio%20da%20Norte%20Autoral.%0ANome%3A%20Teste%20de%20verifica%C3%A7%C3%A3o%0AWhatsApp%3A%20(86)%2099999-0000%0AInstagram%2Fsite%3A%20%40teste.qa%0AInteresse%3A%20Norte%2FOS%0AMeu%20neg%C3%B3cio%20e%20projeto%3A%20Dados%20fict%C3%ADcios%20para%20verificar%20apenas%20o%20rascunho.",
+          "target": "_blank"
+        },
+        {
+          "url": "https://wa.me/5586999900235?text=Ol%C3%A1%2C%20Gabriel!%20Vim%20pelo%20portf%C3%B3lio%20da%20Norte%20Autoral.%0ANome%3A%20Teste%20de%20verifica%C3%A7%C3%A3o%0AWhatsApp%3A%20(86)%2099999-0000%0AInstagram%2Fsite%3A%20%40teste.qa%0AInteresse%3A%20Meta%20Ads%20e%20Google%20Ads%0AMeu%20neg%C3%B3cio%20e%20projeto%3A%20Dados%20fict%C3%ADcios%20para%20verificar%20apenas%20o%20rascunho.",
+          "target": "_blank"
+        }
+      ],
+      "externalMessagesSent": 0
+    },
+    {
+      "type": "same-tab-card",
+      "url": "http://127.0.0.1:4173/marketing/portfolio/velorah-hero/dist/index.html",
+      "pagesBefore": 1,
+      "pagesAfter": 1,
+      "dialog": {
+        "open": true,
+        "bounds": {
+          "x": 18,
+          "y": 250.78125,
+          "width": 354,
+          "height": 342.4375
+        },
+        "closed": true
+      },
+      "returned": "http://127.0.0.1:4173/#sites"
+    },
+    {
+      "type": "normal-motion",
+      "width": 1440,
+      "checks": [
+        {
+          "section": "hoje",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "section": "jd",
+          "expected": 1,
+          "active": "1",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "section": "jd",
+          "expected": 2,
+          "active": "2",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "section": "jd",
+          "expected": 3,
+          "active": "3",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "section": "jd",
+          "expected": 4,
+          "active": "4",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "section": "jd",
+          "expected": 3,
+          "active": "3",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "section": "os",
+          "expected": 1,
+          "active": "1",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "section": "os",
+          "expected": 2,
+          "active": "2",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "section": "os",
+          "expected": 3,
+          "active": "3",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "section": "os",
+          "expected": 4,
+          "active": "4",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        },
+        {
+          "section": "os",
+          "expected": 3,
+          "active": "3",
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "client": 1440,
+          "scroll": 1440,
+          "body": 1440,
+          "clipped": []
+        }
+      ]
+    },
+    {
+      "type": "resize-1440-to-390",
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "client": 390,
+      "scroll": 390,
+      "body": 390,
+      "clipped": []
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "screenshots": [
+    "final-320-hero.png",
+    "final-320-retrato.png",
+    "final-768-hero.png",
+    "final-844-horizontal-hero.png",
+    "final-390-hero.png",
+    "final-390-retrato.png",
+    "final-390-aplicativo.png",
+    "final-390-formulario.png",
+    "final-1440-hero.png",
+    "final-1440-norte-os.png",
+    "final-1440-retrato.png"
+  ],
+  "resumedAt": "2026-10-10T16:02:42.496Z"
+}

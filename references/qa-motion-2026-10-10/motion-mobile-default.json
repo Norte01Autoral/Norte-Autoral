@@ -1,0 +1,245 @@
+[
+  {
+    "name": "default OS preference",
+    "reduced": false,
+    "ready": true
+  },
+  {
+    "name": "reference",
+    "viewport": [
+      390,
+      844
+    ],
+    "initial": {
+      "ready": true,
+      "hojeOn": true,
+      "wordCount": 59,
+      "triggers": 88
+    },
+    "steps": [
+      {
+        "s": "1",
+        "active": [
+          "1"
+        ],
+        "images": [
+          {
+            "opacity": "1",
+            "width": 1280
+          },
+          {
+            "opacity": "0",
+            "width": 1280
+          },
+          {
+            "opacity": "0",
+            "width": 1280
+          },
+          {
+            "opacity": "0",
+            "width": 1280
+          }
+        ],
+        "stickyTop": 108.671875,
+        "overflow": 0
+      },
+      {
+        "s": "2",
+        "active": [
+          "2"
+        ],
+        "images": [
+          {
+            "opacity": "0",
+            "width": 1280
+          },
+          {
+            "opacity": "1",
+            "width": 1280
+          },
+          {
+            "opacity": "0",
+            "width": 1280
+          },
+          {
+            "opacity": "0",
+            "width": 1280
+          }
+        ],
+        "stickyTop": 76,
+        "overflow": 0
+      },
+      {
+        "s": "3",
+        "active": [
+          "3"
+        ],
+        "images": [
+          {
+            "opacity": "0",
+            "width": 1280
+          },
+          {
+            "opacity": "0",
+            "width": 1280
+          },
+          {
+            "opacity": "1",
+            "width": 1280
+          },
+          {
+            "opacity": "0",
+            "width": 1280
+          }
+        ],
+        "stickyTop": 76,
+        "overflow": 0
+      },
+      {
+        "s": "4",
+        "active": [
+          "4"
+        ],
+        "images": [
+          {
+            "opacity": "0",
+            "width": 1280
+          },
+          {
+            "opacity": "0",
+            "width": 1280
+          },
+          {
+            "opacity": "0",
+            "width": 1280
+          },
+          {
+            "opacity": "1",
+            "width": 1280
+          }
+        ],
+        "stickyTop": 76,
+        "overflow": 0
+      }
+    ]
+  },
+  {
+    "name": "local",
+    "viewport": [
+      390,
+      844
+    ],
+    "initial": {
+      "ready": true,
+      "hojeOn": true,
+      "wordCount": 62,
+      "triggers": 88
+    },
+    "steps": [
+      {
+        "s": "1",
+        "active": [
+          "1"
+        ],
+        "images": [
+          {
+            "opacity": "1",
+            "width": 1440
+          },
+          {
+            "opacity": "0",
+            "width": 1440
+          },
+          {
+            "opacity": "0",
+            "width": 1440
+          },
+          {
+            "opacity": "0",
+            "width": 1440
+          }
+        ],
+        "stickyTop": 108.34375,
+        "overflow": 0
+      },
+      {
+        "s": "2",
+        "active": [
+          "2"
+        ],
+        "images": [
+          {
+            "opacity": "0",
+            "width": 1440
+          },
+          {
+            "opacity": "1",
+            "width": 1440
+          },
+          {
+            "opacity": "0",
+            "width": 1440
+          },
+          {
+            "opacity": "0",
+            "width": 1440
+          }
+        ],
+        "stickyTop": 76,
+        "overflow": 0
+      },
+      {
+        "s": "3",
+        "active": [
+          "3"
+        ],
+        "images": [
+          {
+            "opacity": "0",
+            "width": 1440
+          },
+          {
+            "opacity": "0",
+            "width": 1440
+          },
+          {
+            "opacity": "1",
+            "width": 1440
+          },
+          {
+            "opacity": "0",
+            "width": 1440
+          }
+        ],
+        "stickyTop": 76,
+        "overflow": 0
+      },
+      {
+        "s": "4",
+        "active": [
+          "4"
+        ],
+        "images": [
+          {
+            "opacity": "0",
+            "width": 1440
+          },
+          {
+            "opacity": "0",
+            "width": 1440
+          },
+          {
+            "opacity": "0",
+            "width": 1440
+          },
+          {
+            "opacity": "1",
+            "width": 1440
+          }
+        ],
+        "stickyTop": 76,
+        "overflow": 0
+      }
+    ]
+  }
+]

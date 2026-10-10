@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="robots" content="noindex, follow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instituto Liminar · Ensino superior em psicanálise</title>
+<meta name="description" content="Instituto de ensino superior dedicado à psicanálise. Pós-graduações reconhecidas pelo MEC, seminários de Freud a Lacan, cursos e aulas abertas. Online ao vivo, EAD e presencial.">
+
+<link href="/vendor/fonts.googleapis.com/css2-60987a8b44cb.css" rel="stylesheet">
+
+<style>
+/* ============================================================
+   INSTITUTO LIMINAR · template editorial (mockup)
+   Paleta: navy profundo, papel, magenta, dourado, terracota
+   ============================================================ */
+:root{
+  --navy:#012646;
+  --navy-deep:#04182C;
+  --paper:#EFE9DD;
+  --paper-soft:#F4F1E9;
+  --paper-dark:#E7DFCD;
+  --magenta:#BE1E8C;
+  --gold:#C99A3F;
+  --terra:#A85C44;
+  --terra-deep:#6E3B30;
+  --serif:"Fraunces", Georgia, serif;
+  --mono:"Space Mono", monospace;
+  --sans:"Inter", -apple-system, sans-serif;
+  --gutter:clamp(1.25rem, 4vw, 4.5rem);
+  --maxw:1560px;
+  --ease:cubic-bezier(.2,.6,.2,1);
+  --ring:0 0 0 2px var(--paper), 0 0 0 4px var(--magenta);
+}
+
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+
+/* foco visível e consistente em toda a página */
+a:focus-visible,button:focus-visible{
+  outline:none;box-shadow:var(--ring);border-radius:2px;
+}
+
+html{scroll-behavior:auto;}
+html.lenis,html.lenis body{height:auto;}
+.lenis.lenis-smooth{scroll-behavior:auto !important;}
+
+body{
+  font-family:var(--sans);
+  background:var(--paper);
+  color:var(--navy);
+  font-size:16px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+
+::selection{background:var(--magenta);color:var(--paper-soft);}
+
+img{display:block;max-width:100%;}
+a{color:inherit;}
+ul{list-style:none;}
+
+/* grão de papel sobre tudo */
+.grain{
+  position:fixed;inset:0;z-index:90;pointer-events:none;opacity:.045;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size:200px 200px;
+}
+
+/* ---------- tipografia utilitária ---------- */
+.kicker{
+  font-family:var(--mono);
+  font-size:.72rem;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  display:inline-flex;
+  align-items:center;
+  gap:.75em;
+}
+.kicker::before{
+  content:"";width:.55em;height:.55em;background:var(--magenta);
+  display:inline-block;flex-shrink:0;
+}
+
+.folio{
+  display:flex;align-items:baseline;gap:1.25rem;
+  font-family:var(--mono);font-size:.72rem;letter-spacing:.18em;
+  text-transform:uppercase;
+}
+.folio .num{color:var(--magenta);}
+.folio .rule{flex:1;height:1px;background:currentColor;opacity:.25;align-self:center;}
+
+/* ============================================================
+   NAV
+   ============================================================ */
+.nav{
+  position:fixed;top:0;left:0;right:0;z-index:80;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:1.1rem var(--gutter);
+  color:var(--paper);
+  transition:background .45s ease, color .45s ease, box-shadow .45s ease, padding .45s ease;
+}
+.nav.is-solid{
+  background:var(--paper-soft);
+  color:var(--navy);
+  box-shadow:0 1px 0 rgba(1,38,70,.14);
+  padding:.8rem var(--gutter);
+}
+.nav-logo{
+  font-family:var(--serif);
+  font-weight:600;
+  font-size:1.45rem;
+  letter-spacing:.01em;
+  text-decoration:none;
+  line-height:1;
+  display:flex;align-items:baseline;gap:.5rem;
+}
+.nav-logo small{
+  font-family:var(--mono);font-size:.58rem;letter-spacing:.2em;
+  text-transform:uppercase;opacity:.7;font-weight:400;
+}
+.nav-links{display:flex;gap:2.1rem;}
+.nav-links a{
+  font-family:var(--mono);font-size:.7rem;letter-spacing:.16em;
+  text-transform:uppercase;text-decoration:none;
+  position:relative;padding:.25em 0;opacity:.85;
+}
+.nav-links a::after{
+  content:"";position:absolute;left:0;bottom:0;height:1px;width:0;
+  background:var(--magenta);transition:width .3s ease;
+}
+.nav-links a:hover::after{width:100%;}
+.nav-cta{
+  font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;
+  text-transform:uppercase;text-decoration:none;
+  border:1px solid currentColor;padding:.65em 1.3em;
+  transition:background .3s ease,color .3s ease,border-color .3s ease;
+  white-space:nowrap;
+}
+.nav-cta:hover{background:var(--magenta);border-color:var(--magenta);color:var(--paper-soft);}
+
+/* botão hambúrguer (só mobile) */
+.nav-toggle{
+  display:none;
+  width:2.6rem;height:2.6rem;
+  background:none;border:1px solid currentColor;border-radius:2px;
+  cursor:pointer;position:relative;flex-shrink:0;
+  transition:background .3s ease,border-color .3s ease;
+}
+.nav-toggle span,.nav-toggle span::before,.nav-toggle span::after{
+  content:"";position:absolute;left:50%;top:50%;
+  width:1.1rem;height:1.5px;background:currentColor;
+  transform:translate(-50%,-50%);transition:transform .3s var(--ease),opacity .2s ease;
+}
+.nav-toggle span::before{transform:translate(-50%,-7px);}
+.nav-toggle span::after{transform:translate(-50%,7px);}
+body.menu-open .nav-toggle span{background:transparent;}
+body.menu-open .nav-toggle span::before{transform:translate(-50%,0) rotate(45deg);}
+body.menu-open .nav-toggle span::after{transform:translate(-50%,0) rotate(-45deg);}
+
+/* painel mobile */
+.nav-mobile{
+  position:fixed;inset:0;z-index:75;
+  background:var(--navy-deep);color:var(--paper);
+  display:flex;flex-direction:column;justify-content:center;
+  padding:6rem var(--gutter) var(--gutter);
+  gap:1.4rem;
+  transform:translateY(-100%);
+  transition:transform .5s var(--ease);
+  visibility:hidden;
+}
+body.menu-open .nav-mobile{transform:translateY(0);visibility:visible;}
+.nav-mobile a{
+  font-family:var(--serif);font-weight:340;font-size:clamp(2rem,9vw,3rem);
+  line-height:1.05;letter-spacing:-.015em;text-decoration:none;
+  border-bottom:1px solid rgba(239,233,221,.16);padding-bottom:1.1rem;
+  transition:color .3s ease;
+}
+.nav-mobile a:hover,.nav-mobile a:focus-visible{color:var(--gold);}
+.nav-mobile .nav-mobile-cta{
+  font-family:var(--mono);font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;
+  border:1px solid var(--paper);border-bottom:1px solid var(--paper);
+  padding:1.05em 2.1em;align-self:flex-start;margin-top:.6rem;border-radius:2px;
+}
+.nav-mobile .nav-mobile-cta:hover{background:var(--magenta);border-color:var(--magenta);color:var(--paper-soft);}
+
+@media(max-width:980px){
+  .nav-links{display:none;}
+  .nav-cta{display:none;}
+  .nav-toggle{display:block;}
+}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero{
+  position:relative;
+  min-height:100svh;
+  background:var(--navy-deep);
+  color:var(--paper);
+  overflow:hidden;
+  display:flex;flex-direction:column;justify-content:flex-end;
+}
+.hero-img-wrap{
+  position:absolute;
+  top:7.5rem;right:var(--gutter);
+  width:min(46vw, 760px);
+  height:calc(100svh - 13.5rem);
+  overflow:hidden;
+  outline:1px solid rgba(239,233,221,.28);
+  outline-offset:12px;
+}
+.hero-img-wrap img{
+  width:100%;height:118%;object-fit:cover;
+  filter:saturate(.92);
+}
+.hero-img-wrap video{
+  width:100%;height:100%;object-fit:cover;
+  filter:saturate(.92);
+}
+.hero-img-wrap::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(200deg, rgba(4,24,44,0) 45%, rgba(4,24,44,.55) 100%);
+}
+.hero-ghost{
+  position:absolute;
+  top:50%;left:-1.5vw;
+  transform:translateY(-58%);
+  font-family:var(--serif);
+  font-weight:300;
+  font-size:clamp(11rem, 26vw, 26rem);
+  line-height:.8;
+  letter-spacing:-.02em;
+  color:transparent;
+  -webkit-text-stroke:1px rgba(239,233,221,.12);
+  pointer-events:none;user-select:none;
+  white-space:nowrap;
+}
+.hero-content{
+  position:relative;z-index:2;
+  padding:9rem var(--gutter) 0;
+  max-width:var(--maxw);
+}
+.hero-kicker{color:var(--paper-dark);opacity:.95;max-width:42ch;}
+.hero h1{
+  font-family:var(--serif);
+  font-weight:340;
+  font-size:clamp(3.1rem, 7.6vw, 7.6rem);
+  line-height:1.02;
+  letter-spacing:-.015em;
+  margin-top:1.6rem;
+  max-width:12ch;
+}
+.hero h1 .line{display:block;overflow:hidden;}
+.hero h1 .line>span{display:block;}
+.hero h1 em{
+  font-style:italic;
+  font-weight:380;
+  color:var(--gold);
+}
+.hero h1 .mag{color:var(--magenta);font-style:italic;}
+.hero-foot{
+  position:relative;z-index:2;
+  display:flex;align-items:flex-end;justify-content:space-between;
+  gap:2rem;
+  padding:2.6rem var(--gutter) 2.4rem;
+}
+.hero-lede{
+  max-width:34rem;
+  font-size:clamp(.95rem, 1.15vw, 1.08rem);
+  line-height:1.7;
+  color:rgba(239,233,221,.82);
+}
+.hero-lede strong{color:var(--paper-soft);font-weight:500;}
+.hero-scroll{
+  font-family:var(--mono);font-size:.65rem;letter-spacing:.22em;
+  text-transform:uppercase;color:rgba(239,233,221,.6);
+  display:flex;align-items:center;gap:1rem;white-space:nowrap;
+}
+.hero-scroll .tick{
+  width:1px;height:3.4rem;background:rgba(239,233,221,.35);
+  position:relative;overflow:hidden;
+}
+.hero-scroll .tick::after{
+  content:"";position:absolute;left:0;top:-100%;width:100%;height:100%;
+  background:var(--magenta);
+  animation:scrolltick 2.2s cubic-bezier(.65,0,.35,1) infinite;
+}
+@keyframes scrolltick{0%{top:-100%}55%{top:0}100%{top:100%}}
+.hero-side{
+  position:absolute;z-index:2;
+  right:calc(var(--gutter) * .35);
+  bottom:2.4rem;
+  writing-mode:vertical-rl;
+  font-family:var(--mono);font-size:.62rem;letter-spacing:.3em;
+  text-transform:uppercase;color:rgba(239,233,221,.45);
+}
+@media(max-width:980px) and (min-width:769px){
+  .hero-img-wrap{
+    position:relative;top:auto;right:auto;
+    width:calc(100% - 2*var(--gutter));
+    margin:2.5rem var(--gutter) 0;
+    height:48vw;min-height:240px;
+    order:3;
+  }
+  .hero{justify-content:flex-start;padding-bottom:2.5rem;}
+  .hero-content{padding-top:7.5rem;}
+  .hero h1{max-width:none;}
+  .hero-foot{flex-direction:column;align-items:flex-start;padding-bottom:0;}
+  .hero-side{display:none;}
+}
+
+/* ---------- HERO MOBILE: vídeo de fundo, sem pin/scrub ---------- */
+@media(max-width:768px){
+  .hero{
+    justify-content:flex-end;
+    min-height:100svh;
+    padding-bottom:0;
+  }
+  .hero-img-wrap{
+    position:absolute;inset:0;
+    top:0;right:0;left:0;bottom:0;
+    width:100%;height:100%;margin:0;
+    outline:none;outline-offset:0;
+    order:0;
+    z-index:0;
+  }
+  .hero-img-wrap img,
+  .hero-img-wrap video{height:100%;width:100%;object-fit:cover;}
+  /* véu para legibilidade do texto sobre o vídeo */
+  .hero-img-wrap::after{
+    background:linear-gradient(180deg, rgba(4,24,44,.55) 0%, rgba(4,24,44,.35) 38%, rgba(4,24,44,.92) 100%);
+  }
+  .hero-ghost{
+    font-size:38vw;
+    top:42%;left:-2vw;
+    -webkit-text-stroke:1px rgba(239,233,221,.1);
+  }
+  .hero-content{padding-top:7rem;}
+  .hero h1{max-width:none;}
+  .hero-foot{
+    flex-direction:column;align-items:flex-start;
+    padding-bottom:2rem;gap:1.6rem;
+  }
+  .hero-lede{color:rgba(239,233,221,.88);}
+  .hero-side{display:none;}
+}
+
+/* ============================================================
+   MARQUEE
+   ============================================================ */
+.marquee{
+  background:var(--navy);
+  color:var(--paper-dark);
+  border-top:1px solid rgba(239,233,221,.16);
+  overflow:hidden;
+  padding:1rem 0;
+  position:relative;z-index:3;
+}
+.marquee-track{
+  display:flex;gap:3.5rem;width:max-content;
+  font-family:var(--mono);font-size:.72rem;letter-spacing:.24em;
+  text-transform:uppercase;white-space:nowrap;
+  animation:marquee 38s linear infinite;
+}
+.marquee-track span{display:flex;align-items:center;gap:3.5rem;}
+.marquee-track i{font-style:normal;color:var(--gold);}
+@keyframes marquee{to{transform:translateX(-50%);}}
+
+/* ============================================================
+   MANIFESTO
+   ============================================================ */
+.manifesto{
+  background:var(--paper);
+  padding:clamp(5rem,10vw,9rem) var(--gutter) clamp(4rem,8vw,7rem);
+}
+.manifesto-inner{max-width:var(--maxw);margin:0 auto;}
+.manifesto-grid{
+  display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.6fr);
+  gap:clamp(2rem,5vw,6rem);
+  margin-top:clamp(2.5rem,5vw,4.5rem);
+}
+.manifesto-note{
+  font-family:var(--mono);font-size:.74rem;line-height:1.9;
+  letter-spacing:.04em;color:var(--terra-deep);
+  border-left:1px solid var(--terra);
+  padding-left:1.4rem;
+  max-width:24ch;
+  align-self:start;
+  position:sticky;top:7rem;
+}
+.manifesto-text{
+  font-family:var(--serif);
+  font-weight:350;
+  font-size:clamp(1.7rem, 3.3vw, 3.15rem);
+  line-height:1.32;
+  letter-spacing:-.01em;
+}
+.manifesto-text em{font-style:italic;color:var(--magenta);}
+.manifesto-text .w{display:inline;}
+@media(max-width:860px){
+  .manifesto-grid{grid-template-columns:1fr;}
+  .manifesto-note{position:static;max-width:none;order:2;}
+}
+
+/* ---------- números ---------- */
+.stats{
+  background:var(--paper);
+  padding:0 var(--gutter) clamp(5rem,9vw,8rem);
+}
+.stats-inner{
+  max-width:var(--maxw);margin:0 auto;
+  display:grid;grid-template-columns:repeat(4,1fr);
+  border-top:1px solid var(--navy);
+  border-left:1px solid var(--navy);
+}
+.stat{
+  border-right:1px solid var(--navy);
+  border-bottom:1px solid var(--navy);
+  padding:clamp(1.5rem,2.6vw,2.6rem) clamp(1.2rem,2vw,2rem);
+  display:flex;flex-direction:column;gap:.9rem;
+  min-height:11rem;justify-content:space-between;
+  background:var(--paper-soft);
+  transition:background .35s ease;
+}
+.stat:hover{background:var(--paper-dark);}
+.stat .label{
+  font-family:var(--mono);font-size:.66rem;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--terra-deep);
+}
+.stat .value{
+  font-family:var(--serif);font-weight:380;
+  font-size:clamp(2.6rem,4.6vw,4.4rem);line-height:1;
+  letter-spacing:-.02em;
+}
+.stat .value small{font-size:.42em;font-style:italic;font-weight:350;color:var(--terra);}
+.stat .desc{font-size:.84rem;color:rgba(1,38,70,.72);line-height:1.55;max-width:22ch;}
+.stat.mec .value{color:var(--magenta);font-style:italic;}
+@media(max-width:900px){.stats-inner{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:480px){.stats-inner{grid-template-columns:1fr;}}
+
+/* ============================================================
+   FORMAÇÃO · horizontal pin
+   ============================================================ */
+.formacao{background:var(--navy-deep);color:var(--paper);}
+.formacao-pin{
+  min-height:100svh;
+  display:flex;flex-direction:column;
+  overflow:hidden;
+  padding-top:5.5rem;
+}
+@media(min-width:900px){
+  .formacao-pin{height:100svh;min-height:660px;}
+  .formacao-track{min-height:0;}
+  .fpanel{min-height:0;}
+}
+.formacao-head{
+  padding:0 var(--gutter);
+  display:flex;align-items:flex-end;justify-content:space-between;gap:2rem;
+  margin-bottom:clamp(1.5rem,3vh,3rem);
+}
+.formacao-head .folio{color:var(--paper-dark);}
+.formacao-head h2{
+  font-family:var(--serif);font-weight:340;
+  font-size:clamp(2.2rem,4.4vw,4.2rem);
+  line-height:1.05;letter-spacing:-.015em;
+  margin-top:1.2rem;
+}
+.formacao-head h2 em{font-style:italic;color:var(--gold);}
+.formacao-progress{
+  width:min(22rem,30vw);height:1px;background:rgba(239,233,221,.22);
+  position:relative;margin-bottom:.9rem;flex-shrink:0;
+}
+.formacao-progress i{
+  position:absolute;left:0;top:-1px;height:3px;width:0%;
+  background:var(--magenta);
+}
+.formacao-track{
+  display:flex;
+  gap:clamp(1.5rem,3vw,3rem);
+  padding:0 var(--gutter) clamp(2.5rem,5vh,4rem);
+  flex:1;align-items:stretch;
+  will-change:transform;
+}
+.fpanel{
+  flex-shrink:0;
+  width:clamp(330px, 38vw, 620px);
+  border:1px solid rgba(239,233,221,.2);
+  display:flex;flex-direction:column;
+  background:rgba(239,233,221,.025);
+  position:relative;
+  transition:border-color .4s ease,background .4s ease;
+}
+.fpanel:not(.is-type):hover{border-color:rgba(201,154,63,.55);background:rgba(239,233,221,.05);}
+.fpanel-media{
+  height:46%;
+  min-height:200px;
+  overflow:hidden;
+  border-bottom:1px solid rgba(239,233,221,.2);
+  position:relative;
+}
+.fpanel-media img{
+  width:100%;height:100%;object-fit:cover;
+  filter:saturate(.9);
+  transition:transform .8s cubic-bezier(.2,.6,.2,1);
+}
+.fpanel:hover .fpanel-media img{transform:scale(1.045);}
+.fpanel-media::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg, rgba(4,24,44,.05), rgba(4,24,44,.3));
+}
+.fpanel-body{
+  padding:clamp(1.4rem,2.2vw,2.2rem);
+  display:flex;flex-direction:column;gap:1rem;flex:1;
+}
+.fpanel-idx{
+  font-family:var(--mono);font-size:.68rem;letter-spacing:.2em;
+  color:var(--gold);
+  display:flex;justify-content:space-between;align-items:center;
+}
+.fpanel-idx .tag{
+  border:1px solid rgba(201,154,63,.5);padding:.3em .8em;
+  font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;
+}
+.fpanel h3{
+  font-family:var(--serif);font-weight:380;
+  font-size:clamp(1.6rem,2.4vw,2.3rem);
+  line-height:1.1;letter-spacing:-.01em;
+}
+.fpanel p{
+  font-size:.92rem;line-height:1.65;color:rgba(239,233,221,.75);
+  max-width:42ch;
+}
+.fpanel.is-type{
+  justify-content:flex-end;
+  background:var(--magenta);
+  border-color:var(--magenta);
+  color:var(--paper-soft);
+}
+.fpanel.is-type .fpanel-ghost{
+  font-family:var(--serif);font-style:italic;font-weight:300;
+  font-size:clamp(7rem,11vw,11rem);line-height:1;
+  color:rgba(239,233,221,.25);
+  padding:1.5rem 1.5rem 0;
+  user-select:none;
+}
+.fpanel.is-type .fpanel-idx{color:var(--paper-soft);}
+.fpanel.is-type .fpanel-idx .tag{border-color:rgba(244,241,233,.5);}
+.fpanel.is-type p{color:rgba(244,241,233,.88);}
+@media(max-width:899px){
+  .formacao-pin{min-height:0;padding-top:4.5rem;}
+  .formacao-track{flex-direction:column;align-items:center;}
+  .fpanel{width:100%;max-width:560px;}
+  .fpanel-media{height:54vw;max-height:340px;}
+  .formacao-progress{display:none;}
+}
+
+/* ============================================================
+   MODALIDADES
+   ============================================================ */
+.modalidades{
+  background:var(--navy);
+  color:var(--paper);
+  padding:clamp(4rem,8vw,7rem) var(--gutter);
+  border-top:1px solid rgba(239,233,221,.14);
+}
+.modalidades-inner{max-width:var(--maxw);margin:0 auto;}
+.modalidades .folio{color:var(--paper-dark);}
+.mods{
+  margin-top:clamp(2rem,4vw,3.5rem);
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:0;
+  border-top:1px solid rgba(239,233,221,.22);
+}
+.mod{
+  padding:2.2rem clamp(1rem,2vw,2.2rem) 2.4rem 0;
+  border-bottom:1px solid rgba(239,233,221,.22);
+  display:flex;flex-direction:column;gap:1rem;
+}
+.mod + .mod{padding-left:clamp(1rem,2vw,2.2rem);border-left:1px solid rgba(239,233,221,.22);}
+.mod .idx{font-family:var(--mono);font-size:.66rem;letter-spacing:.2em;color:var(--gold);}
+.mod h3{
+  font-family:var(--serif);font-weight:380;font-size:clamp(1.5rem,2.1vw,2rem);
+  line-height:1.12;
+}
+.mod h3 em{font-style:italic;color:var(--paper-dark);}
+.mod p{font-size:.9rem;line-height:1.65;color:rgba(239,233,221,.72);max-width:34ch;}
+@media(max-width:820px){
+  .mods{grid-template-columns:1fr;}
+  .mod + .mod{padding-left:0;border-left:0;}
+}
+
+/* ============================================================
+   DOCENTES
+   ============================================================ */
+.docentes{
+  background:var(--paper);
+  padding:clamp(5rem,9vw,8.5rem) var(--gutter);
+}
+.docentes-inner{max-width:var(--maxw);margin:0 auto;}
+.docentes-intro{
+  display:flex;justify-content:space-between;align-items:flex-end;gap:2rem;
+  margin-top:1.4rem;margin-bottom:clamp(2rem,4vw,3.5rem);
+}
+.docentes-intro h2{
+  font-family:var(--serif);font-weight:340;
+  font-size:clamp(2.2rem,4.4vw,4.2rem);
+  line-height:1.05;letter-spacing:-.015em;max-width:14ch;
+}
+.docentes-intro h2 em{font-style:italic;color:var(--terra);}
+.docentes-intro p{max-width:30rem;font-size:.95rem;color:rgba(1,38,70,.75);}
+.doc-list{border-top:1px solid var(--navy);}
+.doc-row{
+  display:grid;
+  grid-template-columns:5rem minmax(0,1fr) auto;
+  align-items:baseline;gap:1.5rem;
+  padding:clamp(1.2rem,2.4vw,2rem) 0;
+  border-bottom:1px solid var(--navy);
+  text-decoration:none;
+  transition:padding-left .35s cubic-bezier(.2,.6,.2,1), background .35s ease;
+  cursor:default;
+}
+.doc-row:hover{padding-left:1.4rem;background:var(--paper-soft);}
+.doc-row .n{font-family:var(--mono);font-size:.7rem;letter-spacing:.2em;color:var(--terra);}
+.doc-row .name{
+  font-family:var(--serif);font-weight:360;
+  font-size:clamp(1.9rem,4.2vw,3.6rem);
+  line-height:1.05;letter-spacing:-.015em;
+  transition:color .3s ease,font-style .3s ease;
+}
+.doc-row:hover .name{color:var(--magenta);font-style:italic;}
+.doc-row .role{
+  font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;
+  text-transform:uppercase;color:rgba(1,38,70,.6);text-align:right;
+}
+.doc-more{
+  padding-top:1.6rem;
+  font-family:var(--mono);font-size:.72rem;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--terra-deep);
+}
+@media(max-width:680px){
+  .docentes-intro{flex-direction:column;align-items:flex-start;}
+  .doc-row{grid-template-columns:2.6rem minmax(0,1fr);}
+  .doc-row .role{display:none;}
+}
+
+/* ============================================================
+   ECOSSISTEMA
+   ============================================================ */
+.eco{
+  background:var(--paper-dark);
+  padding:clamp(5rem,9vw,8.5rem) var(--gutter);
+  border-top:1px solid rgba(1,38,70,.18);
+}
+.eco-inner{
+  max-width:var(--maxw);margin:0 auto;
+  display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);
+  gap:clamp(2.5rem,5vw,6rem);
+  align-items:start;
+}
+.eco-left{position:sticky;top:6.5rem;}
+.eco-left h2{
+  font-family:var(--serif);font-weight:340;
+  font-size:clamp(2.2rem,4vw,3.8rem);line-height:1.06;letter-spacing:-.015em;
+  margin-top:1.4rem;max-width:13ch;
+}
+.eco-left h2 em{font-style:italic;color:var(--magenta);}
+.eco-left p{margin-top:1.2rem;max-width:26rem;font-size:.95rem;color:rgba(1,38,70,.75);}
+.eco-fig{
+  margin-top:2.2rem;width:min(20rem,70%);
+  outline:1px solid rgba(1,38,70,.3);outline-offset:10px;
+  overflow:hidden;
+}
+.eco-fig img{width:100%;aspect-ratio:1;object-fit:cover;}
+.eco-fig figcaption{
+  font-family:var(--mono);font-size:.62rem;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--terra-deep);
+  padding-top:1.2rem;
+}
+.eco-list{border-top:1px solid var(--navy);}
+.eco-item{
+  border-bottom:1px solid var(--navy);
+  padding:clamp(1.4rem,2.4vw,2.1rem) 0;
+  display:grid;grid-template-columns:auto minmax(0,1fr);gap:1.6rem;
+  align-items:baseline;
+  transition:background .3s ease,padding-left .3s cubic-bezier(.2,.6,.2,1);
+}
+.eco-item:hover{background:var(--paper-soft);padding-left:1.2rem;}
+.eco-item .tag{
+  font-family:var(--mono);font-size:.62rem;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--paper-soft);
+  background:var(--navy);padding:.45em .9em;white-space:nowrap;
+}
+.eco-item:nth-child(2) .tag{background:var(--magenta);}
+.eco-item:nth-child(3) .tag{background:var(--terra);}
+.eco-item:nth-child(4) .tag{background:var(--terra-deep);}
+.eco-item:nth-child(5) .tag{background:var(--gold);color:var(--navy-deep);}
+.eco-item h3{
+  font-family:var(--serif);font-weight:400;
+  font-size:clamp(1.45rem,2.2vw,2.1rem);line-height:1.1;
+}
+.eco-item p{font-size:.9rem;color:rgba(1,38,70,.72);margin-top:.45rem;max-width:46ch;}
+@media(max-width:900px){
+  .eco-inner{grid-template-columns:1fr;}
+  .eco-left{position:static;}
+}
+
+/* ============================================================
+   ENCONTRO ANUAL
+   ============================================================ */
+.encontro{
+  position:relative;
+  background:var(--navy-deep);
+  color:var(--paper);
+  overflow:hidden;
+}
+.encontro-bg{
+  position:absolute;inset:-12% 0;
+  z-index:0;
+}
+.encontro-bg img{
+  width:100%;height:100%;object-fit:cover;
+  opacity:.38;filter:saturate(.85);
+}
+.encontro-bg::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg, rgba(4,24,44,.92) 0%, rgba(4,24,44,.45) 50%, rgba(4,24,44,.95) 100%);
+}
+.encontro-inner{
+  position:relative;z-index:1;
+  max-width:var(--maxw);margin:0 auto;
+  padding:clamp(6rem,12vw,11rem) var(--gutter);
+  text-align:center;
+  display:flex;flex-direction:column;align-items:center;gap:1.8rem;
+}
+.encontro .kicker{color:var(--gold);}
+.encontro .kicker::before{background:var(--gold);}
+.encontro h2{
+  font-family:var(--serif);font-weight:330;
+  font-size:clamp(2.6rem,6.4vw,6.2rem);
+  line-height:1.02;letter-spacing:-.018em;
+  max-width:16ch;
+}
+.encontro h2 em{font-style:italic;color:var(--gold);}
+.encontro-date{
+  font-family:var(--mono);font-size:clamp(.78rem,1.2vw,.95rem);
+  letter-spacing:.26em;text-transform:uppercase;
+  display:flex;align-items:center;gap:1.4rem;flex-wrap:wrap;justify-content:center;
+  color:var(--paper-dark);
+}
+.encontro-date i{
+  font-style:normal;width:.5em;height:.5em;background:var(--magenta);
+  display:inline-block;
+}
+.encontro p{
+  max-width:36rem;color:rgba(239,233,221,.78);
+  font-size:clamp(.95rem,1.15vw,1.05rem);line-height:1.7;
+}
+.btn{
+  display:inline-flex;align-items:center;gap:1em;
+  font-family:var(--mono);font-size:.74rem;letter-spacing:.16em;
+  text-transform:uppercase;text-decoration:none;
+  padding:1.05em 2.1em;
+  border:1px solid var(--paper);
+  transition:background .3s ease,color .3s ease,border-color .3s ease,transform .3s ease;
+}
+.btn:hover{background:var(--magenta);border-color:var(--magenta);color:var(--paper-soft);transform:translateY(-2px);box-shadow:0 12px 28px -14px rgba(190,30,140,.7);}
+.btn .arr{transition:transform .3s ease;}
+.btn:hover .arr{transform:translateX(.35em);}
+.btn.solid{background:var(--navy);color:var(--paper-soft);border-color:var(--navy);}
+.btn.solid:hover{background:var(--magenta);border-color:var(--magenta);}
+
+/* ============================================================
+   CONTATO / CTA FINAL
+   ============================================================ */
+.contato{
+  background:var(--paper);
+  padding:clamp(5.5rem,10vw,9.5rem) var(--gutter) clamp(4rem,7vw,6rem);
+}
+.contato-inner{max-width:var(--maxw);margin:0 auto;}
+.contato h2{
+  font-family:var(--serif);font-weight:330;
+  font-size:clamp(2.8rem,7vw,7rem);
+  line-height:1.0;letter-spacing:-.02em;
+  margin-top:1.6rem;max-width:13ch;
+}
+.contato h2 em{font-style:italic;color:var(--magenta);}
+.contato-grid{
+  margin-top:clamp(2.5rem,5vw,4.5rem);
+  display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);
+  gap:clamp(2rem,5vw,5rem);
+  align-items:end;
+}
+.contato-grid p{max-width:32rem;color:rgba(1,38,70,.78);font-size:1rem;line-height:1.7;}
+.contato-actions{display:flex;flex-wrap:wrap;gap:1rem;margin-top:1.8rem;}
+.contato-meta{
+  font-family:var(--mono);font-size:.74rem;line-height:2.3;
+  letter-spacing:.06em;color:var(--terra-deep);
+  border-left:1px solid var(--terra);
+  padding-left:1.4rem;
+}
+.contato-meta a{text-decoration:none;border-bottom:1px solid rgba(110,59,48,.35);transition:color .25s ease,border-color .25s ease;}
+.contato-meta a:hover{color:var(--magenta);border-color:var(--magenta);}
+@media(max-width:820px){.contato-grid{grid-template-columns:1fr;}}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer{
+  background:var(--navy-deep);
+  color:rgba(239,233,221,.7);
+  padding:2.4rem var(--gutter);
+}
+.footer-inner{
+  max-width:var(--maxw);margin:0 auto;
+  display:flex;justify-content:space-between;align-items:center;gap:1.5rem;flex-wrap:wrap;
+  font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;
+}
+.footer a{text-decoration:none;border-bottom:1px solid rgba(239,233,221,.25);transition:color .25s ease;}
+.footer a:hover{color:var(--gold);}
+.footer .brand{font-family:var(--serif);font-size:1.05rem;letter-spacing:.01em;color:var(--paper);}
+.footer .credit{opacity:.55;}
+
+/* ============================================================
+   MOTION · estados e acessibilidade
+   ============================================================ */
+[data-reveal]{will-change:transform,opacity;}
+@media (prefers-reduced-motion: reduce){
+  .marquee-track{animation:none;}
+  .hero-scroll .tick::after{animation:none;}
+  *,*::before,*::after{transition-duration:.01ms !important;}
+}
+</style>
+<link rel="stylesheet" href="/assets/demo-navigation.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="nav">
+  <a class="nav-logo" href="#topo">Liminar <small>Instituto</small></a>
+  <nav class="nav-links" aria-label="Seções da página">
+    <a href="#manifesto">Manifesto</a>
+    <a href="#formacao">Formação</a>
+    <a href="#docentes">Docentes</a>
+    <a href="#ecossistema">Ecossistema</a>
+    <a href="#encontro">Encontro 2026</a>
+  </nav>
+  <a class="nav-cta" href="#contato">Fale com o instituto</a>
+  <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Abrir menu" aria-controls="nav-mobile" aria-expanded="false">
+    <span aria-hidden="true"></span>
+  </button>
+</header>
+
+<!-- ================= MENU MOBILE ================= -->
+<nav class="nav-mobile" id="nav-mobile" aria-label="Menu de navegação">
+  <a href="#manifesto">Manifesto</a>
+  <a href="#formacao">Formação</a>
+  <a href="#docentes">Docentes</a>
+  <a href="#ecossistema">Ecossistema</a>
+  <a href="#encontro">Encontro 2026</a>
+  <a class="nav-mobile-cta" href="#contato">Fale com o instituto</a>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="topo">
+  <div class="hero-ghost" aria-hidden="true">Liminar</div>
+  <div class="hero-img-wrap" data-parallax>
+    <video id="hero-video" muted playsinline preload="auto" poster="/marketing/portfolio/instituto-liminar/assets/img/hero-biblioteca.jpg" aria-label="Biblioteca antiga com luz quente de abajur sobre livros">
+      <source src="/marketing/portfolio/instituto-liminar/assets/video/hero.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero-content">
+    <p class="kicker hero-kicker" data-hero="kicker">Instituto de ensino superior dedicado à psicanálise</p>
+    <h1>
+      <span class="line"><span data-hero="line">Há um saber que</span></span>
+      <span class="line"><span data-hero="line">não se <em>ensina:</em></span></span>
+      <span class="line"><span data-hero="line"><span class="mag">transmite-se.</span></span></span>
+    </h1>
+  </div>
+  <div class="hero-foot">
+    <p class="hero-lede" data-hero="lede">
+      O <strong>Instituto Liminar</strong> forma psicanalistas e psicólogos:
+      pós-graduações reconhecidas pelo MEC, seminários de Freud a Lacan, cursos e aulas abertas.
+      Online ao vivo, EAD gravado ou presencial, sua formação encontra aqui rigor de
+      universidade e fidelidade à clínica.
+    </p>
+    <div class="hero-scroll" data-hero="scroll">
+      <span>Desça para ler</span>
+      <span class="tick" aria-hidden="true"></span>
+    </div>
+  </div>
+  <div class="hero-side" aria-hidden="true">Escola de Psicanálise · Brasil</div>
+</section>
+
+<!-- ================= MARQUEE ================= -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>
+      Inconsciente <i>·</i> Transferência <i>·</i> Desejo <i>·</i> Escuta <i>·</i> Freud <i>·</i> Lacan <i>·</i> Clínica <i>·</i> Sintoma <i>·</i> Letra <i>·</i> Ato analítico <i>·</i>
+    </span>
+    <span>
+      Inconsciente <i>·</i> Transferência <i>·</i> Desejo <i>·</i> Escuta <i>·</i> Freud <i>·</i> Lacan <i>·</i> Clínica <i>·</i> Sintoma <i>·</i> Letra <i>·</i> Ato analítico <i>·</i>
+    </span>
+  </div>
+</div>
+
+<!-- ================= MANIFESTO ================= -->
+<section class="manifesto" id="manifesto">
+  <div class="manifesto-inner">
+    <div class="folio" data-reveal>
+      <span class="num">( 01 )</span><span>Manifesto</span><span class="rule"></span><span>Por que o instituto existe</span>
+    </div>
+    <div class="manifesto-grid">
+      <aside class="manifesto-note" data-reveal>
+        Nota de margem: formação em psicanálise não é acúmulo de certificados.
+        É um percurso que passa pelo texto, pelo tempo e pela transferência.
+      </aside>
+      <p class="manifesto-text" id="manifesto-text">
+        A psicanálise não se aprende de ouvido. Ela exige <em>texto</em>, exige
+        <em>tempo</em> e exige <em>transferência</em>. No Instituto Liminar, sua formação
+        atravessa Freud e Lacan com rigor acadêmico e fidelidade à clínica,
+        para que sua escuta sustente o que chega ao divã.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= NÚMEROS ================= -->
+<section class="stats">
+  <div class="stats-inner">
+    <div class="stat" data-reveal>
+      <span class="label">Comunidade</span>
+      <span class="value"><span data-count="40">0</span> <small>mil+</small></span>
+      <span class="desc">pessoas acompanham o instituto nas redes sociais e nas aulas abertas.</span>
+    </div>
+    <div class="stat" data-reveal>
+      <span class="label">Encontro Anual</span>
+      <span class="value"><span data-count="500">0</span></span>
+      <span class="desc">vagas no Encontro Anual de Psicanalistas, em novembro de 2026.</span>
+    </div>
+    <div class="stat" data-reveal>
+      <span class="label">Modalidades</span>
+      <span class="value"><span data-count="3">0</span></span>
+      <span class="desc">formas de estudar: online ao vivo, EAD gravado e presencial.</span>
+    </div>
+    <div class="stat mec" data-reveal>
+      <span class="label">Reconhecimento</span>
+      <span class="value">MEC</span>
+      <span class="desc">pós-graduações reconhecidas pelo Ministério da Educação.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FORMAÇÃO · horizontal ================= -->
+<section class="formacao" id="formacao">
+  <div class="formacao-pin">
+    <header class="formacao-head">
+      <div>
+        <div class="folio">
+          <span class="num">( 02 )</span><span>Percursos</span>
+        </div>
+        <h2 data-reveal>Quatro portas para a <em>mesma travessia.</em></h2>
+      </div>
+      <div class="formacao-progress" aria-hidden="true"><i id="fprogress"></i></div>
+    </header>
+    <div class="formacao-track" id="ftrack">
+
+      <article class="fpanel" data-reveal>
+        <div class="fpanel-media">
+          <img src="/marketing/portfolio/instituto-liminar/assets/img/maos-livro.jpg" alt="Mãos folheando um livro antigo sob luz quente" loading="lazy">
+        </div>
+        <div class="fpanel-body">
+          <div class="fpanel-idx"><span>01 / 04</span><span class="tag">Reconhecida pelo MEC</span></div>
+          <h3>Pós-graduação</h3>
+          <p>Cursos de especialização em psicanálise com lastro de ensino superior, para quem quer sustentar a clínica com formação reconhecida pelo MEC.</p>
+        </div>
+      </article>
+
+      <article class="fpanel" data-reveal>
+        <div class="fpanel-media">
+          <img src="/marketing/portfolio/instituto-liminar/assets/img/manuscrito.jpg" alt="Páginas manuscritas antigas com caneta tinteiro" loading="lazy">
+        </div>
+        <div class="fpanel-body">
+          <div class="fpanel-idx"><span>02 / 04</span><span class="tag">Texto a texto</span></div>
+          <h3>Seminários</h3>
+          <p>De Freud a Lacan, e da psicanálise com crianças e adolescentes aos grandes conceitos: leitura orientada, com a letra no centro.</p>
+        </div>
+      </article>
+
+      <article class="fpanel" data-reveal>
+        <div class="fpanel-media">
+          <img src="/marketing/portfolio/instituto-liminar/assets/img/diva.jpg" alt="Divã clássico coberto por tapete persa em estúdio à meia-luz" loading="lazy">
+        </div>
+        <div class="fpanel-body">
+          <div class="fpanel-idx"><span>03 / 04</span><span class="tag">Conceito e técnica</span></div>
+          <h3>Cursos</h3>
+          <p>Percursos verticais e objetivos para aprofundar um conceito, uma questão clínica ou um autor, sem abrir mão do rigor.</p>
+        </div>
+      </article>
+
+      <article class="fpanel is-type" data-reveal>
+        <div class="fpanel-ghost" aria-hidden="true">aberta</div>
+        <div class="fpanel-body">
+          <div class="fpanel-idx"><span>04 / 04</span><span class="tag">Porta de entrada</span></div>
+          <h3>Aulas abertas</h3>
+          <p>Encontros abertos ao público para conhecer de perto o ensino do instituto antes de escolher seu percurso.</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= MODALIDADES ================= -->
+<section class="modalidades">
+  <div class="modalidades-inner">
+    <div class="folio" data-reveal>
+      <span class="num">( 03 )</span><span>Modalidades</span><span class="rule"></span><span>De qualquer lugar do Brasil</span>
+    </div>
+    <div class="mods">
+      <div class="mod" data-reveal>
+        <span class="idx">A.</span>
+        <h3>Online <em>ao vivo</em></h3>
+        <p>Aulas transmitidas em tempo real, com presença, pergunta e interlocução, onde quer que você esteja.</p>
+      </div>
+      <div class="mod" data-reveal>
+        <span class="idx">B.</span>
+        <h3>EAD <em>gravado</em></h3>
+        <p>Seu percurso no seu ritmo, com o acervo de aulas gravadas e a estrutura de acompanhamento do instituto.</p>
+      </div>
+      <div class="mod" data-reveal>
+        <span class="idx">C.</span>
+        <h3>Presencial</h3>
+        <p>A experiência da sala de aula, do encontro entre colegas e da convivência institucional.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOCENTES ================= -->
+<section class="docentes" id="docentes">
+  <div class="docentes-inner">
+    <div class="folio" data-reveal>
+      <span class="num">( 04 )</span><span>Docentes</span><span class="rule"></span><span>Quem sustenta o ensino</span>
+    </div>
+    <div class="docentes-intro">
+      <h2 data-reveal>Nomes que a psicanálise brasileira <em>lê e escuta.</em></h2>
+      <p data-reveal>O corpo docente do instituto reúne autores, clínicos e professores que marcam o debate psicanalítico no país.</p>
+    </div>
+    <div class="doc-list">
+      <div class="doc-row" data-reveal>
+        <span class="n">i.</span>
+        <span class="name">Helena Caldas</span>
+        <span class="role">Psicanalista e professora</span>
+      </div>
+      <div class="doc-row" data-reveal>
+        <span class="n">ii.</span>
+        <span class="name">Mauro Teixeira</span>
+        <span class="role">Psicanalista e psiquiatra</span>
+      </div>
+      <div class="doc-row" data-reveal>
+        <span class="n">iii.</span>
+        <span class="name">Renata Vilar</span>
+        <span class="role">Filósofa e professora</span>
+      </div>
+    </div>
+    <p class="doc-more" data-reveal>e um corpo docente nacional que sustenta cada pós, seminário e curso.</p>
+  </div>
+</section>
+
+<!-- ================= ECOSSISTEMA ================= -->
+<section class="eco" id="ecossistema">
+  <div class="eco-inner">
+    <div class="eco-left">
+      <div class="folio" data-reveal>
+        <span class="num">( 05 )</span><span>Ecossistema</span>
+      </div>
+      <h2 data-reveal>O instituto não termina na <em>sala de aula.</em></h2>
+      <p data-reveal>Pesquisa, escuta pública e produção circulam por frentes próprias, abertas a quem estuda e a quem chega agora.</p>
+      <figure class="eco-fig" data-reveal>
+        <img src="/marketing/portfolio/instituto-liminar/assets/img/motivo-grafico.jpg" alt="Escultura de papel creme em fita contínua sobre fundo claro" loading="lazy">
+        <figcaption>Fig. 01 · Motivo gráfico da revista do instituto</figcaption>
+      </figure>
+    </div>
+    <ul class="eco-list">
+      <li class="eco-item" data-reveal>
+        <span class="tag">Podcast</span>
+        <div><h3>Podcast do instituto</h3><p>Conversas sobre clínica, cultura e formação, no ritmo de quem pensa em voz alta.</p></div>
+      </li>
+      <li class="eco-item" data-reveal>
+        <span class="tag">Revista científica</span>
+        <div><h3>Revista do instituto</h3><p>A publicação científica do instituto, onde a pesquisa em psicanálise ganha corpo e circulação.</p></div>
+      </li>
+      <li class="eco-item" data-reveal>
+        <span class="tag">Frente</span>
+        <div><h3>Clínica-escola</h3><p>Uma frente do instituto que expande o trabalho em torno da clínica e do ensino.</p></div>
+      </li>
+      <li class="eco-item" data-reveal>
+        <span class="tag">YouTube</span>
+        <div><h3>Canal do instituto</h3><p>Aulas, recortes de seminários e debates disponíveis para sua formação contínua.</p></div>
+      </li>
+      <li class="eco-item" data-reveal>
+        <span class="tag">Blog</span>
+        <div><h3>Textos e leituras</h3><p>Artigos sobre teoria, clínica e atualidade, escritos para quem leva o texto a sério.</p></div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= ENCONTRO ANUAL ================= -->
+<section class="encontro" id="encontro">
+  <div class="encontro-bg" data-parallax-bg>
+    <img src="/marketing/portfolio/instituto-liminar/assets/img/anfiteatro.jpg" alt="Anfiteatro universitário antigo, vazio, com luz quente entrando pelas janelas" loading="lazy">
+  </div>
+  <div class="encontro-inner">
+    <p class="kicker" data-reveal>Evento exclusivo · 500 vagas</p>
+    <h2 data-reveal>Encontro Anual de <em>Psicanalistas</em></h2>
+    <div class="encontro-date" data-reveal>
+      <span>13 e 14 de novembro de 2026</span><i aria-hidden="true"></i><span>500 vagas</span>
+    </div>
+    <p data-reveal>Dois dias entre colegas de ofício: transmissão de casos, debate teórico e a experiência rara de estar em uma sala onde todo mundo escuta profissionalmente.</p>
+    <a class="btn" href="#contato" data-reveal>
+      Quero saber do Encontro <span class="arr" aria-hidden="true">&rarr;</span>
+    </a>
+  </div>
+</section>
+
+<!-- ================= CONTATO ================= -->
+<section class="contato" id="contato">
+  <div class="contato-inner">
+    <div class="folio" data-reveal>
+      <span class="num">( 06 )</span><span>Contato</span><span class="rule"></span><span>Comece pelo princípio</span>
+    </div>
+    <h2 data-reveal>Sua formação começa por uma <em>conversa.</em></h2>
+    <div class="contato-grid">
+      <div data-reveal>
+        <p>Conte ao instituto em que ponto do percurso você está: graduação, clínica recém-aberta ou anos de consultório. A equipe indica a pós, o seminário ou o curso que faz sentido para o seu momento.</p>
+        <div class="contato-actions">
+          <a class="btn solid" href="#contato">
+            Chamar no WhatsApp <span class="arr" aria-hidden="true">&rarr;</span>
+          </a>
+          <a class="btn" style="border-color:var(--navy);color:var(--navy);" href="#contato">
+            Escrever por e-mail
+          </a>
+        </div>
+      </div>
+      <div class="contato-meta" data-reveal>
+        WhatsApp <a href="#contato">(00) 00000-0000</a><br>
+        E-mail <a href="#contato">contato@seuinstituto.com.br</a><br>
+        Instagram <a href="#contato">@seuinstituto</a><br>
+        Sua cidade · Seu estado · Brasil
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="footer-inner">
+    <span class="brand">Instituto Liminar</span>
+    <span>Instituto de ensino superior em psicanálise · marca fictícia</span>
+    <span><a href="#contato">(00) 00000-0000</a> · <a href="#contato">contato@seuinstituto.com.br</a></span>
+    <span class="credit">Site demonstrativo (template) produzido pela <a href="/">Norte Autoral · Gabriel Holanda</a></span>
+  </div>
+</footer>
+
+<!-- ================= SCRIPTS ================= -->
+<script src="/vendor/unpkg.com/lenis.min-fc91f338f7a5.js"></script>
+<script src="/vendor/cdnjs.cloudflare.com/gsap.min-cb9c6262bdd7.js"></script>
+<script src="/vendor/cdnjs.cloudflare.com/ScrollTrigger.min-36c29c028158.js"></script>
+<script>
+(function(){
+  "use strict";
+  var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var isMobile = window.matchMedia("(max-width: 768px)").matches;
+  /* pin+scrub do hero so em mouse de verdade: ponteiro fino com hover e tela larga.
+     Qualquer toque (qualquer largura) cai no fallback de loop, com scroll nativo. */
+  var heroScrubOK = window.matchMedia("(min-width: 769px) and (hover: hover) and (pointer: fine)").matches;
+  var nav = document.getElementById("nav");
+  var heroVid = document.getElementById("hero-video");
+
+  /* ---------- menu mobile (sempre ativo) ---------- */
+  (function navMobile(){
+    var toggle = document.getElementById("nav-toggle");
+    var panel = document.getElementById("nav-mobile");
+    if (!toggle || !panel) return;
+    function setOpen(open){
+      document.body.classList.toggle("menu-open", open);
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      toggle.setAttribute("aria-label", open ? "Fechar menu" : "Abrir menu");
+    }
+    toggle.addEventListener("click", function(){
+      setOpen(!document.body.classList.contains("menu-open"));
+    });
+    panel.querySelectorAll("a").forEach(function(a){
+      a.addEventListener("click", function(){ setOpen(false); });
+    });
+    document.addEventListener("keydown", function(e){
+      if (e.key === "Escape") setOpen(false);
+    });
+  })();
+
+  /* ---------- hero mobile: vídeo em loop, sem pin/scrub ---------- */
+  function heroMobilePlay(){
+    if (!heroVid) return;
+    heroVid.loop = true;
+    heroVid.muted = true;
+    heroVid.setAttribute("loop", "");
+    heroVid.setAttribute("autoplay", "");
+    var p = heroVid.play();
+    if (p && p.catch) p.catch(function(){});
+  }
+
+  /* nav sólida após o hero, mesmo sem motion */
+  function navWatch(){
+    var hero = document.querySelector(".hero");
+    function check(){
+      var past = window.scrollY > hero.offsetHeight - 90;
+      nav.classList.toggle("is-solid", past);
+    }
+    window.addEventListener("scroll", check, {passive:true});
+    check();
+  }
+
+  if (reduced || !window.gsap || !window.Lenis) {
+    if (!heroScrubOK && !reduced) heroMobilePlay();
+    navWatch();
+    return;
+  }
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  /* ---------- Lenis: so suaviza em mouse de verdade; no toque, scroll nativo ---------- */
+  var lenis = null;
+  if (heroScrubOK){
+    lenis = new Lenis({ lerp: 0.1, smoothWheel: true });
+    lenis.on("scroll", ScrollTrigger.update);
+    gsap.ticker.add(function(time){ lenis.raf(time * 1000); });
+    gsap.ticker.lagSmoothing(0);
+  }
+
+  /* âncoras suaves */
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener("click", function(e){
+      var target = document.querySelector(a.getAttribute("href"));
+      if (target){
+        e.preventDefault();
+        if (lenis) lenis.scrollTo(target, {offset:-70});
+        else target.scrollIntoView({behavior:"smooth", block:"start"});
+      }
+    });
+  });
+
+  /* ---------- entrada do hero ---------- */
+  var intro = gsap.timeline({defaults:{ease:"power3.out"}});
+  gsap.set('[data-hero="line"]', {yPercent:115});
+  gsap.set('[data-hero="kicker"], [data-hero="lede"], [data-hero="scroll"]', {opacity:0, y:24});
+  gsap.set(".hero-img-wrap", {clipPath:"inset(100% 0% 0% 0%)"});
+  gsap.set(".hero-img-wrap video", {scale:1.25});
+  gsap.set(".nav", {opacity:0, y:-16});
+  gsap.set(".hero-ghost", {opacity:0});
+
+  intro
+    .to(".hero-img-wrap", {clipPath:"inset(0% 0% 0% 0%)", duration:1.3, ease:"power4.inOut"}, .15)
+    .to(".hero-img-wrap video", {scale:1, duration:1.6, ease:"power3.out"}, .25)
+    .to('[data-hero="kicker"]', {opacity:1, y:0, duration:.8}, .55)
+    .to('[data-hero="line"]', {yPercent:0, duration:1.05, stagger:.12, ease:"power4.out"}, .65)
+    .to(".hero-ghost", {opacity:1, duration:1.4, ease:"power2.out"}, 1)
+    .to('[data-hero="lede"]', {opacity:1, y:0, duration:.8}, 1.15)
+    .to('[data-hero="scroll"]', {opacity:1, y:0, duration:.8}, 1.3)
+    .to(".nav", {opacity:1, y:0, duration:.7}, 1.2);
+
+  /* hero preso ao scroll: o video avanca quadro a quadro conforme a rolagem.
+     So roda em mouse de verdade (heroScrubOK). Em qualquer toque, vai pro loop. */
+  var heroDur = 5.04;
+  function grabDur(){
+    if (heroVid.duration && isFinite(heroVid.duration) && heroVid.duration > 0) heroDur = heroVid.duration;
+  }
+  if (heroScrubOK){
+    heroVid.removeAttribute("loop");
+    heroVid.loop = false;
+    heroVid.addEventListener("loadedmetadata", grabDur); grabDur();
+    try { heroVid.pause(); heroVid.currentTime = 0; } catch (e) {}
+    ScrollTrigger.create({
+      trigger:".hero", start:"top top", end:"+=160%", pin:true, pinSpacing:true, scrub:true,
+      invalidateOnRefresh:true,
+      onUpdate:function(self){
+        var p = self.progress;
+        if (heroVid.readyState >= 1) heroVid.currentTime = Math.min(heroDur - 0.05, Math.max(0, p * heroDur));
+      }
+    });
+  } else {
+    heroMobilePlay();
+  }
+
+  /* nav muda depois do hero */
+  ScrollTrigger.create({
+    trigger:".hero",
+    start:"bottom 90px",
+    onEnter:function(){ nav.classList.add("is-solid"); },
+    onLeaveBack:function(){ nav.classList.remove("is-solid"); }
+  });
+
+  /* ---------- reveals em stagger ---------- */
+  gsap.set("[data-reveal]", {opacity:0, y:36});
+  ScrollTrigger.batch("[data-reveal]", {
+    start:"top 88%",
+    once:true,
+    onEnter:function(batch){
+      gsap.to(batch, {opacity:1, y:0, duration:.9, stagger:.1, ease:"power3.out", overwrite:true});
+    }
+  });
+
+  /* ---------- manifesto: revelação palavra a palavra com scrub ---------- */
+  var manif = document.getElementById("manifesto-text");
+  if (manif){
+    var nodes = Array.prototype.slice.call(manif.childNodes);
+    manif.innerHTML = "";
+    nodes.forEach(function(node){
+      if (node.nodeType === 3){
+        node.textContent.split(/(\s+)/).forEach(function(part){
+          if (/^\s+$/.test(part)){ manif.appendChild(document.createTextNode(" ")); }
+          else if (part.length){
+            var s = document.createElement("span");
+            s.className = "w"; s.textContent = part;
+            manif.appendChild(s);
+          }
+        });
+      } else if (node.nodeType === 1){
+        node.classList.add("w");
+        manif.appendChild(node);
+      }
+    });
+    gsap.fromTo(manif.querySelectorAll(".w"),
+      {opacity:.13},
+      {opacity:1, stagger:.05, ease:"none",
+        scrollTrigger:{trigger:manif, start:"top 78%", end:"bottom 45%", scrub:.6}}
+    );
+  }
+
+  /* ---------- contadores ---------- */
+  document.querySelectorAll("[data-count]").forEach(function(el){
+    var end = parseInt(el.getAttribute("data-count"), 10);
+    var obj = {v:0};
+    gsap.to(obj, {
+      v:end, duration:1.8, ease:"power2.out",
+      scrollTrigger:{trigger:el, start:"top 88%", once:true},
+      onUpdate:function(){ el.textContent = Math.round(obj.v); }
+    });
+  });
+
+  /* ---------- momento-assinatura: formação horizontal pinada ---------- */
+  var track = document.getElementById("ftrack");
+  var fbar = document.getElementById("fprogress");
+  ScrollTrigger.matchMedia({
+    "(min-width: 900px)": function(){
+      function dist(){ return track.scrollWidth - window.innerWidth + 2 * parseFloat(getComputedStyle(document.documentElement).fontSize); }
+      gsap.to(track, {
+        x:function(){ return -dist(); },
+        ease:"none",
+        scrollTrigger:{
+          trigger:".formacao",
+          start:"top top",
+          end:function(){ return "+=" + (dist() + window.innerHeight * 0.35); },
+          scrub:1,
+          pin:true,
+          anticipatePin:1,
+          invalidateOnRefresh:true,
+          onUpdate:function(self){
+            if (fbar) fbar.style.width = (self.progress * 100) + "%";
+          }
+        }
+      });
+    }
+  });
+
+  /* ---------- parallax do encontro ---------- */
+  gsap.fromTo("[data-parallax-bg] img",
+    {yPercent:-10},
+    {yPercent:10, ease:"none",
+      scrollTrigger:{trigger:".encontro", start:"top bottom", end:"bottom top", scrub:true}}
+  );
+
+  window.addEventListener("load", function(){ ScrollTrigger.refresh(); });
+})();
+</script>
+<script src="/assets/demo-navigation.js" defer></script>
+</body>
+</html>

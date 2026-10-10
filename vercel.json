@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "git": {
+    "deploymentEnabled": {
+      "portfolio-atualizado-hostinger-2026-10-10": false
+    }
+  }
+}

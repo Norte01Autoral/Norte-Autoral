@@ -1,0 +1,291 @@
+[
+  {
+    "slug": "velorah-hero",
+    "back": {
+      "href": "/#sites",
+      "label": "Voltar ao portfólio Norte Autoral",
+      "width": 92.6875,
+      "visible": true
+    },
+    "errors": [],
+    "bad": [],
+    "actions": [
+      {
+        "label": "Estúdio",
+        "open": true,
+        "title": "Estúdio"
+      },
+      {
+        "label": "Sobre",
+        "open": true,
+        "title": "Sobre"
+      },
+      {
+        "label": "Diário",
+        "open": true,
+        "title": "Diário"
+      },
+      {
+        "label": "Contato",
+        "open": true,
+        "title": "Contato"
+      },
+      {
+        "label": "Iniciar Jornada",
+        "open": true,
+        "title": "Iniciar Jornada"
+      },
+      {
+        "label": "Iniciar Jornada",
+        "open": true,
+        "title": "Iniciar Jornada"
+      }
+    ],
+    "invite": "/#contato"
+  },
+  {
+    "slug": "lithos-hero",
+    "back": {
+      "href": "/#sites",
+      "label": "Voltar ao portfólio Norte Autoral",
+      "width": 92.6875,
+      "visible": true
+    },
+    "errors": [],
+    "bad": [],
+    "actions": [
+      {
+        "label": "Curso",
+        "open": true,
+        "title": "Curso"
+      },
+      {
+        "label": "Guias de campo",
+        "open": true,
+        "title": "Guias de campo"
+      },
+      {
+        "label": "Geologia",
+        "open": true,
+        "title": "Geologia"
+      },
+      {
+        "label": "Planos",
+        "open": true,
+        "title": "Planos"
+      },
+      {
+        "label": "Tour ao vivo",
+        "open": true,
+        "title": "Tour ao vivo"
+      },
+      {
+        "label": "Criar conta",
+        "open": true,
+        "title": "Criar conta"
+      },
+      {
+        "label": "Começar a escavar",
+        "open": true,
+        "title": "Começar a escavar"
+      }
+    ],
+    "invite": "/#contato"
+  },
+  {
+    "slug": "dentista-clinica-vertice",
+    "back": {
+      "href": "/#sites",
+      "label": "Voltar ao portfólio Norte Autoral",
+      "width": 92.6875,
+      "visible": true
+    },
+    "errors": [],
+    "bad": [],
+    "actions": [
+      {
+        "label": "Agende sua avaliação",
+        "open": true,
+        "sameURL": true
+      }
+    ],
+    "invite": "/#contato"
+  },
+  {
+    "slug": "convix-hero",
+    "back": {
+      "href": "/#sites",
+      "label": "Voltar ao portfólio Norte Autoral",
+      "width": 92.6875,
+      "visible": true
+    },
+    "errors": [],
+    "bad": [],
+    "actions": [
+      {
+        "label": "Recursos",
+        "open": true,
+        "title": "Recursos"
+      },
+      {
+        "label": "Sobre",
+        "open": true,
+        "title": "Sobre Convix"
+      },
+      {
+        "label": "Páginas",
+        "open": true,
+        "title": "Páginas"
+      },
+      {
+        "label": "Acesso antecipado",
+        "open": true,
+        "title": "Acesso antecipado"
+      },
+      {
+        "label": "Começar agora",
+        "open": true,
+        "title": "Começar agora"
+      },
+      {
+        "label": "Este mês",
+        "open": true,
+        "title": "Este mês"
+      },
+      {
+        "label": "Mês até hoje (MTD)",
+        "open": true,
+        "title": "Mês até hoje (MTD)"
+      },
+      {
+        "label": "Salvar",
+        "open": true,
+        "title": "Salvar"
+      },
+      {
+        "label": "Cancelar",
+        "open": true,
+        "title": "Cancelar"
+      },
+      {
+        "label": "Fechar",
+        "open": true,
+        "title": "Painel de demonstração"
+      },
+      {
+        "label": "Keyboard: Recursos",
+        "open": true
+      }
+    ],
+    "invite": "/#contato"
+  },
+  {
+    "slug": "aureo-arquitetura",
+    "back": {
+      "href": "/#sites",
+      "label": "Voltar ao portfólio Norte Autoral",
+      "width": 92.6875,
+      "visible": true
+    },
+    "errors": [],
+    "bad": [],
+    "actions": [],
+    "invite": null
+  },
+  {
+    "slug": "confeitaria-margo",
+    "back": {
+      "href": "/#sites",
+      "label": "Voltar ao portfólio Norte Autoral",
+      "width": 92.6875,
+      "visible": true
+    },
+    "errors": [],
+    "bad": [],
+    "actions": [
+      {
+        "label": "Encomende o seu\n→",
+        "open": true,
+        "sameURL": true
+      }
+    ],
+    "invite": "/#contato"
+  },
+  {
+    "slug": "instituto-liminar",
+    "back": {
+      "href": "/#sites",
+      "label": "Voltar ao portfólio Norte Autoral",
+      "width": 92.6875,
+      "visible": true
+    },
+    "errors": [],
+    "bad": [],
+    "actions": [],
+    "invite": null
+  },
+  {
+    "slug": "verene-odontologia",
+    "back": {
+      "href": "/#sites",
+      "label": "Voltar ao portfólio Norte Autoral",
+      "width": 92.6875,
+      "visible": true
+    },
+    "errors": [],
+    "bad": [],
+    "actions": [
+      {
+        "label": "Agendar avaliação",
+        "open": true,
+        "sameURL": true
+      }
+    ],
+    "invite": "/#contato"
+  },
+  {
+    "slug": "arquitetura-estudio-linha",
+    "back": {
+      "href": "/#sites",
+      "label": "Voltar ao portfólio Norte Autoral",
+      "width": 92.6875,
+      "visible": true
+    },
+    "errors": [],
+    "bad": [],
+    "actions": [
+      {
+        "label": "CONVERSAR",
+        "open": true,
+        "sameURL": true
+      }
+    ],
+    "invite": "/#contato"
+  },
+  {
+    "mobile": {
+      "slug": "lithos-hero",
+      "menuOpen": true,
+      "choices": 6,
+      "courseTitle": "Curso",
+      "overflow": 0
+    }
+  },
+  {
+    "mobile": {
+      "slug": "convix-hero",
+      "menuOpen": "true",
+      "nav": [
+        "Início",
+        "Recursos",
+        "Sobre",
+        "Páginas",
+        "Início",
+        "Recursos",
+        "Sobre",
+        "Páginas"
+      ],
+      "overflow": 0
+    }
+  }
+]

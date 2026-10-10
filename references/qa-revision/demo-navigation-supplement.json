@@ -1,0 +1,13 @@
+{
+  "aureo": {
+    "dialogOpen": true,
+    "title": "Contato de demonstração",
+    "samePage": true,
+    "invite": "/#contato"
+  },
+  "v3": {
+    "returnText": "← Portfólio · Referência da base",
+    "returnHref": "/#sites",
+    "returnedToPortfolio": "http://127.0.0.1:4173/#sites"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "nav": {
+    "name": "http://127.0.0.1:4173/",
+    "entryType": "navigation",
+    "startTime": 0,
+    "duration": 1601.7999999523163,
+    "navigationId": 447,
+    "initiatorType": "navigation",
+    "deliveryType": "",
+    "nextHopProtocol": "http/1.1",
+    "renderBlockingStatus": "non-blocking",
+    "contentType": "text/html",
+    "contentEncoding": "",
+    "workerStart": 0,
+    "workerRouterEvaluationStart": 0,
+    "workerCacheLookupStart": 0,
+    "workerMatchedSourceType": "",
+    "workerFinalSourceType": "",
+    "redirectStart": 0,
+    "redirectEnd": 0,
+    "fetchStart": 1.100000023841858,
+    "domainLookupStart": 1.100000023841858,
+    "domainLookupEnd": 1.100000023841858,
+    "connectStart": 1.100000023841858,
+    "secureConnectionStart": 0,
+    "connectEnd": 1.100000023841858,
+    "requestStart": 2.299999952316284,
+    "responseStart": 5.600000023841858,
+    "firstInterimResponseStart": 0,
+    "finalResponseHeadersStart": 5.600000023841858,
+    "responseEnd": 6.799999952316284,
+    "transferSize": 152519,
+    "encodedBodySize": 152219,
+    "decodedBodySize": 152219,
+    "responseStatus": 200,
+    "serverTiming": [],
+    "unloadEventStart": 0,
+    "unloadEventEnd": 0,
+    "domInteractive": 970.5,
+    "domContentLoadedEventStart": 1127.1000000238419,
+    "domContentLoadedEventEnd": 1444.1000000238419,
+    "domComplete": 1445.7999999523163,
+    "loadEventStart": 1445.8999999761581,
+    "loadEventEnd": 1601.7999999523163,
+    "type": "navigate",
+    "redirectCount": 0,
+    "activationStart": 0,
+    "criticalCHRestart": 0,
+    "notRestoredReasons": null,
+    "confidence": {
+      "randomizedTriggerRate": 0.4994798,
+      "value": "high"
+    }
+  },
+  "resources": [
+    {
+      "name": "/vendor/fonts.googleapis.com/css2-7c9831d3cb65.css",
+      "bytes": 20284,
+      "encoded": 19984,
+      "duration": 8.399999976158142
+    },
+    {
+      "name": "/assets/portfolio-thumbs/lithos-hero.jpg",
+      "bytes": 159270,
+      "encoded": 158970,
+      "duration": 43.39999997615814
+    },
+    {
+      "name": "/assets/norte-autoral/profile.css",
+      "bytes": 3249,
+      "encoded": 2949,
+      "duration": 32.699999928474426
+    },
+    {
+      "name": "/assets/norte-autoral/logo-n.png",
+      "bytes": 461665,
+      "encoded": 461365,
+      "duration": 53.5
+    },
+    {
+      "name": "/vendor/cdn.jsdelivr.net/gsap.min-bf5b26673eee.js",
+      "bytes": 72514,
+      "encoded": 72214,
+      "duration": 48.300000071525574
+    },
+    {
+      "name": "/vendor/cdn.jsdelivr.net/lenis.min-273ca89be0ce.js",
+      "bytes": 13090,
+      "encoded": 12790,
+      "duration": 49.10000002384186
+    },
+    {
+      "name": "/vendor/cdn.jsdelivr.net/ScrollTrigger.min-8275e947aa32.js",
+      "bytes": 43680,
+      "encoded": 43380,
+      "duration": 46.39999997615814
+    },
+    {
+      "name": "/vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg-cc27b3047125.woff2",
+      "bytes": 31732,
+      "encoded": 31432,
+      "duration": 270
+    },
+    {
+      "name": "/vendor/fonts.gstatic.com/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw-98a0d4ac28a1.woff2",
+      "bytes": 22588,
+      "encoded": 22288,
+      "duration": 270
+    },
+    {
+      "name": "/vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7-e3237528af75.woff2",
+      "bytes": 48556,
+      "encoded": 48256,
+      "duration": 270.1999999284744
+    },
+    {
+      "name": "/assets/norte-autoral/favicon.ico",
+      "bytes": 58814,
+      "encoded": 58514,
+      "duration": 5.400000095367432
+    }
+  ],
+  "observations": {
+    "lcp": [
+      {
+        "start": 684,
+        "duration": 0,
+        "value": 0,
+        "hadRecentInput": false,
+        "url": "",
+        "tag": "A"
+      }
+    ],
+    "cls": [
+      {
+        "start": 1122,
+        "duration": 0,
+        "value": 0.015657673115462106,
+        "hadRecentInput": false,
+        "url": "",
+        "tag": ""
+      }
+    ],
+    "longtasks": [
+      {
+        "start": 54.39999997615814,
+        "duration": 298,
+        "value": 0,
+        "hadRecentInput": false,
+        "url": "",
+        "tag": ""
+      },
+      {
+        "start": 368.10000002384186,
+        "duration": 585,
+        "value": 0,
+        "hadRecentInput": false,
+        "url": "",
+        "tag": ""
+      },
+      {
+        "start": 976.3999999761581,
+        "duration": 135,
+        "value": 0,
+        "hadRecentInput": false,
+        "url": "",
+        "tag": ""
+      },
+      {
+        "start": 1126.6999999284744,
+        "duration": 477,
+        "value": 0,
+        "hadRecentInput": false,
+        "url": "",
+        "tag": ""
+      }
+    ]
+  },
+  "canvas": [
+    {
+      "id": "beam",
+      "w": 1440,
+      "h": 900
+    }
+  ],
+  "vw": 1440,
+  "docw": 1440
+}

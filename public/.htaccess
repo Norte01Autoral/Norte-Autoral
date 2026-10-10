@@ -1,0 +1,83 @@
+# Norte Autoral: static website at https://norteautoral.site/
+Options -Indexes -MultiViews
+DirectoryIndex index.html
+AddDefaultCharset UTF-8
+ErrorDocument 404 /404.html
+FileETag None
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Keep the public URL on HTTPS without www. Local previews remain local.
+  # Activate SSL for norteautoral.site and www before uploading this file.
+  RewriteCond %{HTTP_HOST} ^(?:www\.)?norteautoral\.site(?::\d+)?$ [NC]
+  RewriteCond %{HTTPS} !=on [OR]
+  RewriteCond %{HTTP_HOST} ^www\.norteautoral\.site(?::\d+)?$ [NC]
+  RewriteRule ^ https://norteautoral.site%{REQUEST_URI} [R=301,L]
+
+  # Normalize direct index.html requests; never redirect an internal rewrite.
+  RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html(?:[?\s]) [NC]
+  RewriteRule ^(.*/)?index\.html$ /$1 [R=301,L]
+
+  RewriteCond %{THE_REQUEST} \s/+(privacy|terms|v3|site-do-jd)\.html(?:[?\s]) [NC]
+  RewriteRule ^(privacy|terms|v3|site-do-jd)\.html$ /$1 [R=301,L]
+
+  # These are real HTML pages, not a fallback that turns missing URLs into 200.
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(privacy|terms|v3|site-do-jd)/?$ $1.html [L]
+
+  # Preserve certificate validation while keeping dotfiles private.
+  RewriteRule (^|/)\.(?!well-known(?:/|$)) - [F,L]
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+  AddType image/avif .avif
+  AddType image/svg+xml .svg
+  AddType font/woff2 .woff2
+  AddType font/woff .woff
+  AddType application/manifest+json .webmanifest
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript application/javascript application/json application/xml text/xml image/svg+xml
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 hour"
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType text/javascript "access plus 7 days"
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType image/webp "access plus 30 days"
+  ExpiresByType image/avif "access plus 30 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+  ExpiresByType image/x-icon "access plus 30 days"
+  ExpiresByType video/mp4 "access plus 30 days"
+  ExpiresByType video/webm "access plus 30 days"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header unset ETag
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache, max-age=0, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "^(robots\.txt|sitemap\.xml)$">
+    Header set Cache-Control "public, max-age=3600"
+  </FilesMatch>
+  # Only content-hashed Vite/vendor assets are immutable; editable helper files
+  # such as demo-navigation.js and media-performance.js keep the normal cache.
+  <FilesMatch "^(index-[A-Za-z0-9_-]{8}|[A-Za-z0-9_.-]+-[a-f0-9]{12})\.(css|js)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>

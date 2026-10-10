@@ -1,0 +1,22 @@
+# jdandrade.art
+# Buscadores (Google, Bing, DuckDuckGo…) e buscas com IA (ChatGPT Search, Perplexity) podem ler tudo.
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+# Robôs que coletam imagens e textos para TREINAR modelos de IA ficam de fora (o J.D. é #NoAI).
+# Isso não afeta o Google nem o Bing: Google-Extended e Applebot-Extended só controlam treino de IA.
+User-agent: GPTBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: Bytespider
+User-agent: meta-externalagent
+User-agent: cohere-training-data-crawler
+User-agent: img2dataset
+Disallow: /
+
+Sitemap: https://jdandrade.art/sitemap.xml

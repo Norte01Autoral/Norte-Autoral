@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "velorah-hero",
+    "title": "Velorah — Estúdio Digital",
+    "viewport": [
+      1440,
+      900
+    ],
+    "scrollY": 0,
+    "path": "/assets/portfolio-heroes/velorah-hero.jpg"
+  },
+  {
+    "slug": "lithos-hero",
+    "title": "Lithos — Geologia Interativa",
+    "viewport": [
+      1440,
+      900
+    ],
+    "scrollY": 0,
+    "path": "/assets/portfolio-heroes/lithos-hero.jpg"
+  },
+  {
+    "slug": "dentista-clinica-vertice",
+    "title": "Clínica Vértice · Ortodontia e implantes em Londrina",
+    "viewport": [
+      1440,
+      900
+    ],
+    "scrollY": 0,
+    "path": "/assets/portfolio-heroes/dentista-clinica-vertice.jpg"
+  },
+  {
+    "slug": "convix-hero",
+    "title": "Convix Software — Software para Agências de PR",
+    "viewport": [
+      1440,
+      900
+    ],
+    "scrollY": 0,
+    "path": "/assets/portfolio-heroes/convix-hero.jpg"
+  },
+  {
+    "slug": "aureo-arquitetura",
+    "title": "Áureo Arquitetura · residencial e incorporadora · desde MMV",
+    "viewport": [
+      1440,
+      900
+    ],
+    "scrollY": 0,
+    "path": "/assets/portfolio-heroes/aureo-arquitetura.jpg"
+  },
+  {
+    "slug": "confeitaria-margo",
+    "title": "Margô · Confeitaria autoral em Londrina",
+    "viewport": [
+      1440,
+      900
+    ],
+    "scrollY": 0,
+    "path": "/assets/portfolio-heroes/confeitaria-margo.jpg"
+  },
+  {
+    "slug": "instituto-liminar",
+    "title": "Instituto Liminar · Ensino superior em psicanálise",
+    "viewport": [
+      1440,
+      900
+    ],
+    "scrollY": 0,
+    "path": "/assets/portfolio-heroes/instituto-liminar.jpg"
+  },
+  {
+    "slug": "verene-odontologia",
+    "title": "Verene Odontologia · Implantes e reabilitação de alto padrão",
+    "viewport": [
+      1440,
+      900
+    ],
+    "scrollY": 0,
+    "path": "/assets/portfolio-heroes/verene-odontologia.jpg"
+  },
+  {
+    "slug": "arquitetura-estudio-linha",
+    "title": "Estúdio Linha · Arquitetura residencial autoral em Londrina",
+    "viewport": [
+      1440,
+      900
+    ],
+    "scrollY": 0,
+    "path": "/assets/portfolio-heroes/arquitetura-estudio-linha.jpg"
+  }
+]

@@ -1,0 +1,403 @@
+{
+  "captured": "2026-10-09",
+  "pages": [
+    {
+      "url": "https://www.sabec.dev/",
+      "status": 200,
+      "localReference": "www-root.html",
+      "title": "Sabec° | Sites, sistemas sob medida e Sabec/Os em Londrina",
+      "bytes": 165666,
+      "urls": [
+        "https://sabec.dev/",
+        "https://www.googletagmanager.com/gtag/js?id=",
+        "https://fonts.googleapis.com/",
+        "https://fonts.gstatic.com/",
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap",
+        "https://www.sabec.dev/assets/portfolio-thumbs/lithos-hero.jpg",
+        "https://www.sabec.dev/assets/portfolio-thumbs/dentista-clinica-vertice.jpg",
+        "https://jdandrade.art/",
+        "https://www.sabec.dev/site-do-jd",
+        "https://www.sabec.dev/assets/cases/jd-capa.jpg",
+        "https://www.sabec.dev/assets/cases/jd-arte.jpg",
+        "https://www.sabec.dev/assets/cases/jd-galeria.jpg",
+        "https://www.sabec.dev/assets/cases/jd-galeria-2.jpg",
+        "https://www.sabec.dev/assets/cases/jd-celular.jpg",
+        "https://www.sabec.dev/assets/cases/ana-capa.jpg",
+        "https://www.sabec.dev/assets/cases/ana-celular.jpg",
+        "https://draanascatolin.com.br/",
+        "https://www.sabec.dev/v3",
+        "https://www.sabec.dev/assets/cases/sabec-v3.jpg",
+        "https://www.sabec.dev/marketing/portfolio/velorah-hero/dist/index.html",
+        "https://www.sabec.dev/assets/portfolio-thumbs/velorah-hero.jpg",
+        "https://www.sabec.dev/marketing/portfolio/lithos-hero/dist/index.html",
+        "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/index.html",
+        "https://www.sabec.dev/marketing/portfolio/convix-hero/dist/index.html",
+        "https://www.sabec.dev/assets/portfolio-thumbs/convix-hero.jpg",
+        "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/index.html",
+        "https://www.sabec.dev/assets/portfolio-thumbs/aureo-arquitetura.jpg",
+        "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/index.html",
+        "https://www.sabec.dev/assets/portfolio-thumbs/confeitaria-margo.jpg",
+        "https://www.sabec.dev/marketing/portfolio/instituto-liminar/index.html",
+        "https://www.sabec.dev/assets/portfolio-thumbs/instituto-liminar.jpg",
+        "https://www.sabec.dev/marketing/portfolio/verene-odontologia/index.html",
+        "https://www.sabec.dev/assets/portfolio-thumbs/verene-odontologia.jpg",
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/index.html",
+        "https://www.sabec.dev/assets/portfolio-thumbs/arquitetura-estudio-linha.jpg",
+        "https://instagram.com/sabec.dev",
+        "https://www.sabec.dev/assets/portfolio-thumbs/portrait.jpeg",
+        "https://wa.me/5543991334218",
+        "https://cal.com/diogo-sabec-2kgs31/30min",
+        "https://myaccount.google.com/permissions",
+        "https://www.sabec.dev/privacy",
+        "https://www.sabec.dev/terms",
+        "mailto:diogovanzosabec@gmail.com",
+        "https://linkedin.com/in/diogo-sabec",
+        "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+        "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js",
+        "https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js",
+        "https://www.sabec.dev/%23n"
+      ],
+      "scripts": [
+        "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+        "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js",
+        "https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"
+      ]
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/index.html",
+      "status": 200,
+      "localReference": "marketing__portfolio__arquitetura-estudio-linha__index.html",
+      "title": "Estúdio Linha · Arquitetura residencial autoral em Londrina",
+      "bytes": 45519,
+      "urls": [
+        "https://fonts.googleapis.com/",
+        "https://fonts.gstatic.com/",
+        "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Archivo:wght@300;400;500;600&display=swap",
+        "https://wa.me/5543000000000",
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/img/fachada-ouro.jpg",
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/video/hero.mp4",
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/img/detalhe-sombra.jpg",
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/img/estar-pe-direito.jpg",
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/img/escada-luz.jpg",
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/img/patio-azul.jpg",
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/assets/img/varanda-ripas.jpg",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js",
+        "https://unpkg.com/lenis@1.1.13/dist/lenis.min.js",
+        "https://www.sabec.dev/marketing/portfolio/arquitetura-estudio-linha/%23n"
+      ],
+      "scripts": [
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js",
+        "https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"
+      ]
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/index.html",
+      "status": 200,
+      "localReference": "marketing__portfolio__aureo-arquitetura__index.html",
+      "title": "Áureo Arquitetura · residencial e incorporadora · desde MMV",
+      "bytes": 58646,
+      "urls": [
+        "https://fonts.googleapis.com/",
+        "https://fonts.gstatic.com/",
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap",
+        "https://unpkg.com/lenis@1.1.13/dist/lenis.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js",
+        "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/img/hero-fachada.jpg",
+        "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/video/hero.mp4",
+        "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/img/detalhe-concreto.jpg",
+        "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/img/torres-carmel.jpg",
+        "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/img/complexo-aereo.jpg",
+        "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/img/memorial-parabola.jpg",
+        "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/assets/img/interior-living.jpg",
+        "https://wa.me/5500000000000?text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20um%20projeto.",
+        "https://wa.me/5500000000000",
+        "mailto:contato@suamarca.com.br",
+        "mailto:projetos@suamarca.com.br",
+        "https://www.instagram.com/suamarca/",
+        "https://sabec.dev/"
+      ],
+      "scripts": [
+        "https://unpkg.com/lenis@1.1.13/dist/lenis.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      ]
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/index.html",
+      "status": 200,
+      "localReference": "marketing__portfolio__confeitaria-margo__index.html",
+      "title": "Margô · Confeitaria autoral em Londrina",
+      "bytes": 58842,
+      "urls": [
+        "https://fonts.googleapis.com/",
+        "https://fonts.gstatic.com/",
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600&family=Inter:wght@300;400;500;600&display=swap",
+        "https://wa.me/5543000000000",
+        "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/img/hero-brunch.jpg",
+        "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/video/hero.mp4",
+        "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/img/bolo-frutas.jpg",
+        "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/img/brigadeiros.jpg",
+        "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/img/naked-cake.jpg",
+        "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/img/tortinha-limao.jpg",
+        "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/assets/img/croissants.jpg",
+        "https://sabec.dev/",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js",
+        "https://unpkg.com/lenis@1.1.13/dist/lenis.min.js",
+        "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/%23n"
+      ],
+      "scripts": [
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js",
+        "https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"
+      ]
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/convix-hero/dist/index.html",
+      "status": 200,
+      "localReference": "marketing__portfolio__convix-hero__dist__index.html",
+      "title": "Convix Software — Software para Agências de PR",
+      "bytes": 580,
+      "urls": [
+        "https://fonts.googleapis.com/",
+        "https://fonts.gstatic.com/",
+        "https://www.sabec.dev/marketing/portfolio/convix-hero/dist/assets/index-D04Epqih.js",
+        "https://www.sabec.dev/marketing/portfolio/convix-hero/dist/assets/index-7O04r-Vl.css"
+      ],
+      "scripts": [
+        "./assets/index-D04Epqih.js"
+      ]
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/index.html",
+      "status": 200,
+      "localReference": "marketing__portfolio__dentista-clinica-vertice__index.html",
+      "title": "Clínica Vértice · Ortodontia e implantes em Londrina",
+      "bytes": 44496,
+      "urls": [
+        "https://fonts.googleapis.com/",
+        "https://fonts.gstatic.com/",
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..650;1,9..144,300..650&family=Inter:wght@300;400;500;600&display=swap",
+        "https://wa.me/5543000000000",
+        "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/img/recepcao.jpg",
+        "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/video/hero.mp4",
+        "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/img/alinhador-macro.jpg",
+        "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/img/sorriso.jpg",
+        "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/img/implante-3d.jpg",
+        "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/img/consultorio.jpg",
+        "https://www.sabec.dev/marketing/portfolio/dentista-clinica-vertice/assets/img/imagem-3d.jpg",
+        "tel:+554300000000",
+        "https://sabec.dev/",
+        "https://unpkg.com/lenis@1.1.13/dist/lenis.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      ],
+      "scripts": [
+        "https://unpkg.com/lenis@1.1.13/dist/lenis.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      ]
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/instituto-liminar/index.html",
+      "status": 200,
+      "localReference": "marketing__portfolio__instituto-liminar__index.html",
+      "title": "Instituto Liminar · Ensino superior em psicanálise",
+      "bytes": 52063,
+      "urls": [
+        "https://fonts.googleapis.com/",
+        "https://fonts.gstatic.com/",
+        "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap",
+        "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/img/hero-biblioteca.jpg",
+        "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/video/hero.mp4",
+        "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/img/maos-livro.jpg",
+        "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/img/manuscrito.jpg",
+        "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/img/diva.jpg",
+        "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/img/motivo-grafico.jpg",
+        "https://www.sabec.dev/marketing/portfolio/instituto-liminar/assets/img/anfiteatro.jpg",
+        "https://sabec.dev/",
+        "https://unpkg.com/lenis@1.1.13/dist/lenis.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js",
+        "https://www.sabec.dev/marketing/portfolio/instituto-liminar/%23n"
+      ],
+      "scripts": [
+        "https://unpkg.com/lenis@1.1.13/dist/lenis.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      ]
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/lithos-hero/dist/index.html",
+      "status": 200,
+      "localReference": "marketing__portfolio__lithos-hero__dist__index.html",
+      "title": "Lithos — Geologia Interativa",
+      "bytes": 561,
+      "urls": [
+        "https://fonts.googleapis.com/",
+        "https://fonts.gstatic.com/",
+        "https://www.sabec.dev/marketing/portfolio/lithos-hero/dist/assets/index-CMXdz8kw.js",
+        "https://www.sabec.dev/marketing/portfolio/lithos-hero/dist/assets/index-DIp2DAYC.css"
+      ],
+      "scripts": [
+        "./assets/index-CMXdz8kw.js"
+      ]
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/velorah-hero/dist/index.html",
+      "status": 200,
+      "localReference": "marketing__portfolio__velorah-hero__dist__index.html",
+      "title": "Velorah — Estúdio Digital",
+      "bytes": 709,
+      "urls": [
+        "https://fonts.googleapis.com/",
+        "https://fonts.gstatic.com/",
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Instrument+Serif&display=swap",
+        "https://www.sabec.dev/marketing/portfolio/velorah-hero/dist/assets/index-xMIOyhaI.js",
+        "https://www.sabec.dev/marketing/portfolio/velorah-hero/dist/assets/index-BPhN6xXn.css"
+      ],
+      "scripts": [
+        "./assets/index-xMIOyhaI.js"
+      ]
+    },
+    {
+      "url": "https://www.sabec.dev/marketing/portfolio/verene-odontologia/index.html",
+      "status": 200,
+      "localReference": "marketing__portfolio__verene-odontologia__index.html",
+      "title": "Verene Odontologia · Implantes e reabilitação de alto padrão",
+      "bytes": 42004,
+      "urls": [
+        "https://fonts.googleapis.com/",
+        "https://fonts.gstatic.com/",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap",
+        "https://wa.me/5500000000000?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o",
+        "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/img/hero-recepcao.jpg",
+        "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/video/hero.mp4",
+        "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/img/implante-3d.jpg",
+        "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/img/alinhador.jpg",
+        "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/img/protese-ceramica.jpg",
+        "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/img/sorriso.jpg",
+        "https://www.sabec.dev/marketing/portfolio/verene-odontologia/assets/img/consultorio.jpg",
+        "https://wa.me/5500000000000",
+        "https://instagram.com/",
+        "https://sabec.dev/",
+        "https://unpkg.com/lenis@1.1.13/dist/lenis.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      ],
+      "scripts": [
+        "https://unpkg.com/lenis@1.1.13/dist/lenis.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      ]
+    },
+    {
+      "url": "https://www.sabec.dev/privacy",
+      "status": 200,
+      "localReference": "privacy.html",
+      "title": "Política de Privacidade — Sabec°",
+      "bytes": 9692,
+      "urls": [
+        "https://fonts.googleapis.com/",
+        "https://fonts.gstatic.com/",
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap",
+        "https://www.sabec.dev/",
+        "https://www.sabec.dev/terms",
+        "mailto:diogovanzosabec@gmail.com",
+        "https://wa.me/5543991334218",
+        "https://sabec.dev/",
+        "https://developers.google.com/terms/api-services-user-data-policy",
+        "https://myaccount.google.com/permissions"
+      ],
+      "scripts": []
+    },
+    {
+      "url": "https://www.sabec.dev/site-do-jd",
+      "status": 200,
+      "localReference": "site-do-jd.html",
+      "title": "Como eu fiz o site do JD com IA",
+      "bytes": 23860,
+      "urls": [
+        "https://www.sabec.dev/assets/sabec-logo.svg",
+        "https://fonts.googleapis.com/",
+        "https://fonts.gstatic.com/",
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap",
+        "https://www.sabec.dev/assets/Logotipo%20Branco%20e%20Azul.svg",
+        "https://jdandrade.art/",
+        "https://www.sabec.dev/site-do-jd/img/template.webp",
+        "https://www.sabec.dev/site-do-jd/img/painel-textos.webp",
+        "https://www.sabec.dev/site-do-jd/img/painel-precos.webp",
+        "https://www.sabec.dev/site-do-jd/img/painel-artes.webp",
+        "https://www.sabec.dev/site-do-jd/img/site-pc.webp",
+        "https://www.sabec.dev/site-do-jd/img/site-celular.webp",
+        "https://wa.me/5543991334218?text=Vi%20o%20passo%20a%20passo%20do%20site%20do%20JD",
+        "https://instagram.com/sabec.dev"
+      ],
+      "scripts": []
+    },
+    {
+      "url": "https://www.sabec.dev/terms",
+      "status": 200,
+      "localReference": "terms.html",
+      "title": "Termos de Uso — Sabec°",
+      "bytes": 7719,
+      "urls": [
+        "https://fonts.googleapis.com/",
+        "https://fonts.gstatic.com/",
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap",
+        "https://www.sabec.dev/",
+        "https://www.sabec.dev/privacy",
+        "mailto:diogovanzosabec@gmail.com",
+        "https://wa.me/5543991334218"
+      ],
+      "scripts": []
+    },
+    {
+      "url": "https://www.sabec.dev/v3",
+      "status": 200,
+      "localReference": "v3.html",
+      "title": "Sabec° | Agência de IA em Londrina e Sabec/Os",
+      "bytes": 114501,
+      "urls": [
+        "https://sabec.dev/",
+        "https://fonts.googleapis.com/",
+        "https://fonts.gstatic.com/",
+        "https://cdn.jsdelivr.net/",
+        "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap",
+        "https://wa.me/5543991334218",
+        "https://www.sabec.dev/marketing/portfolio/velorah-hero/dist/index.html",
+        "https://www.sabec.dev/assets/portfolio-thumbs/velorah-hero.jpg",
+        "https://www.sabec.dev/marketing/portfolio/lithos-hero/dist/index.html",
+        "https://www.sabec.dev/assets/portfolio-thumbs/lithos-hero.jpg",
+        "https://www.sabec.dev/marketing/portfolio/convix-hero/dist/index.html",
+        "https://www.sabec.dev/assets/portfolio-thumbs/convix-hero.jpg",
+        "https://www.sabec.dev/marketing/portfolio/confeitaria-margo/index.html",
+        "https://www.sabec.dev/assets/portfolio-thumbs/confeitaria-margo.jpg",
+        "https://www.sabec.dev/marketing/portfolio/aureo-arquitetura/index.html",
+        "https://www.sabec.dev/assets/portfolio-thumbs/aureo-arquitetura.jpg",
+        "https://www.sabec.dev/marketing/portfolio/verene-odontologia/index.html",
+        "https://www.sabec.dev/assets/portfolio-thumbs/verene-odontologia.jpg",
+        "https://instagram.com/sabec.dev",
+        "https://www.sabec.dev/assets/portfolio-thumbs/portrait.jpeg",
+        "https://cal.com/diogo-sabec-2kgs31/30min",
+        "https://myaccount.google.com/permissions",
+        "https://www.sabec.dev/privacy",
+        "https://www.sabec.dev/terms",
+        "mailto:diogovanzosabec@gmail.com",
+        "https://linkedin.com/in/diogo-sabec",
+        "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+        "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js",
+        "https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js",
+        "https://www.sabec.dev/%23n"
+      ],
+      "scripts": [
+        "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+        "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js",
+        "https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"
+      ]
+    }
+  ]
+}

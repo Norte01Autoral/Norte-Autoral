@@ -1,0 +1,2915 @@
+{
+  "checkedAt": "2026-10-10T18:49:56.337Z",
+  "base": "https://norteautoral.site",
+  "scope": "Unauthenticated HTTP only; no browser, credentials or hosting changes.",
+  "routes": [
+    {
+      "path": "/",
+      "url": "https://norteautoral.site/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Norte Autoral | Sites, Meta Ads e Google Ads em Parnaíba",
+      "hasGabriel": true,
+      "hasMetaAds": true,
+      "canonical": "https://norteautoral.site/",
+      "robots": "index, follow, max-image-preview:large",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/privacy",
+      "url": "https://norteautoral.site/privacy",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/privacy",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Contato e privacidade — Norte Autoral",
+      "hasGabriel": true,
+      "hasMetaAds": false,
+      "canonical": "https://norteautoral.site/privacy",
+      "robots": "index, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/terms",
+      "url": "https://norteautoral.site/terms",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/terms",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Sobre este portfólio — Norte Autoral",
+      "hasGabriel": true,
+      "hasMetaAds": false,
+      "canonical": "https://norteautoral.site/terms",
+      "robots": "index, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/v3",
+      "url": "https://norteautoral.site/v3",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/v3",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Norte Autoral | Sites, sistemas e Norte/OS",
+      "hasGabriel": true,
+      "hasMetaAds": true,
+      "canonical": "https://norteautoral.site/v3",
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/site-do-jd",
+      "url": "https://norteautoral.site/site-do-jd",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/site-do-jd",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Como foi criado o site do JD · Estudo de referência",
+      "hasGabriel": true,
+      "hasMetaAds": false,
+      "canonical": "https://norteautoral.site/site-do-jd",
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/nao-existe-qa-publicacao-20261010",
+      "url": "https://norteautoral.site/nao-existe-qa-publicacao-20261010",
+      "status": 404,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/nao-existe-qa-publicacao-20261010",
+          "status": 404
+        }
+      ],
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "public,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Página não encontrada — Norte Autoral",
+      "hasGabriel": false,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/robots.txt",
+      "url": "https://norteautoral.site/robots.txt",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/robots.txt",
+          "status": 200
+        }
+      ],
+      "contentType": "text/plain; charset=UTF-8",
+      "cacheControl": "public,max-age=3600",
+      "contentEncoding": null,
+      "contentLength": "71",
+      "server": "Netlify",
+      "title": "",
+      "hasGabriel": false,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": null,
+      "netlifyBadgeMention": false,
+      "text": "User-agent: *\nAllow: /\n\nSitemap: https://norteautoral.site/sitemap.xml\n"
+    },
+    {
+      "path": "/sitemap.xml",
+      "url": "https://norteautoral.site/sitemap.xml",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/sitemap.xml",
+          "status": 200
+        }
+      ],
+      "contentType": "application/xml",
+      "cacheControl": "public,max-age=3600",
+      "contentEncoding": null,
+      "contentLength": "362",
+      "server": "Netlify",
+      "title": "",
+      "hasGabriel": false,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": null,
+      "netlifyBadgeMention": false,
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://norteautoral.site/</loc><lastmod>2026-10-10</lastmod></url>\n  <url><loc>https://norteautoral.site/privacy</loc><lastmod>2026-10-10</lastmod></url>\n  <url><loc>https://norteautoral.site/terms</loc><lastmod>2026-10-10</lastmod></url>\n</urlset>\n"
+    },
+    {
+      "path": "/index.html",
+      "url": "https://norteautoral.site/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/index.html",
+          "status": 301,
+          "location": "/"
+        },
+        {
+          "url": "https://norteautoral.site/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Norte Autoral | Sites, Meta Ads e Google Ads em Parnaíba",
+      "hasGabriel": true,
+      "hasMetaAds": true,
+      "canonical": "https://norteautoral.site/",
+      "robots": "index, follow, max-image-preview:large",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/privacy.html",
+      "url": "https://norteautoral.site/privacy",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/privacy.html",
+          "status": 301,
+          "location": "/privacy"
+        },
+        {
+          "url": "https://norteautoral.site/privacy",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Contato e privacidade — Norte Autoral",
+      "hasGabriel": true,
+      "hasMetaAds": false,
+      "canonical": "https://norteautoral.site/privacy",
+      "robots": "index, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/terms.html",
+      "url": "https://norteautoral.site/terms",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/terms.html",
+          "status": 301,
+          "location": "/terms"
+        },
+        {
+          "url": "https://norteautoral.site/terms",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Sobre este portfólio — Norte Autoral",
+      "hasGabriel": true,
+      "hasMetaAds": false,
+      "canonical": "https://norteautoral.site/terms",
+      "robots": "index, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/v3.html",
+      "url": "https://norteautoral.site/v3",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/v3.html",
+          "status": 301,
+          "location": "/v3"
+        },
+        {
+          "url": "https://norteautoral.site/v3",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Norte Autoral | Sites, sistemas e Norte/OS",
+      "hasGabriel": true,
+      "hasMetaAds": true,
+      "canonical": "https://norteautoral.site/v3",
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/site-do-jd.html",
+      "url": "https://norteautoral.site/site-do-jd",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/site-do-jd.html",
+          "status": 301,
+          "location": "/site-do-jd"
+        },
+        {
+          "url": "https://norteautoral.site/site-do-jd",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": "7763",
+      "server": "Netlify",
+      "title": "Como foi criado o site do JD · Estudo de referência",
+      "hasGabriel": true,
+      "hasMetaAds": false,
+      "canonical": "https://norteautoral.site/site-do-jd",
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/privacy/index.html",
+      "url": "https://norteautoral.site/privacy/index.html",
+      "status": 404,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/privacy/index.html",
+          "status": 404
+        }
+      ],
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "public,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": "774",
+      "server": "Netlify",
+      "title": "Página não encontrada — Norte Autoral",
+      "hasGabriel": false,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/terms/index.html",
+      "url": "https://norteautoral.site/terms/index.html",
+      "status": 404,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/terms/index.html",
+          "status": 404
+        }
+      ],
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "public,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": "774",
+      "server": "Netlify",
+      "title": "Página não encontrada — Norte Autoral",
+      "hasGabriel": false,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/v3/index.html",
+      "url": "https://norteautoral.site/v3/index.html",
+      "status": 404,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/v3/index.html",
+          "status": 404
+        }
+      ],
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "public,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": "774",
+      "server": "Netlify",
+      "title": "Página não encontrada — Norte Autoral",
+      "hasGabriel": false,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/site-do-jd/index.html",
+      "url": "https://norteautoral.site/site-do-jd/index.html",
+      "status": 404,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/site-do-jd/index.html",
+          "status": 404
+        }
+      ],
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "public,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": "774",
+      "server": "Netlify",
+      "title": "Página não encontrada — Norte Autoral",
+      "hasGabriel": false,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/marketing/portfolio/velorah-hero/dist/",
+      "url": "https://norteautoral.site/marketing/portfolio/velorah-hero/dist/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/velorah-hero/dist/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": null,
+      "contentLength": "763",
+      "server": "Netlify",
+      "title": "Velorah — Estúdio Digital",
+      "hasGabriel": false,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/marketing/portfolio/lithos-hero/dist/",
+      "url": "https://norteautoral.site/marketing/portfolio/lithos-hero/dist/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/lithos-hero/dist/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": null,
+      "contentLength": "659",
+      "server": "Netlify",
+      "title": "Lithos — Geologia Interativa",
+      "hasGabriel": false,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/marketing/portfolio/dentista-clinica-vertice/",
+      "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Clínica Vértice · Ortodontia e implantes em Londrina",
+      "hasGabriel": true,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/marketing/portfolio/convix-hero/dist/",
+      "url": "https://norteautoral.site/marketing/portfolio/convix-hero/dist/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/convix-hero/dist/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": null,
+      "contentLength": "678",
+      "server": "Netlify",
+      "title": "Convix Software — Software para Agências de PR",
+      "hasGabriel": false,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/marketing/portfolio/aureo-arquitetura/",
+      "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Áureo Arquitetura · residencial e incorporadora · desde MMV",
+      "hasGabriel": true,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/marketing/portfolio/confeitaria-margo/",
+      "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Margô · Confeitaria autoral em Londrina",
+      "hasGabriel": true,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/marketing/portfolio/instituto-liminar/",
+      "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Instituto Liminar · Ensino superior em psicanálise",
+      "hasGabriel": true,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/marketing/portfolio/verene-odontologia/",
+      "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Verene Odontologia · Implantes e reabilitação de alto padrão",
+      "hasGabriel": true,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/",
+      "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Estúdio Linha · Arquitetura residencial autoral em Londrina",
+      "hasGabriel": true,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/marketing/portfolio/velorah-hero/dist/index.html",
+      "url": "https://norteautoral.site/marketing/portfolio/velorah-hero/dist/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/velorah-hero/dist/index.html",
+          "status": 301,
+          "location": "/marketing/portfolio/velorah-hero/dist/"
+        },
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/velorah-hero/dist/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": null,
+      "contentLength": "763",
+      "server": "Netlify",
+      "title": "Velorah — Estúdio Digital",
+      "hasGabriel": false,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/marketing/portfolio/lithos-hero/dist/index.html",
+      "url": "https://norteautoral.site/marketing/portfolio/lithos-hero/dist/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/lithos-hero/dist/index.html",
+          "status": 301,
+          "location": "/marketing/portfolio/lithos-hero/dist/"
+        },
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/lithos-hero/dist/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": null,
+      "contentLength": "659",
+      "server": "Netlify",
+      "title": "Lithos — Geologia Interativa",
+      "hasGabriel": false,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/marketing/portfolio/dentista-clinica-vertice/index.html",
+      "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/index.html",
+          "status": 301,
+          "location": "/marketing/portfolio/dentista-clinica-vertice/"
+        },
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Clínica Vértice · Ortodontia e implantes em Londrina",
+      "hasGabriel": true,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/marketing/portfolio/convix-hero/dist/index.html",
+      "url": "https://norteautoral.site/marketing/portfolio/convix-hero/dist/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/convix-hero/dist/index.html",
+          "status": 301,
+          "location": "/marketing/portfolio/convix-hero/dist/"
+        },
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/convix-hero/dist/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": null,
+      "contentLength": "678",
+      "server": "Netlify",
+      "title": "Convix Software — Software para Agências de PR",
+      "hasGabriel": false,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/marketing/portfolio/aureo-arquitetura/index.html",
+      "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/index.html",
+          "status": 301,
+          "location": "/marketing/portfolio/aureo-arquitetura/"
+        },
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": "13419",
+      "server": "Netlify",
+      "title": "Áureo Arquitetura · residencial e incorporadora · desde MMV",
+      "hasGabriel": true,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/marketing/portfolio/confeitaria-margo/index.html",
+      "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/index.html",
+          "status": 301,
+          "location": "/marketing/portfolio/confeitaria-margo/"
+        },
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Margô · Confeitaria autoral em Londrina",
+      "hasGabriel": true,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/marketing/portfolio/instituto-liminar/index.html",
+      "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/index.html",
+          "status": 301,
+          "location": "/marketing/portfolio/instituto-liminar/"
+        },
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Instituto Liminar · Ensino superior em psicanálise",
+      "hasGabriel": true,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/marketing/portfolio/verene-odontologia/index.html",
+      "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/index.html",
+          "status": 301,
+          "location": "/marketing/portfolio/verene-odontologia/"
+        },
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Verene Odontologia · Implantes e reabilitação de alto padrão",
+      "hasGabriel": true,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/index.html",
+      "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/index.html",
+          "status": 301,
+          "location": "/marketing/portfolio/arquitetura-estudio-linha/"
+        },
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify",
+      "title": "Estúdio Linha · Arquitetura residencial autoral em Londrina",
+      "hasGabriel": true,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "/.htaccess",
+      "url": "https://norteautoral.site/.htaccess",
+      "status": 404,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/.htaccess",
+          "status": 404
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "public,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": "774",
+      "server": "Netlify",
+      "title": "Página não encontrada — Norte Autoral",
+      "hasGabriel": false,
+      "hasMetaAds": false,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "http://norteautoral.site/",
+      "url": "https://norteautoral.site/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "http://norteautoral.site/",
+          "status": 301,
+          "location": "https://norteautoral.site/"
+        },
+        {
+          "url": "https://norteautoral.site/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": "37692",
+      "server": "Netlify",
+      "title": "Norte Autoral | Sites, Meta Ads e Google Ads em Parnaíba",
+      "hasGabriel": true,
+      "hasMetaAds": true,
+      "canonical": "https://norteautoral.site/",
+      "robots": "index, follow, max-image-preview:large",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "http://www.norteautoral.site/",
+      "url": "https://norteautoral.site/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "http://www.norteautoral.site/",
+          "status": 301,
+          "location": "https://www.norteautoral.site/"
+        },
+        {
+          "url": "https://www.norteautoral.site/",
+          "status": 301,
+          "location": "https://norteautoral.site/"
+        },
+        {
+          "url": "https://norteautoral.site/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": "37692",
+      "server": "Netlify",
+      "title": "Norte Autoral | Sites, Meta Ads e Google Ads em Parnaíba",
+      "hasGabriel": true,
+      "hasMetaAds": true,
+      "canonical": "https://norteautoral.site/",
+      "robots": "index, follow, max-image-preview:large",
+      "netlifyBadgeMention": false
+    },
+    {
+      "path": "https://www.norteautoral.site/",
+      "url": "https://norteautoral.site/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://www.norteautoral.site/",
+          "status": 301,
+          "location": "https://norteautoral.site/"
+        },
+        {
+          "url": "https://norteautoral.site/",
+          "status": 200
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "cacheControl": "no-cache,max-age=0,must-revalidate",
+      "contentEncoding": "br",
+      "contentLength": "37692",
+      "server": "Netlify",
+      "title": "Norte Autoral | Sites, Meta Ads e Google Ads em Parnaíba",
+      "hasGabriel": true,
+      "hasMetaAds": true,
+      "canonical": "https://norteautoral.site/",
+      "robots": "index, follow, max-image-preview:large",
+      "netlifyBadgeMention": false
+    }
+  ],
+  "assets": [
+    {
+      "path": "/assets/demo-navigation.js",
+      "url": "https://norteautoral.site/assets/demo-navigation.js",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/demo-navigation.js",
+          "status": 200
+        }
+      ],
+      "contentType": "application/javascript; charset=UTF-8",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/media-performance.js",
+      "url": "https://norteautoral.site/assets/media-performance.js",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/media-performance.js",
+          "status": 200
+        }
+      ],
+      "contentType": "application/javascript; charset=UTF-8",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": "br",
+      "contentLength": "674",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/norte-autoral/profile.css",
+      "url": "https://norteautoral.site/assets/norte-autoral/profile.css",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/norte-autoral/profile.css",
+          "status": 200
+        }
+      ],
+      "contentType": "text/css; charset=UTF-8",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": "br",
+      "contentLength": "1000",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/norte-autoral/gabriel-holanda.webp",
+      "url": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "85408",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/norte-autoral/og-norte-autoral.jpg",
+      "url": "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "64112",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/norte-autoral/favicon.svg?v=2",
+      "url": "https://norteautoral.site/assets/norte-autoral/favicon.svg?v=2",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/norte-autoral/favicon.svg?v=2",
+          "status": 200
+        }
+      ],
+      "contentType": "image/svg+xml",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/norte-autoral/favicon-32.png",
+      "url": "https://norteautoral.site/assets/norte-autoral/favicon-32.png",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/norte-autoral/favicon-32.png",
+          "status": 200
+        }
+      ],
+      "contentType": "image/png",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "1390",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/norte-autoral/favicon.ico",
+      "url": "https://norteautoral.site/assets/norte-autoral/favicon.ico",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/norte-autoral/favicon.ico",
+          "status": 200
+        }
+      ],
+      "contentType": "image/vnd.microsoft.icon",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/vendor/fonts.googleapis.com/css2-7c9831d3cb65.css",
+      "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-7c9831d3cb65.css",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-7c9831d3cb65.css",
+          "status": 200
+        }
+      ],
+      "contentType": "text/css; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/norte-autoral/logo-n-128.png",
+      "url": "https://norteautoral.site/assets/norte-autoral/logo-n-128.png",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/norte-autoral/logo-n-128.png",
+          "status": 200
+        }
+      ],
+      "contentType": "image/png",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "11052",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/portfolio-heroes/dentista-clinica-vertice.webp",
+      "url": "https://norteautoral.site/assets/portfolio-heroes/dentista-clinica-vertice.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/portfolio-heroes/dentista-clinica-vertice.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "93000",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/cases/jd-capa.jpg",
+      "url": "https://norteautoral.site/assets/cases/jd-capa.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/cases/jd-capa.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "181940",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/cases/jd-arte.jpg",
+      "url": "https://norteautoral.site/assets/cases/jd-arte.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/cases/jd-arte.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "124076",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/cases/jd-galeria.jpg",
+      "url": "https://norteautoral.site/assets/cases/jd-galeria.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/cases/jd-galeria.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "166373",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/cases/jd-galeria-2.jpg",
+      "url": "https://norteautoral.site/assets/cases/jd-galeria-2.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/cases/jd-galeria-2.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "172365",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/cases/jd-celular.jpg",
+      "url": "https://norteautoral.site/assets/cases/jd-celular.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/cases/jd-celular.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "96238",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/cases/ana-capa.webp",
+      "url": "https://norteautoral.site/assets/cases/ana-capa.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/cases/ana-capa.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "50532",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/cases/ana-celular.webp",
+      "url": "https://norteautoral.site/assets/cases/ana-celular.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/cases/ana-celular.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "55890",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/norte-autoral/portfolio-v3.webp",
+      "url": "https://norteautoral.site/assets/norte-autoral/portfolio-v3.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/norte-autoral/portfolio-v3.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "61908",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/portfolio-thumbs/velorah-hero.webp",
+      "url": "https://norteautoral.site/assets/portfolio-thumbs/velorah-hero.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/portfolio-thumbs/velorah-hero.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "92406",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/portfolio-thumbs/lithos-hero.webp",
+      "url": "https://norteautoral.site/assets/portfolio-thumbs/lithos-hero.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/portfolio-thumbs/lithos-hero.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "100478",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/portfolio-thumbs/dentista-clinica-vertice.webp",
+      "url": "https://norteautoral.site/assets/portfolio-thumbs/dentista-clinica-vertice.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/portfolio-thumbs/dentista-clinica-vertice.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "84476",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/portfolio-thumbs/convix-hero.webp",
+      "url": "https://norteautoral.site/assets/portfolio-thumbs/convix-hero.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/portfolio-thumbs/convix-hero.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "131834",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/portfolio-thumbs/aureo-arquitetura.webp",
+      "url": "https://norteautoral.site/assets/portfolio-thumbs/aureo-arquitetura.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/portfolio-thumbs/aureo-arquitetura.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "71314",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/portfolio-thumbs/confeitaria-margo.webp",
+      "url": "https://norteautoral.site/assets/portfolio-thumbs/confeitaria-margo.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/portfolio-thumbs/confeitaria-margo.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "59240",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/portfolio-thumbs/instituto-liminar.webp",
+      "url": "https://norteautoral.site/assets/portfolio-thumbs/instituto-liminar.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/portfolio-thumbs/instituto-liminar.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "106790",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/portfolio-thumbs/verene-odontologia.webp",
+      "url": "https://norteautoral.site/assets/portfolio-thumbs/verene-odontologia.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/portfolio-thumbs/verene-odontologia.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "31958",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/portfolio-thumbs/arquitetura-estudio-linha.webp",
+      "url": "https://norteautoral.site/assets/portfolio-thumbs/arquitetura-estudio-linha.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/portfolio-thumbs/arquitetura-estudio-linha.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "110008",
+      "server": "Netlify"
+    },
+    {
+      "path": "/vendor/cdn.jsdelivr.net/gsap.min-bf5b26673eee.js",
+      "url": "https://norteautoral.site/vendor/cdn.jsdelivr.net/gsap.min-bf5b26673eee.js",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/cdn.jsdelivr.net/gsap.min-bf5b26673eee.js",
+          "status": 200
+        }
+      ],
+      "contentType": "application/javascript; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/vendor/cdn.jsdelivr.net/ScrollTrigger.min-8275e947aa32.js",
+      "url": "https://norteautoral.site/vendor/cdn.jsdelivr.net/ScrollTrigger.min-8275e947aa32.js",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/cdn.jsdelivr.net/ScrollTrigger.min-8275e947aa32.js",
+          "status": 200
+        }
+      ],
+      "contentType": "application/javascript; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/vendor/cdn.jsdelivr.net/lenis.min-273ca89be0ce.js",
+      "url": "https://norteautoral.site/vendor/cdn.jsdelivr.net/lenis.min-273ca89be0ce.js",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/cdn.jsdelivr.net/lenis.min-273ca89be0ce.js",
+          "status": 200
+        }
+      ],
+      "contentType": "application/javascript; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/vendor/fonts.googleapis.com/css2-e2d224bd0e2a.css",
+      "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-e2d224bd0e2a.css",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-e2d224bd0e2a.css",
+          "status": 200
+        }
+      ],
+      "contentType": "text/css; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/norte-autoral/favicon.svg",
+      "url": "https://norteautoral.site/assets/norte-autoral/favicon.svg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/norte-autoral/favicon.svg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/svg+xml",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/demo-navigation.css",
+      "url": "https://norteautoral.site/assets/demo-navigation.css",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/demo-navigation.css",
+          "status": 200
+        }
+      ],
+      "contentType": "text/css; charset=UTF-8",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/norte-autoral/logo-n.png",
+      "url": "https://norteautoral.site/assets/norte-autoral/logo-n.png",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/norte-autoral/logo-n.png",
+          "status": 200
+        }
+      ],
+      "contentType": "image/png",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "461365",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/portfolio-thumbs/velorah-hero.jpg",
+      "url": "https://norteautoral.site/assets/portfolio-thumbs/velorah-hero.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/portfolio-thumbs/velorah-hero.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "160368",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/portfolio-thumbs/lithos-hero.jpg",
+      "url": "https://norteautoral.site/assets/portfolio-thumbs/lithos-hero.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/portfolio-thumbs/lithos-hero.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "158970",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/portfolio-thumbs/convix-hero.jpg",
+      "url": "https://norteautoral.site/assets/portfolio-thumbs/convix-hero.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/portfolio-thumbs/convix-hero.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "205001",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/portfolio-thumbs/confeitaria-margo.jpg",
+      "url": "https://norteautoral.site/assets/portfolio-thumbs/confeitaria-margo.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/portfolio-thumbs/confeitaria-margo.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "93491",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/portfolio-thumbs/aureo-arquitetura.jpg",
+      "url": "https://norteautoral.site/assets/portfolio-thumbs/aureo-arquitetura.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/portfolio-thumbs/aureo-arquitetura.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "106458",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/portfolio-thumbs/verene-odontologia.jpg",
+      "url": "https://norteautoral.site/assets/portfolio-thumbs/verene-odontologia.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/portfolio-thumbs/verene-odontologia.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "61452",
+      "server": "Netlify"
+    },
+    {
+      "path": "/assets/norte-autoral/gabriel-holanda.jpg",
+      "url": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "283923",
+      "server": "Netlify"
+    },
+    {
+      "path": "/site-do-jd/img/template.webp",
+      "url": "https://norteautoral.site/site-do-jd/img/template.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/site-do-jd/img/template.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "207824",
+      "server": "Netlify"
+    },
+    {
+      "path": "/site-do-jd/img/painel-textos.webp",
+      "url": "https://norteautoral.site/site-do-jd/img/painel-textos.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/site-do-jd/img/painel-textos.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "44610",
+      "server": "Netlify"
+    },
+    {
+      "path": "/site-do-jd/img/painel-precos.webp",
+      "url": "https://norteautoral.site/site-do-jd/img/painel-precos.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/site-do-jd/img/painel-precos.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "32724",
+      "server": "Netlify"
+    },
+    {
+      "path": "/site-do-jd/img/painel-artes.webp",
+      "url": "https://norteautoral.site/site-do-jd/img/painel-artes.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/site-do-jd/img/painel-artes.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "61366",
+      "server": "Netlify"
+    },
+    {
+      "path": "/site-do-jd/img/site-pc.webp",
+      "url": "https://norteautoral.site/site-do-jd/img/site-pc.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/site-do-jd/img/site-pc.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "185442",
+      "server": "Netlify"
+    },
+    {
+      "path": "/site-do-jd/img/site-celular.webp",
+      "url": "https://norteautoral.site/site-do-jd/img/site-celular.webp",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/site-do-jd/img/site-celular.webp",
+          "status": 200
+        }
+      ],
+      "contentType": "image/webp",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "143956",
+      "server": "Netlify"
+    },
+    {
+      "path": "/vendor/fonts.googleapis.com/css2-f377038b3ae4.css",
+      "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-f377038b3ae4.css",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-f377038b3ae4.css",
+          "status": 200
+        }
+      ],
+      "contentType": "text/css; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/velorah-hero/dist/assets/index-xMIOyhaI.js",
+      "url": "https://norteautoral.site/marketing/portfolio/velorah-hero/dist/assets/index-xMIOyhaI.js",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/velorah-hero/dist/assets/index-xMIOyhaI.js",
+          "status": 200
+        }
+      ],
+      "contentType": "application/javascript; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/velorah-hero/dist/assets/index-BPhN6xXn.css",
+      "url": "https://norteautoral.site/marketing/portfolio/velorah-hero/dist/assets/index-BPhN6xXn.css",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/velorah-hero/dist/assets/index-BPhN6xXn.css",
+          "status": 200
+        }
+      ],
+      "contentType": "text/css; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/lithos-hero/dist/assets/index-CMXdz8kw.js",
+      "url": "https://norteautoral.site/marketing/portfolio/lithos-hero/dist/assets/index-CMXdz8kw.js",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/lithos-hero/dist/assets/index-CMXdz8kw.js",
+          "status": 200
+        }
+      ],
+      "contentType": "application/javascript; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/lithos-hero/dist/assets/index-DIp2DAYC.css",
+      "url": "https://norteautoral.site/marketing/portfolio/lithos-hero/dist/assets/index-DIp2DAYC.css",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/lithos-hero/dist/assets/index-DIp2DAYC.css",
+          "status": 200
+        }
+      ],
+      "contentType": "text/css; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/vendor/fonts.googleapis.com/css2-b8077b83075f.css",
+      "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-b8077b83075f.css",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-b8077b83075f.css",
+          "status": 200
+        }
+      ],
+      "contentType": "text/css; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/dentista-clinica-vertice/assets/img/recepcao.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/assets/img/recepcao.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/assets/img/recepcao.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "105075",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/dentista-clinica-vertice/assets/video/hero.mp4",
+      "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/assets/video/hero.mp4",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/assets/video/hero.mp4",
+          "status": 200
+        }
+      ],
+      "contentType": "video/mp4",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "15388313",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/dentista-clinica-vertice/assets/img/alinhador-macro.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/assets/img/alinhador-macro.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/assets/img/alinhador-macro.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "50732",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/dentista-clinica-vertice/assets/img/sorriso.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/assets/img/sorriso.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/assets/img/sorriso.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "104769",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/dentista-clinica-vertice/assets/img/implante-3d.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/assets/img/implante-3d.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/assets/img/implante-3d.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "39659",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/dentista-clinica-vertice/assets/img/consultorio.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/assets/img/consultorio.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/assets/img/consultorio.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "99046",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/dentista-clinica-vertice/assets/img/imagem-3d.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/assets/img/imagem-3d.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/assets/img/imagem-3d.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "80964",
+      "server": "Netlify"
+    },
+    {
+      "path": "/vendor/unpkg.com/lenis.min-fc91f338f7a5.js",
+      "url": "https://norteautoral.site/vendor/unpkg.com/lenis.min-fc91f338f7a5.js",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/unpkg.com/lenis.min-fc91f338f7a5.js",
+          "status": 200
+        }
+      ],
+      "contentType": "application/javascript; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/vendor/cdnjs.cloudflare.com/gsap.min-cb9c6262bdd7.js",
+      "url": "https://norteautoral.site/vendor/cdnjs.cloudflare.com/gsap.min-cb9c6262bdd7.js",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/cdnjs.cloudflare.com/gsap.min-cb9c6262bdd7.js",
+          "status": 200
+        }
+      ],
+      "contentType": "application/javascript; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/vendor/cdnjs.cloudflare.com/ScrollTrigger.min-36c29c028158.js",
+      "url": "https://norteautoral.site/vendor/cdnjs.cloudflare.com/ScrollTrigger.min-36c29c028158.js",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/cdnjs.cloudflare.com/ScrollTrigger.min-36c29c028158.js",
+          "status": 200
+        }
+      ],
+      "contentType": "application/javascript; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/convix-hero/dist/assets/index-D04Epqih.js",
+      "url": "https://norteautoral.site/marketing/portfolio/convix-hero/dist/assets/index-D04Epqih.js",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/convix-hero/dist/assets/index-D04Epqih.js",
+          "status": 200
+        }
+      ],
+      "contentType": "application/javascript; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/convix-hero/dist/assets/index-7O04r-Vl.css",
+      "url": "https://norteautoral.site/marketing/portfolio/convix-hero/dist/assets/index-7O04r-Vl.css",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/convix-hero/dist/assets/index-7O04r-Vl.css",
+          "status": 200
+        }
+      ],
+      "contentType": "text/css; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/vendor/fonts.googleapis.com/css2-fd4652e6c730.css",
+      "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-fd4652e6c730.css",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-fd4652e6c730.css",
+          "status": 200
+        }
+      ],
+      "contentType": "text/css; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/aureo-arquitetura/assets/img/hero-fachada.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/assets/img/hero-fachada.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/assets/img/hero-fachada.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "327595",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/aureo-arquitetura/assets/video/hero.mp4",
+      "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/assets/video/hero.mp4",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/assets/video/hero.mp4",
+          "status": 200
+        }
+      ],
+      "contentType": "video/mp4",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "12237458",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/aureo-arquitetura/assets/img/detalhe-concreto.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/assets/img/detalhe-concreto.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/assets/img/detalhe-concreto.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "703296",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/aureo-arquitetura/assets/img/torres-carmel.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/assets/img/torres-carmel.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/assets/img/torres-carmel.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "587167",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/aureo-arquitetura/assets/img/complexo-aereo.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/assets/img/complexo-aereo.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/assets/img/complexo-aereo.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "412474",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/aureo-arquitetura/assets/img/memorial-parabola.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/assets/img/memorial-parabola.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/assets/img/memorial-parabola.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "297567",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/aureo-arquitetura/assets/img/interior-living.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/assets/img/interior-living.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/assets/img/interior-living.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "672007",
+      "server": "Netlify"
+    },
+    {
+      "path": "/vendor/fonts.googleapis.com/css2-21d5d0e318fa.css",
+      "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-21d5d0e318fa.css",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-21d5d0e318fa.css",
+          "status": 200
+        }
+      ],
+      "contentType": "text/css; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/confeitaria-margo/assets/img/hero-brunch.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/assets/img/hero-brunch.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/assets/img/hero-brunch.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "200573",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/confeitaria-margo/assets/video/hero.mp4",
+      "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/assets/video/hero.mp4",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/assets/video/hero.mp4",
+          "status": 200
+        }
+      ],
+      "contentType": "video/mp4",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "10389262",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/confeitaria-margo/assets/img/bolo-frutas.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/assets/img/bolo-frutas.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/assets/img/bolo-frutas.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "133649",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/confeitaria-margo/assets/img/brigadeiros.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/assets/img/brigadeiros.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/assets/img/brigadeiros.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "224639",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/confeitaria-margo/assets/img/naked-cake.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/assets/img/naked-cake.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/assets/img/naked-cake.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "153367",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/confeitaria-margo/assets/img/tortinha-limao.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/assets/img/tortinha-limao.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/assets/img/tortinha-limao.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "110190",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/confeitaria-margo/assets/img/croissants.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/assets/img/croissants.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/assets/img/croissants.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "201775",
+      "server": "Netlify"
+    },
+    {
+      "path": "/vendor/fonts.googleapis.com/css2-60987a8b44cb.css",
+      "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-60987a8b44cb.css",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-60987a8b44cb.css",
+          "status": 200
+        }
+      ],
+      "contentType": "text/css; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/instituto-liminar/assets/img/hero-biblioteca.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/assets/img/hero-biblioteca.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/assets/img/hero-biblioteca.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "248236",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/instituto-liminar/assets/video/hero.mp4",
+      "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/assets/video/hero.mp4",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/assets/video/hero.mp4",
+          "status": 200
+        }
+      ],
+      "contentType": "video/mp4",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "10129943",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/instituto-liminar/assets/img/maos-livro.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/assets/img/maos-livro.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/assets/img/maos-livro.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "114685",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/instituto-liminar/assets/img/manuscrito.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/assets/img/manuscrito.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/assets/img/manuscrito.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "111397",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/instituto-liminar/assets/img/diva.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/assets/img/diva.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/assets/img/diva.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "265923",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/instituto-liminar/assets/img/motivo-grafico.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/assets/img/motivo-grafico.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/assets/img/motivo-grafico.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "49738",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/instituto-liminar/assets/img/anfiteatro.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/assets/img/anfiteatro.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/assets/img/anfiteatro.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "178436",
+      "server": "Netlify"
+    },
+    {
+      "path": "/vendor/fonts.googleapis.com/css2-d7111b17d24a.css",
+      "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-d7111b17d24a.css",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-d7111b17d24a.css",
+          "status": 200
+        }
+      ],
+      "contentType": "text/css; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/verene-odontologia/assets/img/hero-recepcao.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/assets/img/hero-recepcao.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/assets/img/hero-recepcao.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "132092",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/verene-odontologia/assets/video/hero.mp4",
+      "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/assets/video/hero.mp4",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/assets/video/hero.mp4",
+          "status": 200
+        }
+      ],
+      "contentType": "video/mp4",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "7096122",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/verene-odontologia/assets/img/implante-3d.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/assets/img/implante-3d.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/assets/img/implante-3d.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "127315",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/verene-odontologia/assets/img/alinhador.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/assets/img/alinhador.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/assets/img/alinhador.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "169801",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/verene-odontologia/assets/img/protese-ceramica.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/assets/img/protese-ceramica.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/assets/img/protese-ceramica.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "189684",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/verene-odontologia/assets/img/sorriso.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/assets/img/sorriso.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/assets/img/sorriso.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "266785",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/verene-odontologia/assets/img/consultorio.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/assets/img/consultorio.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/assets/img/consultorio.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "169690",
+      "server": "Netlify"
+    },
+    {
+      "path": "/vendor/fonts.googleapis.com/css2-1c6f77753dc2.css",
+      "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-1c6f77753dc2.css",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-1c6f77753dc2.css",
+          "status": 200
+        }
+      ],
+      "contentType": "text/css; charset=UTF-8",
+      "cacheControl": "public,max-age=31536000,immutable",
+      "contentEncoding": "br",
+      "contentLength": null,
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/fachada-ouro.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/assets/img/fachada-ouro.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/assets/img/fachada-ouro.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "282949",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/assets/video/hero.mp4",
+      "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/assets/video/hero.mp4",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/assets/video/hero.mp4",
+          "status": 200
+        }
+      ],
+      "contentType": "video/mp4",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "10199231",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/detalhe-sombra.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/assets/img/detalhe-sombra.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/assets/img/detalhe-sombra.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "265553",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/estar-pe-direito.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/assets/img/estar-pe-direito.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/assets/img/estar-pe-direito.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "333175",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/escada-luz.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/assets/img/escada-luz.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/assets/img/escada-luz.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "222934",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/patio-azul.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/assets/img/patio-azul.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/assets/img/patio-azul.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "364218",
+      "server": "Netlify"
+    },
+    {
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/assets/img/varanda-ripas.jpg",
+      "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/assets/img/varanda-ripas.jpg",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/assets/img/varanda-ripas.jpg",
+          "status": 200
+        }
+      ],
+      "contentType": "image/jpeg",
+      "cacheControl": "public,max-age=604800",
+      "contentEncoding": null,
+      "contentLength": "333881",
+      "server": "Netlify"
+    }
+  ],
+  "errors": [],
+  "demoPaths": [
+    "/marketing/portfolio/velorah-hero/dist/",
+    "/marketing/portfolio/lithos-hero/dist/",
+    "/marketing/portfolio/dentista-clinica-vertice/",
+    "/marketing/portfolio/convix-hero/dist/",
+    "/marketing/portfolio/aureo-arquitetura/",
+    "/marketing/portfolio/confeitaria-margo/",
+    "/marketing/portfolio/instituto-liminar/",
+    "/marketing/portfolio/verene-odontologia/",
+    "/marketing/portfolio/arquitetura-estudio-linha/"
+  ],
+  "counts": {
+    "demoPages": 9,
+    "pageRequests": 39,
+    "assetRequests": 106,
+    "assetFailures": 0,
+    "redirectLoops": 0
+  },
+  "unexpected": [],
+  "expectedRedirectChecks": [
+    {
+      "path": "/index.html",
+      "firstStatus": 301,
+      "redirected": true,
+      "finalUrl": "https://norteautoral.site/"
+    },
+    {
+      "path": "/privacy.html",
+      "firstStatus": 301,
+      "redirected": true,
+      "finalUrl": "https://norteautoral.site/privacy"
+    },
+    {
+      "path": "/terms.html",
+      "firstStatus": 301,
+      "redirected": true,
+      "finalUrl": "https://norteautoral.site/terms"
+    },
+    {
+      "path": "/v3.html",
+      "firstStatus": 301,
+      "redirected": true,
+      "finalUrl": "https://norteautoral.site/v3"
+    },
+    {
+      "path": "/site-do-jd.html",
+      "firstStatus": 301,
+      "redirected": true,
+      "finalUrl": "https://norteautoral.site/site-do-jd"
+    },
+    {
+      "path": "/marketing/portfolio/velorah-hero/dist/index.html",
+      "firstStatus": 301,
+      "redirected": true,
+      "finalUrl": "https://norteautoral.site/marketing/portfolio/velorah-hero/dist/"
+    },
+    {
+      "path": "/marketing/portfolio/lithos-hero/dist/index.html",
+      "firstStatus": 301,
+      "redirected": true,
+      "finalUrl": "https://norteautoral.site/marketing/portfolio/lithos-hero/dist/"
+    },
+    {
+      "path": "/marketing/portfolio/dentista-clinica-vertice/index.html",
+      "firstStatus": 301,
+      "redirected": true,
+      "finalUrl": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/"
+    },
+    {
+      "path": "/marketing/portfolio/convix-hero/dist/index.html",
+      "firstStatus": 301,
+      "redirected": true,
+      "finalUrl": "https://norteautoral.site/marketing/portfolio/convix-hero/dist/"
+    },
+    {
+      "path": "/marketing/portfolio/aureo-arquitetura/index.html",
+      "firstStatus": 301,
+      "redirected": true,
+      "finalUrl": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/"
+    },
+    {
+      "path": "/marketing/portfolio/confeitaria-margo/index.html",
+      "firstStatus": 301,
+      "redirected": true,
+      "finalUrl": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/"
+    },
+    {
+      "path": "/marketing/portfolio/instituto-liminar/index.html",
+      "firstStatus": 301,
+      "redirected": true,
+      "finalUrl": "https://norteautoral.site/marketing/portfolio/instituto-liminar/"
+    },
+    {
+      "path": "/marketing/portfolio/verene-odontologia/index.html",
+      "firstStatus": 301,
+      "redirected": true,
+      "finalUrl": "https://norteautoral.site/marketing/portfolio/verene-odontologia/"
+    },
+    {
+      "path": "/marketing/portfolio/arquitetura-estudio-linha/index.html",
+      "firstStatus": 301,
+      "redirected": true,
+      "finalUrl": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/"
+    }
+  ],
+  "configurationChecks": {
+    "redirectChecks": 14,
+    "redirectsApplied": 14,
+    "hashedAssets": [
+      {
+        "path": "/vendor/fonts.googleapis.com/css2-7c9831d3cb65.css",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/vendor/cdn.jsdelivr.net/gsap.min-bf5b26673eee.js",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/vendor/cdn.jsdelivr.net/ScrollTrigger.min-8275e947aa32.js",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/vendor/cdn.jsdelivr.net/lenis.min-273ca89be0ce.js",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/vendor/fonts.googleapis.com/css2-e2d224bd0e2a.css",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/vendor/fonts.googleapis.com/css2-f377038b3ae4.css",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/marketing/portfolio/velorah-hero/dist/assets/index-xMIOyhaI.js",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/marketing/portfolio/velorah-hero/dist/assets/index-BPhN6xXn.css",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/marketing/portfolio/lithos-hero/dist/assets/index-CMXdz8kw.js",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/marketing/portfolio/lithos-hero/dist/assets/index-DIp2DAYC.css",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/vendor/fonts.googleapis.com/css2-b8077b83075f.css",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/vendor/unpkg.com/lenis.min-fc91f338f7a5.js",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/vendor/cdnjs.cloudflare.com/gsap.min-cb9c6262bdd7.js",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/vendor/cdnjs.cloudflare.com/ScrollTrigger.min-36c29c028158.js",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/marketing/portfolio/convix-hero/dist/assets/index-D04Epqih.js",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/marketing/portfolio/convix-hero/dist/assets/index-7O04r-Vl.css",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/vendor/fonts.googleapis.com/css2-fd4652e6c730.css",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/vendor/fonts.googleapis.com/css2-21d5d0e318fa.css",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/vendor/fonts.googleapis.com/css2-60987a8b44cb.css",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/vendor/fonts.googleapis.com/css2-d7111b17d24a.css",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "path": "/vendor/fonts.googleapis.com/css2-1c6f77753dc2.css",
+        "cacheControl": "public,max-age=31536000,immutable"
+      }
+    ],
+    "domainRedirects": [
+      {
+        "from": "http://norteautoral.site/",
+        "final": "https://norteautoral.site/",
+        "chain": [
+          {
+            "url": "http://norteautoral.site/",
+            "status": 301,
+            "location": "https://norteautoral.site/"
+          },
+          {
+            "url": "https://norteautoral.site/",
+            "status": 200
+          }
+        ]
+      },
+      {
+        "from": "http://www.norteautoral.site/",
+        "final": "https://norteautoral.site/",
+        "chain": [
+          {
+            "url": "http://www.norteautoral.site/",
+            "status": 301,
+            "location": "https://www.norteautoral.site/"
+          },
+          {
+            "url": "https://www.norteautoral.site/",
+            "status": 301,
+            "location": "https://norteautoral.site/"
+          },
+          {
+            "url": "https://norteautoral.site/",
+            "status": 200
+          }
+        ]
+      },
+      {
+        "from": "https://www.norteautoral.site/",
+        "final": "https://norteautoral.site/",
+        "chain": [
+          {
+            "url": "https://www.norteautoral.site/",
+            "status": 301,
+            "location": "https://norteautoral.site/"
+          },
+          {
+            "url": "https://norteautoral.site/",
+            "status": 200
+          }
+        ]
+      }
+    ],
+    "tlsValidation": "Standard Node fetch validates certificates; no insecure TLS overrides used."
+  },
+  "conclusion": {
+    "passed": true,
+    "expectedPageStatuses": true,
+    "assetsAvailable": true,
+    "canonicalAliases301": true,
+    "allDomainVariantsToHttpsApex": true,
+    "hashedAssetCacheImmutable": true,
+    "editableAssetsCacheOneWeek": true,
+    "htmlRevalidation": true,
+    "brotliHtml": true
+  }
+}

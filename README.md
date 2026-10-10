@@ -1,12 +1,18 @@
 # Clone v1 — Norte Autoral
 
-Portfólio personalizado para **Gabriel Holanda / Norte Autoral**, em **Parnaíba, PI**, sobre a base visual autorizada de **https://www.sabec.dev/**, capturada em **9 de outubro de 2026**. Revisão atual: **10 de outubro de 2026**, preparada para **https://norteautoral.site/**, com Meta Ads, Google Ads, Norte/OS e a foto com o cabelo inteiro. Prisma WebGL, fontes e direção visual preservados.
+Portfólio personalizado para **Gabriel Holanda / Norte Autoral**, em **Parnaíba, PI**, sobre a base visual autorizada de **https://www.sabec.dev/**, capturada em **9 de outubro de 2026**. Revisão atual: **10 de outubro de 2026**, com Meta Ads, Google Ads, Norte/OS e a foto com o cabelo inteiro. Prisma WebGL, fontes e direção visual preservados.
+
+## Publicação atual no Netlify
+
+Publicado em **https://norteautoral.site/**, no projeto do usuário **norte01autoral**, plano **Free**. O domínio e o alias www estão cadastrados; os registros A/CNAME foram salvos na Hostinger e confirmados por DNS público. **HTTPS obrigatório configurado, com certificado Let's Encrypt emitido para o domínio e www.** Os adaptadores de rotas/cache foram reenviados no deploy `6aca88a67bc795130b2a0c63`; a [auditoria pública](references/qa-netlify-2026-10-10/QA-FINAL.md) confirmou páginas, recursos, redirecionamentos, certificado e cache, sem erros ou loops. Consulte [NETLIFY.md](NETLIFY.md) para o estado e a manutenção. Endereço técnico: **https://rococo-liger-832df6.netlify.app/**.
+
+Os adaptadores separados estão em `hosting/netlify/`. **clone-v1-netlify.zip** é o pacote de publicação com os dois adaptadores incluídos; extraia-o em uma pasta antes de enviar uma atualização manual pelo painel. O projeto `public/`, os ZIPs anteriores e os quatro pontos de restauração permanecem preservados. A Hostinger mantém o domínio/DNS; a hospedagem desta publicação é o Netlify.
 
 ## Instalar na Hostinger
 
 Use **clone-v1-hostinger.zip**, com `index.html` na raiz, e extraia seu conteúdo diretamente em **public_html**. O site é estático e não exige Node.js, WordPress ou banco de dados no servidor. [HOSTINGER.md](HOSTINGER.md) contém o passo a passo de envio, SSL e Google Search Console. O ZIP de código-fonte **clone-v1-norte-autoral.zip** serve para manutenção local.
 
-SEO configurado para o domínio informado: canonical, título/descrição, imagem social, dados estruturados, `robots.txt` e `sitemap.xml`. Os templates continuam navegáveis e usam `noindex`; o portfólio principal é destinado à busca. A publicação, a verificação DNS e a solicitação de indexação são feitas na conta do usuário.
+SEO configurado para o domínio informado: canonical, título/descrição, imagem social, dados estruturados, `robots.txt` e `sitemap.xml`. Os templates continuam navegáveis e usam `noindex`; o portfólio principal é destinado à busca. A publicação Netlify e os registros DNS constam em [NETLIFY.md](NETLIFY.md); a solicitação de indexação deve ser feita após confirmar o HTTPS do domínio próprio.
 
 A foto mantém enquadramento completo, sem o zoom que cortava o cabelo. Meta Ads e Google Ads aparecem em hero, faixa contínua, serviços, Quem e interesse do formulário. Logo menor e imagens WebP reduzem os bytes; mídia fora da tela/aba é pausada. Medição local em cache frio: **65,15% menos bytes de assets iniciais**, ou **55,82% incluindo HTML**. Esses números não representam uma medição do servidor de produção. Evidências: [QA de entrega](references/qa-release-2026-10-10/QA-FINAL.md).
 
@@ -81,7 +87,7 @@ As três demonstrações feitas com Vite/React incluem seus bundles compilados p
 
 O formulário principal monta uma mensagem para o WhatsApp da Norte Autoral, para o visitante revisar e enviar, inclusive quando o interesse selecionado é Norte/OS. Não envia automaticamente nem armazena os campos em banco de dados do site. Os formulários conceito informam que nenhum dado foi enviado; o formulário de `/v3` permanece desativado. A cópia não usa a chave Web3Forms nem o analytics do autor.
 
-Contatos, metadata, `/privacy` e `/terms` foram atualizados para Gabriel / Norte Autoral e para o funcionamento deste portfólio. O projeto funciona localmente; não houve publicação.
+Contatos, metadata, `/privacy` e `/terms` foram atualizados para Gabriel / Norte Autoral e para o funcionamento deste portfólio. O projeto funciona localmente e foi publicado no endereço técnico do Netlify; consulte o estado do domínio próprio em [NETLIFY.md](NETLIFY.md).
 
 ## Verificar e reproduzir
 

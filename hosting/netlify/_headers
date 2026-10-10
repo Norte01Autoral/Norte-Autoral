@@ -1,0 +1,777 @@
+# Security headers only in the wildcard block: per-file cache rules do not overlap.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+
+/
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/404
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/404.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/404/
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/index.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/arquitetura-estudio-linha
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/arquitetura-estudio-linha/
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/arquitetura-estudio-linha/index.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/aureo-arquitetura
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/aureo-arquitetura/
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/aureo-arquitetura/index.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/confeitaria-margo
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/confeitaria-margo/
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/confeitaria-margo/index.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/convix-hero/dist
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/convix-hero/dist/
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/convix-hero/dist/index.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/dentista-clinica-vertice
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/dentista-clinica-vertice/
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/dentista-clinica-vertice/index.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/instituto-liminar
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/instituto-liminar/
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/instituto-liminar/index.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/lithos-hero/dist
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/lithos-hero/dist/
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/lithos-hero/dist/index.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/velorah-hero/dist
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/velorah-hero/dist/
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/velorah-hero/dist/index.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/verene-odontologia
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/verene-odontologia/
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/marketing/portfolio/verene-odontologia/index.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/privacy
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/privacy.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/privacy/
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/site-do-jd
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/site-do-jd.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/site-do-jd/
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/terms
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/terms.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/terms/
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/v3
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/v3.html
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/v3/
+  Cache-Control: no-cache, max-age=0, must-revalidate
+
+/assets/Logotipo Branco e Azul.svg
+  Cache-Control: public, max-age=604800
+
+/assets/cases/ana-capa.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/cases/ana-capa.webp
+  Cache-Control: public, max-age=604800
+
+/assets/cases/ana-celular.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/cases/ana-celular.webp
+  Cache-Control: public, max-age=604800
+
+/assets/cases/jd-arte.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/cases/jd-capa.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/cases/jd-celular.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/cases/jd-galeria-2.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/cases/jd-galeria.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/cases/sabec-v3.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/demo-navigation.css
+  Cache-Control: public, max-age=604800
+
+/assets/demo-navigation.js
+  Cache-Control: public, max-age=604800
+
+/assets/media-performance.js
+  Cache-Control: public, max-age=604800
+
+/assets/norte-autoral/favicon-16.png
+  Cache-Control: public, max-age=604800
+
+/assets/norte-autoral/favicon-32.png
+  Cache-Control: public, max-age=604800
+
+/assets/norte-autoral/favicon.ico
+  Cache-Control: public, max-age=604800
+
+/assets/norte-autoral/favicon.png
+  Cache-Control: public, max-age=604800
+
+/assets/norte-autoral/favicon.svg
+  Cache-Control: public, max-age=604800
+
+/assets/norte-autoral/gabriel-holanda.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/norte-autoral/gabriel-holanda.webp
+  Cache-Control: public, max-age=604800
+
+/assets/norte-autoral/logo-n-128.png
+  Cache-Control: public, max-age=604800
+
+/assets/norte-autoral/logo-n.png
+  Cache-Control: public, max-age=604800
+
+/assets/norte-autoral/og-norte-autoral.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/norte-autoral/og.png
+  Cache-Control: public, max-age=604800
+
+/assets/norte-autoral/portfolio-v3.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/norte-autoral/portfolio-v3.webp
+  Cache-Control: public, max-age=604800
+
+/assets/norte-autoral/profile.css
+  Cache-Control: public, max-age=604800
+
+/assets/og-image.png
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-heroes/arquitetura-estudio-linha.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-heroes/aureo-arquitetura.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-heroes/confeitaria-margo.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-heroes/convix-hero.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-heroes/dentista-clinica-vertice.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-heroes/dentista-clinica-vertice.webp
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-heroes/instituto-liminar.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-heroes/lithos-hero.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-heroes/velorah-hero.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-heroes/verene-odontologia.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/arquitetura-estudio-linha.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/arquitetura-estudio-linha.webp
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/aureo-arquitetura.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/aureo-arquitetura.webp
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/confeitaria-margo.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/confeitaria-margo.webp
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/convix-hero.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/convix-hero.webp
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/dentista-clinica-vertice.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/dentista-clinica-vertice.webp
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/instituto-liminar.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/instituto-liminar.webp
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/lithos-hero.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/lithos-hero.webp
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/portrait.jpeg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/velorah-hero.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/velorah-hero.webp
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/verene-odontologia.jpg
+  Cache-Control: public, max-age=604800
+
+/assets/portfolio-thumbs/verene-odontologia.webp
+  Cache-Control: public, max-age=604800
+
+/assets/sabec-logo.svg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/arquitetura-estudio-linha/assets/img/detalhe-sombra.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/arquitetura-estudio-linha/assets/img/escada-luz.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/arquitetura-estudio-linha/assets/img/estar-pe-direito.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/arquitetura-estudio-linha/assets/img/fachada-ouro.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/arquitetura-estudio-linha/assets/img/patio-azul.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/arquitetura-estudio-linha/assets/img/varanda-ripas.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/arquitetura-estudio-linha/assets/video/hero.mp4
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/aureo-arquitetura/assets/img/complexo-aereo.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/aureo-arquitetura/assets/img/detalhe-concreto.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/aureo-arquitetura/assets/img/hero-fachada.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/aureo-arquitetura/assets/img/interior-living.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/aureo-arquitetura/assets/img/memorial-parabola.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/aureo-arquitetura/assets/img/torres-carmel.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/aureo-arquitetura/assets/video/hero.mp4
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/confeitaria-margo/assets/img/bolo-frutas.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/confeitaria-margo/assets/img/brigadeiros.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/confeitaria-margo/assets/img/croissants.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/confeitaria-margo/assets/img/hero-brunch.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/confeitaria-margo/assets/img/naked-cake.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/confeitaria-margo/assets/img/tortinha-limao.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/confeitaria-margo/assets/video/hero.mp4
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/convix-hero/dist/assets/index-7O04r-Vl.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/marketing/portfolio/convix-hero/dist/assets/index-D04Epqih.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/marketing/portfolio/dentista-clinica-vertice/assets/img/alinhador-macro.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/dentista-clinica-vertice/assets/img/consultorio.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/dentista-clinica-vertice/assets/img/imagem-3d.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/dentista-clinica-vertice/assets/img/implante-3d.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/dentista-clinica-vertice/assets/img/recepcao.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/dentista-clinica-vertice/assets/img/sorriso.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/dentista-clinica-vertice/assets/video/hero.mp4
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/instituto-liminar/assets/img/anfiteatro.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/instituto-liminar/assets/img/diva.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/instituto-liminar/assets/img/hero-biblioteca.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/instituto-liminar/assets/img/manuscrito.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/instituto-liminar/assets/img/maos-livro.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/instituto-liminar/assets/img/motivo-grafico.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/instituto-liminar/assets/video/hero.mp4
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/lithos-hero/dist/assets/index-CMXdz8kw.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/marketing/portfolio/lithos-hero/dist/assets/index-DIp2DAYC.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/marketing/portfolio/velorah-hero/dist/assets/index-BPhN6xXn.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/marketing/portfolio/velorah-hero/dist/assets/index-xMIOyhaI.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/marketing/portfolio/verene-odontologia/assets/img/alinhador.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/verene-odontologia/assets/img/consultorio.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/verene-odontologia/assets/img/hero-recepcao.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/verene-odontologia/assets/img/implante-3d.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/verene-odontologia/assets/img/protese-ceramica.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/verene-odontologia/assets/img/sorriso.jpg
+  Cache-Control: public, max-age=604800
+
+/marketing/portfolio/verene-odontologia/assets/video/hero.mp4
+  Cache-Control: public, max-age=604800
+
+/robots.txt
+  Cache-Control: public, max-age=3600
+
+/site-do-jd/img/og.jpg
+  Cache-Control: public, max-age=604800
+
+/site-do-jd/img/painel-artes.webp
+  Cache-Control: public, max-age=604800
+
+/site-do-jd/img/painel-precos.webp
+  Cache-Control: public, max-age=604800
+
+/site-do-jd/img/painel-textos.webp
+  Cache-Control: public, max-age=604800
+
+/site-do-jd/img/site-celular.webp
+  Cache-Control: public, max-age=604800
+
+/site-do-jd/img/site-pc.webp
+  Cache-Control: public, max-age=604800
+
+/site-do-jd/img/template.webp
+  Cache-Control: public, max-age=604800
+
+/sitemap.xml
+  Cache-Control: public, max-age=3600
+
+/vendor/cdn.jsdelivr.net/ScrollTrigger.min-8275e947aa32.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/vendor/cdn.jsdelivr.net/gsap.min-bf5b26673eee.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/vendor/cdn.jsdelivr.net/lenis.min-273ca89be0ce.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/vendor/cdnjs.cloudflare.com/ScrollTrigger.min-36c29c028158.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/vendor/cdnjs.cloudflare.com/gsap.min-cb9c6262bdd7.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/vendor/d8j0ntlcm91z4.cloudfront.net/hf_20260314_131748_f2ca2a28-fed7-44c8-b9a9-bd9acdd5ec31-94d9b3db9d75.mp4
+  Cache-Control: public, max-age=604800
+
+/vendor/d8j0ntlcm91z4.cloudfront.net/hf_20260424_064411_9e9d7f84-9277-41f4-ab10-59172d89e6be-2681d41b24d4.mp4
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.googleapis.com/css2-1c6f77753dc2.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/vendor/fonts.googleapis.com/css2-21d5d0e318fa.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/vendor/fonts.googleapis.com/css2-236b4f255c07.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/vendor/fonts.googleapis.com/css2-60987a8b44cb.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/vendor/fonts.googleapis.com/css2-7c9831d3cb65.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/vendor/fonts.googleapis.com/css2-8c98a1fdc272.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/vendor/fonts.googleapis.com/css2-b8077b83075f.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/vendor/fonts.googleapis.com/css2-d7111b17d24a.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/vendor/fonts.googleapis.com/css2-e2d224bd0e2a.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/vendor/fonts.googleapis.com/css2-f377038b3ae4.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/vendor/fonts.googleapis.com/css2-fd4652e6c730.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/vendor/fonts.gstatic.com/-F63fjptAgt5VM-kVkqdyU8n1i8q1w-7e3d7e3c7de8.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/-F63fjptAgt5VM-kVkqdyU8n1iAq129k-2a73cdecea5c.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/-F63fjptAgt5VM-kVkqdyU8n1iEq129k-ae5fc1eadb05.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/-F63fjptAgt5VM-kVkqdyU8n1iIq129k-d1b233760bed.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/-F63fjptAgt5VM-kVkqdyU8n1isq129k-f9c74283b169.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/-F6qfjptAgt5VM-kVkqdyU8n3twJwl1FgtIU-ed3206e8ede4.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/-F6qfjptAgt5VM-kVkqdyU8n3twJwl5FgtIU-203ce92810c0.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/-F6qfjptAgt5VM-kVkqdyU8n3twJwl9FgtIU-b06594e3dfbc.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/-F6qfjptAgt5VM-kVkqdyU8n3twJwlBFgg-eb889034c083.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/-F6qfjptAgt5VM-kVkqdyU8n3twJwlRFgtIU-c70f6b078a09.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjdPeQ_5Y-437e9d07ede1.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjdfeQ_5Y-ccf0fecc501d.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjeveQ-e10563a873a3.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxC9TeA-6a8370661dae.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxCBTeO-U-a4c5fe4f4f21.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxCFTeO-U-7cdca5ec1a66.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc-1e8edb2fc100.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7-e3237528af75.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc-dbc85b0dfbaa.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc-a9d11b3ffe7a.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc-95b9ea830580.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc-6d0a674525fe.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc-4c2d4a14f23a.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/V8mDoQDjQSkFtoMM3T6r8E7mPb54C-s0-5d47749e9553.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/V8mDoQDjQSkFtoMM3T6r8E7mPb94C-s0-cc7d24aa9461.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw-98a0d4ac28a1.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtFmSq17w-4ae4c5dabe8f.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtGmSq17w-8fbaa36df2a8.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtHmSq17w-4c494e010d00.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtImSo-291655adcb38.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtMmSq17w-954d638259f9.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKgS4-a55f75e9e7fa.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKgS4-c4be89389609.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKgS4-c74911618d2d.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtK-d9ec821052ff.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKgS4-535639032664.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/i7dMIFZifjKcF5UAWdDRaPpZUFWaHg-ca181a34b6a2.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/i7dMIFZifjKcF5UAWdDRaPpZUFqaHjyV-59802b9ab070.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/i7dMIFZifjKcF5UAWdDRaPpZUFuaHjyV-3d1febe5209a.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/i7dPIFZifjKcF5UAWdDRYE58RWq7-63296b0a0d86.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/i7dPIFZifjKcF5UAWdDRYE98RWq7-08e268f050ba.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/i7dPIFZifjKcF5UAWdDRYEF8RQ-b978e4a38f40.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/jizBRFtNs2ka5fXjeivQ4LroWlx-6zUTjg-05103e2a779c.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/jizBRFtNs2ka5fXjeivQ4LroWlx-6zsTjmbI-41fe32a095c1.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjgn7MsNo-ad94e0845b56.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7M-0d985700e838.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLySOxK-vA-fe23a35d5845.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLyTOxK-vA-6a6431245d46.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLydOxI-c6ab97fead73.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/nuFiD-vYSZviVYUb_rj3ij__anPXDTLYgFE_-3cb6b7b1979e.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/nuFiD-vYSZviVYUb_rj3ij__anPXDTPYgFE_-2f08df1456fc.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/nuFiD-vYSZviVYUb_rj3ij__anPXDTjYgFE_-edff4874961e.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA-363014d7c907.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7-a50b218eceed.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/nuFkD-vYSZviVYUb_rj3ij__anPXDTnohkk72xU-a13031654d66.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojEk72xU-891feccf9363.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojUk72xU-3effa9311007.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTN1OVgaY-c6fc7b9765f8.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTNFOVgaY-2230dde9020b.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTNVOVgaY-4111c0bd35f4.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTOVOVgaY-34fd0b568f48.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTOlOV-eb47aeb9c5d1.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTPlOVgaY-a4f137da62e9.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx3cwhsk-6b5e37b52d26.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx7cwhsk-b19c2080652a.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg-cc27b3047125.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxPcwhsk-99e400330f36.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxTcwhsk-eb83d8d40af4.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx_cwhsk-c4064400db37.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxQKYbABA-f582230492bf.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxRKYbABA-99228c3b93e7.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxTKYbABA-13ff14c8cbbd.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxaKYbABA-fd8b74284fe6.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxdKYbABA-560980fcddc4.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/fonts.gstatic.com/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxeKYY-6d5e7fb80500.woff2
+  Cache-Control: public, max-age=604800
+
+/vendor/images.higgs.ai/asset-145988049866.webp
+  Cache-Control: public, max-age=604800
+
+/vendor/images.higgs.ai/asset-ab30e8b4fba2.webp
+  Cache-Control: public, max-age=604800
+
+/vendor/images.unsplash.com/photo-1557683316-973673baf926-565cff88977e.jpg
+  Cache-Control: public, max-age=604800
+
+/vendor/unpkg.com/lenis.min-fc91f338f7a5.js
+  Cache-Control: public, max-age=31536000, immutable
+

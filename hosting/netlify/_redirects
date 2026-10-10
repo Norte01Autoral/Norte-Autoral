@@ -1,0 +1,31 @@
+# Custom domain only: retain the netlify.app hostname for pre-DNS verification.
+http://www.norteautoral.site/* https://norteautoral.site/:splat 301!
+https://www.norteautoral.site/* https://norteautoral.site/:splat 301!
+http://norteautoral.site/* https://norteautoral.site/:splat 301!
+
+# .htaccess is retained byte-for-byte from the delivery ZIP but not exposed.
+/.htaccess /404.html 404!
+
+# Direct index URLs use their real directory; no trailing-slash-only rules.
+/index.html / 301!
+/marketing/portfolio/arquitetura-estudio-linha/index.html /marketing/portfolio/arquitetura-estudio-linha/ 301!
+/marketing/portfolio/aureo-arquitetura/index.html /marketing/portfolio/aureo-arquitetura/ 301!
+/marketing/portfolio/confeitaria-margo/index.html /marketing/portfolio/confeitaria-margo/ 301!
+/marketing/portfolio/convix-hero/dist/index.html /marketing/portfolio/convix-hero/dist/ 301!
+/marketing/portfolio/dentista-clinica-vertice/index.html /marketing/portfolio/dentista-clinica-vertice/ 301!
+/marketing/portfolio/instituto-liminar/index.html /marketing/portfolio/instituto-liminar/ 301!
+/marketing/portfolio/lithos-hero/dist/index.html /marketing/portfolio/lithos-hero/dist/ 301!
+/marketing/portfolio/velorah-hero/dist/index.html /marketing/portfolio/velorah-hero/dist/ 301!
+/marketing/portfolio/verene-odontologia/index.html /marketing/portfolio/verene-odontologia/ 301!
+
+# Four real pages: preserve clean URLs, without a single-page-app fallback.
+/privacy.html /privacy 301!
+/terms.html /terms 301!
+/v3.html /v3 301!
+/site-do-jd.html /site-do-jd 301!
+/privacy /privacy.html 200
+/terms /terms.html 200
+/v3 /v3.html 200
+/site-do-jd /site-do-jd.html 200
+
+# Netlify uses the copied 404.html automatically for other nonexistent URLs.

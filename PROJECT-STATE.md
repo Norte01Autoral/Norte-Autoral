@@ -1,6 +1,16 @@
 # Estado do projeto
 
-## Última revisão — Hostinger/SEO, 10 de outubro de 2026
+## Última revisão — publicação Netlify, 10 de outubro de 2026
+
+O usuário autorizou a publicação e escolheu hospedagem gratuita após constatar que sua conta Hostinger possui o domínio, mas não um plano de hospedagem. O projeto **rococo-liger-832df6** foi assumido pela conta **norte01autoral**, plano **Free**, e está publicado em **https://rococo-liger-832df6.netlify.app/**. ID público: `3eb337d6-85fb-4e13-9ce3-28db1f369506`.
+
+**norteautoral.site** e **www.norteautoral.site** foram cadastrados no Netlify. DNS salvo na Hostinger: A `@` → `75.2.60.5`, CNAME `www` → `rococo-liger-832df6.netlify.app`, ambos TTL 300. O resolvedor público da Cloudflare confirmou os registros. **Publicado em https://norteautoral.site/, com HTTPS obrigatório e certificado Let's Encrypt emitido para o domínio e www, válido atualmente até 08/01/2027, com renovação automática.** O deploy com os adaptadores foi reenviado: `6aca88a67bc795130b2a0c63`. A auditoria pública confirmou nove demos, quatro páginas auxiliares, 106 recursos, 14/14 aliases 301, variantes HTTP/www para HTTPS sem www, certificado válido, 404 personalizada, cache e Brotli, sem erros nem loops. Evidências em `references/qa-netlify-2026-10-10/`.
+
+`NETLIFY.md` documenta conta, projeto, DNS, adaptadores e atualizações. Os arquivos de manutenção `_headers` e `_redirects` estão em `hosting/netlify/`, separados de `public/`. A pasta de upload `../clone-v1-netlify/` contém os 229 arquivos do ZIP público conferidos por SHA-256 mais os dois adaptadores; não há SPA fallback nem redirecionamento do endereço técnico para o domínio antes da verificação. A auditoria de preparação ficou fora do upload em `../netlify-preparation/`.
+
+Os arquivos públicos, ZIPs da entrega e quatro backups imutáveis foram preservados. O pacote adicional `../clone-v1-netlify.zip` contém somente os 231 arquivos de publicação, incluindo os dois adaptadores; sua auditoria permanece fora do upload em `../netlify-preparation/`. O GitHub permanece na branch `portfolio-atualizado-hostinger-2026-10-10`, sem alterar main nem habilitar Vercel. Deploy Netlify é manual; nenhum vínculo automático com a branch foi criado. Credenciais, reivindicação e estado local `.netlify` não devem ser copiados ao projeto, GitHub ou publicação.
+
+## Revisão anterior — Hostinger/SEO, 10 de outubro de 2026
 
 Entrega estática preparada para **https://norteautoral.site/**. Foto com cabelo inteiro, removendo somente o zoom e deslocamento interno da foto; Meta Ads e Google Ads confirmados e incluídos na apresentação, faixa, serviços, Quem e formulário. Conteúdo, cores, prisma e cenas Norte/OS/JD preservados.
 

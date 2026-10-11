@@ -2,7 +2,7 @@
 
 Data: **10/10/2026**, fuso **America/Sao_Paulo**. Site: **https://norteautoral.site/**. Projeto Netlify Free: **rococo-liger-832df6**. Documento de manutenção: [SEARCH-CONSOLE.md](../../SEARCH-CONSOLE.md).
 
-**A inicial está indexada conforme a Inspeção de URL do Índice do Google.** A propriedade foi verificada, e o teste final da versão publicada passou. O processamento do sitemap no relatório permanece pendente, com falha de busca registrada; o pedido de indexação da revisão final tem seu campo de confirmação separado.
+**A inicial está indexada conforme a Inspeção de URL do Índice do Google.** A propriedade foi verificada, o teste final da versão publicada passou, e o usuário confirmou **Indexação solicitada** nesta conversa. O processamento do sitemap no relatório permanece pendente, com falha de busca registrada.
 
 ## Resultados confirmados
 
@@ -19,7 +19,7 @@ Data: **10/10/2026**, fuso **America/Sao_Paulo**. Site: **https://norteautoral.s
 | Demos | Nove demos, `/v3` e `/site-do-jd` com noindex, rastreáveis e fora do sitemap | [auditoria inicial](public-audit.md), [revisão local](brand-review.md) |
 | Identificação | WebSite único com name Norte Autoral, alternateName NorteAutoral, url da raiz; Organization/Person preservam identidade real | [pós-deploy](post-deploy-audit.json) |
 | Schema Markup Validator | Grafo atualizado: **0 erros, 0 avisos** | [captura](schema-validator.png), [texto](schema-validator.txt) |
-| Rich Results Test | **2 itens válidos**: 1 Empresas locais e 1 Organização; 2 avisos não críticos da Organização, nomes não expandidos | [observação](rich-results-observation.json), [teste oficial](https://search.google.com/test/rich-results/result?id=SdVJoj9xwe0No27LrvfQFg) |
+| Rich Results Test | **2 itens válidos**: 1 Empresas locais e 1 Organização; avisos opcionais de `postalCode` e `streetAddress` ausentes, identificados nas capturas fornecidas pelo usuário nesta conversa | [observação da interface e das capturas do usuário](rich-results-observation.json), [teste oficial](https://search.google.com/test/rich-results/result?id=SdVJoj9xwe0No27LrvfQFg) |
 | Robustez WebGL | **17 verificações passaram, 0 falhas**; script real testado com mocks DOM/WebGL | [script](check-hero-webgl.mjs), [resultado](hero-webgl-fix.json) |
 | Teste publicado final | Às **21:56:41**: URL disponível, possível indexar, HTTP 200, acesso/indexação permitidos, canonical correto | [captura](url-live-final.png), [texto](url-live-final.txt) |
 | Recursos no teste final | **Todos os recursos foram carregados** | [texto](url-live-final-resources.txt) |
@@ -39,8 +39,6 @@ A auditoria publicada observou nove transformações de links das demos de `/ind
 
 ## Processamento e Inspeção de URL
 
-<!-- Atualizar o campo de solicitação somente após confirmação explícita e registro da evidência. -->
-
 | Etapa | Estado confirmado até este registro |
 | --- | --- |
 | Envio do sitemap | Enviado duas vezes em 10/10/2026: `https://norteautoral.site/sitemap.xml`; conferência do relatório às **21:54** ainda mostrou falha |
@@ -52,8 +50,8 @@ A auditoria publicada observou nove transformações de links das demos de `/ind
 | Indexação efetiva | **Confirmada pela inspeção do índice**; rastreamento **10/10/2026, 17:10:20**, Googlebot Smartphone, acesso/indexação permitidos e canonical próprio URL |
 | Teste publicado final da inicial | Às **21:56:41**, **URL disponível e possível indexar**, HTTP 200, todos os recursos carregados |
 | Renderização no Google | [Captura final](url-live-render-final.png) mostra marca/cabeçalho; não cobre toda página nem todos estados da animação. Erro de tamanho de textura eliminado; permanece aviso de desempenho GPU |
-| Solicitação de indexação da revisão final | **Envio não confirmado.** O navegador deixou de aceitar controle antes da confirmação. Etapa entregue ao usuário: solicitar uma vez na interface oficial e informar o resultado, sem repetir se já houver confirmação |
-| Rich Results Test | 2 itens válidos e 2 avisos não críticos da Organização; nomes não expandidos |
+| Solicitação de indexação da revisão final | **Realizada pelo usuário**, confirmado nesta conversa em **10/10/2026**: “Sim, apareceu Indexação solicitada”. Hora exata não registrada; captura da confirmação do pedido não recebida. **Não repetir**. [Registro](index-request-user-confirmation.md) |
+| Rich Results Test | 2 itens válidos; 2 avisos não críticos em `PostalAddress`: `postalCode` e `streetAddress` ausentes, ambos opcionais, confirmados nas capturas do usuário |
 | Revisão e GitHub | Branch atual `portfolio-atualizado-hostinger-2026-10-10`, repositório `Norte01Autoral/Norte-Autoral`; consultar o histórico Git para o commit da revisão. Este relatório não prova push |
 
 Evidências iniciais: [status do sitemap](sitemap-initial-status.png), [texto do sitemap](sitemap-initial-status.txt), [status do índice](url-index-initial.png), [texto do índice](url-index-initial.txt).
@@ -62,11 +60,11 @@ Evidências finais: [sitemap no relatório](sitemap-final-status.png), [texto do
 
 ## Limites e pendências
 
-Acesso HTTP/HTTPS e instruções técnicas passaram na auditoria, e o teste ao vivo final do Google confirmou aptidão detectável da versão atual. A indexação efetiva foi comprovada separadamente no **Índice do Google**, com rastreamento às 17:10:20. Esse rastreamento precede o deploy final de robustez da hero; o teste atual das 21:56:41 não prova que o índice já absorveu a correção. Uma confirmação de solicitação é o que comprova envio à fila da revisão final. Os três resultados permanecem separados.
+Acesso HTTP/HTTPS e instruções técnicas passaram na auditoria, e o teste ao vivo final do Google confirmou aptidão detectável da versão atual. A indexação efetiva foi comprovada separadamente no **Índice do Google**, com rastreamento às 17:10:20. Esse rastreamento precede o deploy final de robustez da hero; o teste atual das 21:56:41 não prova que o índice já absorveu a correção. O pedido da revisão final foi realizado pelo usuário e confirmado por sua resposta nesta conversa em 10/10/2026; não foram recebidos captura do pedido nem horário exato. Os três resultados permanecem separados.
 
-O sitemap deve ser acompanhado até o relatório confirmar leitura sem erro, ou identificar uma causa que exija correção. O teste publicado do próprio XML passou; o relatório Sitemaps ainda falhou e não exibiu causa específica. Não foi feita alteração especulativa no XML/robots. Não declarar processamento bem-sucedido com base em HTTP 200. Solicitação da revisão final deve ser realizada uma vez quando houver confirmação; não há garantia de atualização do índice, prazo, posição ou apresentação do nome preferido.
+O sitemap deve ser acompanhado até o relatório confirmar leitura sem erro, ou identificar uma causa que exija correção. O teste publicado do próprio XML passou; o relatório Sitemaps ainda falhou e não exibiu causa específica. Não foi feita alteração especulativa no XML/robots. Não declarar processamento bem-sucedido com base em HTTP 200. O pedido da revisão final já foi confirmado e não deve ser repetido; não há garantia de atualização do índice, prazo, posição ou apresentação do nome preferido.
 
-O Rich Results Test foi executado pelo usuário às 16:31:37 e consultado na interface oficial; a marcação verificada foi preservada na revisão final. Os nomes dos dois avisos não críticos não foram expandidos. A categoria Empresas locais detectada no teste não equivale a avaliação de atendimento presencial ou a Perfil da Empresa.
+O Rich Results Test foi executado pelo usuário às 16:31:37 e consultado na interface oficial; a marcação verificada foi preservada na revisão final. Depois, o usuário forneceu nesta conversa capturas do resumo, das categorias válidas e do detalhe de `PostalAddress`, identificando **`postalCode` não encontrado (opcional)** e **`streetAddress` não encontrado (opcional)**. Os dois itens continuam válidos; essas ausências não bloqueiam a indexação e não exigem inventar CEP ou logradouro. Preserve os dados reais de Parnaíba/PI/país e acrescente informações de endereço somente se forem verdadeiras e fornecidas pelo responsável. As capturas do usuário são evidência nesta conversa, com descrição em [rich-results-observation.json](rich-results-observation.json). A categoria Empresas locais detectada no teste não equivale a avaliação de atendimento presencial ou a Perfil da Empresa.
 
 Os testes WebGL usam mocks e não substituem uma comparação visual completa. A captura final mostra a marca e o cabeçalho, e o teste informa todos os recursos carregados; ela não cobre o conteúdo completo nem cada estado animado. O aviso remanescente de GPU/ReadPixels é registrado como limitação de desempenho do teste, sem inferir a configuração de GPU do renderizador.
 

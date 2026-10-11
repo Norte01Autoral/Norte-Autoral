@@ -1,13 +1,20 @@
 {
   "url": "https://norteautoral.site/",
   "testUrl": "https://search.google.com/test/rich-results/result?id=SdVJoj9xwe0No27LrvfQFg",
-  "provenance": "Teste executado pelo usuário; resumo e detalhe da Organização lidos na interface oficial pelo agente.",
+  "provenance": "Teste executado pelo usuário; resumo e detalhe da Organização inicialmente lidos na interface oficial pelo agente. Três capturas fornecidas pelo usuário nesta conversa confirmaram o total, as categorias e os nomes dos avisos.",
   "testTimeAmericaSaoPaulo": "2026-10-10 16:31:37",
   "validItems": 2,
   "detectedCategories": [
     { "category": "Empresas locais", "validItems": 1 },
     { "category": "Organização", "name": "Norte Autoral", "validItems": 1, "nonCriticalIssues": 2 }
   ],
-  "issueDetails": "Os nomes dos dois avisos não críticos não foram expandidos; não foram inventados dados para eliminá-los.",
+  "issueDetails": [
+    { "field": "address.postalCode", "message": "O campo postalCode não foi encontrado (opcional)", "severity": "non-critical", "decision": "Não adicionar CEP sem dado verdadeiro fornecido pelo responsável" },
+    { "field": "address.streetAddress", "message": "O campo streetAddress não foi encontrado (opcional)", "severity": "non-critical", "decision": "Não inventar logradouro nem pressupor estabelecimento com atendimento presencial" }
+  ],
+  "issueNamesObserved": true,
+  "issueEvidence": "Terceira captura anexada pelo usuário no chat: seção address, seguida de PostalAddress, addressLocality Parnaíba e addressRegion PI",
+  "guidance": "A documentação Google de Organization não define propriedades obrigatórias; recomenda adicionar propriedades aplicáveis e verdadeiras. Os dois campos opcionais ausentes não invalidaram os itens neste teste e não constituem bloqueio de indexação.",
+  "guidanceSource": "https://developers.google.com/search/docs/appearance/structured-data/organization?hl=pt-br",
   "limitation": "Este teste valida elegibilidade de dados estruturados, sem comprovar indexação, exibição efetiva ou posição. WebSite foi validado separadamente no Schema Markup Validator."
 }

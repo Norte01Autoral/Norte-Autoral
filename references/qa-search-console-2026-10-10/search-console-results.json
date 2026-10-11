@@ -60,9 +60,16 @@
     "evidence": ["url-live-final.png", "url-live-final.txt", "url-live-render-final.png", "url-live-final-resources.txt", "url-live-final-console.txt"]
   },
   "indexingRequest": {
-    "confirmedSent": false,
-    "status": "PENDING_USER_UI_CONFIRMATION",
-    "reason": "Browser control failed before a visible submission confirmation; user was given the official UI steps to submit once and report confirmation",
+    "confirmedSent": true,
+    "status": "USER_CONFIRMED_INDEXING_REQUESTED",
+    "executedBy": "User in the official Search Console UI",
+    "confirmationDateAmericaSaoPaulo": "2026-10-10",
+    "exactSubmissionTimeRecorded": false,
+    "confirmationProvenance": "User answered: Sim, apareceu Indexação solicitada, after instructions to submit once for https://norteautoral.site/ in the domain property and brand account",
+    "requestScreenshotReceived": false,
+    "agentIndependentlyObservedRequestConfirmation": false,
+    "evidence": ["index-request-user-confirmation.md"],
+    "reason": "Browser control failed before the agent could confirm submission; the user completed the step and explicitly confirmed the official success message",
     "repeatedRequestAuthorized": false
   },
   "validation": {
@@ -71,7 +78,9 @@
     "richResultsTestUrl": "https://search.google.com/test/rich-results/result?id=SdVJoj9xwe0No27LrvfQFg",
     "richResultsValidItems": 2,
     "richResultsOrganizationNonCriticalIssues": 2,
-    "richResultsIssueNamesObserved": false,
+    "richResultsIssueNamesObserved": true,
+    "richResultsOrganizationOptionalMissingFields": ["address.postalCode", "address.streetAddress"],
+    "richResultsIssueEvidence": "Screenshots supplied by the user in the conversation",
     "heroWebglChecksPassed": 17,
     "heroWebglChecksFailed": 0,
     "publicReferencesChecked": 814,

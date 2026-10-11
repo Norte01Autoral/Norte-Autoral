@@ -2,7 +2,7 @@
 
 Registro de configuração em **10/10/2026**, fuso **America/Sao_Paulo**. Site principal: **https://norteautoral.site/**. Hospedagem: Netlify Free, projeto **rococo-liger-832df6**. DNS: Hostinger.
 
-**A inicial está indexada conforme a Inspeção de URL do Índice do Google.** A propriedade está verificada, e a versão publicada passou no teste ao vivo. O relatório de Sitemaps ainda apresenta falha de busca, apesar de o próprio teste ao vivo do Google conseguir acessar o XML.
+**A inicial está indexada conforme a Inspeção de URL do Índice do Google.** A propriedade está verificada, a versão publicada passou no teste ao vivo, e o usuário confirmou a mensagem **Indexação solicitada** nesta conversa. O relatório de Sitemaps ainda apresenta falha de busca apesar de o teste ao vivo do Google conseguir acessar o XML.
 
 ## Propriedade e verificação
 
@@ -38,7 +38,7 @@ O grafo completo mantém `inLanguage`, `publisher`, Gabriel Holanda, contatos, P
 
 O Schema Markup Validator recebeu o grafo atualizado e apresentou **0 erros e 0 avisos**. [Evidência](references/qa-search-console-2026-10-10/schema-validator.png). Esse é o teste recomendado para WebSite, pois nomes de site não são cobertos pelo Rich Results Test. O nome escolhido pelo Google é automático e pode diferir da preferência informada. [Guia oficial de nomes de sites](https://developers.google.com/search/docs/appearance/site-names?hl=pt-br).
 
-O [Teste de pesquisa aprimorada do Google](https://search.google.com/test/rich-results/result?id=SdVJoj9xwe0No27LrvfQFg), executado pelo usuário e consultado na interface oficial, detectou **2 itens válidos**: 1 em Empresas locais e 1 em Organização. A Organização Norte Autoral apresentou 2 problemas não críticos; os nomes dos avisos não foram expandidos, e não foram inventados dados para eliminá-los. O resultado corresponde aos dados estruturados preservados no deploy final; não é prova de exibição efetiva nem avaliação de elegibilidade para Perfil da Empresa. [Registro](references/qa-search-console-2026-10-10/rich-results-observation.json).
+O [Teste de pesquisa aprimorada do Google](https://search.google.com/test/rich-results/result?id=SdVJoj9xwe0No27LrvfQFg), executado pelo usuário e consultado na interface oficial, detectou **2 itens válidos**: 1 em Empresas locais e 1 em Organização. As capturas fornecidas pelo usuário nesta conversa confirmaram os dois avisos não críticos de `PostalAddress`: **`postalCode` não encontrado (opcional)** e **`streetAddress` não encontrado (opcional)**. São ausências opcionais de CEP e logradouro; não invalidaram os itens nem bloquearam a indexação. Localidade Parnaíba, região PI e país permanecem preservados. Não acrescentar endereço ou CEP sem informação verdadeira fornecida pelo responsável. O resultado corresponde aos dados estruturados preservados no deploy final; não é prova de exibição efetiva nem avaliação de elegibilidade para Perfil da Empresa. [Registro da evidência da interface e das capturas do usuário](references/qa-search-console-2026-10-10/rich-results-observation.json).
 
 ## Robustez da apresentação na renderização
 
@@ -66,8 +66,6 @@ Os bytes publicados da inicial diferem do arquivo local somente em nove links da
 
 ## Resultado do Search Console nesta execução
 
-<!-- Atualizar o campo de solicitação somente após confirmação explícita e registro da evidência. -->
-
 | Etapa | Resultado registrado |
 | --- | --- |
 | Propriedade Domínio | `norteautoral.site`, verificada por DNS |
@@ -80,13 +78,15 @@ Os bytes publicados da inicial diferem do arquivo local somente em nove links da
 | Rastreamento registrado no índice | **10/10/2026, 17:10:20**, Googlebot Smartphone; busca com êxito, rastreamento/indexação permitidos |
 | Canonical no índice | Declarado `https://norteautoral.site/`; Google selecionou o próprio URL inspecionado |
 | Teste final da URL publicada | **O URL está disponível para o Google — É possível indexar a página**, às **21:56:41**; HTTP 200, acesso/indexação permitidos, todos os recursos carregados |
-| Solicitação de indexação da revisão final | **Envio não confirmado.** O controle do navegador falhou antes de uma confirmação visível. O usuário recebeu os passos oficiais para solicitar uma vez e informar o resultado; não repetir se a interface já confirmar solicitação |
+| Solicitação de indexação da revisão final | **Realizada pelo usuário**, que confirmou nesta conversa em **10/10/2026**: “Sim, apareceu Indexação solicitada”. Hora exata não registrada; captura da confirmação do pedido não recebida. **Não repetir** |
 | Indexação efetiva | **Confirmada para a inicial pela inspeção do índice**, separadamente do teste ao vivo |
 | Ações manuais | **Nenhum problema foi detectado** |
 
 Evidências iniciais: [sitemap](references/qa-search-console-2026-10-10/sitemap-initial-status.png) e [Inspeção de URL](references/qa-search-console-2026-10-10/url-index-initial.png). Evidências finais: [sitemap no relatório](references/qa-search-console-2026-10-10/sitemap-final-status.png), [acesso ao XML pelo Google](references/qa-search-console-2026-10-10/sitemap-live-access.txt), [índice confirmado](references/qa-search-console-2026-10-10/url-index-confirmed.png), [detalhes do índice](references/qa-search-console-2026-10-10/url-index-confirmed.txt), [teste publicado](references/qa-search-console-2026-10-10/url-live-final.png) e [ações manuais](references/qa-search-console-2026-10-10/manual-actions.txt).
 
 O rastreamento mostrado no índice ocorreu às 17:10:20, antes da correção final da hero. O teste ao vivo das 21:56:41 confere a versão publicada atual; ele não comprova que o índice já incorporou essa correção. A presença no índice também não comprova apresentação do nome preferido ou posição para as buscas pela marca.
+
+A solicitação da revisão final foi concluída pelo usuário e confirmada em resposta nesta conversa; a confirmação textual é a evidência do pedido, separada das capturas do teste ao vivo e do índice. Não foi recebida uma captura da mensagem do pedido, nem registrado seu horário exato. Não é necessário repetir essa solicitação. [Registro do relato](references/qa-search-console-2026-10-10/index-request-user-confirmation.md).
 
 Um HTTP 200 público não equivale a processamento do sitemap pelo Google. No relatório Sitemaps, **Processado** significa que o arquivo foi buscado e lido sem erros; o número de páginas encontradas não comprova que essas páginas estão indexadas. Abra a linha do sitemap para conferir status, última leitura e erros. [Relatório oficial de Sitemaps](https://support.google.com/webmasters/answer/7451001?hl=pt-BR).
 
@@ -95,7 +95,7 @@ A falha final do relatório não veio acompanhada de causa específica nesta exe
 ## Como interpretar e acompanhar a indexação
 
 1. **Acesso e aptidão técnica:** a auditoria pública confere resposta, HTTPS, canonical e instruções. O teste publicado da Inspeção de URL confere como o Google busca e renderiza a versão atual. Resultado positivo do teste não comprova indexação.
-2. **Solicitação enviada:** só considerar realizada depois da confirmação explícita de envio à fila. Se a página estiver apta, solicitar uma vez. Repetir o mesmo pedido não acelera o processo.
+2. **Solicitação enviada:** nesta execução, o usuário confirmou explicitamente **Indexação solicitada**. Isso comprova o pedido informado pelo usuário, sem garantir atualização do índice ou exibição. Repetir o mesmo pedido não acelera o processo.
 3. **Indexação efetiva:** consultar a versão **Índice do Google** na Inspeção de URL. A mensagem **O URL está no Google** confirma o estado do índice naquele momento; ainda não garante exibição para uma consulta específica.
 
 Não confundir os painéis **Teste em tempo real** e **Índice do Google**. O Google pode levar tempo para atualizar os relatórios e decidir sobre inclusão; esta configuração não promete prazo nem posição. [Inspeção de URL](https://support.google.com/webmasters/answer/9012289?hl=pt-BR), [solicitar novo rastreamento](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl?hl=pt-br).

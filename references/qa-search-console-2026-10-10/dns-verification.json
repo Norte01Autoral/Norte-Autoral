@@ -1,0 +1,114 @@
+{
+  "checkedAtUtc": "2026-10-11T00:56:48.261Z",
+  "checkedAtSaoPaulo": "10/10/2026, 21:56:48",
+  "expectedGoogleTxt": "google-site-verification=pTRVHEnDi7tYQgmfY3JWNIdlwodp3AJbs3ii3t6J0cg",
+  "results": [
+    {
+      "resolver": "Google Public DNS",
+      "name": "norteautoral.site",
+      "type": "TXT",
+      "httpStatus": 200,
+      "dnsStatus": 0,
+      "answers": [
+        {
+          "name": "norteautoral.site.",
+          "type": 16,
+          "TTL": 300,
+          "data": "google-site-verification=pTRVHEnDi7tYQgmfY3JWNIdlwodp3AJbs3ii3t6J0cg"
+        }
+      ],
+      "authority": [],
+      "queryUrl": "https://dns.google/resolve?name=norteautoral.site&type=TXT"
+    },
+    {
+      "resolver": "Google Public DNS",
+      "name": "norteautoral.site",
+      "type": "A",
+      "httpStatus": 200,
+      "dnsStatus": 0,
+      "answers": [
+        {
+          "name": "norteautoral.site.",
+          "type": 1,
+          "TTL": 300,
+          "data": "75.2.60.5"
+        }
+      ],
+      "authority": [],
+      "queryUrl": "https://dns.google/resolve?name=norteautoral.site&type=A"
+    },
+    {
+      "resolver": "Google Public DNS",
+      "name": "www.norteautoral.site",
+      "type": "CNAME",
+      "httpStatus": 200,
+      "dnsStatus": 0,
+      "answers": [
+        {
+          "name": "www.norteautoral.site.",
+          "type": 5,
+          "TTL": 300,
+          "data": "rococo-liger-832df6.netlify.app."
+        }
+      ],
+      "authority": [],
+      "queryUrl": "https://dns.google/resolve?name=www.norteautoral.site&type=CNAME"
+    },
+    {
+      "resolver": "Cloudflare DNS",
+      "name": "norteautoral.site",
+      "type": "TXT",
+      "httpStatus": 200,
+      "dnsStatus": 0,
+      "answers": [
+        {
+          "name": "norteautoral.site",
+          "type": 16,
+          "TTL": 300,
+          "data": "\"google-site-verification=pTRVHEnDi7tYQgmfY3JWNIdlwodp3AJbs3ii3t6J0cg\""
+        }
+      ],
+      "authority": [],
+      "queryUrl": "https://cloudflare-dns.com/dns-query?name=norteautoral.site&type=TXT"
+    },
+    {
+      "resolver": "Cloudflare DNS",
+      "name": "norteautoral.site",
+      "type": "A",
+      "httpStatus": 200,
+      "dnsStatus": 0,
+      "answers": [
+        {
+          "name": "norteautoral.site",
+          "type": 1,
+          "TTL": 300,
+          "data": "75.2.60.5"
+        }
+      ],
+      "authority": [],
+      "queryUrl": "https://cloudflare-dns.com/dns-query?name=norteautoral.site&type=A"
+    },
+    {
+      "resolver": "Cloudflare DNS",
+      "name": "www.norteautoral.site",
+      "type": "CNAME",
+      "httpStatus": 200,
+      "dnsStatus": 0,
+      "answers": [
+        {
+          "name": "www.norteautoral.site",
+          "type": 5,
+          "TTL": 300,
+          "data": "rococo-liger-832df6.netlify.app."
+        }
+      ],
+      "authority": [],
+      "queryUrl": "https://cloudflare-dns.com/dns-query?name=www.norteautoral.site&type=CNAME"
+    }
+  ],
+  "checks": {
+    "googleTxtVisibleBothResolvers": true,
+    "rootAUnchangedBothResolvers": true,
+    "wwwCnameUnchangedBothResolvers": true
+  }
+}

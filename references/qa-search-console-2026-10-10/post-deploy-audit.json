@@ -1,0 +1,637 @@
+{
+  "checkedAtUtc": "2026-10-11T00:56:48.261Z",
+  "checkedAtSaoPaulo": "10/10/2026, 21:56:48",
+  "deployId": "6acadeababc97ae80a516934",
+  "scope": "Post-deploy public GET audit with default HTTPS certificate validation enabled. Root deploy ID supplied by coordinating agent; public HTML SHA-256 compared to source, stage and immutable deploy permalink. 106 unchanged assets were not rechecked after package SHA-256 validation.",
+  "localIndexSha256": "829577af5730aa9f72054390ccb1c61a2c782ba4fd8c43e225a80a0f932d5fcf",
+  "publishedIndexSha256": "88404c4173fc14b4c133f9dabe26d491df0f6b97e0579b8beee581a407ce6a11",
+  "contentComparison": {
+    "localBytes": 155535,
+    "publishedBytes": 155445,
+    "rawSha256Equal": false,
+    "normalizedLineEndingsEqual": false,
+    "differingLineCount": 9,
+    "differingLines": [
+      {
+        "line": 1172,
+        "local": "      <a class=\"gcard\" href=\"/marketing/portfolio/velorah-hero/dist/index.html\"><div class=\"win\"><div class=\"win-h\"><span class=\"dots\"><i></i><i></i><i></i></span><div class=\"url\"><b>https</b>velorah.demo</div></div><div class=\"shot\"><img src=\"/assets/portfolio-thumbs/velorah-hero.webp\" width=\"760\" height=\"950\" alt=\"Site de demonstração de um estúdio digital\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"cap\"><b>Velorah</b><span>estúdio digital</span></div></a>",
+        "published": "      <a class='gcard' href='/marketing/portfolio/velorah-hero/dist/'><div class=\"win\"><div class=\"win-h\"><span class=\"dots\"><i></i><i></i><i></i></span><div class=\"url\"><b>https</b>velorah.demo</div></div><div class=\"shot\"><img src=\"/assets/portfolio-thumbs/velorah-hero.webp\" width=\"760\" height=\"950\" alt=\"Site de demonstração de um estúdio digital\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"cap\"><b>Velorah</b><span>estúdio digital</span></div></a>"
+      },
+      {
+        "line": 1173,
+        "local": "      <a class=\"gcard\" href=\"/marketing/portfolio/lithos-hero/dist/index.html\"><div class=\"win\"><div class=\"win-h\"><span class=\"dots\"><i></i><i></i><i></i></span><div class=\"url\"><b>https</b>lithos.demo</div></div><div class=\"shot\"><img src=\"/assets/portfolio-thumbs/lithos-hero.webp\" width=\"760\" height=\"950\" alt=\"Site de demonstração com experiência interativa\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"cap\"><b>Lithos</b><span>experiência interativa</span></div></a>",
+        "published": "      <a class='gcard' href='/marketing/portfolio/lithos-hero/dist/'><div class=\"win\"><div class=\"win-h\"><span class=\"dots\"><i></i><i></i><i></i></span><div class=\"url\"><b>https</b>lithos.demo</div></div><div class=\"shot\"><img src=\"/assets/portfolio-thumbs/lithos-hero.webp\" width=\"760\" height=\"950\" alt=\"Site de demonstração com experiência interativa\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"cap\"><b>Lithos</b><span>experiência interativa</span></div></a>"
+      },
+      {
+        "line": 1174,
+        "local": "      <a class=\"gcard\" href=\"/marketing/portfolio/dentista-clinica-vertice/index.html\"><div class=\"win\"><div class=\"win-h\"><span class=\"dots\"><i></i><i></i><i></i></span><div class=\"url\"><b>https</b>vertice.demo</div></div><div class=\"shot\"><img src=\"/assets/portfolio-thumbs/dentista-clinica-vertice.webp\" width=\"1000\" height=\"1241\" alt=\"Site de demonstração de clínica odontológica\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"cap\"><b>Vértice</b><span>clínica odontológica</span></div></a>",
+        "published": "      <a class='gcard' href='/marketing/portfolio/dentista-clinica-vertice/'><div class=\"win\"><div class=\"win-h\"><span class=\"dots\"><i></i><i></i><i></i></span><div class=\"url\"><b>https</b>vertice.demo</div></div><div class=\"shot\"><img src=\"/assets/portfolio-thumbs/dentista-clinica-vertice.webp\" width=\"1000\" height=\"1241\" alt=\"Site de demonstração de clínica odontológica\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"cap\"><b>Vértice</b><span>clínica odontológica</span></div></a>"
+      },
+      {
+        "line": 1175,
+        "local": "      <a class=\"gcard\" href=\"/marketing/portfolio/convix-hero/dist/index.html\"><div class=\"win\"><div class=\"win-h\"><span class=\"dots\"><i></i><i></i><i></i></span><div class=\"url\"><b>https</b>convix.demo</div></div><div class=\"shot\"><img src=\"/assets/portfolio-thumbs/convix-hero.webp\" width=\"760\" height=\"950\" alt=\"Site de demonstração de software\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"cap\"><b>Convix</b><span>software</span></div></a>",
+        "published": "      <a class='gcard' href='/marketing/portfolio/convix-hero/dist/'><div class=\"win\"><div class=\"win-h\"><span class=\"dots\"><i></i><i></i><i></i></span><div class=\"url\"><b>https</b>convix.demo</div></div><div class=\"shot\"><img src=\"/assets/portfolio-thumbs/convix-hero.webp\" width=\"760\" height=\"950\" alt=\"Site de demonstração de software\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"cap\"><b>Convix</b><span>software</span></div></a>"
+      },
+      {
+        "line": 1176,
+        "local": "      <a class=\"gcard\" href=\"/marketing/portfolio/aureo-arquitetura/index.html\"><div class=\"win\"><div class=\"win-h\"><span class=\"dots\"><i></i><i></i><i></i></span><div class=\"url\"><b>https</b>aureo.demo</div></div><div class=\"shot\"><img src=\"/assets/portfolio-thumbs/aureo-arquitetura.webp\" width=\"760\" height=\"424\" alt=\"Site de demonstração de escritório de arquitetura\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"cap\"><b>Áureo</b><span>arquitetura</span></div></a>",
+        "published": "      <a class='gcard' href='/marketing/portfolio/aureo-arquitetura/'><div class=\"win\"><div class=\"win-h\"><span class=\"dots\"><i></i><i></i><i></i></span><div class=\"url\"><b>https</b>aureo.demo</div></div><div class=\"shot\"><img src=\"/assets/portfolio-thumbs/aureo-arquitetura.webp\" width=\"760\" height=\"424\" alt=\"Site de demonstração de escritório de arquitetura\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"cap\"><b>Áureo</b><span>arquitetura</span></div></a>"
+      },
+      {
+        "line": 1177,
+        "local": "      <a class=\"gcard\" href=\"/marketing/portfolio/confeitaria-margo/index.html\"><div class=\"win\"><div class=\"win-h\"><span class=\"dots\"><i></i><i></i><i></i></span><div class=\"url\"><b>https</b>margo.demo</div></div><div class=\"shot\"><img src=\"/assets/portfolio-thumbs/confeitaria-margo.webp\" width=\"760\" height=\"424\" alt=\"Site de demonstração de confeitaria\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"cap\"><b>Margô</b><span>confeitaria autoral</span></div></a>",
+        "published": "      <a class='gcard' href='/marketing/portfolio/confeitaria-margo/'><div class=\"win\"><div class=\"win-h\"><span class=\"dots\"><i></i><i></i><i></i></span><div class=\"url\"><b>https</b>margo.demo</div></div><div class=\"shot\"><img src=\"/assets/portfolio-thumbs/confeitaria-margo.webp\" width=\"760\" height=\"424\" alt=\"Site de demonstração de confeitaria\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"cap\"><b>Margô</b><span>confeitaria autoral</span></div></a>"
+      },
+      {
+        "line": 1178,
+        "local": "      <a class=\"gcard\" href=\"/marketing/portfolio/instituto-liminar/index.html\"><div class=\"win\"><div class=\"win-h\"><span class=\"dots\"><i></i><i></i><i></i></span><div class=\"url\"><b>https</b>liminar.demo</div></div><div class=\"shot\"><img src=\"/assets/portfolio-thumbs/instituto-liminar.webp\" width=\"1000\" height=\"558\" alt=\"Site de demonstração de ensino em psicanálise\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"cap\"><b>Liminar</b><span>ensino em psicanálise</span></div></a>",
+        "published": "      <a class='gcard' href='/marketing/portfolio/instituto-liminar/'><div class=\"win\"><div class=\"win-h\"><span class=\"dots\"><i></i><i></i><i></i></span><div class=\"url\"><b>https</b>liminar.demo</div></div><div class=\"shot\"><img src=\"/assets/portfolio-thumbs/instituto-liminar.webp\" width=\"1000\" height=\"558\" alt=\"Site de demonstração de ensino em psicanálise\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"cap\"><b>Liminar</b><span>ensino em psicanálise</span></div></a>"
+      },
+      {
+        "line": 1179,
+        "local": "      <a class=\"gcard\" href=\"/marketing/portfolio/verene-odontologia/index.html\"><div class=\"win\"><div class=\"win-h\"><span class=\"dots\"><i></i><i></i><i></i></span><div class=\"url\"><b>https</b>verene.demo</div></div><div class=\"shot\"><img src=\"/assets/portfolio-thumbs/verene-odontologia.webp\" width=\"760\" height=\"424\" alt=\"Site de demonstração de odontologia\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"cap\"><b>Verene</b><span>odontologia</span></div></a>",
+        "published": "      <a class='gcard' href='/marketing/portfolio/verene-odontologia/'><div class=\"win\"><div class=\"win-h\"><span class=\"dots\"><i></i><i></i><i></i></span><div class=\"url\"><b>https</b>verene.demo</div></div><div class=\"shot\"><img src=\"/assets/portfolio-thumbs/verene-odontologia.webp\" width=\"760\" height=\"424\" alt=\"Site de demonstração de odontologia\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"cap\"><b>Verene</b><span>odontologia</span></div></a>"
+      },
+      {
+        "line": 1180,
+        "local": "      <a class=\"gcard\" href=\"/marketing/portfolio/arquitetura-estudio-linha/index.html\"><div class=\"win\"><div class=\"win-h\"><span class=\"dots\"><i></i><i></i><i></i></span><div class=\"url\"><b>https</b>linha.demo</div></div><div class=\"shot\"><img src=\"/assets/portfolio-thumbs/arquitetura-estudio-linha.webp\" width=\"1000\" height=\"558\" alt=\"Site de demonstração de estúdio de arquitetura\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"cap\"><b>Estúdio Linha</b><span>arquitetura residencial</span></div></a>",
+        "published": "      <a class='gcard' href='/marketing/portfolio/arquitetura-estudio-linha/'><div class=\"win\"><div class=\"win-h\"><span class=\"dots\"><i></i><i></i><i></i></span><div class=\"url\"><b>https</b>linha.demo</div></div><div class=\"shot\"><img src=\"/assets/portfolio-thumbs/arquitetura-estudio-linha.webp\" width=\"1000\" height=\"558\" alt=\"Site de demonstração de estúdio de arquitetura\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"cap\"><b>Estúdio Linha</b><span>arquitetura residencial</span></div></a>"
+      }
+    ],
+    "transformedLinks": [
+      {
+        "from": "/marketing/portfolio/velorah-hero/dist/index.html",
+        "to": "/marketing/portfolio/velorah-hero/dist/"
+      },
+      {
+        "from": "/marketing/portfolio/lithos-hero/dist/index.html",
+        "to": "/marketing/portfolio/lithos-hero/dist/"
+      },
+      {
+        "from": "/marketing/portfolio/dentista-clinica-vertice/index.html",
+        "to": "/marketing/portfolio/dentista-clinica-vertice/"
+      },
+      {
+        "from": "/marketing/portfolio/convix-hero/dist/index.html",
+        "to": "/marketing/portfolio/convix-hero/dist/"
+      },
+      {
+        "from": "/marketing/portfolio/aureo-arquitetura/index.html",
+        "to": "/marketing/portfolio/aureo-arquitetura/"
+      },
+      {
+        "from": "/marketing/portfolio/confeitaria-margo/index.html",
+        "to": "/marketing/portfolio/confeitaria-margo/"
+      },
+      {
+        "from": "/marketing/portfolio/instituto-liminar/index.html",
+        "to": "/marketing/portfolio/instituto-liminar/"
+      },
+      {
+        "from": "/marketing/portfolio/verene-odontologia/index.html",
+        "to": "/marketing/portfolio/verene-odontologia/"
+      },
+      {
+        "from": "/marketing/portfolio/arquitetura-estudio-linha/index.html",
+        "to": "/marketing/portfolio/arquitetura-estudio-linha/"
+      }
+    ],
+    "onlyDocumentedDemoLinkTransformations": true,
+    "stageSha256": "829577af5730aa9f72054390ccb1c61a2c782ba4fd8c43e225a80a0f932d5fcf",
+    "stageMatchesLocal": true,
+    "deployPermalink": "https://6acadeababc97ae80a516934--rococo-liger-832df6.netlify.app/",
+    "permalinkSha256": "88404c4173fc14b4c133f9dabe26d491df0f6b97e0579b8beee581a407ce6a11",
+    "permalinkMatchesPublic": true,
+    "netlifyPostProcessingDocumentation": "https://docs.netlify.com/build/post-processing/overview/",
+    "explanation": "Published Netlify HTML differs from uploaded source only in nine demo links: index.html is changed to its equivalent directory URL and the anchor attributes use single quotes. All other bytes, including metadata, are identical after those exact replacements. The same transformed bytes appear on the immutable deploy permalink. This behavior is consistent with the Pretty URLs post-processing documented by Netlify; project UI setting was not inspected in this HTTP-only audit."
+  },
+  "checks": {
+    "publicHtmlMatchesLocalSha256": false,
+    "stageHtmlMatchesLocalSha256": true,
+    "publicHtmlMatchesDeployPermalinkSha256": true,
+    "publicDiffOnlyNineEquivalentDemoLinks": true,
+    "homepageStatus200": true,
+    "homepageCanonicalCorrect": true,
+    "homepageAllowsIndexing": true,
+    "titlePreserved": true,
+    "ogSiteNameCorrect": true,
+    "singleWebSiteNode": true,
+    "webSiteBrandCorrect": true,
+    "singleOrganizationNode": true,
+    "personPreserved": true,
+    "robotsAccessibleAndAllowAll": true,
+    "sitemapOnlyExpectedCanonicalIndexable": true,
+    "v3NoindexPreserved": true
+  },
+  "pages": [
+    {
+      "path": "/",
+      "url": "https://norteautoral.site/",
+      "status": 200,
+      "redirected": false,
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify"
+      },
+      "bytes": 155445,
+      "sha256": "88404c4173fc14b4c133f9dabe26d491df0f6b97e0579b8beee581a407ce6a11",
+      "title": "Norte Autoral | Sites, Meta Ads e Google Ads em Parnaíba",
+      "description": "Gabriel Holanda, da Norte Autoral, em Parnaíba, PI. Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para conectar presença digital e rotina do negócio.",
+      "canonical": "https://norteautoral.site/",
+      "robots": "index, follow, max-image-preview:large",
+      "googlebot": null,
+      "ogSiteName": "Norte Autoral",
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebSite",
+              "@id": "https://norteautoral.site/#website",
+              "url": "https://norteautoral.site/",
+              "name": "Norte Autoral",
+              "alternateName": "NorteAutoral",
+              "inLanguage": "pt-BR",
+              "publisher": {
+                "@id": "https://norteautoral.site/#negocio"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://norteautoral.site/#gabriel-holanda",
+              "name": "Gabriel Holanda",
+              "url": "https://norteautoral.site/#quem",
+              "image": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg",
+              "sameAs": [
+                "https://instagram.com/gabrielholanda._"
+              ]
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://norteautoral.site/#negocio",
+              "url": "https://norteautoral.site/",
+              "name": "Norte Autoral",
+              "description": "Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para negócios.",
+              "telephone": "+55-86-99990-0235",
+              "email": "contatonorteautoral@gmail.com",
+              "image": "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg",
+              "logo": "https://norteautoral.site/assets/norte-autoral/logo-n.png",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Parnaíba",
+                "addressRegion": "PI",
+                "addressCountry": "BR"
+              },
+              "founder": {
+                "@id": "https://norteautoral.site/#gabriel-holanda"
+              },
+              "sameAs": [
+                "https://instagram.com/gabrielholanda._"
+              ],
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Soluções para negócios",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Sites e aplicações"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Gestão de Meta Ads e Google Ads"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Norte/OS"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Sistemas e integrações"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "webSiteNodes": [
+        {
+          "@type": "WebSite",
+          "@id": "https://norteautoral.site/#website",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "alternateName": "NorteAutoral",
+          "inLanguage": "pt-BR",
+          "publisher": {
+            "@id": "https://norteautoral.site/#negocio"
+          }
+        }
+      ],
+      "organizationNodes": [
+        {
+          "@type": "Organization",
+          "@id": "https://norteautoral.site/#negocio",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "description": "Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para negócios.",
+          "telephone": "+55-86-99990-0235",
+          "email": "contatonorteautoral@gmail.com",
+          "image": "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg",
+          "logo": "https://norteautoral.site/assets/norte-autoral/logo-n.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Parnaíba",
+            "addressRegion": "PI",
+            "addressCountry": "BR"
+          },
+          "founder": {
+            "@id": "https://norteautoral.site/#gabriel-holanda"
+          },
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Soluções para negócios",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sites e aplicações"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Gestão de Meta Ads e Google Ads"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Norte/OS"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sistemas e integrações"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "personNodes": [
+        {
+          "@type": "Person",
+          "@id": "https://norteautoral.site/#gabriel-holanda",
+          "name": "Gabriel Holanda",
+          "url": "https://norteautoral.site/#quem",
+          "image": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg",
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/privacy",
+      "url": "https://norteautoral.site/privacy",
+      "status": 200,
+      "redirected": false,
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify"
+      },
+      "bytes": 4774,
+      "sha256": "5c562b81f03564475d84998082bf40fc1a52f46332a606f75f477b1dc7e5ef15",
+      "title": "Contato e privacidade — Norte Autoral",
+      "description": "Como funciona o contato neste portfólio da Norte Autoral.",
+      "canonical": "https://norteautoral.site/privacy",
+      "robots": "index, follow",
+      "googlebot": null,
+      "ogSiteName": null,
+      "jsonld": [],
+      "webSiteNodes": [],
+      "organizationNodes": [],
+      "personNodes": []
+    },
+    {
+      "path": "/terms",
+      "url": "https://norteautoral.site/terms",
+      "status": 200,
+      "redirected": false,
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify"
+      },
+      "bytes": 5475,
+      "sha256": "9cdbb3a3d89330f9f50113cde95d6de5af612c3ac675b2c1da16996a692ac663",
+      "title": "Sobre este portfólio — Norte Autoral",
+      "description": "Demonstrações, referências visuais e contato da Norte Autoral.",
+      "canonical": "https://norteautoral.site/terms",
+      "robots": "index, follow",
+      "googlebot": null,
+      "ogSiteName": null,
+      "jsonld": [],
+      "webSiteNodes": [],
+      "organizationNodes": [],
+      "personNodes": []
+    },
+    {
+      "path": "/robots.txt",
+      "url": "https://norteautoral.site/robots.txt",
+      "status": 200,
+      "redirected": false,
+      "headers": {
+        "content-type": "text/plain; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=3600",
+        "server": "Netlify"
+      },
+      "bytes": 71,
+      "sha256": "83b516c48971d9d1a65f9cbc037a71c0369d47b6f5ed1b49bb384f36fa9503d5",
+      "text": "User-agent: *\nAllow: /\n\nSitemap: https://norteautoral.site/sitemap.xml\n"
+    },
+    {
+      "path": "/sitemap.xml",
+      "url": "https://norteautoral.site/sitemap.xml",
+      "status": 200,
+      "redirected": false,
+      "headers": {
+        "content-type": "application/xml",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=3600",
+        "server": "Netlify"
+      },
+      "bytes": 362,
+      "sha256": "4a251d5e1c36214f8640787ff7bba004fb48a1b720901715990910302409b88f",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://norteautoral.site/</loc><lastmod>2026-10-10</lastmod></url>\n  <url><loc>https://norteautoral.site/privacy</loc><lastmod>2026-10-10</lastmod></url>\n  <url><loc>https://norteautoral.site/terms</loc><lastmod>2026-10-10</lastmod></url>\n</urlset>\n"
+    },
+    {
+      "path": "/v3",
+      "url": "https://norteautoral.site/v3",
+      "status": 200,
+      "redirected": false,
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify"
+      },
+      "bytes": 99800,
+      "sha256": "31275e8a0aeb4184e56cea5699196080c65bd3f1c9dcf9c5e7c23c110546fc99",
+      "title": "Norte Autoral | Sites, sistemas e Norte/OS",
+      "description": "Uma demonstração visual de sites, sistemas e automações da Norte Autoral, com Gabriel Holanda, em Parnaíba, PI.",
+      "canonical": "https://norteautoral.site/v3",
+      "robots": "noindex, follow",
+      "googlebot": null,
+      "ogSiteName": "Norte Autoral",
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "name": "Norte Autoral",
+          "url": "https://norteautoral.site/v3",
+          "description": "Sites, sistemas e automações para negócios, com Gabriel Holanda.",
+          "telephone": "+55-86-99990-0235",
+          "email": "contatonorteautoral@gmail.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Parnaíba",
+            "addressRegion": "PI",
+            "addressCountry": "BR"
+          },
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ]
+        }
+      ],
+      "webSiteNodes": [],
+      "organizationNodes": [],
+      "personNodes": []
+    },
+    {
+      "path": "https://6acadeababc97ae80a516934--rococo-liger-832df6.netlify.app/",
+      "url": "https://6acadeababc97ae80a516934--rococo-liger-832df6.netlify.app/",
+      "status": 200,
+      "redirected": false,
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": "noindex",
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify"
+      },
+      "bytes": 155445,
+      "sha256": "88404c4173fc14b4c133f9dabe26d491df0f6b97e0579b8beee581a407ce6a11",
+      "title": "Norte Autoral | Sites, Meta Ads e Google Ads em Parnaíba",
+      "description": "Gabriel Holanda, da Norte Autoral, em Parnaíba, PI. Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para conectar presença digital e rotina do negócio.",
+      "canonical": "https://norteautoral.site/",
+      "robots": "index, follow, max-image-preview:large",
+      "googlebot": null,
+      "ogSiteName": "Norte Autoral",
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebSite",
+              "@id": "https://norteautoral.site/#website",
+              "url": "https://norteautoral.site/",
+              "name": "Norte Autoral",
+              "alternateName": "NorteAutoral",
+              "inLanguage": "pt-BR",
+              "publisher": {
+                "@id": "https://norteautoral.site/#negocio"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://norteautoral.site/#gabriel-holanda",
+              "name": "Gabriel Holanda",
+              "url": "https://norteautoral.site/#quem",
+              "image": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg",
+              "sameAs": [
+                "https://instagram.com/gabrielholanda._"
+              ]
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://norteautoral.site/#negocio",
+              "url": "https://norteautoral.site/",
+              "name": "Norte Autoral",
+              "description": "Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para negócios.",
+              "telephone": "+55-86-99990-0235",
+              "email": "contatonorteautoral@gmail.com",
+              "image": "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg",
+              "logo": "https://norteautoral.site/assets/norte-autoral/logo-n.png",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Parnaíba",
+                "addressRegion": "PI",
+                "addressCountry": "BR"
+              },
+              "founder": {
+                "@id": "https://norteautoral.site/#gabriel-holanda"
+              },
+              "sameAs": [
+                "https://instagram.com/gabrielholanda._"
+              ],
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Soluções para negócios",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Sites e aplicações"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Gestão de Meta Ads e Google Ads"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Norte/OS"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Sistemas e integrações"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "webSiteNodes": [
+        {
+          "@type": "WebSite",
+          "@id": "https://norteautoral.site/#website",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "alternateName": "NorteAutoral",
+          "inLanguage": "pt-BR",
+          "publisher": {
+            "@id": "https://norteautoral.site/#negocio"
+          }
+        }
+      ],
+      "organizationNodes": [
+        {
+          "@type": "Organization",
+          "@id": "https://norteautoral.site/#negocio",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "description": "Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para negócios.",
+          "telephone": "+55-86-99990-0235",
+          "email": "contatonorteautoral@gmail.com",
+          "image": "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg",
+          "logo": "https://norteautoral.site/assets/norte-autoral/logo-n.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Parnaíba",
+            "addressRegion": "PI",
+            "addressCountry": "BR"
+          },
+          "founder": {
+            "@id": "https://norteautoral.site/#gabriel-holanda"
+          },
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Soluções para negócios",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sites e aplicações"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Gestão de Meta Ads e Google Ads"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Norte/OS"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sistemas e integrações"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "personNodes": [
+        {
+          "@type": "Person",
+          "@id": "https://norteautoral.site/#gabriel-holanda",
+          "name": "Gabriel Holanda",
+          "url": "https://norteautoral.site/#quem",
+          "image": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg",
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ]
+        }
+      ]
+    }
+  ],
+  "sitemapUrls": [
+    "https://norteautoral.site/",
+    "https://norteautoral.site/privacy",
+    "https://norteautoral.site/terms"
+  ],
+  "limitations": [
+    "Raw SHA-256 of published root differs from local/stage source because Netlify processes nine equivalent demo links. This is an observed, exactly enumerated transformation; no public source files were changed during this audit.",
+    "HTTP/DNS evidence does not prove Google indexing or replace Search Console inspection."
+  ],
+  "errors": []
+}

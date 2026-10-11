@@ -36,6 +36,7 @@
       "@id": "https://norteautoral.site/#website",
       "url": "https://norteautoral.site/",
       "name": "Norte Autoral",
+      "alternateName": "NorteAutoral",
       "inLanguage": "pt-BR",
       "publisher": { "@id": "https://norteautoral.site/#negocio" }
     },
@@ -48,7 +49,7 @@
       "sameAs": [ "https://instagram.com/gabrielholanda._" ]
     },
     {
-      "@type": "ProfessionalService",
+      "@type": "Organization",
       "@id": "https://norteautoral.site/#negocio",
       "url": "https://norteautoral.site/",
       "name": "Norte Autoral",
@@ -1714,16 +1715,35 @@ footer{position:relative;padding:60px 0 34px;border-top:1px solid rgba(237,233,2
 
   /* ---- layout: máscara das palavras + geometria base ---- */
   var mask = document.createElement('canvas'), mx = mask.getContext('2d');
+  var glFailed = false;
+  function fallback() {
+    glFailed = true; stop();
+    hero.classList.remove('gl', 'cur'); hero.classList.add('nogl');
+    if (cur) cur.classList.remove('show');
+    on();
+  }
   var anchor = document.getElementById('prism-anchor');
   var words = Array.prototype.slice.call(hero.querySelectorAll('.gw'));
   var midAng = Math.PI, W = 1, H = 1, sx = 1, quality = 1, lockQ = /[?&]hq/.test(location.search), C = { x: 0, y: 0 }, R = 60, angs = [Math.PI, Math.PI, Math.PI];
   var mobile = false;
   function layout() {
+    if (glFailed) return;
+    try { layoutGL(); } catch (e) { fallback(); }
+  }
+  function layoutGL() {
     var hr = hero.getBoundingClientRect();
+    if (!mx || gl.isContextLost() || !isFinite(hr.width) || !isFinite(hr.height) || hr.width <= 0 || hr.height <= 0) { fallback(); return; }
+    var textureLimit = gl.getParameter(gl.MAX_TEXTURE_SIZE), viewportLimit = gl.getParameter(gl.MAX_VIEWPORT_DIMS);
+    if (!textureLimit || !viewportLimit || !viewportLimit[0] || !viewportLimit[1]) { fallback(); return; }
+    var maxW = Math.min(textureLimit, viewportLimit[0]), maxH = Math.min(textureLimit, viewportLimit[1]);
+    if (!isFinite(maxW) || !isFinite(maxH) || maxW < 1 || maxH < 1) { fallback(); return; }
     var dpr = Math.min(window.devicePixelRatio || 1, 2) * quality;
-    W = Math.max(1, Math.round(hr.width * dpr)); H = Math.max(1, Math.round(hr.height * dpr));
+    /* Preserve a escala normal; reduza os dois eixos juntos ao limite real da GPU. */
+    dpr = Math.min(dpr, maxW / hr.width, maxH / hr.height);
+    W = Math.max(1, Math.min(maxW, Math.round(hr.width * dpr))); H = Math.max(1, Math.min(maxH, Math.round(hr.height * dpr)));
     sx = W / hr.width;
     cvs.width = W; cvs.height = H;
+    if (gl.isContextLost() || gl.drawingBufferWidth !== W || gl.drawingBufferHeight !== H) { fallback(); return; }
     gl.viewport(0, 0, W, H);
     mobile = window.innerWidth <= 600;
     mask.width = W; mask.height = H;
@@ -1758,6 +1778,7 @@ footer{position:relative;padding:60px 0 34px;border-top:1px solid rgba(237,233,2
     paint('#ff0000', 0);
     gl.bindTexture(gl.TEXTURE_2D, tex);
     gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, mask);
+    if (gl.isContextLost() || gl.getError() !== gl.NO_ERROR) { fallback(); return; }
     var a = anchor.getBoundingClientRect();
     C = { x: (a.left + a.width / 2 - hr.left) * sx, y: (a.top + a.height / 2 - hr.top) * sx };
     R = a.width * sx * 0.62;
@@ -1815,7 +1836,7 @@ footer{position:relative;padding:60px 0 34px;border-top:1px solid rgba(237,233,2
   hero.addEventListener('touchmove', function (e) { var t = e.touches[0]; if (t) setPtr(t.clientX, t.clientY); }, { passive: true });
   if (fine && cur) {
     hero.classList.add('cur');
-    hero.addEventListener('pointerenter', function () { cur.classList.add('show'); });
+    hero.addEventListener('pointerenter', function () { if (!glFailed) cur.classList.add('show'); });
     hero.addEventListener('pointerleave', function () { cur.classList.remove('show'); });
     hero.addEventListener('pointerover', function (e) {
       var w = e.target.closest('.gw'), ui = e.target.closest('a:not(.gw),button,.hero-top,.hero-bottom');
@@ -1830,6 +1851,7 @@ footer{position:relative;padding:60px 0 34px;border-top:1px solid rgba(237,233,2
   function clamp(v, a, b) { return v < a ? a : v > b ? b : v; }
   function eo(x) { return 1 - Math.pow(1 - x, 3); }
   function draw(now) {
+    if (glFailed || gl.isContextLost()) { fallback(); return; }
     var T = (now - t0) / 1000, dt = Math.min(0.05, (now - last) / 1000); last = now;
     var aTop = angs[0], aBot = angs[2];
     var lo = Math.min(aTop, aBot) - 0.32, hi = Math.max(aTop, aBot) + 0.32;
@@ -1868,9 +1890,9 @@ footer{position:relative;padding:60px 0 34px;border-top:1px solid rgba(237,233,2
       if (!lockQ && ema > 0.03 && quality > 0.55) { quality *= 0.75; layout(); }
     }
   }
-  function loop(now) { if (!running) return; draw(now); raf = requestAnimationFrame(loop); }
+  function loop(now) { if (!running) return; draw(now); if (running) raf = requestAnimationFrame(loop); }
   var heroVisible = true;
-  function start() { if (running || reduced || document.hidden || !heroVisible) return; running = true; last = performance.now(); raf = requestAnimationFrame(loop); }
+  function start() { if (glFailed || running || reduced || document.hidden || !heroVisible) return; running = true; last = performance.now(); raf = requestAnimationFrame(loop); }
   function stop() { running = false; cancelAnimationFrame(raf); }
 
   hero.classList.add('gl');
@@ -1886,7 +1908,7 @@ footer{position:relative;padding:60px 0 34px;border-top:1px solid rgba(237,233,2
     new IntersectionObserver(function (en) { heroVisible = en[0].isIntersecting; heroVisible ? start() : stop(); }).observe(hero);
   } else start();
   document.addEventListener('visibilitychange', function () { document.hidden ? stop() : start(); });
-  cvs.addEventListener('webglcontextlost', function (e) { e.preventDefault(); stop(); hero.classList.remove('gl'); hero.classList.add('nogl'); });
+  cvs.addEventListener('webglcontextlost', function (e) { e.preventDefault(); fallback(); });
 })();
 </script>
 

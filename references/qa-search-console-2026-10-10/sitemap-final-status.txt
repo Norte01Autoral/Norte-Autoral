@@ -1,0 +1,143 @@
+- banner:
+  - button "Menu principal":
+  - link "Google Search Console":
+    - /url: ./search-console?resource_id=sc-domain%3Anorteautoral.site
+  - search:
+    - textbox [disabled]: Inspecionar qualquer URL de "norteautoral.site"
+    - combobox "Inspecionar qualquer URL de norteautoral.site"
+    - button "Pesquisa":
+  - button "Ajuda":
+    - generic: help_outline
+  - tooltip: Ajuda
+  - button "Configurações de usuário":
+    - generic: manage_accounts
+  - tooltip: Configurações de usuário
+  - 'button "Mensagens não lidas: 1"':
+    - generic: notifications
+  - tooltip: Mensagens
+  - generic: "1"
+  - button "Google Apps":
+  - 'button "Conta do Google: Norte Autoral (contatonorteautoral@gmail.com)"':
+- dialog "navigational drawer":
+  - navigation "Primário":
+    - button "Pesquise a propriedade":
+      - img "favicon"
+      - combobox "norteautoral.site"
+      - generic: 
+    - link "Visão geral":
+      - /url: ./search-console?resource_id=sc-domain%3Anorteautoral.site
+      - generic: home
+      - generic: Visão geral
+    - link "Insights":
+      - /url: ./search-console/performance/insights?resource_id=sc-domain%3Anorteautoral.site
+      - generic: lightbulb_2
+      - generic: Insights
+    - link "Desempenho":
+      - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Anorteautoral.site
+      - generic: trending_up
+      - generic: Desempenho
+    - button "Inspeção de URL":
+      - generic: search
+      - generic: Inspeção de URL
+    - generic: Indexação
+    - button "Seção de relatórios de Indexação" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "Páginas":
+      - /url: ./search-console/index?resource_id=sc-domain%3Anorteautoral.site
+      - generic: file_copy
+      - generic: Páginas
+    - link "Sitemaps":
+      - /url: ./search-console/sitemaps?resource_id=sc-domain%3Anorteautoral.site
+      - generic: account_tree
+      - generic: Sitemaps
+    - link "Remoções":
+      - /url: ./search-console/removals?resource_id=sc-domain%3Anorteautoral.site
+      - generic: visibility_off
+      - generic: Remoções
+    - generic: Experiência
+    - button "Seção de relatórios de Experiência" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "Core Web Vitals":
+      - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Anorteautoral.site
+      - generic: speed
+      - generic: Core Web Vitals
+    - generic: Segurança e ações manuais
+    - button "Seção de relatórios de Segurança e ações manuais":
+      - generic: keyboard_arrow_down
+    - link "Relatório de links":
+      - /url: ./search-console/links?resource_id=sc-domain%3Anorteautoral.site
+      - generic: link_2
+      - generic: Links
+    - link "Conquistas":
+      - /url: ./search-console/achievements?resource_id=sc-domain%3Anorteautoral.site
+      - generic: trophy
+      - generic: Conquistas
+    - link "Configurações":
+      - /url: ./search-console/settings?resource_id=sc-domain%3Anorteautoral.site
+      - generic: settings
+      - generic: Configurações
+    - button "Enviar comentário":
+      - generic: feedback
+      - generic: Enviar comentário
+    - button "Sobre o Search Console":
+      - generic: info
+      - generic: Sobre o Search Console
+    - link "Privacidade":
+      - /url: https://myaccount.google.com/privacypolicy?hl=pt-BR
+    - link "Termos":
+      - /url: https://myaccount.google.com/termsofservice?hl=pt-BR
+- navigation "Indicadores de localização atual":
+  - heading "Sitemaps" [level=1]
+- main:
+  - generic: Adicionar um novo sitemap
+  - textbox "Insira o URL do sitemap" [active]
+  - generic: Insira o URL do sitemap
+  - button "Enviar" [disabled]:
+    - generic: Enviar
+  - heading "Sitemaps enviados" [level=1]:
+    - generic: Sitemaps enviados
+  - button "Filtrar linhas da tabela":
+    - generic: 
+  - table:
+    - rowgroup:
+      - row "Sitemap Tipo Enviado Última leitura Status Páginas encontradas Vídeos encontrados":
+        - columnheader "Sitemap":
+          - text: Sitemap
+        - columnheader "Tipo":
+          - text: Tipo
+        - columnheader "Enviado":
+          - text: Enviado
+        - columnheader "Última leitura":
+          - text: Última leitura
+        - columnheader "Status":
+          - text: Status
+        - columnheader "Páginas encontradas":
+          - text: Páginas encontradas
+        - columnheader "Vídeos encontrados":
+          - text: Vídeos encontrados
+        - columnheader
+    - rowgroup:
+      - row "https://norteautoral.site/sitemap.xml Desconhecido 10 de out. de 2026 Não foi possível buscar o sitemap 0 0":
+        - cell "https://norteautoral.site/sitemap.xml"
+        - cell "Desconhecido"
+        - cell "10 de out. de 2026"
+        - cell
+        - cell "Não foi possível buscar o sitemap":
+          - generic: Não foi possível buscar o sitemap
+        - cell "0"
+        - cell "0"
+        - cell:
+          - button:
+            - generic: 
+  - generic: "Linhas por página:"
+  - listbox "Número de linhas por página":
+    - option "5"
+    - option "10" [selected]
+    - option "25"
+    - option "50"
+    - option "100"
+    - option "250"
+    - option "500"
+  - generic: 1-1 de 1
+  - generic: 
+  - generic: 

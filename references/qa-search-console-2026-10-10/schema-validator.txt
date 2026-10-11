@@ -1,0 +1,364 @@
+- link "Schema.org":
+  - /url: https://schema.org/
+- list:
+  - link "Documentation":
+    - /url: https://schema.org/docs/documents.html
+  - link "Schemas":
+    - /url: https://schema.org/docs/schemas.html
+  - link "Validate":
+    - /url: /
+  - link "About":
+    - /url: https://schema.org/docs/about.html
+- textbox "search"
+- generic: public
+- button "Testar de novo"
+- button "language_japanese_kana":
+  - generic: language_japanese_kana
+- button "info":
+  - generic: info
+- textbox
+- generic: "1"
+- text: "{"
+- generic: "2"
+- text: "\"@context\": \"https://schema.org\","
+- generic: "3"
+- text: "\"@graph\": ["
+- generic: "4"
+- text: "{"
+- generic: "5"
+- text: "\"@type\": \"WebSite\","
+- generic: "6"
+- text: "\"@id\": \"https://norteautoral.site/#website\","
+- generic: "7"
+- text: "\"url\": \"https://norteautoral.site/\","
+- generic: "8"
+- text: "\"name\": \"Norte Autoral\","
+- generic: "9"
+- text: "\"alternateName\": \"NorteAutoral\","
+- generic: "10"
+- text: "\"inLanguage\": \"pt-BR\","
+- generic: "11"
+- text: "\"publisher\": { \"@id\": \"https://norteautoral.site/#negocio\" }"
+- generic: "12"
+- text: "},"
+- generic: "13"
+- text: "{"
+- generic: "14"
+- text: "\"@type\": \"Person\","
+- generic: "15"
+- text: "\"@id\": \"https://norteautoral.site/#gabriel-holanda\","
+- generic: "16"
+- text: "\"name\": \"Gabriel Holanda\","
+- generic: "17"
+- text: "\"url\": \"https://norteautoral.site/#quem\","
+- generic: "18"
+- text: "\"image\": \"https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg\","
+- generic: "19"
+- text: "\"sameAs\": [ \"https://instagram.com/gabrielholanda._\" ]"
+- generic: "20"
+- text: "},"
+- generic: "21"
+- text: "{"
+- generic: "22"
+- text: "\"@type\": \"Organization\","
+- generic: "23"
+- text: "\"@id\": \"https://norteautoral.site/#negocio\","
+- generic: "24"
+- text: "\"url\": \"https://norteautoral.site/\","
+- generic: "25"
+- text: "\"name\": \"Norte Autoral\","
+- generic: "26"
+- text: "\"description\": \"Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para negócios.\","
+- generic: "27"
+- text: "\"telephone\": \"+55-86-99990-0235\","
+- generic: "28"
+- text: "\"email\": \"contatonorteautoral@gmail.com\","
+- generic: "29"
+- text: "\"image\": \"https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg\","
+- generic: "30"
+- text: "\"logo\": \"https://norteautoral.site/assets/norte-autoral/logo-n.png\","
+- generic: "31"
+- text: "\"address\": {"
+- generic: "32"
+- text: "\"@type\": \"PostalAddress\","
+- generic: "33"
+- text: "\"addressLocality\": \"Parnaíba\","
+- generic: "34"
+- text: "\"addressRegion\": \"PI\","
+- generic: "35"
+- text: "\"addressCountry\": \"BR\""
+- generic: "36"
+- text: "},"
+- generic: WebSite
+- button "All (1) arrow_drop_down":
+  - text: All (1)
+  - generic: arrow_drop_down
+- list:
+  - text: WebSite
+  - generic: "ID: https://norteautoral.site/#website"
+  - generic: 0 ERROS
+  - generic: 0 AVISOS
+  - generic: expand_less
+  - table:
+    - rowgroup:
+      - row "@type WebSite":
+        - cell "@type":
+          - generic: "@type"
+        - cell "WebSite":
+          - generic: WebSite
+      - row "@id https://norteautoral.site/#website":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://norteautoral.site/#website":
+          - generic: https://norteautoral.site/#website
+      - row "url https://norteautoral.site/":
+        - cell "url":
+          - generic: url
+        - cell "https://norteautoral.site/":
+          - generic: https://norteautoral.site/
+      - row "name Norte Autoral":
+        - cell "name":
+          - generic: name
+        - cell "Norte Autoral":
+          - generic: Norte Autoral
+      - row "alternateName NorteAutoral":
+        - cell "alternateName":
+          - generic: alternateName
+        - cell "NorteAutoral":
+          - generic: NorteAutoral
+      - row "inLanguage pt-BR":
+        - cell "inLanguage":
+          - generic: inLanguage
+        - cell "pt-BR":
+          - generic: pt-BR
+      - row "publisher":
+        - cell "publisher":
+          - generic: publisher
+        - cell
+      - row "@type Organization":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Organization":
+          - generic: Organization
+      - row "@id https://norteautoral.site/#negocio":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://norteautoral.site/#negocio":
+          - generic: https://norteautoral.site/#negocio
+      - row "url https://norteautoral.site/":
+        - cell "url":
+          - generic: url
+        - cell "https://norteautoral.site/":
+          - generic: https://norteautoral.site/
+      - row "name Norte Autoral":
+        - cell "name":
+          - generic: name
+        - cell "Norte Autoral":
+          - generic: Norte Autoral
+      - row "description Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para negócios.":
+        - cell "description":
+          - generic: description
+        - cell "Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para negócios.":
+          - generic: Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para negócios.
+      - row "telephone +55-86-99990-0235":
+        - cell "telephone":
+          - generic: telephone
+        - cell "+55-86-99990-0235":
+          - generic: +55-86-99990-0235
+      - row "email contatonorteautoral@gmail.com":
+        - cell "email":
+          - generic: email
+        - cell "contatonorteautoral@gmail.com":
+          - generic: contatonorteautoral@gmail.com
+      - row "image https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg":
+        - cell "image":
+          - generic: image
+        - cell "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg":
+          - generic: https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg
+      - row "logo https://norteautoral.site/assets/norte-autoral/logo-n.png":
+        - cell "logo":
+          - generic: logo
+        - cell "https://norteautoral.site/assets/norte-autoral/logo-n.png":
+          - generic: https://norteautoral.site/assets/norte-autoral/logo-n.png
+      - row "sameAs https://instagram.com/gabrielholanda._":
+        - cell "sameAs":
+          - generic: sameAs
+        - cell "https://instagram.com/gabrielholanda._":
+          - generic: https://instagram.com/gabrielholanda._
+      - row "address":
+        - cell "address":
+          - generic: address
+        - cell
+      - row "@type PostalAddress":
+        - cell "@type":
+          - generic: "@type"
+        - cell "PostalAddress":
+          - generic: PostalAddress
+      - row "addressLocality Parnaíba":
+        - cell "addressLocality":
+          - generic: addressLocality
+        - cell "Parnaíba":
+          - generic: Parnaíba
+      - row "addressRegion PI":
+        - cell "addressRegion":
+          - generic: addressRegion
+        - cell "PI":
+          - generic: PI
+      - row "addressCountry":
+        - cell "addressCountry":
+          - generic: addressCountry
+        - cell
+      - row "@type Country":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Country":
+          - generic: Country
+      - row "name BR":
+        - cell "name":
+          - generic: name
+        - cell "BR":
+          - generic: BR
+      - row "founder":
+        - cell "founder":
+          - generic: founder
+        - cell
+      - row "@type Person":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Person":
+          - generic: Person
+      - row "@id https://norteautoral.site/#gabriel-holanda":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://norteautoral.site/#gabriel-holanda":
+          - generic: https://norteautoral.site/#gabriel-holanda
+      - row "name Gabriel Holanda":
+        - cell "name":
+          - generic: name
+        - cell "Gabriel Holanda":
+          - generic: Gabriel Holanda
+      - row "url https://norteautoral.site/#quem":
+        - cell "url":
+          - generic: url
+        - cell "https://norteautoral.site/#quem":
+          - generic: https://norteautoral.site/#quem
+      - row "image https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg":
+        - cell "image":
+          - generic: image
+        - cell "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg":
+          - generic: https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg
+      - row "sameAs https://instagram.com/gabrielholanda._":
+        - cell "sameAs":
+          - generic: sameAs
+        - cell "https://instagram.com/gabrielholanda._":
+          - generic: https://instagram.com/gabrielholanda._
+      - row "hasOfferCatalog":
+        - cell "hasOfferCatalog":
+          - generic: hasOfferCatalog
+        - cell
+      - row "@type OfferCatalog":
+        - cell "@type":
+          - generic: "@type"
+        - cell "OfferCatalog":
+          - generic: OfferCatalog
+      - row "name Soluções para negócios":
+        - cell "name":
+          - generic: name
+        - cell "Soluções para negócios":
+          - generic: Soluções para negócios
+      - row "itemListElement":
+        - cell "itemListElement":
+          - generic: itemListElement
+        - cell
+      - row "@type Offer":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Offer":
+          - generic: Offer
+      - row "itemOffered":
+        - cell "itemOffered":
+          - generic: itemOffered
+        - cell
+      - row "@type Service":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Service":
+          - generic: Service
+      - row "name Sites e aplicações":
+        - cell "name":
+          - generic: name
+        - cell "Sites e aplicações":
+          - generic: Sites e aplicações
+      - row "itemListElement":
+        - cell "itemListElement":
+          - generic: itemListElement
+        - cell
+      - row "@type Offer":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Offer":
+          - generic: Offer
+      - row "itemOffered":
+        - cell "itemOffered":
+          - generic: itemOffered
+        - cell
+      - row "@type Service":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Service":
+          - generic: Service
+      - row "name Gestão de Meta Ads e Google Ads":
+        - cell "name":
+          - generic: name
+        - cell "Gestão de Meta Ads e Google Ads":
+          - generic: Gestão de Meta Ads e Google Ads
+      - row "itemListElement":
+        - cell "itemListElement":
+          - generic: itemListElement
+        - cell
+      - row "@type Offer":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Offer":
+          - generic: Offer
+      - row "itemOffered":
+        - cell "itemOffered":
+          - generic: itemOffered
+        - cell
+      - row "@type Service":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Service":
+          - generic: Service
+      - row "name Norte/OS":
+        - cell "name":
+          - generic: name
+        - cell "Norte/OS":
+          - generic: Norte/OS
+      - row "itemListElement":
+        - cell "itemListElement":
+          - generic: itemListElement
+        - cell
+      - row "@type Offer":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Offer":
+          - generic: Offer
+      - row "itemOffered":
+        - cell "itemOffered":
+          - generic: itemOffered
+        - cell
+      - row "@type Service":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Service":
+          - generic: Service
+      - row "name Sistemas e integrações":
+        - cell "name":
+          - generic: name
+        - cell "Sistemas e integrações":
+          - generic: Sistemas e integrações
+- button "play_arrow" [disabled]:
+  - generic: play_arrow
+- generic: VALIDAR
+- button

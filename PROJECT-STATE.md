@@ -1,6 +1,20 @@
 # Estado do projeto
 
-## Última revisão — publicação Netlify, 10 de outubro de 2026
+## Última revisão — Search Console, 10 de outubro de 2026
+
+Propriedade Domínio **norteautoral.site** verificada no Search Console da conta de marca **contatonorteautoral@gmail.com**, por TXT exato salvo na Hostinger. Propagação confirmada por Google Public DNS e Cloudflare; TXT permanece e A/CNAME foram preservados. Configuração, evidências e acompanhamento em [SEARCH-CONSOLE.md](SEARCH-CONSOLE.md) e [QA atual](references/qa-search-console-2026-10-10/QA-FINAL.md).
+
+O painel **Índice do Google** confirmou **O URL está no Google / A página está indexada**, com último rastreamento em 10/10/2026 às 17:10:20, Googlebot Smartphone e canonical da raiz selecionado pelo Google. A verificação final da versão publicada às 21:56:41 permitiu rastreamento/indexação, busca HTTP 200 e carregamento de todos os recursos. Esses estados são distintos de um pedido de atualização de rastreamento; o resultado desse pedido consta no registro Search Console. Não há garantia de presença para uma consulta, nome exibido, posição ou prazo.
+
+Sitemap **https://norteautoral.site/sitemap.xml** cadastrado e reenviado uma vez após diagnóstico oficial. O relatório ainda informa **Não foi possível buscar o sitemap**, sem última leitura e com zero páginas encontradas. A inspeção ao vivo do próprio XML conseguiu buscá-lo às 16:24:41; auditorias públicas confirmam XML 200, namespace correto, três URLs canônicas (raiz, privacidade, termos), robots permitindo acesso e ausência de ações manuais. Leitura/processamento pelo relatório continuam pendentes, sem causa técnica demonstrada que exija outra alteração de arquivos. Demos/v3/artigo continuam rastreáveis com noindex e fora do sitemap.
+
+Correções em `public/index.html`: `alternateName: NorteAutoral` no WebSite existente e `Organization` no nó `#negocio`, preservando identidade real. Schema Markup Validator: zero erros/avisos. O Rich Results Test fornecido pelo usuário apontou dois itens válidos e avisos não críticos; detalhes no registro. Corrigida ainda uma falha concreta de limite de textura vista no teste Google: o script da hero limita resolução aos limites da GPU e usa o fallback CSS existente em falhas. Dezessete verificações passaram, preservando dimensões/uniformes normais e evitando reinício após falha. Teste Google final não mostrou o erro de textura; restou um aviso de desempenho gráfico. A captura disponível não comprova toda a animação da hero em um quadro do Google.
+
+Deploy de produção **`6acadeababc97ae80a516934`** no projeto Netlify existente **rococo-liger-832df6**, Free. Pacote atual separado: `../clone-v1-netlify-search-2026-10-10/`, com 231 arquivos e `_headers`/`_redirects`. Conteúdo aprovado, markup, CSS, recursos externos, foto, nove demos, ZIPs anteriores e quatro backups preservados. O script inline da hero é a única mudança de comportamento; o grafo recebeu as duas alterações de identificação. Fonte local, pasta de publicação e HTML servido foram comparados; nove links de demos recebem normalização equivalente na publicação, como documentado na QA.
+
+Código e documentação desta revisão são armazenados na branch **portfolio-atualizado-hostinger-2026-10-10**, sem mudar main, backups ou bloqueio Vercel. Publicação Netlify continua manual. Credenciais e estado `.netlify` ficam fora do projeto e do GitHub. Nenhum Perfil da Empresa foi criado ou avaliado.
+
+## Revisão anterior — publicação Netlify, 10 de outubro de 2026
 
 O usuário autorizou a publicação e escolheu hospedagem gratuita após constatar que sua conta Hostinger possui o domínio, mas não um plano de hospedagem. O projeto **rococo-liger-832df6** foi assumido pela conta **norte01autoral**, plano **Free**, e está publicado em **https://rococo-liger-832df6.netlify.app/**. ID público: `3eb337d6-85fb-4e13-9ce3-28db1f369506`.
 

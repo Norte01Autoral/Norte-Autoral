@@ -1,0 +1,117 @@
+- banner:
+  - button "Menu principal":
+  - link "Google Search Console":
+    - /url: ./search-console?resource_id=sc-domain%3Anorteautoral.site
+  - search:
+    - textbox [disabled]: Inspecionar qualquer URL de "norteautoral.site"
+    - combobox "Inspecionar qualquer URL de norteautoral.site"
+    - button "Pesquisa":
+  - button "Ajuda":
+    - generic: help_outline
+  - tooltip: Ajuda
+  - button "Configurações de usuário":
+    - generic: manage_accounts
+  - tooltip: Configurações de usuário
+  - 'button "Mensagens não lidas: 1"':
+    - generic: notifications
+  - tooltip: Mensagens
+  - generic: "1"
+  - button "Google Apps":
+  - 'button "Conta do Google: Norte Autoral (contatonorteautoral@gmail.com)"':
+- dialog "navigational drawer":
+  - navigation "Primário":
+    - button "Pesquise a propriedade":
+      - img "favicon"
+      - combobox "norteautoral.site"
+      - generic: 
+    - link "Visão geral":
+      - /url: ./search-console?resource_id=sc-domain%3Anorteautoral.site
+      - generic: home
+      - generic: Visão geral
+    - link "Insights":
+      - /url: ./search-console/performance/insights?resource_id=sc-domain%3Anorteautoral.site
+      - generic: lightbulb_2
+      - generic: Insights
+    - link "Desempenho":
+      - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Anorteautoral.site
+      - generic: trending_up
+      - generic: Desempenho
+    - button "Inspeção de URL":
+      - generic: search
+      - generic: Inspeção de URL
+    - generic: Indexação
+    - button "Seção de relatórios de Indexação" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "Páginas":
+      - /url: ./search-console/index?resource_id=sc-domain%3Anorteautoral.site
+      - generic: file_copy
+      - generic: Páginas
+    - link "Sitemaps":
+      - /url: ./search-console/sitemaps?resource_id=sc-domain%3Anorteautoral.site
+      - generic: account_tree
+      - generic: Sitemaps
+    - link "Remoções":
+      - /url: ./search-console/removals?resource_id=sc-domain%3Anorteautoral.site
+      - generic: visibility_off
+      - generic: Remoções
+    - generic: Experiência
+    - button "Seção de relatórios de Experiência" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "Core Web Vitals":
+      - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Anorteautoral.site
+      - generic: speed
+      - generic: Core Web Vitals
+    - generic: Segurança e ações manuais
+    - button "Seção de relatórios de Segurança e ações manuais":
+      - generic: keyboard_arrow_down
+    - link "Relatório de links":
+      - /url: ./search-console/links?resource_id=sc-domain%3Anorteautoral.site
+      - generic: link_2
+      - generic: Links
+    - link "Conquistas":
+      - /url: ./search-console/achievements?resource_id=sc-domain%3Anorteautoral.site
+      - generic: trophy
+      - generic: Conquistas
+    - link "Configurações":
+      - /url: ./search-console/settings?resource_id=sc-domain%3Anorteautoral.site
+      - generic: settings
+      - generic: Configurações
+    - button "Enviar comentário":
+      - generic: feedback
+      - generic: Enviar comentário
+    - button "Sobre o Search Console":
+      - generic: info
+      - generic: Sobre o Search Console
+    - link "Privacidade":
+      - /url: https://myaccount.google.com/privacypolicy?hl=pt-BR
+    - link "Termos":
+      - /url: https://myaccount.google.com/termsofservice?hl=pt-BR
+- navigation "Indicadores de localização atual":
+  - link "Sitemaps":
+    - /url: ./search-console/sitemaps?resource_id=sc-domain%3Anorteautoral.site
+  - generic: 
+  - heading "https://norteautoral.site/sitemap.xml" [level=1]
+- button "Abrir sitemap":
+  - generic: Abrir sitemap
+  - generic: 
+- button "Mais opções…":
+  - generic: 
+- main:
+  - generic: Última leitura
+  - generic: 10/10/2026
+  - generic: Páginas encontradas
+  - generic: "0"
+  - generic: Vídeos encontrados
+  - generic: "0"
+  - button "Conferir indexação de páginas" [disabled]:
+    - generic: 
+    - text: Conferir indexação de páginas
+  - button "Conferir indexação de páginas de vídeo" [disabled]:
+    - generic: 
+    - text: Conferir indexação de páginas de vídeo
+  - generic: 
+  - generic: Não foi possível ler o sitemap
+- generic: Sitemaps
+- generic: Novidade! Descubra como as pessoas encontram seu conteúdo do Instagram, TikTok, X e YouTube na Pesquisa Google
+- button "Fechar":
+  - generic: close

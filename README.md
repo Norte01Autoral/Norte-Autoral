@@ -4,15 +4,19 @@ Portfólio personalizado para **Gabriel Holanda / Norte Autoral**, em **Parnaíb
 
 ## Publicação atual no Netlify
 
-Publicado em **https://norteautoral.site/**, no projeto do usuário **norte01autoral**, plano **Free**. O domínio e o alias www estão cadastrados; os registros A/CNAME foram salvos na Hostinger e confirmados por DNS público. **HTTPS obrigatório configurado, com certificado Let's Encrypt emitido para o domínio e www.** Os adaptadores de rotas/cache foram reenviados no deploy `6aca88a67bc795130b2a0c63`; a [auditoria pública](references/qa-netlify-2026-10-10/QA-FINAL.md) confirmou páginas, recursos, redirecionamentos, certificado e cache, sem erros ou loops. Consulte [NETLIFY.md](NETLIFY.md) para o estado e a manutenção. Endereço técnico: **https://rococo-liger-832df6.netlify.app/**.
+Publicado em **https://norteautoral.site/**, no projeto **rococo-liger-832df6** da conta **norte01autoral**, plano **Free**. Domínio e www têm DNS Hostinger confirmado, HTTPS obrigatório e certificado Let's Encrypt válido. Deploy atual **`6acadeababc97ae80a516934`**, incluindo adaptadores de rotas/cache, identificação WebSite e proteção contra falha de limite WebGL. Consulte a [QA atual](references/qa-search-console-2026-10-10/QA-FINAL.md) e [NETLIFY.md](NETLIFY.md). Endereço técnico: **https://rococo-liger-832df6.netlify.app/**.
 
-Os adaptadores separados estão em `hosting/netlify/`. **clone-v1-netlify.zip** é o pacote de publicação com os dois adaptadores incluídos; extraia-o em uma pasta antes de enviar uma atualização manual pelo painel. O projeto `public/`, os ZIPs anteriores e os quatro pontos de restauração permanecem preservados. A Hostinger mantém o domínio/DNS; a hospedagem desta publicação é o Netlify.
+Os adaptadores separados estão em `hosting/netlify/`. A pasta de publicação atual é **`../clone-v1-netlify-search-2026-10-10/`**, com 231 arquivos e os dois adaptadores. **clone-v1-netlify.zip** e os ZIPs anteriores preservam as revisões anteriores; prepare `public/` atual para novas publicações. Os quatro pontos de restauração permanecem intactos. A Hostinger mantém o domínio/DNS; a hospedagem é Netlify.
+
+## Google Search Console
+
+Propriedade **Domínio norteautoral.site** verificada na conta de marca, com TXT mantido na Hostinger. A inicial foi efetivamente confirmada **indexada** no painel Índice do Google; o teste publicado final também aprovou acesso e possibilidade de indexação. O sitemap está cadastrado, mas sua leitura no relatório continua pendente com status de falha de busca. Isso não impede a indexação da inicial já confirmada. Consulte [SEARCH-CONSOLE.md](SEARCH-CONSOLE.md) para resultados, evidências, pedido de atualização e filtros de desempenho da marca. Não há garantia de posição, prazo ou exibição para uma busca específica.
 
 ## Instalar na Hostinger
 
 Use **clone-v1-hostinger.zip**, com `index.html` na raiz, e extraia seu conteúdo diretamente em **public_html**. O site é estático e não exige Node.js, WordPress ou banco de dados no servidor. [HOSTINGER.md](HOSTINGER.md) contém o passo a passo de envio, SSL e Google Search Console. O ZIP de código-fonte **clone-v1-norte-autoral.zip** serve para manutenção local.
 
-SEO configurado para o domínio informado: canonical, título/descrição, imagem social, dados estruturados, `robots.txt` e `sitemap.xml`. Os templates continuam navegáveis e usam `noindex`; o portfólio principal é destinado à busca. A publicação Netlify e os registros DNS constam em [NETLIFY.md](NETLIFY.md); a solicitação de indexação deve ser feita após confirmar o HTTPS do domínio próprio.
+SEO configurado para o domínio informado: canonical, título/descrição, imagem social, dados estruturados, `robots.txt` e `sitemap.xml`. Os templates e `/v3` continuam navegáveis, rastreáveis e com `noindex`, fora do sitemap. A configuração Google atual está em [SEARCH-CONSOLE.md](SEARCH-CONSOLE.md).
 
 A foto mantém enquadramento completo, sem o zoom que cortava o cabelo. Meta Ads e Google Ads aparecem em hero, faixa contínua, serviços, Quem e interesse do formulário. Logo menor e imagens WebP reduzem os bytes; mídia fora da tela/aba é pausada. Medição local em cache frio: **65,15% menos bytes de assets iniciais**, ou **55,82% incluindo HTML**. Esses números não representam uma medição do servidor de produção. Evidências: [QA de entrega](references/qa-release-2026-10-10/QA-FINAL.md).
 

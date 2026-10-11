@@ -1,0 +1,208 @@
+- banner:
+  - button "Menu principal":
+  - link "Google Search Console":
+    - /url: ./search-console?resource_id=sc-domain%3Anorteautoral.site
+  - search:
+    - textbox [disabled]: Inspecionar qualquer URL de "norteautoral.site"
+    - combobox "Inspecionar qualquer URL de norteautoral.site"
+    - button "Pesquisa":
+  - button "Ajuda":
+    - generic: help_outline
+  - tooltip: Ajuda
+  - button "Configurações de usuário":
+    - generic: manage_accounts
+  - tooltip: Configurações de usuário
+  - 'button "Mensagens não lidas: 1"':
+    - generic: notifications
+  - tooltip: Mensagens
+  - generic: "1"
+  - button "Google Apps":
+  - 'button "Conta do Google: Norte Autoral (contatonorteautoral@gmail.com)"':
+- dialog "navigational drawer":
+  - navigation "Primário":
+    - button "Pesquise a propriedade":
+      - img "favicon"
+      - combobox "norteautoral.site"
+      - generic: 
+    - link "Visão geral":
+      - /url: ./search-console?resource_id=sc-domain%3Anorteautoral.site
+      - generic: home
+      - generic: Visão geral
+    - link "Insights":
+      - /url: ./search-console/performance/insights?resource_id=sc-domain%3Anorteautoral.site
+      - generic: lightbulb_2
+      - generic: Insights
+    - link "Desempenho":
+      - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Anorteautoral.site
+      - generic: trending_up
+      - generic: Desempenho
+    - button "Inspeção de URL":
+      - generic: search
+      - generic: Inspeção de URL
+    - generic: Indexação
+    - button "Seção de relatórios de Indexação" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "Páginas":
+      - /url: ./search-console/index?resource_id=sc-domain%3Anorteautoral.site
+      - generic: file_copy
+      - generic: Páginas
+    - link "Sitemaps":
+      - /url: ./search-console/sitemaps?resource_id=sc-domain%3Anorteautoral.site
+      - generic: account_tree
+      - generic: Sitemaps
+    - link "Remoções":
+      - /url: ./search-console/removals?resource_id=sc-domain%3Anorteautoral.site
+      - generic: visibility_off
+      - generic: Remoções
+    - generic: Experiência
+    - button "Seção de relatórios de Experiência" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "Core Web Vitals":
+      - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Anorteautoral.site
+      - generic: speed
+      - generic: Core Web Vitals
+    - generic: Segurança e ações manuais
+    - button "Seção de relatórios de Segurança e ações manuais":
+      - generic: keyboard_arrow_down
+    - link "Relatório de links":
+      - /url: ./search-console/links?resource_id=sc-domain%3Anorteautoral.site
+      - generic: link_2
+      - generic: Links
+    - link "Conquistas":
+      - /url: ./search-console/achievements?resource_id=sc-domain%3Anorteautoral.site
+      - generic: trophy
+      - generic: Conquistas
+    - link "Configurações":
+      - /url: ./search-console/settings?resource_id=sc-domain%3Anorteautoral.site
+      - generic: settings
+      - generic: Configurações
+    - button "Enviar comentário":
+      - generic: feedback
+      - generic: Enviar comentário
+    - button "Sobre o Search Console":
+      - generic: info
+      - generic: Sobre o Search Console
+    - link "Privacidade":
+      - /url: https://myaccount.google.com/privacypolicy?hl=pt-BR
+    - link "Termos":
+      - /url: https://myaccount.google.com/termsofservice?hl=pt-BR
+- generic: https://norteautoral.site/
+- navigation "Indicadores de localização atual":
+  - heading "Inspeção de URL" [level=1]
+- link "Índice do Google":
+  - /url: ./search-console/inspect?resource_id=sc-domain%3Anorteautoral.site&id=WN81QIcYw77IxFQT78teqQ&alt_id=GjQo29rX6ZauD7ONoNWkWA
+  - generic: Índice do Google
+- button "Teste em tempo real" [disabled]:
+  - generic: Teste em tempo real
+- main:
+  - generic: "Testado em: 10 de out. de 2026, 16:21"
+  - button "Testar o URL novamente":
+    - generic: 
+  - generic: check_circle
+  - generic: O URL está disponível para o Google
+  - text: Se for indexado e selecionado como canônico, o URL poderá aparecer nos resultados da Pesquisa Google com todas as melhorias relevantes.
+  - link "Saiba mais":
+    - /url: https://support.google.com/webmasters/answer/9012289#url_can_be_on_google
+  - button "Ver a página testada":
+    - generic: Ver a página testada
+  - generic: A página foi alterada?
+  - button "Solicitar indexaçãoSolicitar novamente":
+    - generic: Solicitar indexação
+  - button "Disponibilidade da página É possível indexar a página" [expanded]:
+    - generic: check_circle
+    - generic: Disponibilidade da página
+    - generic: É possível indexar a página
+    - generic: 
+  - text: O URL só será indexado se
+  - link "certas condições":
+    - /url: https://support.google.com/webmasters/answer/9012289#will_i_be_indexed
+  - text: forem atendidas
+  - generic: Detecção
+  - generic: Informação não verificada nos testes ao vivo
+  - generic: Rastreamento
+  - generic: Tempo
+  - generic: 10 de out. de 2026, 16:21:06
+  - generic: Rastreada como
+  - generic: Smartphone da ferramenta de inspeção do Google
+  - generic: O rastreamento é permitido?
+  - generic: Sim
+  - generic: Busca de página
+  - generic: Com êxito.
+  - generic: A indexação é permitida?
+  - generic: Sim
+  - generic: Indexação
+  - generic: URL canônico declarado pelo usuário
+  - generic: https://norteautoral.site/
+  - generic: URL canônico selecionado pelo Google
+  - button "null":
+    - generic: 
+  - generic: Informação definida somente após a indexação
+  - link "Link para documentação mais elaborada":
+    - /url: https://support.google.com/webmasters/answer/9012289#url_can_be_on_google
+    - generic: Saiba mais
+  - generic: Melhorias e experiência
+  - generic: O URL não tem melhorias
+- button "Fechar" [active]:
+  - generic: 
+- generic: Página testada
+- tablist:
+  - tab "html" [selected]:
+    - generic: html
+  - tab "captura de tela":
+    - generic: captura de tela
+  - tab "Mais informações":
+    - generic: Mais informações
+- tabpanel:
+  - button "Abrir caixa de diálogo de pesquisa":
+    - generic: 
+  - button "Copiar conteúdo do editor":
+    - generic: 
+  - textbox
+  - generic: "1"
+  - text: <!DOCTYPE html>
+  - generic: "2"
+  - text: <html lang="pt-BR" data-profile="norte-autoral" class="js hl lenis"><head>
+  - generic: "3"
+  - generic: "4"
+  - text: <meta name="viewport" content="width=device-width, initial-scale=1" />
+  - generic: "5"
+  - text: <meta name="theme-color" content="#0A0A0A" />
+  - generic: "6"
+  - text: <title>Norte Autoral | Sites, Meta Ads e Google Ads em Parnaíba</title>
+  - generic: "7"
+  - text: <meta name="description" content="Gabriel Holanda, da Norte Autoral, em Parnaíba, PI. Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para conectar presença digital e rotina do negócio." />
+  - generic: "8"
+  - text: <meta name="author" content="Gabriel Holanda · Norte Autoral" />
+  - generic: "9"
+  - text: <meta name="robots" content="index, follow, max-image-preview:large" />
+  - generic: "10"
+  - text: <link rel="canonical" href="https://norteautoral.site/" />
+  - generic: "11"
+  - generic: "12"
+  - text: <meta property="og:type" content="website" />
+  - generic: "13"
+  - text: <meta property="og:title" content="Norte Autoral | Sites, Meta Ads e Google Ads em Parnaíba" />
+  - generic: "14"
+  - text: <meta property="og:description" content="Sites, Meta Ads, Google Ads, sistemas e Norte/OS com Gabriel Holanda, em Parnaíba, PI." />
+  - generic: "15"
+  - text: <meta property="og:url" content="https://norteautoral.site/" />
+  - generic: "16"
+  - text: <meta property="og:image" content="https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg" />
+  - generic: "17"
+  - text: <meta property="og:image:width" content="1200" />
+  - generic: "18"
+  - text: <meta property="og:image:height" content="630" />
+  - generic: "19"
+  - text: <meta property="og:image:alt" content="Norte Autoral · Gabriel Holanda. Sites, Meta Ads, Google Ads e Norte/OS. Parnaíba, PI." />
+  - generic: "20"
+  - text: <meta property="og:site_name" content="Norte Autoral" />
+- generic: 
+- generic: Inspeção de URL
+- generic: Saiba como sua página é exibida no índice do Google e resolva problemas caso ela não apareça ou apresente erros nos resultados da Pesquisa Google.
+- generic: Saiba mais
+- generic "Saiba mais"
+- generic: Entendi
+- generic "Entendi"
+- generic: Novidade! Descubra como as pessoas encontram seu conteúdo do Instagram, TikTok, X e YouTube na Pesquisa Google
+- button "Fechar":
+  - generic: close

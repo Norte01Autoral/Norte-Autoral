@@ -1,0 +1,45 @@
+- banner:
+  - button:
+  - link:
+    - /url: ./search-console/welcome
+  - button:
+    - generic: help_outline
+  - tooltip: Ajuda
+  - button:
+    - generic: manage_accounts
+  - tooltip: Configurações de usuário
+  - button:
+  - button:
+- heading [level=1]:
+  - generic: Acompanhe e melhore seu desempenho na Pesquisa Google
+- button:
+  - generic: public
+  - generic: Adicionar um site
+- generic: Novo
+- generic: Adicione uma conta de plataforma ou canal para descobrir como os visitantes encontram seu conteúdo na Pesquisa Google
+- button:
+  - generic: Instagram
+  - generic: Adicionar
+- button:
+  - generic: TikTok
+  - generic: Adicionar
+- button:
+  - generic: X
+  - generic: Adicionar
+- button:
+  - generic: YouTube
+  - generic: Adicionar
+- dialog "Propriedade verificada":
+  - heading "Propriedade verificada Propriedade verificada" [level=1]:
+    - generic: 
+    - generic: Propriedade verificada
+    - generic: Propriedade verificada
+  - text: "Método de verificação:"
+  - generic: Provedor do nome de domínio
+  - text: Para continuar verificado, não remova o registro DNS. Para não perder a verificação, adicione vários métodos de verificação de
+  - generic: Configurações > Verificação de propriedade
+  - text: .
+  - button "Concluído":
+    - generic: Concluído
+  - button "Ir para a propriedade" [active]:
+    - generic: Ir para a propriedade

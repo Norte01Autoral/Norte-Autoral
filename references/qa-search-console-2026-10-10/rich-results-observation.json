@@ -1,0 +1,13 @@
+{
+  "url": "https://norteautoral.site/",
+  "testUrl": "https://search.google.com/test/rich-results/result?id=SdVJoj9xwe0No27LrvfQFg",
+  "provenance": "Teste executado pelo usuário; resumo e detalhe da Organização lidos na interface oficial pelo agente.",
+  "testTimeAmericaSaoPaulo": "2026-10-10 16:31:37",
+  "validItems": 2,
+  "detectedCategories": [
+    { "category": "Empresas locais", "validItems": 1 },
+    { "category": "Organização", "name": "Norte Autoral", "validItems": 1, "nonCriticalIssues": 2 }
+  ],
+  "issueDetails": "Os nomes dos dois avisos não críticos não foram expandidos; não foram inventados dados para eliminá-los.",
+  "limitation": "Este teste valida elegibilidade de dados estruturados, sem comprovar indexação, exibição efetiva ou posição. WebSite foi validado separadamente no Schema Markup Validator."
+}

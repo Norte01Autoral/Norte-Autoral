@@ -1,0 +1,79 @@
+{
+  "checkedAtUtc": "2026-10-11T00:54:03.609Z",
+  "method": "Node VM execution of the actual inline hero scripts with DOM/WebGL mocks; confirms sizing, failure handling and matching numeric animation uniforms, not a GPU screenshot",
+  "passed": 17,
+  "failed": 0,
+  "sourceIndexSha256": "829577AF5730AA9F72054390CCB1C61A2C782BA4FD8C43E225A80A0F932D5FCF",
+  "heroScriptSha256": "19D4BD2D6DBF7142ED84F9CEDDC78B013BD34196CFCBF0E4CE767DF87DD49A0E",
+  "previousHeroScriptSha256": "B56C96F0FA6E6F5988D09BD0ED669B86862E08733C2C6C44E90381613440B1A0",
+  "results": [
+    {
+      "name": "normal 1440x900 DPR 1: dimensions and animation uniforms unchanged",
+      "passed": true
+    },
+    {
+      "name": "normal 1440x900 DPR 2: dimensions and animation uniforms unchanged",
+      "passed": true
+    },
+    {
+      "name": "normal 390x844 DPR 3: dimensions and animation uniforms unchanged",
+      "passed": true
+    },
+    {
+      "name": "very tall viewport",
+      "passed": true
+    },
+    {
+      "name": "low texture limit",
+      "passed": true
+    },
+    {
+      "name": "asymmetric viewport limit",
+      "passed": true
+    },
+    {
+      "name": "reproduces previous tall-viewport texture failure",
+      "passed": true
+    },
+    {
+      "name": "no 2D mask context",
+      "passed": true
+    },
+    {
+      "name": "lost GL before layout",
+      "passed": true
+    },
+    {
+      "name": "zero hero height",
+      "passed": true
+    },
+    {
+      "name": "nonfinite hero height",
+      "passed": true
+    },
+    {
+      "name": "invalid GPU limit",
+      "passed": true
+    },
+    {
+      "name": "missing viewport limits",
+      "passed": true
+    },
+    {
+      "name": "texture GL error",
+      "passed": true
+    },
+    {
+      "name": "texture allocation exception",
+      "passed": true
+    },
+    {
+      "name": "drawing buffer allocation mismatch",
+      "passed": true
+    },
+    {
+      "name": "context loss stops active RAF and cannot restart from observer/fonts/pointer",
+      "passed": true
+    }
+  ]
+}

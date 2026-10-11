@@ -4,6 +4,10 @@ Registro de configuração em **10/10/2026**, fuso **America/Sao_Paulo**. Site p
 
 **A inicial está indexada conforme a Inspeção de URL do Índice do Google.** A propriedade está verificada, a versão publicada passou no teste ao vivo, e o usuário confirmou a mensagem **Indexação solicitada** nesta conversa. O relatório de Sitemaps ainda apresenta falha de busca apesar de o teste ao vivo do Google conseguir acessar o XML.
 
+## Favicon — revisão posterior
+
+Revisão posterior de favicon em 10/10/2026: o usuário forneceu captura em que o site aparece na busca com um globo. A inicial agora declara o N dourado original em PNG256 como favicon principal, mantendo o ICO. Deploy atual `6acae4f0215a53089aa84c06`; [QA favicon](references/qa-favicon-2026-10-10/QA-FINAL.md). A mudança ficou restrita às declarações do ícone; os testes Google e o estado do índice abaixo são registros da execução anterior. O pedido de indexação já confirmado não foi repetido. A exibição do favicon não foi confirmada, e o relatório de sitemap não foi consultado novamente nesta revisão.
+
 ## Propriedade e verificação
 
 Propriedade do tipo **Domínio: `norteautoral.site`**, identificador `sc-domain:norteautoral.site`, na conta de marca **Norte Autoral (`contatonorteautoral@gmail.com`)**.
@@ -22,7 +26,7 @@ Evidências: [propriedade verificada](references/qa-search-console-2026-10-10/pr
 
 ## Site publicado e identificação da marca
 
-O deploy final **`6acadeababc97ae80a516934`** atualiza o projeto Netlify existente. A inicial mantém título, descrição, conteúdo e `og:site_name` da Norte Autoral. No mesmo nó `WebSite`:
+O deploy da configuração Search Console **`6acadeababc97ae80a516934`** atualizou o projeto Netlify existente; a revisão de favicon acima preservou seus ajustes. A inicial mantém título, descrição, conteúdo e `og:site_name` da Norte Autoral. No mesmo nó `WebSite`:
 
 ```json
 {

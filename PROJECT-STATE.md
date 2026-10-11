@@ -1,6 +1,16 @@
 # Estado do projeto
 
-## Última revisão — Search Console, 10 de outubro de 2026
+## Última revisão — favicon na busca, 10 de outubro de 2026
+
+O usuário forneceu uma captura em que seu site já aparece na busca e pediu a logo no lugar do globo. Foi declarado como favicon principal da inicial o **PNG original do N dourado**, `/assets/norte-autoral/favicon.png`, **256×256**, com URL estável. O ICO existente permanece como fallback. A alteração se limita a duas declarações no head, substituindo SVG/PNG32/ICO por PNG256/ICO com MIME explícito; nenhum bitmap foi editado e os arquivos anteriores permanecem.
+
+Deploy atual **`6acae4f0215a53089aa84c06`**, Netlify Free **rococo-liger-832df6**, com `_headers` e `_redirects`. Pasta separada `../clone-v1-netlify-favicon-2026-10-10/`, 231 arquivos. A publicação foi confirmada pela API do projeto e por HTTP no domínio e permalink. PNG retornou 200, MIME image/png, dimensões 256×256 e SHA-256 igual ao original; robots permite Googlebot e Googlebot-Image. As sondagens com nomes de rastreadores não comprovam rastreamento real do Google. Auditoria: [QA favicon](references/qa-favicon-2026-10-10/QA-FINAL.md).
+
+Preparação confirmou que apenas as declarações de favicon mudaram; todos os outros arquivos públicos, demos, adaptadores, ZIPs e quatro backups foram preservados por hash. `npm run verify`: 367 arquivos, 18 páginas HTML, 813 referências locais, nenhuma ausente. Fonte e pasta de publicação idênticas; Netlify conserva as nove normalizações equivalentes de links documentadas anteriormente.
+
+A página inicial já tinha indexação confirmada e o usuário já confirmou um pedido de atualização. **Não houve novo pedido por causa do favicon.** O globo pode refletir processamento/seleção do Google; sua causa não foi comprovada. A configuração permite que o Google descubra a logo, mas não há confirmação de exibição dela na busca nem prazo garantido. Os testes ao vivo e de dados estruturados na QA Search Console são registros da execução anterior a esta mudança exclusiva de favicon. O sitemap ficou intacto; seu último estado no relatório continua pendente de processamento, sem nova conferência do painel nesta revisão.
+
+## Revisão anterior — Search Console, 10 de outubro de 2026
 
 Propriedade Domínio **norteautoral.site** verificada no Search Console da conta de marca **contatonorteautoral@gmail.com**, por TXT exato salvo na Hostinger. Propagação confirmada por Google Public DNS e Cloudflare; TXT permanece e A/CNAME foram preservados. Configuração, evidências e acompanhamento em [SEARCH-CONSOLE.md](SEARCH-CONSOLE.md) e [QA atual](references/qa-search-console-2026-10-10/QA-FINAL.md).
 

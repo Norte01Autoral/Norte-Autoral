@@ -1,0 +1,106 @@
+{
+  "checkedAtUtc": "2026-10-11T01:23:52.931Z",
+  "deployId": "6acae4f0215a53089aa84c06",
+  "changes": "Only home favicon declarations; original N logo and all other public files preserved",
+  "icons": [
+    "<link rel=\"icon\" type=\"image/png\" sizes=\"256x256\" href=\"/assets/norte-autoral/favicon.png\">",
+    "<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/assets/norte-autoral/favicon.ico\">"
+  ],
+  "checks": {
+    "homeHttp200": true,
+    "sourceAndStageIdentical": true,
+    "publishedAndPermalinkIdentical": true,
+    "publishedMatchesSourceWithDocumentedPrettyUrls": true,
+    "primaryPngDeclaration": true,
+    "pngHttp200": true,
+    "pngCorrectMime": true,
+    "pngSquare256": true,
+    "pngBytesUnchanged": true,
+    "icoHttp200": true,
+    "iconsNoNoindexHeader": true,
+    "homeCanonicalPreserved": true,
+    "homeIndexAllowed": true,
+    "websiteNodePreserved": true,
+    "robotsAllowsCrawling": true,
+    "sitemapUnchanged": true
+  },
+  "errors": [],
+  "limitation": "HTTP requests using crawler User-Agent values check accessibility, not actual Google crawling or favicon display. Google display has not been confirmed. Existing indexing request not repeated.",
+  "sourceIndexSha256": "4d20a5dc64298041e23ddfd3f435e0751e1abc7df65596cf2a767783b779b4c3",
+  "publishedIndexSha256": "9a4176961b19a7c0303f44d780e40c2695de4a65ab49d1a1b018c8941fd3bfc5",
+  "requests": [
+    {
+      "url": "https://norteautoral.site/",
+      "status": 200,
+      "redirected": false,
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate"
+      },
+      "sha256": "9a4176961b19a7c0303f44d780e40c2695de4a65ab49d1a1b018c8941fd3bfc5",
+      "bytes": 155380
+    },
+    {
+      "url": "https://norteautoral.site/assets/norte-autoral/favicon.png",
+      "status": 200,
+      "redirected": false,
+      "headers": {
+        "content-type": "image/png",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=604800"
+      },
+      "sha256": "2cc80b671294f47c0507bcd6299b07793d9a596e45fd05a79201536a8211ddbf",
+      "bytes": 38359
+    },
+    {
+      "url": "https://norteautoral.site/assets/norte-autoral/favicon.ico",
+      "status": 200,
+      "redirected": false,
+      "headers": {
+        "content-type": "image/vnd.microsoft.icon",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=604800"
+      },
+      "sha256": "fc38d33132957a2ac5ddb9520ccb7a65f7bc0b8eb84393e10b3dd4e04293a4d6",
+      "bytes": 58514
+    },
+    {
+      "url": "https://norteautoral.site/robots.txt",
+      "status": 200,
+      "redirected": false,
+      "headers": {
+        "content-type": "text/plain; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=3600"
+      },
+      "sha256": "83b516c48971d9d1a65f9cbc037a71c0369d47b6f5ed1b49bb384f36fa9503d5",
+      "bytes": 71
+    },
+    {
+      "url": "https://norteautoral.site/sitemap.xml",
+      "status": 200,
+      "redirected": false,
+      "headers": {
+        "content-type": "application/xml",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=3600"
+      },
+      "sha256": "4a251d5e1c36214f8640787ff7bba004fb48a1b720901715990910302409b88f",
+      "bytes": 362
+    },
+    {
+      "url": "https://6acae4f0215a53089aa84c06--rococo-liger-832df6.netlify.app/",
+      "status": 200,
+      "redirected": false,
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": "noindex",
+        "cache-control": "no-cache,max-age=0,must-revalidate"
+      },
+      "sha256": "9a4176961b19a7c0303f44d780e40c2695de4a65ab49d1a1b018c8941fd3bfc5",
+      "bytes": 155380
+    }
+  ],
+  "googleGuidance": "https://developers.google.com/search/docs/appearance/favicon-in-search?hl=pt-br"
+}

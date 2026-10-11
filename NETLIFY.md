@@ -8,7 +8,7 @@ O portfólio foi publicado no projeto **rococo-liger-832df6**, na conta **norte0
 - ID público do projeto Netlify: `3eb337d6-85fb-4e13-9ce3-28db1f369506`.
 - Endereço principal publicado: **https://norteautoral.site/**, com HTTPS obrigatório.
 - Certificado HTTPS: **emitido por Let's Encrypt para norteautoral.site e www.norteautoral.site**, validade atual até **08/01/2027**, renovação automática gerenciada pelo Netlify.
-- Deploy atual, incluindo `_headers` e `_redirects`: **`6acadeababc97ae80a516934`**, com identificação da marca e correção de limite WebGL. [Auditoria atual](references/qa-search-console-2026-10-10/post-deploy-audit.md). A auditoria histórica do deploy `6aca88a67bc795130b2a0c63` permanece em [QA Netlify](references/qa-netlify-2026-10-10/QA-FINAL.md).
+- Deploy atual, incluindo `_headers` e `_redirects`: **`6acae4f0215a53089aa84c06`**, com favicon PNG256 original e as correções anteriores de identificação da marca e limite WebGL preservadas. [QA atual](references/qa-favicon-2026-10-10/QA-FINAL.md). As auditorias anteriores permanecem em [QA Search Console](references/qa-search-console-2026-10-10/QA-FINAL.md) e [QA Netlify](references/qa-netlify-2026-10-10/QA-FINAL.md).
 
 ## DNS já salvo na Hostinger
 
@@ -28,7 +28,7 @@ O Netlify emite e renova certificados gratuitos para domínios apontados correta
 
 O site é estático. A pasta de envio contém `index.html`, as páginas reais, `assets/`, `vendor/` e `marketing/` diretamente na raiz. Não exige Node.js, WordPress nem banco de dados na hospedagem.
 
-O pacote original da Hostinger e a pasta anterior `../clone-v1-netlify/` permanecem como registros históricos. A revisão atual foi preparada em **`../clone-v1-netlify-search-2026-10-10/`**, com 229 arquivos públicos atuais e dois adaptadores. Não reenviar ZIPs antigos para atualizar esta revisão. O manifesto [release-preparation.json](references/qa-search-console-2026-10-10/release-preparation.json) registra comparação e preservação. O Netlify usa os dois arquivos na raiz do envio:
+O pacote original da Hostinger e as pastas anteriores `../clone-v1-netlify/` e `../clone-v1-netlify-search-2026-10-10/` permanecem como registros históricos. A revisão atual foi preparada em **`../clone-v1-netlify-favicon-2026-10-10/`**, com 229 arquivos públicos atuais e dois adaptadores. Não reenviar ZIPs antigos para atualizar esta revisão. O manifesto [release-preparation.json](references/qa-favicon-2026-10-10/release-preparation.json) registra comparação e preservação. O Netlify usa os dois arquivos na raiz do envio:
 
 - `_redirects`: HTTP/www do domínio próprio para HTTPS sem www; normalização de `index.html`; rotas reais `/privacy`, `/terms`, `/v3` e `/site-do-jd`; bloqueio público de `.htaccess`. O endereço `netlify.app` continua disponível para verificação. URLs inexistentes recebem a página `404.html` com status 404, sem retornar a página inicial como status 200.
 - `_headers`: proteção básica de conteúdo/referrer/frame, HTML com revalidação, recursos editáveis com cache de sete dias, arquivos CSS/JS com hash com cache de um ano, `robots.txt` e sitemap com uma hora. Regras de cache usam caminhos exatos, evitando sobreposição entre recursos editáveis e recursos imutáveis.

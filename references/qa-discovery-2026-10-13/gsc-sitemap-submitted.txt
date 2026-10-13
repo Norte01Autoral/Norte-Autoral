@@ -1,0 +1,146 @@
+- banner:
+  - button:
+  - link:
+    - /url: ./search-console?resource_id=sc-domain%3Anorteautoral.site
+  - search:
+    - textbox [disabled]: Inspecionar qualquer URL de "norteautoral.site"
+    - combobox
+    - button:
+  - button:
+    - generic: help_outline
+  - tooltip: Ajuda
+  - button:
+    - generic: manage_accounts
+  - tooltip: Configurações de usuário
+  - button:
+    - generic: notifications
+  - tooltip: Mensagens
+  - generic: "2"
+  - button:
+  - button:
+- dialog:
+  - navigation:
+    - button:
+      - combobox: norteautoral.site
+      - generic: 
+    - link:
+      - /url: ./search-console?resource_id=sc-domain%3Anorteautoral.site
+      - generic: home
+      - generic: Visão geral
+    - link:
+      - /url: ./search-console/performance/insights?resource_id=sc-domain%3Anorteautoral.site
+      - generic: lightbulb_2
+      - generic: Insights
+    - link:
+      - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Anorteautoral.site
+      - generic: trending_up
+      - generic: Desempenho
+    - button:
+      - generic: search
+      - generic: Inspeção de URL
+    - generic: Indexação
+    - button [expanded]:
+      - generic: keyboard_arrow_up
+    - link:
+      - /url: ./search-console/index?resource_id=sc-domain%3Anorteautoral.site
+      - generic: file_copy
+      - generic: Páginas
+    - link:
+      - /url: ./search-console/sitemaps?resource_id=sc-domain%3Anorteautoral.site
+      - generic: account_tree
+      - generic: Sitemaps
+    - link:
+      - /url: ./search-console/removals?resource_id=sc-domain%3Anorteautoral.site
+      - generic: visibility_off
+      - generic: Remoções
+    - generic: Experiência
+    - button [expanded]:
+      - generic: keyboard_arrow_up
+    - link:
+      - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Anorteautoral.site
+      - generic: speed
+      - generic: Core Web Vitals
+    - generic: Segurança e ações manuais
+    - button:
+      - generic: keyboard_arrow_down
+    - link:
+      - /url: ./search-console/links?resource_id=sc-domain%3Anorteautoral.site
+      - generic: link_2
+      - generic: Links
+    - link:
+      - /url: ./search-console/achievements?resource_id=sc-domain%3Anorteautoral.site
+      - generic: trophy
+      - generic: Conquistas
+    - link:
+      - /url: ./search-console/settings?resource_id=sc-domain%3Anorteautoral.site
+      - generic: settings
+      - generic: Configurações
+    - button:
+      - generic: feedback
+      - generic: Enviar comentário
+    - button:
+      - generic: info
+      - generic: Sobre o Search Console
+    - link:
+      - /url: https://myaccount.google.com/privacypolicy?hl=pt-BR
+      - text: Privacidade
+    - link:
+      - /url: https://myaccount.google.com/termsofservice?hl=pt-BR
+      - text: Termos
+- navigation:
+  - heading [level=1]: Sitemaps
+- main:
+  - generic: Adicionar um novo sitemap
+  - textbox: https://norteautoral.site/sitemap.xml
+  - button:
+    - generic: Enviar
+  - heading [level=1]:
+    - generic: Sitemaps enviados
+  - button:
+    - generic: 
+  - table:
+    - rowgroup:
+      - row:
+        - columnheader:
+          - text: Sitemap
+        - columnheader:
+          - text: Tipo
+        - columnheader:
+          - text: Enviado
+        - columnheader:
+          - text: Última leitura
+        - columnheader:
+          - text: Status
+        - columnheader:
+          - text: Páginas encontradas
+        - columnheader:
+          - text: Vídeos encontrados
+        - columnheader
+    - rowgroup:
+      - row:
+        - cell: https://norteautoral.site/sitemap.xml
+        - cell: Sitemap
+        - cell: 13 de out. de 2026
+        - cell: 11 de out. de 2026
+        - cell:
+          - generic: Processado
+        - cell: "3"
+        - cell: "0"
+        - cell:
+          - button:
+            - generic: 
+  - generic: "Linhas por página:"
+  - listbox:
+    - text: "5"
+    - option [selected]: "10"
+    - text: 25 50 100 250 500
+  - generic: 1-1 de 1
+  - generic: 
+  - generic: 
+- dialog "Sitemap enviado":
+  - heading "Sitemap enviado" [level=2]:
+    - generic: check_circle
+    - generic: Sitemap enviado
+  - generic: O Google processará periodicamente o sitemap e procurará alterações. Você receberá uma notificação se ocorrer algum problema com ele no futuro.
+  - button "Dispensar" [active]:
+    - generic: Dispensar

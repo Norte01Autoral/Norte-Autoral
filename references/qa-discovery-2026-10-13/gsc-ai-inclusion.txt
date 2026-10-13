@@ -1,0 +1,124 @@
+- banner:
+  - button "Menu principal":
+  - link "Google Search Console":
+    - /url: ./search-console?resource_id=sc-domain%3Anorteautoral.site
+  - search:
+    - textbox [disabled]: Inspecionar qualquer URL de "norteautoral.site"
+    - combobox "Inspecionar qualquer URL de norteautoral.site"
+    - button "Pesquisa":
+  - button "Ajuda":
+    - generic: help_outline
+  - tooltip: Ajuda
+  - button "Configurações de usuário":
+    - generic: manage_accounts
+  - tooltip: Configurações de usuário
+  - 'button "Mensagens não lidas: 2"':
+    - generic: notifications
+  - tooltip: Mensagens
+  - generic: "2"
+  - button "Google Apps":
+  - 'button "Conta do Google: Norte Autoral (contatonorteautoral@gmail.com)"':
+- dialog "navigational drawer":
+  - navigation "Primário":
+    - button "Pesquise a propriedade":
+      - img "favicon"
+      - combobox "norteautoral.site"
+      - generic: 
+    - link "Visão geral":
+      - /url: ./search-console?resource_id=sc-domain%3Anorteautoral.site
+      - generic: home
+      - generic: Visão geral
+    - link "Insights":
+      - /url: ./search-console/performance/insights?resource_id=sc-domain%3Anorteautoral.site
+      - generic: lightbulb_2
+      - generic: Insights
+    - link "Desempenho":
+      - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Anorteautoral.site
+      - generic: trending_up
+      - generic: Desempenho
+    - button "Inspeção de URL":
+      - generic: search
+      - generic: Inspeção de URL
+    - generic: Indexação
+    - button "Seção de relatórios de Indexação" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "Páginas":
+      - /url: ./search-console/index?resource_id=sc-domain%3Anorteautoral.site
+      - generic: file_copy
+      - generic: Páginas
+    - link "Sitemaps":
+      - /url: ./search-console/sitemaps?resource_id=sc-domain%3Anorteautoral.site
+      - generic: account_tree
+      - generic: Sitemaps
+    - link "Remoções":
+      - /url: ./search-console/removals?resource_id=sc-domain%3Anorteautoral.site
+      - generic: visibility_off
+      - generic: Remoções
+    - generic: Experiência
+    - button "Seção de relatórios de Experiência" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "Core Web Vitals":
+      - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Anorteautoral.site
+      - generic: speed
+      - generic: Core Web Vitals
+    - generic: Segurança e ações manuais
+    - button "Seção de relatórios de Segurança e ações manuais":
+      - generic: keyboard_arrow_down
+    - link "Relatório de links":
+      - /url: ./search-console/links?resource_id=sc-domain%3Anorteautoral.site
+      - generic: link_2
+      - generic: Links
+    - link "Conquistas":
+      - /url: ./search-console/achievements?resource_id=sc-domain%3Anorteautoral.site
+      - generic: trophy
+      - generic: Conquistas
+    - link "Configurações":
+      - /url: ./search-console/settings?resource_id=sc-domain%3Anorteautoral.site
+      - generic: settings
+      - generic: Configurações
+    - button "Enviar comentário":
+      - generic: feedback
+      - generic: Enviar comentário
+    - button "Sobre o Search Console":
+      - generic: info
+      - generic: Sobre o Search Console
+    - link "Privacidade":
+      - /url: https://myaccount.google.com/privacypolicy?hl=pt-BR
+    - link "Termos":
+      - /url: https://myaccount.google.com/termsofservice?hl=pt-BR
+- navigation "Indicadores de localização atual":
+  - link "Configurações":
+    - /url: ./search-console/settings?resource_id=sc-domain%3Anorteautoral.site
+  - generic: 
+  - heading "IA generativa na Pesquisa" [level=1]
+- main:
+  - heading "IA generativa na Pesquisa" [level=2]
+  - text: Controle a visibilidade do seu site nos
+  - link "recursos de IA generativa na Pesquisa Google (abre em uma nova guia)":
+    - /url: https://support.google.com/webmasters/answer/16908024?hl=pt_BR&authuser=5#gen-ai-features
+    - text: recursos de IA generativa na Pesquisa Google
+  - text: ", como as visões gerais criadas por IA e o Modo IA."
+  - link "Saiba mais sobre esse controle (abre em uma nova guia)":
+    - /url: https://support.google.com/webmasters/answer/16908024?hl=pt_BR&authuser=5
+    - text: Saiba mais sobre esse controle
+  - text: .
+  - radiogroup:
+    - radio "Incluir os links e o conteúdo do meu site nos recursos de IA generativa da Pesquisa (Padrão)" [checked]
+    - text: Incluir os links e o conteúdo do meu site nos recursos de IA generativa da Pesquisa
+    - generic: Padrão
+    - generic: Maximize a visibilidade do seu site aparecendo nos recursos de IA generativa da Pesquisa, incluindo a exibição de links e o uso do site como base para as respostas da IA nesses recursos. Seu site pode receber impressões e tráfego desses recursos.
+    - radio "Excluir os links e o conteúdo do meu site dos recursos de IA generativa da Pesquisa"
+    - generic: Excluir os links e o conteúdo do meu site dos recursos de IA generativa da Pesquisa
+    - text: Evite que seu site apareça para os usuários nos recursos de IA generativa da Pesquisa, impedindo a exibição de links e o uso do site como base para as respostas da IA nesses recursos. Você não vai receber tráfego nem impressões desses recursos. Saiba mais sobre
+    - link "o que significa excluir seu site. (abre em uma nova guia)":
+      - /url: https://support.google.com/webmasters/answer/16908024?hl=pt_BR&authuser=5#exclusion
+      - text: o que significa excluir seu site.
+    - text: .
+  - button "Salvar" [disabled]:
+    - generic: Salvar
+  - tooltip
+  - text: Mudar esse controle afeta todas as páginas da sua propriedade, incluindo as filhas. As propriedades filhas herdam o controle por padrão, mas os proprietários podem substituí-lo.
+  - link "Saiba mais sobre como funciona a herança. (abre em uma nova guia)":
+    - /url: https://support.google.com/webmasters/answer/16908024?hl=pt_BR&authuser=5#inheritance
+    - text: Saiba mais sobre como funciona a herança.
+- generic: IA generativa na Pesquisa

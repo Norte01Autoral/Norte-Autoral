@@ -54,7 +54,8 @@ if (!head.includes('Meta Ads') || !head.includes('Google Ads')) throw new Error(
 for (const match of head.matchAll(/<script\s+type="application\/ld\+json">([\s\S]*?)<\/script>/g)) JSON.parse(match[1]);
 const sitemap = await readFile(resolve(publicRoot, 'sitemap.xml'), 'utf8');
 const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => match[1]);
-if (urls.length !== 3 || urls.some(url => new URL(url).origin !== origin)) throw new Error('Sitemap inesperado para o domínio final.');
+const expectedUrls = ['/', '/trafego-pago/', '/automacao/', '/privacy', '/terms'].map(path => origin + path);
+if (urls.length !== expectedUrls.length || expectedUrls.some(url => !urls.includes(url)) || urls.some(url => new URL(url).origin !== origin)) throw new Error('Sitemap inesperado para o domínio final.');
 const robots = await readFile(resolve(publicRoot, 'robots.txt'), 'utf8');
 if (!robots.includes(`Sitemap: ${origin}/sitemap.xml`) || /Disallow:\s*\/\s*$/m.test(robots)) throw new Error('robots.txt impede a configuração de produção.');
 const demos = [

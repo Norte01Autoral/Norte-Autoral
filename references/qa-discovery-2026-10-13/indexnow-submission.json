@@ -1,0 +1,32 @@
+{
+  "submittedAtUtc": "2026-10-13T04:44:04.508Z",
+  "endpoint": "https://api.indexnow.org/indexnow",
+  "host": "norteautoral.site",
+  "urls": [
+    "https://norteautoral.site/",
+    "https://norteautoral.site/trafego-pago/",
+    "https://norteautoral.site/automacao/"
+  ],
+  "httpStatus": 202,
+  "notificationAccepted": true,
+  "keyValidationPending": true,
+  "publishedProofChecked": true,
+  "contentFingerprint": "565aaf915e64ce1151c2f255f41f4186aab8e7fada8fcb77d1b7580eb1cb9a51",
+  "pages": [
+    {
+      "url": "https://norteautoral.site/",
+      "sha256": "5b765cd86e15fabd86e2abb03df320ec46a72c3b5726b271f4dca5e810ebf6d4"
+    },
+    {
+      "url": "https://norteautoral.site/trafego-pago/",
+      "sha256": "83686606cf47642a9e9560c0b5a6806a7a730ea98625a803c7c8c923a5e897b1"
+    },
+    {
+      "url": "https://norteautoral.site/automacao/",
+      "sha256": "48f796e3a8f0931fb88ce0646e31e50a9c4938c823e25f50ba6caf084d305fd2"
+    }
+  ],
+  "responseBody": "",
+  "meaning": "Notification receipt only; does not prove crawling, indexing or recommendation by an AI system.",
+  "source": "https://www.indexnow.org/documentation"
+}

@@ -1,0 +1,1221 @@
+{
+  "preparedAtUtc": "2026-10-13T04:40:53.941Z",
+  "stage": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\Projeto MazyOS\\publicacao-seo-ia-2026-10-13",
+  "previous": "C:\\Users\\User\\OneDrive\\Área de Trabalho\\Projeto MazyOS\\backups\\historico-portfolio\\clone-v1-netlify-favicon-2026-10-10",
+  "files": 235,
+  "added": [
+    "assets/norte-autoral/servicos.css",
+    "automacao/index.html",
+    "cf8454de8e5bc8a6ac18412915f36fd9.txt",
+    "trafego-pago/index.html"
+  ],
+  "modified": [
+    "_headers",
+    "_redirects",
+    "index.html",
+    "sitemap.xml"
+  ],
+  "homeBehaviorScriptsPreserved": true,
+  "homeCssPreservedExceptAddedLinkStyle": true,
+  "otherExistingPublicFilesUnchanged": true,
+  "adaptersIncluded": true,
+  "backupVerification": [
+    {
+      "path": "clone-v1-original-2026-10-09/clone-v1-original.zip",
+      "sha256": "43c69bf92cb90b67ebea2e4aaacec541de6e6d008ae8981bbc795ae4b39c2f5a",
+      "verifiedUnchanged": true
+    },
+    {
+      "path": "clone-v1-norte-autoral-2026-10-09/clone-v1-norte-autoral.zip",
+      "sha256": "32ec9db2627ac097f5d4105b21c22940db28fa16262931f3af97099e9a81cc45",
+      "verifiedUnchanged": true
+    },
+    {
+      "path": "clone-v1-jd-motion-2026-10-10/clone-v1-norte-autoral.zip",
+      "sha256": "9d7bbc063af997c257d70b5f2b6c469f822fc6d606eb0d669eb0b949ea014672",
+      "verifiedUnchanged": true
+    },
+    {
+      "path": "clone-v1-norte-os-2026-10-10/clone-v1-norte-autoral.zip",
+      "sha256": "12ceecf1b6735658a9a897c1fd1ffc12d8a30ebf93227e3d2e866c9cbc0e45e4",
+      "verifiedUnchanged": true
+    }
+  ],
+  "publicationInventory": [
+    {
+      "file": ".htaccess",
+      "bytes": 3312,
+      "sha256": "0614e7a768d2eeec3ca20143fad3c96f50930c5c408f00b21305a6bf140c6674"
+    },
+    {
+      "file": "404.html",
+      "bytes": 1588,
+      "sha256": "b11362952381354b021c6e3bdb48fd4946fa7402435d37b4e7f325f65e7237cf"
+    },
+    {
+      "file": "_headers",
+      "bytes": 27426,
+      "sha256": "6bbdc3e34673e640485d85a740772b809cd1d8026a07b1d94d9260adfcd1142a"
+    },
+    {
+      "file": "_redirects",
+      "bytes": 1810,
+      "sha256": "7727de44f802a2bc8fedf9028605c28fd3411346a0eeb53802904ef8dedea674"
+    },
+    {
+      "file": "assets/Logotipo Branco e Azul.svg",
+      "bytes": 2804,
+      "sha256": "5ce1fab6d084ef283245d5c9130a197a990c4b5c63ba9c5e5d9fe6d51eb9fd44"
+    },
+    {
+      "file": "assets/cases/ana-capa.jpg",
+      "bytes": 52460,
+      "sha256": "19fa674424139eb22318a5b45a3ef218e68c0ffbd04ba3dd3fdcda8c7afccbe1"
+    },
+    {
+      "file": "assets/cases/ana-capa.webp",
+      "bytes": 50532,
+      "sha256": "803d4071a4fb419d9f4d5c6d175c6f35270cca38026e07995af381a9b8a97f6f"
+    },
+    {
+      "file": "assets/cases/ana-celular.jpg",
+      "bytes": 56945,
+      "sha256": "0acbf381e97fb1f4902941d7bacbf7bfda190aae1aef351064b7e5b7cbcb2bc2"
+    },
+    {
+      "file": "assets/cases/ana-celular.webp",
+      "bytes": 55890,
+      "sha256": "5069337d7453279e9f0bf0b8f9ba129ca8d83ff0a80b94c62a3c263386cf3e90"
+    },
+    {
+      "file": "assets/cases/jd-arte.jpg",
+      "bytes": 124076,
+      "sha256": "1c126a3f83fe40ae845a23e3f4c28fbdaa40553a416f452b001aa38ea4a78fd1"
+    },
+    {
+      "file": "assets/cases/jd-capa.jpg",
+      "bytes": 181940,
+      "sha256": "9f8c71140b4feb5b1178e76f74adc77ab7177370974a069a9388d50a737af7f0"
+    },
+    {
+      "file": "assets/cases/jd-celular.jpg",
+      "bytes": 96238,
+      "sha256": "0b5562ef3a31bde255928d287eec2594988c22b4eee6031dd2f99afe64ad2caf"
+    },
+    {
+      "file": "assets/cases/jd-galeria-2.jpg",
+      "bytes": 172365,
+      "sha256": "de72ba84c381aac7eb4bdcd3710f1f2e40da1d2ac04cd824ab709c982c6f7406"
+    },
+    {
+      "file": "assets/cases/jd-galeria.jpg",
+      "bytes": 166373,
+      "sha256": "65b1c774b76845a504c5527d337bc9fc36bcf71241c7a269ca4763b5270cd86c"
+    },
+    {
+      "file": "assets/cases/sabec-v3.jpg",
+      "bytes": 100925,
+      "sha256": "f8fa84b4501aa08efc59ff526da43cd4b2592085a6ade48fdca4e8f8bacde614"
+    },
+    {
+      "file": "assets/demo-navigation.css",
+      "bytes": 3001,
+      "sha256": "8f094535f7a9435d824ad7fc8856bdf12655dad9931676ecfb241a8b05092df2"
+    },
+    {
+      "file": "assets/demo-navigation.js",
+      "bytes": 8895,
+      "sha256": "49751d887d5fbde99a9bce41e12514e05a4dbbfee383bc6984d551fa271534d6"
+    },
+    {
+      "file": "assets/media-performance.js",
+      "bytes": 1960,
+      "sha256": "3cc88349b6516ec55d798e48097650c5fc48bd81eb3dc16b212357e5920c1d77"
+    },
+    {
+      "file": "assets/norte-autoral/favicon-16.png",
+      "bytes": 614,
+      "sha256": "7c11d0db88bc9a54ab21c4014e973c87e421fe188d851ed6a4d116b3ef123ab1"
+    },
+    {
+      "file": "assets/norte-autoral/favicon-32.png",
+      "bytes": 1390,
+      "sha256": "bca702a20955311dee7ba12b7c5e22ee22a6120b5931c5adec14ff5bb3201db1"
+    },
+    {
+      "file": "assets/norte-autoral/favicon.ico",
+      "bytes": 58514,
+      "sha256": "fc38d33132957a2ac5ddb9520ccb7a65f7bc0b8eb84393e10b3dd4e04293a4d6"
+    },
+    {
+      "file": "assets/norte-autoral/favicon.png",
+      "bytes": 38359,
+      "sha256": "2cc80b671294f47c0507bcd6299b07793d9a596e45fd05a79201536a8211ddbf"
+    },
+    {
+      "file": "assets/norte-autoral/favicon.svg",
+      "bytes": 51279,
+      "sha256": "c59333bb0f55baef63855a477ce45750aa3ff2ffbadced8c092eb83047f34c7c"
+    },
+    {
+      "file": "assets/norte-autoral/gabriel-holanda.jpg",
+      "bytes": 283923,
+      "sha256": "859b07ed25cb070a76c38445447fd31f242f5b4100302da510a5f953a1460e94"
+    },
+    {
+      "file": "assets/norte-autoral/gabriel-holanda.webp",
+      "bytes": 85408,
+      "sha256": "67e66d54741d399913797ca0e244007262dc146731aa15398d64581263c25d99"
+    },
+    {
+      "file": "assets/norte-autoral/logo-n-128.png",
+      "bytes": 11052,
+      "sha256": "ae1a5113afb0b3419a5b27dfc31b21ab4e230fb983fc752b941d72569bc2f890"
+    },
+    {
+      "file": "assets/norte-autoral/logo-n.png",
+      "bytes": 461365,
+      "sha256": "d83ba02579ce34ca8164553066baefd838b160b8d0b30e151b80c8dbe7ccfc26"
+    },
+    {
+      "file": "assets/norte-autoral/og-norte-autoral.jpg",
+      "bytes": 64112,
+      "sha256": "61cfa9734d171288166f8315bd520ebf76cc350b22bdebc55dea4bb07c3d5ecd"
+    },
+    {
+      "file": "assets/norte-autoral/og.png",
+      "bytes": 149615,
+      "sha256": "c9419d19884419f9c192e7f7b496304188c675dfc088621783b7e5fa155bff7f"
+    },
+    {
+      "file": "assets/norte-autoral/portfolio-v3.jpg",
+      "bytes": 91978,
+      "sha256": "057fd6da920439c6320903af823b8b45221927232f94335e1ff1ca9bbe1eec46"
+    },
+    {
+      "file": "assets/norte-autoral/portfolio-v3.webp",
+      "bytes": 61908,
+      "sha256": "1bf2a8d18c027e1f3f6767f5e9a54c44ab9db24640f7dc2c4799dbe6dce22abf"
+    },
+    {
+      "file": "assets/norte-autoral/profile.css",
+      "bytes": 2981,
+      "sha256": "b1a1b1debdb756dd7da16f94a95a8a39da42f2f78e7d43c8a46afc326ab74644"
+    },
+    {
+      "file": "assets/norte-autoral/servicos.css",
+      "bytes": 5890,
+      "sha256": "dbca05cbfbe033ab611a85bae7c8330a2720f957914966c0eb50df486941c1f2"
+    },
+    {
+      "file": "assets/og-image.png",
+      "bytes": 64088,
+      "sha256": "19fed6d3408613ccf9dfa5002ba33b21b3dec8a148fc7f016d50071b7b03467a"
+    },
+    {
+      "file": "assets/portfolio-heroes/arquitetura-estudio-linha.jpg",
+      "bytes": 129315,
+      "sha256": "0e681cbe1993c848a7e230ec39980fdd5f371a40f37a131e7bd0deff90c618b7"
+    },
+    {
+      "file": "assets/portfolio-heroes/aureo-arquitetura.jpg",
+      "bytes": 200315,
+      "sha256": "3a8ac09eb4fee0761bb42bd5df45d135af286cc49f9d003af803f7adf3cf3fd7"
+    },
+    {
+      "file": "assets/portfolio-heroes/confeitaria-margo.jpg",
+      "bytes": 202870,
+      "sha256": "24d92785fb56b3db37e4a8aa7c88647f993832a90ac80642691604dbeb63adae"
+    },
+    {
+      "file": "assets/portfolio-heroes/convix-hero.jpg",
+      "bytes": 171878,
+      "sha256": "ad4aa693314922abbc12fba27544a088d25fc36003dab5199149e9930d83e14d"
+    },
+    {
+      "file": "assets/portfolio-heroes/dentista-clinica-vertice.jpg",
+      "bytes": 139160,
+      "sha256": "88105335013ed448cb7572f7010997a3dd1c10508c2d0861c079380b5eee53ce"
+    },
+    {
+      "file": "assets/portfolio-heroes/dentista-clinica-vertice.webp",
+      "bytes": 93000,
+      "sha256": "f9cc3a0f35f88026bf16dd5560c4477712c30ad7651477ed05665384e1592b0d"
+    },
+    {
+      "file": "assets/portfolio-heroes/instituto-liminar.jpg",
+      "bytes": 172000,
+      "sha256": "14bf4968b59448dddde36edeaec143d0af7aaa81fa15d46065a6c6bb4b7590bf"
+    },
+    {
+      "file": "assets/portfolio-heroes/lithos-hero.jpg",
+      "bytes": 209989,
+      "sha256": "56b090bc1b5af0542429ee10c9c0133dab20a3a55289cc27b2811adab50fe83b"
+    },
+    {
+      "file": "assets/portfolio-heroes/velorah-hero.jpg",
+      "bytes": 228313,
+      "sha256": "c2233fba903eab31bdd535ef72889b63926ec0253724139201b92026acc5d928"
+    },
+    {
+      "file": "assets/portfolio-heroes/verene-odontologia.jpg",
+      "bytes": 144392,
+      "sha256": "a0c3ed60e05493fb4c3da1080b29bb95628c98ad1d6236e98df4549bcec96898"
+    },
+    {
+      "file": "assets/portfolio-thumbs/arquitetura-estudio-linha.jpg",
+      "bytes": 114714,
+      "sha256": "3223a290d45dc774b69d36a6d76a7863aad614e38bc04ef9207637145766040d"
+    },
+    {
+      "file": "assets/portfolio-thumbs/arquitetura-estudio-linha.webp",
+      "bytes": 110008,
+      "sha256": "9aa6b3b1c94025a6165fdaa40ab1a5ee32bdd0e91fcfd169e218cc1675d694a3"
+    },
+    {
+      "file": "assets/portfolio-thumbs/aureo-arquitetura.jpg",
+      "bytes": 106458,
+      "sha256": "5a2c5ccbc515cc950929fc7cc5ccdbb993084de3b57029d57a0d0ff25f3bdffb"
+    },
+    {
+      "file": "assets/portfolio-thumbs/aureo-arquitetura.webp",
+      "bytes": 71314,
+      "sha256": "329e25c15105c7be55c6e94c10140acf1f2d37dd351247df5ae169c4b4f66e7a"
+    },
+    {
+      "file": "assets/portfolio-thumbs/confeitaria-margo.jpg",
+      "bytes": 93491,
+      "sha256": "3d7ca5c95148bafeacf4e6f23021fa50ba37208468d320fcd0456f6bd229d385"
+    },
+    {
+      "file": "assets/portfolio-thumbs/confeitaria-margo.webp",
+      "bytes": 59240,
+      "sha256": "565516ae064d7db794c9a3015d6bc054477e981b4aa6a256b7807ece18884a6c"
+    },
+    {
+      "file": "assets/portfolio-thumbs/convix-hero.jpg",
+      "bytes": 205001,
+      "sha256": "4c02eb65ab96a8c4e1cda8c583dac5dd4089b959f673ec2aee4a72ab07fa55e0"
+    },
+    {
+      "file": "assets/portfolio-thumbs/convix-hero.webp",
+      "bytes": 131834,
+      "sha256": "cee239909343e5c7462920126377f2fd38010db4811f3787fdc2a7304f20ab83"
+    },
+    {
+      "file": "assets/portfolio-thumbs/dentista-clinica-vertice.jpg",
+      "bytes": 88327,
+      "sha256": "e44d8eacd16888357bd455dbdb64bdbddd97fde1155907900dfb35d3a90f9b6a"
+    },
+    {
+      "file": "assets/portfolio-thumbs/dentista-clinica-vertice.webp",
+      "bytes": 84476,
+      "sha256": "886ae001caab1edd15fdb221b217e026e84fa937c7d53010c262b9fa2f6955df"
+    },
+    {
+      "file": "assets/portfolio-thumbs/instituto-liminar.jpg",
+      "bytes": 108407,
+      "sha256": "ffc44f719e43ee77a8a547f4b82bea627476f00232afa421a96bddf092306b38"
+    },
+    {
+      "file": "assets/portfolio-thumbs/instituto-liminar.webp",
+      "bytes": 106790,
+      "sha256": "6df90f14227446a69138407882fd0a888942438eb7c8766a89d3d86c324a96c5"
+    },
+    {
+      "file": "assets/portfolio-thumbs/lithos-hero.jpg",
+      "bytes": 158970,
+      "sha256": "32df3da55ab0304805cfae4a300e5f462c6287c2c6521faaed91461e710f6e1e"
+    },
+    {
+      "file": "assets/portfolio-thumbs/lithos-hero.webp",
+      "bytes": 100478,
+      "sha256": "39c67a534dab81cdfacce617f1827e1b0396fe06ef317ad9bc2f0472ee542f54"
+    },
+    {
+      "file": "assets/portfolio-thumbs/portrait.jpeg",
+      "bytes": 130573,
+      "sha256": "2bdf5984e9d0ebbff55a7afcb8f27a16a4af2aa2ffa3d0c0f845baa4e2c4e0de"
+    },
+    {
+      "file": "assets/portfolio-thumbs/velorah-hero.jpg",
+      "bytes": 160368,
+      "sha256": "0ede40f9ec87b3ac565d7c6f405c576d90b5a1dd6eb47f3a940a3ce15d643374"
+    },
+    {
+      "file": "assets/portfolio-thumbs/velorah-hero.webp",
+      "bytes": 92406,
+      "sha256": "07a158884571b878447113fb723598b093891f188aac99acfd004abcaa463422"
+    },
+    {
+      "file": "assets/portfolio-thumbs/verene-odontologia.jpg",
+      "bytes": 61452,
+      "sha256": "73b3e65d444d78cc9a4eab2b2edb34f9a3decb45e38866d36c0cf2455e78d283"
+    },
+    {
+      "file": "assets/portfolio-thumbs/verene-odontologia.webp",
+      "bytes": 31958,
+      "sha256": "4db12e1a66f914c9007c58aec0509baf80f6a646ca04c4caa307c2fc73d525ba"
+    },
+    {
+      "file": "assets/sabec-logo.svg",
+      "bytes": 2804,
+      "sha256": "5ce1fab6d084ef283245d5c9130a197a990c4b5c63ba9c5e5d9fe6d51eb9fd44"
+    },
+    {
+      "file": "automacao/index.html",
+      "bytes": 11543,
+      "sha256": "48f796e3a8f0931fb88ce0646e31e50a9c4938c823e25f50ba6caf084d305fd2"
+    },
+    {
+      "file": "cf8454de8e5bc8a6ac18412915f36fd9.txt",
+      "bytes": 32,
+      "sha256": "7c0b1806d7dba1a8f9964e2cbd1cafb7291ba575abb2a513e9b9d41efad7dc0b"
+    },
+    {
+      "file": "index.html",
+      "bytes": 156998,
+      "sha256": "eb975a64b23d688f4059f6412ec81940e1900949b6fb2de8f194aac3fe45e881"
+    },
+    {
+      "file": "marketing/portfolio/arquitetura-estudio-linha/assets/img/detalhe-sombra.jpg",
+      "bytes": 265553,
+      "sha256": "a3b525021f81870d10719504607e6214acd49f0cee6ca74fd48d11747f9f6887"
+    },
+    {
+      "file": "marketing/portfolio/arquitetura-estudio-linha/assets/img/escada-luz.jpg",
+      "bytes": 222934,
+      "sha256": "f2ebcb2c86f88e16b94393d65198508faedd71aa4b5db288cf8e67d4c043ff3f"
+    },
+    {
+      "file": "marketing/portfolio/arquitetura-estudio-linha/assets/img/estar-pe-direito.jpg",
+      "bytes": 333175,
+      "sha256": "820e4b1521926fc7cb99637af4d12d271aed44d857cbae89cf909eb6a1ca5a20"
+    },
+    {
+      "file": "marketing/portfolio/arquitetura-estudio-linha/assets/img/fachada-ouro.jpg",
+      "bytes": 282949,
+      "sha256": "de15a3ba138f30b4109b0b4cb29e753929c1449a781c7c878cc192515b1c077e"
+    },
+    {
+      "file": "marketing/portfolio/arquitetura-estudio-linha/assets/img/patio-azul.jpg",
+      "bytes": 364218,
+      "sha256": "98c400118a56af9931f9f69e526c0c9303e14e8a9dbc23c8e76976a08c7b8187"
+    },
+    {
+      "file": "marketing/portfolio/arquitetura-estudio-linha/assets/img/varanda-ripas.jpg",
+      "bytes": 333881,
+      "sha256": "0ec7ffa18acd626a3f7256ab463059eeb9535f23e96c38ff8602118d1b438d23"
+    },
+    {
+      "file": "marketing/portfolio/arquitetura-estudio-linha/assets/video/hero.mp4",
+      "bytes": 10199231,
+      "sha256": "e867b61ff8e43855e04b4d64e9b7e83113216e8e19ee1900a74d975158b6921d"
+    },
+    {
+      "file": "marketing/portfolio/arquitetura-estudio-linha/index.html",
+      "bytes": 45831,
+      "sha256": "c2dca5659d5bf8cf34b2db33ad95e883e7b7f8f914b636b51d82ff0e7d40d1d5"
+    },
+    {
+      "file": "marketing/portfolio/aureo-arquitetura/assets/img/complexo-aereo.jpg",
+      "bytes": 412474,
+      "sha256": "ef520a0a8e8fcfce1a236d0799785b7fcd2b261443cf4f69d3da33f579b6af39"
+    },
+    {
+      "file": "marketing/portfolio/aureo-arquitetura/assets/img/detalhe-concreto.jpg",
+      "bytes": 703296,
+      "sha256": "31a5193aef0b1e6b6dae6f5d489eb1974980d612608d80b1e6a7687944113e40"
+    },
+    {
+      "file": "marketing/portfolio/aureo-arquitetura/assets/img/hero-fachada.jpg",
+      "bytes": 327595,
+      "sha256": "84ab106678f635d652082bfe05b59b247253132515c2909ecb3cd57b994f3c01"
+    },
+    {
+      "file": "marketing/portfolio/aureo-arquitetura/assets/img/interior-living.jpg",
+      "bytes": 672007,
+      "sha256": "3804166782d840efbc256fc7beed8c06c9057a935002b8c3aa23e312abd2b547"
+    },
+    {
+      "file": "marketing/portfolio/aureo-arquitetura/assets/img/memorial-parabola.jpg",
+      "bytes": 297567,
+      "sha256": "ad5d5dd636a43a4b311c08ff1c25b032a3a657b4cce060041cde044602a8745b"
+    },
+    {
+      "file": "marketing/portfolio/aureo-arquitetura/assets/img/torres-carmel.jpg",
+      "bytes": 587167,
+      "sha256": "f77e8526527a7a9bb0e449c35127d8c76f5df475e123d39fba0304638667c08b"
+    },
+    {
+      "file": "marketing/portfolio/aureo-arquitetura/assets/video/hero.mp4",
+      "bytes": 12237458,
+      "sha256": "4104eafd18d29d9b925b998573aebbdf1f7ed8fc5ff13750307732a02662248c"
+    },
+    {
+      "file": "marketing/portfolio/aureo-arquitetura/index.html",
+      "bytes": 58786,
+      "sha256": "7f26f3737693cb742640ef72421038c5988cca0b6315a071fea0c98e38359c77"
+    },
+    {
+      "file": "marketing/portfolio/confeitaria-margo/assets/img/bolo-frutas.jpg",
+      "bytes": 133649,
+      "sha256": "a991d319202d88833bebf049f61be99a968655c9eb3fe30c9a84292d6d0e08aa"
+    },
+    {
+      "file": "marketing/portfolio/confeitaria-margo/assets/img/brigadeiros.jpg",
+      "bytes": 224639,
+      "sha256": "efe3de0b570d85be044c23207620c7cf5857623f451ee1de0aca51bee15fdca5"
+    },
+    {
+      "file": "marketing/portfolio/confeitaria-margo/assets/img/croissants.jpg",
+      "bytes": 201775,
+      "sha256": "b1758241b1e89b74ef44ef200e2446fefeca885b2130acf363473f2ec0917b88"
+    },
+    {
+      "file": "marketing/portfolio/confeitaria-margo/assets/img/hero-brunch.jpg",
+      "bytes": 200573,
+      "sha256": "c25e97b1afe0207e2c98d909d986d24404f54dfb9addd30a1e4089ae07c07804"
+    },
+    {
+      "file": "marketing/portfolio/confeitaria-margo/assets/img/naked-cake.jpg",
+      "bytes": 153367,
+      "sha256": "dbc9136435245c7e7cd21883f4b58f84ddaea254a4feed69b8050562c2f1f4ac"
+    },
+    {
+      "file": "marketing/portfolio/confeitaria-margo/assets/img/tortinha-limao.jpg",
+      "bytes": 110190,
+      "sha256": "e928e0a60ba2414c403706bcb8256b23cc68754af909620b90ed193010d1c875"
+    },
+    {
+      "file": "marketing/portfolio/confeitaria-margo/assets/video/hero.mp4",
+      "bytes": 10389262,
+      "sha256": "a9d436408bc0008833fe3f0d952ad6da986d46f63ea28405b11a721412748c7f"
+    },
+    {
+      "file": "marketing/portfolio/confeitaria-margo/index.html",
+      "bytes": 59087,
+      "sha256": "9ffe5f67ac04e0b7cdf6d6196f38100c17d979acff0d8c07c7fffce199073136"
+    },
+    {
+      "file": "marketing/portfolio/convix-hero/dist/assets/index-7O04r-Vl.css",
+      "bytes": 10836,
+      "sha256": "d34d00028172acfe6d20b96404627c14dfc6c556e0aa7eea9d0caf728ab01360"
+    },
+    {
+      "file": "marketing/portfolio/convix-hero/dist/assets/index-D04Epqih.js",
+      "bytes": 156447,
+      "sha256": "6b17c07e62564d8a4f2447c6e2695dc9616329ac32d1ac7db6863c192f6a1c20"
+    },
+    {
+      "file": "marketing/portfolio/convix-hero/dist/index.html",
+      "bytes": 678,
+      "sha256": "7f812bf209c659bda86a0d61a936e76598cac42203a585fe1619f124a7577e0d"
+    },
+    {
+      "file": "marketing/portfolio/dentista-clinica-vertice/assets/img/alinhador-macro.jpg",
+      "bytes": 50732,
+      "sha256": "a949347c140250282610e844d22d5ab9a6a6ae379ecb10b76caa86831ee1f54f"
+    },
+    {
+      "file": "marketing/portfolio/dentista-clinica-vertice/assets/img/consultorio.jpg",
+      "bytes": 99046,
+      "sha256": "c4c8a6bf572cb539a96109d8ba333741939fcb48c3398da5d10c3aac6b50f2bb"
+    },
+    {
+      "file": "marketing/portfolio/dentista-clinica-vertice/assets/img/imagem-3d.jpg",
+      "bytes": 80964,
+      "sha256": "ee6de0994c8835f45ce7fc142e96a5b65cfa3d6d7f1478bc5e108fb8cbcb34f3"
+    },
+    {
+      "file": "marketing/portfolio/dentista-clinica-vertice/assets/img/implante-3d.jpg",
+      "bytes": 39659,
+      "sha256": "cc081b7ffd7600f8b97409d5ee9545051ba16012cffe18c8add2a8f1215b38db"
+    },
+    {
+      "file": "marketing/portfolio/dentista-clinica-vertice/assets/img/recepcao.jpg",
+      "bytes": 105075,
+      "sha256": "8b6d57e8142b5e81da982eb93e3f0fc9f0d0e36b74aa8bcf63b26b58c562560e"
+    },
+    {
+      "file": "marketing/portfolio/dentista-clinica-vertice/assets/img/sorriso.jpg",
+      "bytes": 104769,
+      "sha256": "1d6230ace2ff4ec76fe30d86a985d2ec030c6d649a9f978d1134940733aca862"
+    },
+    {
+      "file": "marketing/portfolio/dentista-clinica-vertice/assets/video/hero.mp4",
+      "bytes": 15388313,
+      "sha256": "e6dac2ed595b2166b2def9d1f57404409333fe73d4e75cc1ecafd38c64c5bc61"
+    },
+    {
+      "file": "marketing/portfolio/dentista-clinica-vertice/index.html",
+      "bytes": 45017,
+      "sha256": "dbbfd7090fbe3b01a975efd383136e50924e014b9897660abf173edc9a88f12b"
+    },
+    {
+      "file": "marketing/portfolio/instituto-liminar/assets/img/anfiteatro.jpg",
+      "bytes": 178436,
+      "sha256": "c79c8fe1e0ee0578a5f6e285a1a90310047faa9ed71240c6f119e7fcf8444698"
+    },
+    {
+      "file": "marketing/portfolio/instituto-liminar/assets/img/diva.jpg",
+      "bytes": 265923,
+      "sha256": "eac1b7bc36a2daa1dca9947c5dba569ef8e6c0a466add8282c7b5016d7558f4f"
+    },
+    {
+      "file": "marketing/portfolio/instituto-liminar/assets/img/hero-biblioteca.jpg",
+      "bytes": 248236,
+      "sha256": "06e8ef09223f0a49b2c13e0852b49de7378fa0481d763a573123f8fa90f58a7c"
+    },
+    {
+      "file": "marketing/portfolio/instituto-liminar/assets/img/manuscrito.jpg",
+      "bytes": 111397,
+      "sha256": "bc28377cde29a456d28c4aaecd73504dcb7271ab3793349a69695602feda9965"
+    },
+    {
+      "file": "marketing/portfolio/instituto-liminar/assets/img/maos-livro.jpg",
+      "bytes": 114685,
+      "sha256": "5ac65623dde1535772859e45a62dc1a8b8fcaa01d9a69fdd7aa63bebabf38836"
+    },
+    {
+      "file": "marketing/portfolio/instituto-liminar/assets/img/motivo-grafico.jpg",
+      "bytes": 49738,
+      "sha256": "4fceceae1331c6d435985d372fe21355e7015b78bda2e7b2c26e1a0971d6faa6"
+    },
+    {
+      "file": "marketing/portfolio/instituto-liminar/assets/video/hero.mp4",
+      "bytes": 10129943,
+      "sha256": "68c2a238c61b8df5fb578b99fe7fb991c4444e4badaf848c3dfd4c2de8ca3019"
+    },
+    {
+      "file": "marketing/portfolio/instituto-liminar/index.html",
+      "bytes": 52190,
+      "sha256": "5c2125d5f2b5d2582aff044a049647cf5fdb9ed5e5f20ed6663a5ab71eab8766"
+    },
+    {
+      "file": "marketing/portfolio/lithos-hero/dist/assets/index-CMXdz8kw.js",
+      "bytes": 149827,
+      "sha256": "af5f6aca8fa6ec2fb46a91bc5589fddbe06046400eb502730a9ec5ba2a785ed9"
+    },
+    {
+      "file": "marketing/portfolio/lithos-hero/dist/assets/index-DIp2DAYC.css",
+      "bytes": 11032,
+      "sha256": "8f6a9c5fc174677d91b7c0586189fea58207166f50a1855a883238ae7096db89"
+    },
+    {
+      "file": "marketing/portfolio/lithos-hero/dist/index.html",
+      "bytes": 659,
+      "sha256": "7bc845d605086602e98e88752aa8f9936eacb3c1ad37728559cc0bfcef54515d"
+    },
+    {
+      "file": "marketing/portfolio/velorah-hero/dist/assets/index-BPhN6xXn.css",
+      "bytes": 11143,
+      "sha256": "22e35ccbdf1b49bc0d93c5097529fa4892775d36986d17581424f6f22b7de66a"
+    },
+    {
+      "file": "marketing/portfolio/velorah-hero/dist/assets/index-xMIOyhaI.js",
+      "bytes": 169796,
+      "sha256": "74850b453dc25f83965715d121c0fb5ee6aac6f71e71c8d3dc1cbd73f04cd955"
+    },
+    {
+      "file": "marketing/portfolio/velorah-hero/dist/index.html",
+      "bytes": 763,
+      "sha256": "8f0279d67cc7bf7e5efd2bff851e7b063a05b59c015574acc1a902a03bbee67c"
+    },
+    {
+      "file": "marketing/portfolio/verene-odontologia/assets/img/alinhador.jpg",
+      "bytes": 169801,
+      "sha256": "db018880e84573172a9aefb065aa54b0467976df199147f20f9aba596c025d08"
+    },
+    {
+      "file": "marketing/portfolio/verene-odontologia/assets/img/consultorio.jpg",
+      "bytes": 169690,
+      "sha256": "f56d119b4813521bdc8e192ef16fb9acc6b90899840ce7a652e9d0e9c7a733aa"
+    },
+    {
+      "file": "marketing/portfolio/verene-odontologia/assets/img/hero-recepcao.jpg",
+      "bytes": 132092,
+      "sha256": "ce8be7ee81255da72574b150b13301f567038dbcb7ce503a2baf47c6517ab1a7"
+    },
+    {
+      "file": "marketing/portfolio/verene-odontologia/assets/img/implante-3d.jpg",
+      "bytes": 127315,
+      "sha256": "eb6ec6e28a9fd7fc52be8291b4510a45f35d44a296f6f1731319be79e8469d5a"
+    },
+    {
+      "file": "marketing/portfolio/verene-odontologia/assets/img/protese-ceramica.jpg",
+      "bytes": 189684,
+      "sha256": "f908b4192d3473029a7867da740b39ba56f1b8a7a8f4dbeff4b628db3de8fab3"
+    },
+    {
+      "file": "marketing/portfolio/verene-odontologia/assets/img/sorriso.jpg",
+      "bytes": 266785,
+      "sha256": "a7c3897f219cdbab7e6a3b02bbf972506400b875b88b12c27c4ddc2f84969075"
+    },
+    {
+      "file": "marketing/portfolio/verene-odontologia/assets/video/hero.mp4",
+      "bytes": 7096122,
+      "sha256": "680d0d802ef49681310e91ea79bd518fa099cdf7053712c029ee922c35487f2c"
+    },
+    {
+      "file": "marketing/portfolio/verene-odontologia/index.html",
+      "bytes": 42237,
+      "sha256": "86f15f158e769e2794e518318468b0d6089838f008c4cd3294a6161422545aec"
+    },
+    {
+      "file": "privacy.html",
+      "bytes": 4774,
+      "sha256": "5c562b81f03564475d84998082bf40fc1a52f46332a606f75f477b1dc7e5ef15"
+    },
+    {
+      "file": "robots.txt",
+      "bytes": 71,
+      "sha256": "83b516c48971d9d1a65f9cbc037a71c0369d47b6f5ed1b49bb384f36fa9503d5"
+    },
+    {
+      "file": "site-do-jd.html",
+      "bytes": 24764,
+      "sha256": "7317bb6f8f57d0a88fd225631242d189d2995a9be581db21a325f5938c94905d"
+    },
+    {
+      "file": "site-do-jd/img/og.jpg",
+      "bytes": 125818,
+      "sha256": "6eff1a26b0a40018bace4cb5da2511af70b8d9ea5888f6dfb2c532e94b69f821"
+    },
+    {
+      "file": "site-do-jd/img/painel-artes.webp",
+      "bytes": 61366,
+      "sha256": "de4f381dc5b80a8821bbb8e73d9352a2a970b086661bab8ca7cef8d3c537d3b1"
+    },
+    {
+      "file": "site-do-jd/img/painel-precos.webp",
+      "bytes": 32724,
+      "sha256": "0aa242f3eea9913b573e300dc86ab23141a368f203dd23b900347717de88a4e1"
+    },
+    {
+      "file": "site-do-jd/img/painel-textos.webp",
+      "bytes": 44610,
+      "sha256": "699d94b38cc53b4754399813ce06284f0c314e0b663b63fb79cef712723a2094"
+    },
+    {
+      "file": "site-do-jd/img/site-celular.webp",
+      "bytes": 143956,
+      "sha256": "efce0e52fbf15c6bc6642226db61c652159c589d788eed026f49a75f6e58f7a3"
+    },
+    {
+      "file": "site-do-jd/img/site-pc.webp",
+      "bytes": 185442,
+      "sha256": "499b73ae474ebf67d9d02d955ca2f2174380ed06d6c9426e8fe988fbc90bae90"
+    },
+    {
+      "file": "site-do-jd/img/template.webp",
+      "bytes": 207824,
+      "sha256": "62eb8bc708bffce6aa8dba8b7b7b4327d69472c127fd4255bbf40c1e34806451"
+    },
+    {
+      "file": "sitemap.xml",
+      "bytes": 545,
+      "sha256": "f313e190f4e7cc29e05fc8f03a68960cc5b4940a4f27035f09f5f5da8aa9ee27"
+    },
+    {
+      "file": "terms.html",
+      "bytes": 5475,
+      "sha256": "9cdbb3a3d89330f9f50113cde95d6de5af612c3ac675b2c1da16996a692ac663"
+    },
+    {
+      "file": "trafego-pago/index.html",
+      "bytes": 11356,
+      "sha256": "83686606cf47642a9e9560c0b5a6806a7a730ea98625a803c7c8c923a5e897b1"
+    },
+    {
+      "file": "v3.html",
+      "bytes": 99860,
+      "sha256": "fdeb238464dd85c8254b99625756ecd777ec3f4a07ee0b21a2779ea074adbc8a"
+    },
+    {
+      "file": "vendor/cdn.jsdelivr.net/ScrollTrigger.min-8275e947aa32.js",
+      "bytes": 43380,
+      "sha256": "ad33c2df9ada8a663c2147357828f980d0b7ca731ef33eb3c6e4f327c3b2cda5"
+    },
+    {
+      "file": "vendor/cdn.jsdelivr.net/gsap.min-bf5b26673eee.js",
+      "bytes": 72214,
+      "sha256": "28033e449a31ebcc396e5be8b13b63152bf03094288fb5867034321927bce087"
+    },
+    {
+      "file": "vendor/cdn.jsdelivr.net/lenis.min-273ca89be0ce.js",
+      "bytes": 12790,
+      "sha256": "55a065df7880463fdb4f88cc57f498a9711c5a85b3c82c1c6b81888c32a33850"
+    },
+    {
+      "file": "vendor/cdnjs.cloudflare.com/ScrollTrigger.min-36c29c028158.js",
+      "bytes": 43380,
+      "sha256": "ad33c2df9ada8a663c2147357828f980d0b7ca731ef33eb3c6e4f327c3b2cda5"
+    },
+    {
+      "file": "vendor/cdnjs.cloudflare.com/gsap.min-cb9c6262bdd7.js",
+      "bytes": 72214,
+      "sha256": "28033e449a31ebcc396e5be8b13b63152bf03094288fb5867034321927bce087"
+    },
+    {
+      "file": "vendor/d8j0ntlcm91z4.cloudfront.net/hf_20260314_131748_f2ca2a28-fed7-44c8-b9a9-bd9acdd5ec31-94d9b3db9d75.mp4",
+      "bytes": 14142575,
+      "sha256": "c5c37853107ca51166f453662a4ccbfd668a020e7cd70ffa0b5a3be0351d458b"
+    },
+    {
+      "file": "vendor/d8j0ntlcm91z4.cloudfront.net/hf_20260424_064411_9e9d7f84-9277-41f4-ab10-59172d89e6be-2681d41b24d4.mp4",
+      "bytes": 33022200,
+      "sha256": "e4e39fcdb72315e19992647084247beb859cffde1c6d8514c570a0acca67686c"
+    },
+    {
+      "file": "vendor/fonts.googleapis.com/css2-1c6f77753dc2.css",
+      "bytes": 15297,
+      "sha256": "0e76421c3a6cfd4009383b879a4fc019bddb97afdb173b6dcfb4e20146bf618a"
+    },
+    {
+      "file": "vendor/fonts.googleapis.com/css2-21d5d0e318fa.css",
+      "bytes": 20760,
+      "sha256": "5d87c39ce318eb2868154fefbc448688c398e9b8ec13ada5f47748c917abb661"
+    },
+    {
+      "file": "vendor/fonts.googleapis.com/css2-236b4f255c07.css",
+      "bytes": 11737,
+      "sha256": "d339accd65619d6c1273af0fb53f8c15457c222700920f7a4c6fb9b0d5aefda4"
+    },
+    {
+      "file": "vendor/fonts.googleapis.com/css2-60987a8b44cb.css",
+      "bytes": 12720,
+      "sha256": "9ddf11e7ecc1bfccd548d4a95a92d67710ed97637117740ef63fba10e35ce71a"
+    },
+    {
+      "file": "vendor/fonts.googleapis.com/css2-7c9831d3cb65.css",
+      "bytes": 19984,
+      "sha256": "e0ac6627d0f1efe97362f7d7fb0a04563a965cf1d4f92ce6e33b2b38831b47b7"
+    },
+    {
+      "file": "vendor/fonts.googleapis.com/css2-8c98a1fdc272.css",
+      "bytes": 17326,
+      "sha256": "53b18bc534b3a545fcfe174709e448c3691c22d9d537c30a404f3afdba82f98a"
+    },
+    {
+      "file": "vendor/fonts.googleapis.com/css2-b8077b83075f.css",
+      "bytes": 12690,
+      "sha256": "fa6f113b009e6047a9a110ce2e076f50c33d6b64195bc19e75e7472dfd20711b"
+    },
+    {
+      "file": "vendor/fonts.googleapis.com/css2-d7111b17d24a.css",
+      "bytes": 15553,
+      "sha256": "6d33cca6046da44fdb29be8d85ee94c165fd4005586103e5bd4f67c0987617a2"
+    },
+    {
+      "file": "vendor/fonts.googleapis.com/css2-e2d224bd0e2a.css",
+      "bytes": 12381,
+      "sha256": "2f70bde8c16f27c794f574dcc6b02e6b166b1322287f9f5a505ed69a4c495377"
+    },
+    {
+      "file": "vendor/fonts.googleapis.com/css2-f377038b3ae4.css",
+      "bytes": 5866,
+      "sha256": "f348cad47fbd2452d4ed1939885e8873df8a8f5322b315176f55f5d858ff36fc"
+    },
+    {
+      "file": "vendor/fonts.googleapis.com/css2-fd4652e6c730.css",
+      "bytes": 19357,
+      "sha256": "8a2b3a708b261bb4061f7aeddaacd955ffdd0edaffa6df12b6405fde795bd98c"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/-F63fjptAgt5VM-kVkqdyU8n1i8q1w-7e3d7e3c7de8.woff2",
+      "bytes": 14708,
+      "sha256": "08949f728dc52d528e69b1667d15c89a5686a4ee9a296ff90983985f99c380f7"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/-F63fjptAgt5VM-kVkqdyU8n1iAq129k-2a73cdecea5c.woff2",
+      "bytes": 5868,
+      "sha256": "62632b6375305e70ddcafdd895218e6ae41a184fcd280a69c739460604ca00a9"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/-F63fjptAgt5VM-kVkqdyU8n1iEq129k-ae5fc1eadb05.woff2",
+      "bytes": 13348,
+      "sha256": "6bc0f226a5b7884a8170e3f62c63d7675609d4631bdc5931b5cdab81821f00eb"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/-F63fjptAgt5VM-kVkqdyU8n1iIq129k-d1b233760bed.woff2",
+      "bytes": 6912,
+      "sha256": "f8c22ec1804bd6966b70f43ac7c327025645b4c09597117fca2a5a6c750106fe"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/-F63fjptAgt5VM-kVkqdyU8n1isq129k-f9c74283b169.woff2",
+      "bytes": 8356,
+      "sha256": "7635422bd10ddbbcb0e0caa1154b928298f5c8319b8c00b30978d4395f4783ce"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/-F6qfjptAgt5VM-kVkqdyU8n3twJwl1FgtIU-ed3206e8ede4.woff2",
+      "bytes": 6972,
+      "sha256": "3febe5c7f22e4b07b4552738673c3dbe8bced2dc5f48b866edf7ccd9552d109a"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/-F6qfjptAgt5VM-kVkqdyU8n3twJwl5FgtIU-203ce92810c0.woff2",
+      "bytes": 13432,
+      "sha256": "6bb06407c97584b0867a959e05e8874693bfeb8c317de190811c51598f2d99ea"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/-F6qfjptAgt5VM-kVkqdyU8n3twJwl9FgtIU-b06594e3dfbc.woff2",
+      "bytes": 6040,
+      "sha256": "781633d95de88040fb77141d1e65d928c87c0144691fbc74da5a64d137a7e910"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/-F6qfjptAgt5VM-kVkqdyU8n3twJwlBFgg-eb889034c083.woff2",
+      "bytes": 14888,
+      "sha256": "01d285447409c8a588692162439a038b8cbd7871309ee20267b0d2d91c6e8e22"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/-F6qfjptAgt5VM-kVkqdyU8n3twJwlRFgtIU-c70f6b078a09.woff2",
+      "bytes": 8460,
+      "sha256": "1d89462e86cb8e87e7e9d6f6635605bd7c3081baca6caaecee84916bf7b60edc"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjdPeQ_5Y-437e9d07ede1.woff2",
+      "bytes": 71460,
+      "sha256": "4983926d3a16544eedcd2233448bd8a43f711e7bf1fabaae8431e78e0b798635"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjdfeQ_5Y-ccf0fecc501d.woff2",
+      "bytes": 22128,
+      "sha256": "23af38108404d4b05ea87498afc5a104a3fe878b6339d162472e914a2c8bfa93"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjeveQ-e10563a873a3.woff2",
+      "bytes": 81520,
+      "sha256": "066710ce7ed235a339d3d6cdcc8b55c0bea5632232662d83aacea25852108271"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxC9TeA-6a8370661dae.woff2",
+      "bytes": 67304,
+      "sha256": "7234ed860a9cc83045413c4faee63c960a8f2d1917adcf728119307d56e0d783"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxCBTeO-U-a4c5fe4f4f21.woff2",
+      "bytes": 19700,
+      "sha256": "f18853f63a870ebef013e30e789d8d544f102e4acd94988e57c223d9c796ddf4"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxCFTeO-U-7cdca5ec1a66.woff2",
+      "bytes": 59388,
+      "sha256": "a2930b27d13a228bd9ab6a49269b5f800237892ad560cb9dd7fab01b1620f88e"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc-1e8edb2fc100.woff2",
+      "bytes": 18748,
+      "sha256": "71d5ee93cc1e9f1d520a3a8b66456de18c7879d8df09d57fcd2eaff75fef0075"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7-e3237528af75.woff2",
+      "bytes": 48256,
+      "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc-dbc85b0dfbaa.woff2",
+      "bytes": 18996,
+      "sha256": "1be3448e292fbf05ffe176fe1e43f135013d50b1e7d324ad1a558f623d3bb6f6"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc-a9d11b3ffe7a.woff2",
+      "bytes": 85068,
+      "sha256": "34b9c504cab7a73e37b746343a449132e56cf7b5481af2cb81dc74dcff25c956"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc-95b9ea830580.woff2",
+      "bytes": 25960,
+      "sha256": "ca157063339ac4ad418f214f3abfed119b0798ab4d377386ce5c9e5a7a435ebd"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc-6d0a674525fe.woff2",
+      "bytes": 11232,
+      "sha256": "6e9e020a25f9b56d418f2c085b1d3c09725a4da23fe693a5b463064606732190"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc-4c2d4a14f23a.woff2",
+      "bytes": 10252,
+      "sha256": "5c66f9e07e90c6d4ac4922cc68d60de26c17b1858e677fb5e603fce3952b3ff2"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/V8mDoQDjQSkFtoMM3T6r8E7mPb54C-s0-5d47749e9553.woff2",
+      "bytes": 6712,
+      "sha256": "8895e3d49825128bfa5238e4c96e9b432d7a3dadbe5c17c6081267398305dc71"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/V8mDoQDjQSkFtoMM3T6r8E7mPb94C-s0-cc7d24aa9461.woff2",
+      "bytes": 18940,
+      "sha256": "952dddb45d2f96f71cbf3b7f510b24379afc3c89ea02fcf89d377b45d62c0166"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw-98a0d4ac28a1.woff2",
+      "bytes": 22288,
+      "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtFmSq17w-4ae4c5dabe8f.woff2",
+      "bytes": 25184,
+      "sha256": "ae25de0507a445fd9e953e90432ae75b1ee2eccb48370a6ced4934551eb56fc3"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtGmSq17w-8fbaa36df2a8.woff2",
+      "bytes": 34392,
+      "sha256": "cd5bf126b2c84ab41b254a6a9a1ffb5c326a0f9f82c22fb4704daa31c9aaa415"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtHmSq17w-4c494e010d00.woff2",
+      "bytes": 11516,
+      "sha256": "b8ecb4ae898cd9ccae2f2d18fd364f6593bb67776060f9b5d833cec65d34d112"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtImSo-291655adcb38.woff2",
+      "bytes": 39260,
+      "sha256": "6f2f5c3b1abc3d0bb035a927f66a90ca873f94fc31c4966c8d024142c2036e55"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtMmSq17w-954d638259f9.woff2",
+      "bytes": 21300,
+      "sha256": "cb13c04533ee98c94e49a053b9f4d39bf616fd7ba6360d71aead92a78dc571f7"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKgS4-a55f75e9e7fa.woff2",
+      "bytes": 33736,
+      "sha256": "cfa9a397d86f66c5c51775a2500a712d5f632a04f0c5eca6930dfaf612d4566d"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKgS4-c4be89389609.woff2",
+      "bytes": 23416,
+      "sha256": "a4d7cf345b8091e1d2c8c5c8fa3bd0f9bb9d00bc8988185471db398ddb5ae4c4"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKgS4-c74911618d2d.woff2",
+      "bytes": 11220,
+      "sha256": "6252e819a7665ae512c2d046308a9016ada63c06d0d8f96984c4b29f6c9e1bd2"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtK-d9ec821052ff.woff2",
+      "bytes": 37640,
+      "sha256": "d80df8ff5aecd299a61549f9e29ab1ed0b9b05f4ea71d50fe978e07d5240b235"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKgS4-535639032664.woff2",
+      "bytes": 21168,
+      "sha256": "017fab69b4be8ffc08ca312823327989ade6dc3d948f0afa125e12ec2e5e7ca1"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/i7dMIFZifjKcF5UAWdDRaPpZUFWaHg-ca181a34b6a2.woff2",
+      "bytes": 16724,
+      "sha256": "2d46bd159b53f55c41167a4f1540a074649464194fd1e416f5b4694a6c0f282c"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/i7dMIFZifjKcF5UAWdDRaPpZUFqaHjyV-59802b9ab070.woff2",
+      "bytes": 7332,
+      "sha256": "97f6df0559c6393b851812484ae859b7c539815d5fcdab7d17234492480fa16c"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/i7dMIFZifjKcF5UAWdDRaPpZUFuaHjyV-3d1febe5209a.woff2",
+      "bytes": 15808,
+      "sha256": "52edd9a8959ec3e68d618e2a4757182c0e61bfeea61679850cad8744a68cadf3"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/i7dPIFZifjKcF5UAWdDRYE58RWq7-63296b0a0d86.woff2",
+      "bytes": 7272,
+      "sha256": "a748973d5d192a27d69862f5af5f9182d4420d3a924e7b992ae82182e9b12cd8"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/i7dPIFZifjKcF5UAWdDRYE98RWq7-08e268f050ba.woff2",
+      "bytes": 15832,
+      "sha256": "44ad50c760fa8f5b62da3d489edb40adebabaf97988b9b0adbbc3f0be859050a"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/i7dPIFZifjKcF5UAWdDRYEF8RQ-b978e4a38f40.woff2",
+      "bytes": 16520,
+      "sha256": "fb4a81a2d0a893e5c38c394a7e716a1cef0b24610a0af49c96f6d529bd66bf2b"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/jizBRFtNs2ka5fXjeivQ4LroWlx-6zUTjg-05103e2a779c.woff2",
+      "bytes": 21032,
+      "sha256": "5eb09b5ac0e28b67c2f041c8ba6d244604ca0c0980d65912ab2d47fed84ddc31"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/jizBRFtNs2ka5fXjeivQ4LroWlx-6zsTjmbI-41fe32a095c1.woff2",
+      "bytes": 11604,
+      "sha256": "290e6267dd833bf5f899eba4c29ad0a9b09dbe53f6075b18af38057159e1ff20"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjgn7MsNo-ad94e0845b56.woff2",
+      "bytes": 12384,
+      "sha256": "d0014821252a8a770bf7551641572f239a8ede83d75652d84fef0c3627751baf"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7M-0d985700e838.woff2",
+      "bytes": 22128,
+      "sha256": "5a51946dfffa82972bc98745359c46761515641fda557c25116459a9f83da4a7"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLySOxK-vA-fe23a35d5845.woff2",
+      "bytes": 13240,
+      "sha256": "5a621c5598a31392555104ccdc41a46c3104f1cc22666024a8afb881ca9adaab"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLyTOxK-vA-6a6431245d46.woff2",
+      "bytes": 32608,
+      "sha256": "ff4f17d21930e36d6d93baba663e624cb767afc3feebf7adaebd82242638de05"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLydOxI-c6ab97fead73.woff2",
+      "bytes": 34928,
+      "sha256": "8f704806dbedeaaeca334b11ec348bc3ac3a439d6431544b3afb54f534ee4967"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/nuFiD-vYSZviVYUb_rj3ij__anPXDTLYgFE_-3cb6b7b1979e.woff2",
+      "bytes": 21140,
+      "sha256": "42898ad49a6b23f32b109243e1df596edf831015ed685f429e4dafbb181d599d"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/nuFiD-vYSZviVYUb_rj3ij__anPXDTPYgFE_-2f08df1456fc.woff2",
+      "bytes": 9112,
+      "sha256": "ef6446229b59773e671021650ef3882cf35806dae723ce047de87c0a6633039a"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/nuFiD-vYSZviVYUb_rj3ij__anPXDTjYgFE_-edff4874961e.woff2",
+      "bytes": 21152,
+      "sha256": "c108681cba6a9820bff52f4a1a4a1d9edf356b347bd79b7c61e916028e8a8b54"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA-363014d7c907.woff2",
+      "bytes": 38404,
+      "sha256": "e0c764a8e9e1cce92163c55bac4b2ad6cd4cf8c696ce2289ab5c41565e65b7e2"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7-a50b218eceed.woff2",
+      "bytes": 38804,
+      "sha256": "54af24bd0f911f0fd7399d5445ea2023ff501d6a69f2d728f1213072f977ab14"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/nuFkD-vYSZviVYUb_rj3ij__anPXDTnohkk72xU-a13031654d66.woff2",
+      "bytes": 23304,
+      "sha256": "51b2dac698333379dc3a3486393fba787d17f1dcbcb50f46582ca759d53c25fc"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojEk72xU-891feccf9363.woff2",
+      "bytes": 23380,
+      "sha256": "b9dff4aec6d8ef27af595330c808c455fcc3ff46881642aa6028ed4e27a96f89"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojUk72xU-3effa9311007.woff2",
+      "bytes": 9568,
+      "sha256": "6b8bfd228577635a5f45bee13c8dd4a900eba6aeb36af1680838aea3cbd7e412"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTN1OVgaY-c6fc7b9765f8.woff2",
+      "bytes": 1172,
+      "sha256": "d6c74dfddab488c40652ff116952624a88f8fa1de196732fd58b8e042a8967d2"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTNFOVgaY-2230dde9020b.woff2",
+      "bytes": 7528,
+      "sha256": "879df9319f1cbf633bee1dd489e376a9e1e8c458f4abddcfe381cb83b5e6b027"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTNVOVgaY-4111c0bd35f4.woff2",
+      "bytes": 4040,
+      "sha256": "bb7b98e92899b511e8f3e99c924142f4421896b2cbc9406c3727c25427662cc9"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTOVOVgaY-34fd0b568f48.woff2",
+      "bytes": 4284,
+      "sha256": "5b6dee4610cdaab7c4218c1692aa9a536414010eef4e5b3cfb25f45007811bcc"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTOlOV-eb47aeb9c5d1.woff2",
+      "bytes": 21832,
+      "sha256": "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxTPlOVgaY-a4f137da62e9.woff2",
+      "bytes": 5356,
+      "sha256": "26c9ed511def1f0fd3d1b5fe6d5c0c594d9ef8dd2435d2ff240ea265a416b6e4"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx3cwhsk-6b5e37b52d26.woff2",
+      "bytes": 1640,
+      "sha256": "62213be8a78b42f1e29d1452d91e2f8b3e745572a9dd98d3941e39fa00b37d76"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx7cwhsk-b19c2080652a.woff2",
+      "bytes": 11624,
+      "sha256": "db5ff4db83e580426280e9337a58dc57d3a83784a1b03ad80914651594441d52"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg-cc27b3047125.woff2",
+      "bytes": 31432,
+      "sha256": "83c005d49d8a6a50474c73a5a36ac0468076e9c4a29da7bdb14995d80560a5be"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxPcwhsk-99e400330f36.woff2",
+      "bytes": 6836,
+      "sha256": "0a557721b1f8b36d3f3f84442689a71ca4a744300abcb46a1953f51bfc663b66"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxTcwhsk-eb83d8d40af4.woff2",
+      "bytes": 8872,
+      "sha256": "e17cfd15fb96909d64095015f958207063a0c07191da3512df7d560a781aebdf"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx_cwhsk-c4064400db37.woff2",
+      "bytes": 5888,
+      "sha256": "c89b9cc0bc6262bd4f8d8494b6961601f3aefa829d08c2e3635f4d501d3a47c2"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxQKYbABA-f582230492bf.woff2",
+      "bytes": 30964,
+      "sha256": "d160e20920ae4d6556518d352d3af27a74e9b0de3d8fe17b1c1044fc75aa2f81"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxRKYbABA-99228c3b93e7.woff2",
+      "bytes": 13160,
+      "sha256": "73e7f7b1c980416ae0c2461268b14c7cfcce0668e683dc43fbb11a82a227b9f2"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxTKYbABA-13ff14c8cbbd.woff2",
+      "bytes": 23568,
+      "sha256": "7d0037a170882a49e65a45c38ef195237bb07b1cc791d078379f0ac0d7ae1935"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxaKYbABA-fd8b74284fe6.woff2",
+      "bytes": 29512,
+      "sha256": "9409ee21811f0f5272b7e1d828fe8838005b0573481ef906e7e55b63f6610ab0"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxdKYbABA-560980fcddc4.woff2",
+      "bytes": 19500,
+      "sha256": "f598dd0700f155e2facfaa8ecfacace397d4c2c153e9ce37ab7ad310e8505bc2"
+    },
+    {
+      "file": "vendor/fonts.gstatic.com/zYXzKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1syxeKYY-6d5e7fb80500.woff2",
+      "bytes": 45712,
+      "sha256": "e2291e842cf5af167122a22881a740c7f2dda7716f1e8cd76680264f4a859470"
+    },
+    {
+      "file": "vendor/images.higgs.ai/asset-145988049866.webp",
+      "bytes": 138224,
+      "sha256": "25d3778a57ba0435a47ab3c10147dbedbfa070ba37dc600dfeebb9664aefae19"
+    },
+    {
+      "file": "vendor/images.higgs.ai/asset-ab30e8b4fba2.webp",
+      "bytes": 99334,
+      "sha256": "f51eed91483cf12cb0d54b4f3175ab4055007cbf182021c46548945c3e4fd951"
+    },
+    {
+      "file": "vendor/images.unsplash.com/photo-1557683316-973673baf926-565cff88977e.jpg",
+      "bytes": 29472,
+      "sha256": "fa6ac4a3302c9aff0e13c89be3a1d4a98aea4b1320dc18e4a2fae94fe677ef41"
+    },
+    {
+      "file": "vendor/unpkg.com/lenis.min-fc91f338f7a5.js",
+      "bytes": 13485,
+      "sha256": "b2958f142f832f0d5e547cdef77e6fadfce16bea60982fc8bbf50395a2439df8"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "recordedDateLocal": "2026-10-13",
+  "timezone": "America/Sao_Paulo",
+  "property": "sc-domain:norteautoral.site",
+  "account": "contatonorteautoral@gmail.com",
+  "verifiedOwner": true,
+  "dnsChangedThisRevision": false,
+  "deploy": "6acdb6bf27a8351adc3ec980",
+  "home": {
+    "url": "https://norteautoral.site/",
+    "indexed": true,
+    "lastIndexedCrawlLocal": "2026-10-12 18:17:07",
+    "crawler": "Googlebot Smartphone",
+    "googleCanonical": "https://norteautoral.site/",
+    "requestRepeatedThisRevision": false,
+    "evidence": ["gsc-home-index-current.png", "gsc-home-index-current.txt"]
+  },
+  "sitemap": {
+    "url": "https://norteautoral.site/sitemap.xml",
+    "publicCanonicalUrlCount": 5,
+    "submittedOnceThisRevision": true,
+    "submissionDateLocal": "2026-10-13",
+    "submissionConfirmed": true,
+    "finalReportStatus": "Processado",
+    "finalReportLastReadLocal": "2026-10-11",
+    "finalReportDiscoveredUrlCount": 3,
+    "updatedFiveUrlProcessingConfirmed": false,
+    "evidence": ["gsc-sitemap-submitted.png", "gsc-sitemap-final.txt", "gsc-sitemap-final.png"]
+  },
+  "googleGenerativeAiControl": {
+    "selectedOption": "Incluir os links e o conteúdo do meu site nos recursos de IA generativa da Pesquisa (Padrão)",
+    "inclusionSelected": true,
+    "changedThisRevision": false,
+    "evidence": ["gsc-ai-inclusion.txt", "gsc-ai-inclusion.png"]
+  },
+  "servicePages": [
+    {
+      "url": "https://norteautoral.site/trafego-pago/",
+      "indexedAtInspection": false,
+      "indexStatus": "O Google não reconhece o URL",
+      "liveTestTimeLocal": "2026-10-13 01:49:30",
+      "liveEligibleForIndexing": true,
+      "httpStatus": 200,
+      "allResourcesLoaded": true,
+      "crawlAndIndexAllowed": true,
+      "declaredCanonical": "https://norteautoral.site/trafego-pago/",
+      "googleCanonicalAfterIndexing": null,
+      "validBreadcrumbItems": 1,
+      "requestActivatedOnce": true,
+      "requestProgressObserved": true,
+      "requestReceiptConfirmed": false,
+      "requestReceiptStatus": "Confirmation not recovered after browser control interruption; do not repeat the request",
+      "evidence": ["gsc-trafego-before.txt", "gsc-trafego-live.txt", "gsc-trafego-live-resources.txt", "gsc-trafego-render.png", "gsc-trafego-request-observation.md"]
+    },
+    {
+      "url": "https://norteautoral.site/automacao/",
+      "indexedAtInspection": false,
+      "indexStatus": "O Google não reconhece o URL",
+      "liveTestTimeLocal": "2026-10-13 01:54:03",
+      "liveEligibleForIndexing": true,
+      "httpStatus": 200,
+      "allResourcesLoaded": true,
+      "crawlAndIndexAllowed": true,
+      "declaredCanonical": "https://norteautoral.site/automacao/",
+      "googleCanonicalAfterIndexing": null,
+      "validBreadcrumbItems": 1,
+      "requestActivatedOnce": true,
+      "requestReceiptConfirmed": true,
+      "requestReceiptStatus": "Indexação solicitada",
+      "evidence": ["gsc-automacao-before.txt", "gsc-automacao-live.txt", "gsc-automacao-live-resources.txt", "gsc-automacao-render.png", "gsc-automacao-requested.txt", "gsc-automacao-requested.png"]
+    }
+  ],
+  "schemaMarkupValidator": {
+    "testedPublishedUrls": ["https://norteautoral.site/", "https://norteautoral.site/trafego-pago/", "https://norteautoral.site/automacao/"],
+    "allZeroErrorsAndWarnings": true,
+    "evidence": ["schema-home.txt", "schema-home.png", "schema-trafego.txt", "schema-trafego.png", "schema-automacao.txt", "schema-automacao.png"]
+  },
+  "indexNow": {
+    "httpStatus": 202,
+    "urlCount": 3,
+    "accepted": true,
+    "keyValidationPending": true,
+    "evidence": "indexnow-submission.json"
+  },
+  "actualAiRecommendationConfirmed": false,
+  "currentSearchFaviconIndependentlyConfirmed": false,
+  "limits": "Live tests and request receipt do not prove indexing; indexing and participation do not guarantee a query result, rank, timing or AI recommendation."
+}

@@ -1,0 +1,139 @@
+- banner:
+  - button "Menu principal":
+  - link "Google Search Console":
+    - /url: ./search-console?resource_id=sc-domain%3Anorteautoral.site
+  - search:
+    - textbox [disabled]: Inspecionar qualquer URL de "norteautoral.site"
+    - combobox "Inspecionar qualquer URL de norteautoral.site"
+    - button "Pesquisa":
+  - button "Ajuda":
+    - generic: help_outline
+  - tooltip: Ajuda
+  - button "Configurações de usuário":
+    - generic: manage_accounts
+  - tooltip: Configurações de usuário
+  - 'button "Mensagens não lidas: 2"':
+    - generic: notifications
+  - tooltip: Mensagens
+  - generic: "2"
+  - button "Google Apps":
+  - 'button "Conta do Google: Norte Autoral (contatonorteautoral@gmail.com)"':
+- dialog "navigational drawer":
+  - navigation "Primário":
+    - button "Pesquise a propriedade":
+      - img "favicon"
+      - combobox "norteautoral.site"
+      - generic: 
+    - link "Visão geral":
+      - /url: ./search-console?resource_id=sc-domain%3Anorteautoral.site
+      - generic: home
+      - generic: Visão geral
+    - link "Insights":
+      - /url: ./search-console/performance/insights?resource_id=sc-domain%3Anorteautoral.site
+      - generic: lightbulb_2
+      - generic: Insights
+    - link "Desempenho":
+      - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Anorteautoral.site
+      - generic: trending_up
+      - generic: Desempenho
+    - button "Inspeção de URL":
+      - generic: search
+      - generic: Inspeção de URL
+    - generic: Indexação
+    - button "Seção de relatórios de Indexação" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "Páginas":
+      - /url: ./search-console/index?resource_id=sc-domain%3Anorteautoral.site
+      - generic: file_copy
+      - generic: Páginas
+    - link "Sitemaps":
+      - /url: ./search-console/sitemaps?resource_id=sc-domain%3Anorteautoral.site
+      - generic: account_tree
+      - generic: Sitemaps
+    - link "Remoções":
+      - /url: ./search-console/removals?resource_id=sc-domain%3Anorteautoral.site
+      - generic: visibility_off
+      - generic: Remoções
+    - generic: Experiência
+    - button "Seção de relatórios de Experiência" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "Core Web Vitals":
+      - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Anorteautoral.site
+      - generic: speed
+      - generic: Core Web Vitals
+    - generic: Segurança e ações manuais
+    - button "Seção de relatórios de Segurança e ações manuais":
+      - generic: keyboard_arrow_down
+    - link "Relatório de links":
+      - /url: ./search-console/links?resource_id=sc-domain%3Anorteautoral.site
+      - generic: link_2
+      - generic: Links
+    - link "Conquistas":
+      - /url: ./search-console/achievements?resource_id=sc-domain%3Anorteautoral.site
+      - generic: trophy
+      - generic: Conquistas
+    - link "Configurações":
+      - /url: ./search-console/settings?resource_id=sc-domain%3Anorteautoral.site
+      - generic: settings
+      - generic: Configurações
+    - button "Enviar comentário":
+      - generic: feedback
+      - generic: Enviar comentário
+    - button "Sobre o Search Console":
+      - generic: info
+      - generic: Sobre o Search Console
+    - link "Privacidade":
+      - /url: https://myaccount.google.com/privacypolicy?hl=pt-BR
+    - link "Termos":
+      - /url: https://myaccount.google.com/termsofservice?hl=pt-BR
+- generic: https://norteautoral.site/automacao/
+- navigation "Indicadores de localização atual":
+  - heading "Inspeção de URL" [level=1]
+- button "Testar o URL publicado":
+  - generic: Testar o URL publicado
+- main:
+  - generic: info
+  - generic: O URL não está no Google
+  - text: "Esta página não está indexada. As páginas não indexadas não são exibidas no Google. Consulte os detalhes abaixo para saber por que ela não foi indexada:"
+  - link "Saiba mais":
+    - /url: https://support.google.com/webmasters/answer/9012289#url_not_on_google
+  - button "Ver a página rastreada" [disabled]:
+    - generic: Ver a página rastreada
+  - generic: A página foi alterada?
+  - button "Solicitar indexaçãoSolicitar novamente":
+    - generic: Solicitar indexação
+  - 'button "Indexação das páginas A página não está indexada: O Google não reconhece o URL" [expanded]':
+    - generic: info
+    - generic: Indexação das páginas
+    - generic: "A página não está indexada: O Google não reconhece o URL"
+    - generic: 
+  - generic: Detecção
+  - generic: Sitemaps
+  - generic: Nenhum sitemap de referência foi detectado
+  - generic: Página de referência
+  - generic: Nenhuma página foi detectada
+  - generic: O URL pode ser conhecido por outras origens não informadas no momento
+  - generic: Rastreamento
+  - generic: Último rastreamento
+  - generic: N/D
+  - generic: Rastreada como
+  - generic: N/D
+  - generic: O rastreamento é permitido?
+  - generic: N/D
+  - generic: Busca de página
+  - generic: N/D
+  - generic: A indexação é permitida?
+  - generic: info
+  - generic: N/D
+  - generic: Indexação
+  - generic: URL canônico declarado pelo usuário
+  - generic: N/D
+  - generic: URL canônico selecionado pelo Google
+  - button "null":
+    - generic: 
+  - generic: N/D
+  - link "Link para documentação mais elaborada":
+    - /url: https://support.google.com/webmasters/answer/9012289#url_unknown
+    - generic: Saiba mais
+  - generic: Melhorias e experiência
+  - generic: Somente URLs indexados podem ter melhorias

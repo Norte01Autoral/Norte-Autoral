@@ -1,0 +1,109 @@
+Browser tab: 792635971, Title: "Sitemaps", URL: "https://search.google.com/u/5/search-console/sitemaps?resource_id=sc-domain%3Anorteautoral.site".
+0 AXWebArea Sitemaps, URL: search.google.com/u/5/search-console/sitemaps?resource_id=sc-domain%3Anorteautoral.site
+	1 container
+		2 container yDmH0d
+			3 container gb
+				4 container
+					5 button (collapsed) Description: Menu principal, Secondary Actions: Expand
+						6 image
+					7 link Description: Google Search Console, Value: search.google.com/u/5/search-console?resource_id=sc-domain%3Anorteautoral.site, ID: sdgBod
+					8 container
+						9 combo box (collapsed, settable) Description: Inspecionar qualquer URL de norteautoral.site, Secondary Actions: Expand
+					10 button Pesquisa
+						11 image
+					12 button Ajuda
+					13 button Configurações de usuário
+					14 container
+						15 button Mensagens não lidas: 2
+						16 text 2
+					17 button (collapsed) Description: Google Apps, Secondary Actions: Expand
+					18 button (collapsed) Description: Conta do Google: Norte Autoral (contatonorteautoral@gmail.com), Secondary Actions: Expand
+			19 container navigational drawer
+				20 container
+					21 container Primário
+						22 pop up button (collapsed) Description: Pesquise a propriedade, Secondary Actions: Expand
+							23 image favicon
+							24 combo box (collapsed, settable) Description: norteautoral.site, Secondary Actions: Expand
+						25 container
+							26 link Description: Visão geral, Value: search.google.com/u/5/search-console?resource_id=sc-domain%3Anorteautoral.site
+							27 link Description: Insights, Value: search.google.com/u/5/search-console/performance/insights?resource_id=sc-domain%3Anorteautoral.site
+							28 link Description: Desempenho, Value: search.google.com/u/5/search-console/performance/search-analytics?resource_id=sc-domain%3Anorteautoral.site
+							29 button Inspeção de URL
+								30 text Inspeção de URL
+							31 container
+								32 text Indexação
+								33 button (expanded) Description: Seção de relatórios de Indexação, Secondary Actions: Collapse
+								34 link Description: Páginas, Value: search.google.com/u/5/search-console/index?resource_id=sc-domain%3Anorteautoral.site
+								35 link Description: Sitemaps, Value: search.google.com/u/5/search-console/sitemaps?resource_id=sc-domain%3Anorteautoral.site
+								36 link Description: Remoções, Value: search.google.com/u/5/search-console/removals?resource_id=sc-domain%3Anorteautoral.site
+							37 text Experiência
+							38 button (expanded) Description: Seção de relatórios de Experiência, Secondary Actions: Collapse
+							39 link Description: Core Web Vitals, Value: search.google.com/u/5/search-console/core-web-vitals?resource_id=sc-domain%3Anorteautoral.site
+							40 text Segurança e ações manuais
+							41 button (collapsed) Description: Seção de relatórios de Segurança e ações manuais, Secondary Actions: Expand
+							42 link Description: Relatório de links, Value: search.google.com/u/5/search-console/links?resource_id=sc-domain%3Anorteautoral.site
+							43 link Description: Conquistas, Value: search.google.com/u/5/search-console/achievements?resource_id=sc-domain%3Anorteautoral.site
+							44 link Description: Configurações, Value: search.google.com/u/5/search-console/settings?resource_id=sc-domain%3Anorteautoral.site
+							45 button Enviar comentário
+								46 text Enviar comentário
+							47 button Sobre o Search Console
+								48 text Sobre o Search Console
+							49 link Description: Privacidade, Value: myaccount.google.com/privacypolicy?hl=pt-BR
+							50 link Description: Termos, Value: myaccount.google.com/termsofservice?hl=pt-BR
+			51 container Indicadores de localização atual
+				52 heading Sitemaps, Value: 1
+					53 text Sitemaps
+			54 container
+				55 text Adicionar um novo sitemap
+				56 container
+					57 text field (settable) Insira o URL do sitemap
+				58 button (disabled) ENVIAR
+					59 text ENVIAR
+				60 heading Sitemaps enviados, Value: 1
+					61 text Sitemaps enviados
+				62 pop up button (collapsed) Description: Filtrar linhas da tabela, Secondary Actions: Expand
+				63 table
+					64 row
+						65 cell
+							66 text Sitemap
+						67 cell
+							68 text Tipo
+						69 cell
+							70 text Enviado
+						71 cell
+							72 text Última leitura
+						73 cell
+							74 text Status
+						75 cell
+							76 text Páginas encontradas
+						77 cell
+							78 text Vídeos encontrados
+					79 row
+						80 cell
+							81 text https://norteautoral.site/sitemap.xml
+						82 cell
+							83 text Sitemap
+						84 cell
+							85 text 10 de out. de 2026
+						86 cell
+							87 text 11 de out. de 2026
+						88 cell
+							89 text Processado
+						90 cell
+							91 text 3
+						92 cell
+							93 text 0
+						94 cell
+							95 pop up button (collapsed) Secondary Actions: Expand
+				96 text Linhas por página:
+				97 list Número de linhas por página
+					98 5
+					99 (selected) 10
+					100 25
+					101 50
+					102 100
+					103 250
+					104 500
+				105 text 1-1 de 1
+
+The focused UI element is 57 text field (settable) Insira o URL do sitemap

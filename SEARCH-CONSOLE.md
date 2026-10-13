@@ -1,10 +1,26 @@
 # Norte Autoral — descoberta e indexação no Google
 
-Registro de configuração em **10/10/2026**, fuso **America/Sao_Paulo**. Site principal: **https://norteautoral.site/**. Hospedagem: Netlify Free, projeto **rococo-liger-832df6**. DNS: Hostinger.
+## Estado atual — 13/10/2026
+
+Site principal **https://norteautoral.site/**, Netlify Free **rococo-liger-832df6**, DNS Hostinger. A propriedade Domínio **norteautoral.site** continua verificada na conta **contatonorteautoral@gmail.com**. O TXT e A/CNAME foram preservados; não houve alteração de DNS nesta revisão.
+
+A Inspeção de URL do **Índice do Google** confirmou a inicial indexada, com último rastreamento em **12/10/2026, 18:17:07**, Googlebot Smartphone, acesso/indexação permitidos e canonical raiz escolhido pelo Google. [Captura](references/qa-discovery-2026-10-13/gsc-home-index-current.png), [detalhes](references/qa-discovery-2026-10-13/gsc-home-index-current.txt). O pedido da inicial confirmado em 10/10 não foi repetido.
+
+A falha antiga do sitemap foi resolvida: antes desta publicação, o relatório mostrava **Processado**, leitura em **11/10/2026**, **3 URLs encontradas**. A revisão publicada no deploy **6acdb6bf27a8351adc3ec980** acrescenta `/trafego-pago/` e `/automacao/`, totalizando **5 URLs canônicas**. O sitemap foi enviado uma vez em 13/10 e a interface confirmou **Sitemap enviado**; depois do envio, ainda mostrava a leitura anterior de 11/10 e 3 URLs. Recebimento da atualização e processamento das cinco URLs são estados separados. [Antes](references/qa-discovery-2026-10-13/gsc-sitemap-before.png), [envio](references/qa-discovery-2026-10-13/gsc-sitemap-submitted.png), [estado após envio](references/qa-discovery-2026-10-13/gsc-sitemap-after-submit.png).
+
+Em **Configurações → IA generativa na Pesquisa**, a opção **Incluir os links e o conteúdo do meu site nos recursos de IA generativa da Pesquisa (Padrão)** estava selecionada. Não foi necessário mudar a configuração. A inclusão permite participação; não comprova citação/recomendação efetiva. [Evidência](references/qa-discovery-2026-10-13/gsc-ai-inclusion.png), [controle oficial](https://support.google.com/webmasters/answer/16908024?hl=pt-br).
+
+As duas páginas novas ainda não estavam indexadas nas consultas disponíveis. Ambas passaram no teste publicado: HTTP 200, todos os recursos carregados, canonical próprio, acesso/indexação permitidos e um BreadcrumbList válido. O pedido de **automação** foi acionado uma vez e confirmado como **Indexação solicitada**. O pedido de **tráfego pago** também foi acionado uma vez, com progresso observado; sua confirmação final não foi recuperada após interrupção do navegador. **Não repetir esses pedidos para obter confirmação.** [Pedido de automação](references/qa-discovery-2026-10-13/gsc-automacao-requested.png), [limite de tráfego pago](references/qa-discovery-2026-10-13/gsc-trafego-request-observation.md).
+
+O Schema Markup Validator avaliou a inicial e os dois serviços publicados com **zero erros e avisos**. IndexNow recebeu as três URLs alteradas com HTTP 202; validação da chave pendente, sem comprovação de índice ou citação. O resultado final está em [QA de visibilidade](references/qa-discovery-2026-10-13/QA-FINAL.md) e [VISIBILIDADE-GOOGLE-IA.md](VISIBILIDADE-GOOGLE-IA.md). As nove demos, `/v3` e `/site-do-jd` continuam rastreáveis com `noindex, follow` e fora do sitemap. O favicon PNG256 original e a URL estável foram preservados.
+
+## Registro histórico — configuração de 10/10/2026
+
+Os resultados abaixo descrevem **10/10/2026**, fuso **America/Sao_Paulo**, e foram preservados como histórico. O estado atual acima substitui as pendências antigas para manutenção.
 
 **A inicial está indexada conforme a Inspeção de URL do Índice do Google.** A propriedade está verificada, a versão publicada passou no teste ao vivo, e o usuário confirmou a mensagem **Indexação solicitada** nesta conversa. O relatório de Sitemaps ainda apresenta falha de busca apesar de o teste ao vivo do Google conseguir acessar o XML.
 
-## Favicon — revisão posterior
+## Favicon — revisão histórica de 10/10
 
 Revisão posterior de favicon em 10/10/2026: o usuário forneceu captura em que o site aparece na busca com um globo. A inicial agora declara o N dourado original em PNG256 como favicon principal, mantendo o ICO. Deploy atual `6acae4f0215a53089aa84c06`; [QA favicon](references/qa-favicon-2026-10-10/QA-FINAL.md). A mudança ficou restrita às declarações do ícone; os testes Google e o estado do índice abaixo são registros da execução anterior. O pedido de indexação já confirmado não foi repetido. A exibição do favicon não foi confirmada, e o relatório de sitemap não foi consultado novamente nesta revisão.
 

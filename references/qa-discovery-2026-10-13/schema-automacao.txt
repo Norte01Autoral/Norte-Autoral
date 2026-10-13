@@ -1,0 +1,109 @@
+- link "Schema.org":
+  - /url: https://schema.org/
+- list:
+  - link "Documentation":
+    - /url: https://schema.org/docs/documents.html
+  - link "Schemas":
+    - /url: https://schema.org/docs/schemas.html
+  - link "Validate":
+    - /url: /
+  - link "About":
+    - /url: https://schema.org/docs/about.html
+- textbox "search"
+- generic: public
+- generic: https://norteautoral.site/automacao/
+- button "Testar de novo"
+- button "language_japanese_kana":
+  - generic: language_japanese_kana
+- button "info":
+  - generic: info
+- textbox
+- generic: "1"
+- text: <!doctype html>
+- generic: "2"
+- text: <html lang="pt-BR">
+- generic: "3"
+- text: <head>
+- generic: "4"
+- text: <meta charset="utf-8">
+- generic: "5"
+- text: <meta name="viewport" content="width=device-width, initial-scale=1">
+- generic: "6"
+- text: <meta name="theme-color" content="#0A0A0A">
+- generic: "7"
+- text: <title>Automação e integrações em Parnaíba | Norte Autoral</title>
+- generic: "8"
+- text: <meta name="description" content="Automação de processos, atendimento com IA no WhatsApp e integrações sob medida com Gabriel Holanda, da Norte Autoral, em Parnaíba, PI.">
+- generic: "9"
+- text: <meta name="author" content="Gabriel Holanda · Norte Autoral">
+- generic: "10"
+- text: <meta name="robots" content="index, follow, max-image-preview:large">
+- generic: "11"
+- text: <link rel="canonical" href="https://norteautoral.site/automacao/">
+- generic: "12"
+- text: <link rel="icon" type="image/png" sizes="256x256" href="/assets/norte-autoral/favicon.png">
+- generic: "13"
+- text: <link rel="shortcut icon" type="image/x-icon" href="/assets/norte-autoral/favicon.ico">
+- generic: "14"
+- text: <meta property="og:type" content="website">
+- generic: "15"
+- text: <meta property="og:title" content="Automação e integrações para sua empresa | Norte Autoral">
+- generic: "16"
+- text: <meta property="og:description" content="Atendimento com IA no WhatsApp, fluxos e ferramentas conectadas conforme o seu processo. Com Gabriel Holanda, em Parnaíba, PI.">
+- generic: "17"
+- text: <meta property="og:url" content="https://norteautoral.site/automacao/">
+- generic: "18"
+- text: <meta property="og:site_name" content="Norte Autoral">
+- generic: "19"
+- text: <meta property="og:locale" content="pt_BR">
+- generic: "20"
+- text: <meta property="og:image" content="https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg">
+- generic: "21"
+- text: <meta property="og:image:width" content="1200">
+- generic: "22"
+- text: <meta property="og:image:height" content="630">
+- generic: "23"
+- text: <meta property="og:image:alt" content="Norte Autoral · Gabriel Holanda · Parnaíba, PI.">
+- generic: "24"
+- text: <meta name="twitter:card" content="summary_large_image">
+- generic: "25"
+- text: <meta name="twitter:title" content="Automação e integrações para sua empresa | Norte Autoral">
+- generic: "26"
+- text: <meta name="twitter:description" content="Atendimento com IA no WhatsApp e integrações sob medida com Gabriel Holanda, em Parnaíba, PI.">
+- generic: "27"
+- text: <meta name="twitter:image" content="https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg">
+- generic: "28"
+- text: <meta name="twitter:image:alt" content="Norte Autoral · Gabriel Holanda · Parnaíba, PI.">
+- generic: "29"
+- text: <link rel="stylesheet" href="/vendor/fonts.googleapis.com/css2-7c9831d3cb65.css">
+- generic: "30"
+- text: <link rel="stylesheet" href="/assets/norte-autoral/servicos.css">
+- generic: "31"
+- text: <script type="application/ld+json">
+- generic: "32"
+- text: "{"
+- generic: "33"
+- text: "\"@context\": \"https://schema.org\","
+- generic: "34"
+- text: "\"@graph\": ["
+- generic: "35"
+- text: "{"
+- generic: "36"
+- text: "\"@type\": \"WebPage\","
+- generic: Detectado
+- text: 0 ERROS
+- text: 0 AVISOS
+- text: 2 ITENS
+- list:
+  - generic: WebPage
+  - text: 0 ERROS
+  - text: 0 AVISOS
+  - text: 1 ITEM
+  - generic: CreativeWork
+  - text: 0 ERROS
+  - text: 0 AVISOS
+  - text: 1 ITEM
+- button "play_arrow" [disabled]:
+  - generic: play_arrow
+- generic: VALIDAR
+- button

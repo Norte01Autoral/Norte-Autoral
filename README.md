@@ -1,20 +1,36 @@
-# Clone v1 — Norte Autoral
+# Portfólio — Norte Autoral
 
-Portfólio personalizado para **Gabriel Holanda / Norte Autoral**, em **Parnaíba, PI**, sobre a base visual autorizada de **https://www.sabec.dev/**, capturada em **9 de outubro de 2026**. Revisão atual: **10 de outubro de 2026**, com Meta Ads, Google Ads, Norte/OS e a foto com o cabelo inteiro. Prisma WebGL, fontes e direção visual preservados.
+Pasta principal desde **12/10/2026**: **Portfólio**, antes `Portfolio-Atualizado-GitHub`. Domínio confirmado: **https://norteautoral.site/**. A reorganização local preservou os arquivos do site e o histórico Git; não houve nova publicação.
+
+Backup completo: `../backups/atualizacao-2026-10-12/portfolio/Portfólio/`. O clone, pacotes e versões antigas estão em `../backups/historico-portfolio/`; os quatro pontos de restauração anteriores ficam em `../backups/historico-portfolio/clone v1/backups/`. Nomes e caminhos nas auditorias antigas são registros históricos. Os scripts de migração e empacotamento históricos precisam ter caminhos/exclusões revisados antes de reutilização; não os executar como rotina.
+
+Portfólio personalizado para **Gabriel Holanda / Norte Autoral**, em **Parnaíba, PI**, sobre a base visual autorizada de **https://www.sabec.dev/**, capturada em **9 de outubro de 2026**. Revisão atual: **13 de outubro de 2026**, com páginas próprias de tráfego pago e automação, metadados e schema dos serviços. A identidade, o conteúdo aprovado, o prisma WebGL, as fontes, animações e foto com cabelo inteiro continuam preservados.
 
 ## Publicação atual no Netlify
 
-Publicado em **https://norteautoral.site/**, no projeto **rococo-liger-832df6** da conta **norte01autoral**, plano **Free**. Domínio e www têm DNS Hostinger confirmado, HTTPS obrigatório e certificado Let's Encrypt válido. Deploy atual **`6acae4f0215a53089aa84c06`**, incluindo favicon PNG256, adaptadores de rotas/cache, identificação WebSite e proteção contra falha de limite WebGL. Consulte a [QA atual](references/qa-favicon-2026-10-10/QA-FINAL.md) e [NETLIFY.md](NETLIFY.md). Endereço técnico: **https://rococo-liger-832df6.netlify.app/**.
+Publicado em **https://norteautoral.site/**, no projeto **rococo-liger-832df6** da conta **norte01autoral**, plano **Free**. Domínio e www têm DNS Hostinger confirmado, HTTPS obrigatório e certificado Let's Encrypt válido. Deploy atual **`6acdb6bf27a8351adc3ec980`**, com serviços novos, identificação SEO e adaptadores de rotas/cache. Favicon PNG256 e proteção de limite WebGL preservados. Consulte a [QA atual](references/qa-discovery-2026-10-13/QA-FINAL.md) e [NETLIFY.md](NETLIFY.md). Endereço técnico: **https://rococo-liger-832df6.netlify.app/**.
 
-Os adaptadores separados estão em `hosting/netlify/`. A pasta de publicação atual é **`../clone-v1-netlify-favicon-2026-10-10/`**, com 231 arquivos e os dois adaptadores. **clone-v1-netlify.zip** e os ZIPs anteriores preservam as revisões anteriores; prepare `public/` atual para novas publicações. Os quatro pontos de restauração permanecem intactos. A Hostinger mantém o domínio/DNS; a hospedagem é Netlify.
+Os adaptadores separados estão em `hosting/netlify/`. A pasta de publicação atual é **`../publicacao-seo-ia-2026-10-13/`**, com **235 arquivos incluindo os dois adaptadores**. Os ZIPs e pastas anteriores em `../backups/historico-portfolio/` preservam revisões históricas; prepare `public/` atual para atualizar o site. Preserve também a prova pública IndexNow `public/cf8454de8e5bc8a6ac18412915f36fd9.txt` e sua regra `X-Robots-Tag: noindex` em futuros deploys. Os backups permanecem intactos. A Hostinger mantém domínio/DNS; a hospedagem é Netlify.
 
 ## Google Search Console
 
-Propriedade **Domínio norteautoral.site** verificada na conta de marca, com TXT mantido na Hostinger. A inicial foi efetivamente confirmada **indexada** no painel Índice do Google; o teste publicado da execução Search Console também aprovou acesso e possibilidade de indexação. O sitemap está cadastrado, mas sua última leitura observada no relatório continua pendente com status de falha de busca. Isso não impediu a indexação da inicial já confirmada. O favicon usa o N dourado original em PNG256, conforme as diretrizes; exibição na busca ainda depende do Google. O pedido único de atualização já foi confirmado pelo usuário e não foi repetido nesta revisão. Consulte [SEARCH-CONSOLE.md](SEARCH-CONSOLE.md) para resultados, evidências e filtros de desempenho da marca. Não há garantia de posição, prazo ou exibição para uma busca específica.
+Propriedade **Domínio norteautoral.site** verificada na conta de marca **contatonorteautoral@gmail.com**, com TXT mantido na Hostinger. Em 13/10, a inicial foi confirmada **indexada**, com último Googlebot Smartphone em **12/10, 18:17:07**, canonical próprio e sitemap reconhecido. A falha histórica de busca foi resolvida: sitemap Processado, leitura de 11/10, três URLs. O sitemap atualizado para **cinco URLs** foi recebido em 13/10; a conferência após envio ainda mostrava a leitura anterior/três URLs, sem comprovar processamento das cinco.
+
+Consulte [SEARCH-CONSOLE.md](SEARCH-CONSOLE.md) para as inspeções e os pedidos finais das páginas novas, com acesso, solicitação e índice registrados separadamente. Ambas passaram no teste publicado; automação tem pedido confirmado, enquanto a confirmação final de tráfego pago não pôde ser recuperada depois da interrupção do navegador. Ainda não estão indexadas nas consultas disponíveis. O favicon conserva o N original em PNG256; sua exibição atual não foi auditada independentemente nesta revisão. O pedido anterior da inicial não deve ser repetido somente por favicon. Não há garantia de posição, prazo, exibição para uma busca específica ou recomendação por IA.
+
+Em 13/10, o controle **IA generativa na Pesquisa** foi conferido com inclusão padrão de links e conteúdo selecionada, sem mudar a configuração. A participação está permitida; a seleção em respostas não foi comprovada. [Evidência](references/qa-discovery-2026-10-13/gsc-ai-inclusion.png), [controle oficial](https://support.google.com/webmasters/answer/16908024?hl=pt-br).
+
+## Descoberta dos serviços e buscas com IA
+
+As páginas **[/trafego-pago/](https://norteautoral.site/trafego-pago/)** e **[/automacao/](https://norteautoral.site/automacao/)** apresentam a oferta com conteúdo, processo e contato. O `Service` usa o mesmo provider `https://norteautoral.site/#negocio`; BreadcrumbList e links internos conectam as páginas à marca. Metadados/schema da inicial, duas chamadas de serviço e dois links no rodapé foram atualizados, com scripts, foto e animações preservados.
+
+IndexNow recebeu raiz e serviços com **HTTP 202**, validação da chave pendente. É notificação aceita, não comprovação de índice. A integração gratuita usa prova TXT pública e HTTP, sem plugin pago ou novo OAuth ao Bing. O robots já permite os bots de descoberta; não foi criado `llms.txt` nem requisito de treinamento GPTBot. Decisões e fontes oficiais em [VISIBILIDADE-GOOGLE-IA.md](VISIBILIDADE-GOOGLE-IA.md). Próxima ação: acompanhar as páginas novas e reunir casos próprios autorizados e referências verdadeiras; demos não são clientes próprios. Não foi avaliado Perfil da Empresa.
 
 ## Instalar na Hostinger
 
 Use **clone-v1-hostinger.zip**, com `index.html` na raiz, e extraia seu conteúdo diretamente em **public_html**. O site é estático e não exige Node.js, WordPress ou banco de dados no servidor. [HOSTINGER.md](HOSTINGER.md) contém o passo a passo de envio, SSL e Google Search Console. O ZIP de código-fonte **clone-v1-norte-autoral.zip** serve para manutenção local.
+
+Esses ZIPs registram a entrega histórica de 10/10 e não incluem a revisão atual. Para uma atualização, preparar a fonte ativa com as páginas novas e a prova IndexNow; a publicação atual permanece no Netlify.
 
 SEO configurado para o domínio informado: canonical, título/descrição, imagem social, dados estruturados, `robots.txt` e `sitemap.xml`. Os templates e `/v3` continuam navegáveis, rastreáveis e com `noindex`, fora do sitemap. A configuração Google atual está em [SEARCH-CONSOLE.md](SEARCH-CONSOLE.md).
 
@@ -43,6 +59,7 @@ O servidor usa apenas módulos nativos do Node.js; não exige instalar dependên
 ## Incluído
 
 - Página principal, versão alternativa `/v3` com identidade Norte Autoral, estudo de referência `/site-do-jd`, `/privacy` e `/terms`.
+- Páginas próprias `/trafego-pago/` e `/automacao/`, com canonical, Service/provider, BreadcrumbList e links internos; sitemap com raiz, serviços, privacidade e termos, somente cinco URLs canônicas.
 - Nove demonstrações: Velorah, Lithos, Clínica Vértice, Convix, Áureo, Margô, Instituto Liminar, Verene e Estúdio Linha.
 - Destaque JD Andrade com quatro imagens e um único botão **Abrir o site**; destaque Dra. Ana Scatolin com imagens desktop e celular.
 - Galeria com dez cartões: `/v3` e as nove demos, em proporção **4/5**, inclusive a thumbnail original de Velorah. A imagem `public/assets/norte-autoral/portfolio-v3.jpg` retrata a versão alternativa personalizada. Demos abrem na mesma aba e possuem navegação de retorno.
@@ -99,7 +116,7 @@ Contatos, metadata, `/privacy` e `/terms` foram atualizados para Gabriel / Norte
 npm run verify
 ```
 
-Esse comando verifica arquivos referenciados por HTML/CSS. Registros desta revisão: [QA Norte/OS e identidade](references/qa-branding-2026-10-10/QA-FINAL.md) e [créditos dos templates](references/qa-agency-credits-2026-10-10/TEMPLATES-CREDITS.md). As [evidências de movimento](references/qa-motion-2026-10-10/QA-FINAL.md) de 10/10 permanecem preservadas. Os registros anteriores de [personalização](references/qa-revision/QA-PERSONALIZACAO.md), [demos](references/qa-revision/DEMO-DIAGNOSTICS.md) e [conceitos históricos](references/qa-revision/OWN-CASES.md) documentam a revisão de 09/10. [QA-RESULTS.md](references/QA-RESULTS.md), o prompt e `references/source/` descrevem a captura original.
+Esse comando verifica arquivos referenciados por HTML/CSS. Em 13/10: **371 arquivos, 20 HTML, 823 referências e nenhuma ausente**. Registro atual: [QA de descoberta e serviços](references/qa-discovery-2026-10-13/QA-FINAL.md). Preserve os registros anteriores de [Norte/OS e identidade](references/qa-branding-2026-10-10/QA-FINAL.md), [créditos](references/qa-agency-credits-2026-10-10/TEMPLATES-CREDITS.md), [movimento](references/qa-motion-2026-10-10/QA-FINAL.md), [personalização](references/qa-revision/QA-PERSONALIZACAO.md), [demos](references/qa-revision/DEMO-DIAGNOSTICS.md) e [conceitos históricos](references/qa-revision/OWN-CASES.md). [QA-RESULTS.md](references/QA-RESULTS.md), o prompt e `references/source/` descrevem a captura original.
 
 ```powershell
 npm run mirror

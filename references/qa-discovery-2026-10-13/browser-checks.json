@@ -1,0 +1,59 @@
+[
+  {
+    "route": "/trafego-pago/",
+    "viewport": "390×844",
+    "ctaHrefs": [
+      "https://wa.me/5586999900235",
+      "https://wa.me/5586999900235"
+    ],
+    "h1Count": 1,
+    "scriptCount": 0,
+    "scrollWidth": 376,
+    "width": 376
+  },
+  {
+    "route": "/trafego-pago/",
+    "faqOpened": true
+  },
+  {
+    "route": "/automacao/",
+    "viewport": "390×844",
+    "ctaHrefs": [
+      "https://wa.me/5586999900235",
+      "https://wa.me/5586999900235"
+    ],
+    "h1Count": 1,
+    "scriptCount": 0,
+    "scrollWidth": 376,
+    "width": 376
+  },
+  {
+    "route": "/automacao/",
+    "faqOpened": true
+  },
+  {
+    "route": "/automacao/",
+    "faqKeyboardClosed": true
+  },
+  {
+    "route": "/automacao/",
+    "viewport": "1440×900",
+    "h1Count": 1,
+    "scrollWidth": 1426,
+    "width": 1426
+  },
+  {
+    "route": "/automacao/",
+    "viewport": "320×720",
+    "h1Count": 1,
+    "scrollWidth": 306,
+    "width": 306
+  },
+  {
+    "route": "/trafego-pago/",
+    "viewport": "320×720",
+    "h1Count": 1,
+    "scrollWidth": 306,
+    "width": 306
+  }
+]

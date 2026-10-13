@@ -1,6 +1,32 @@
 # Estado do projeto
 
-## Última revisão — favicon na busca, 10 de outubro de 2026
+## Última revisão — descoberta e páginas de serviço, 13 de outubro de 2026
+
+Publicado no Netlify Free existente **rococo-liger-832df6**, deploy **`6acdb6bf27a8351adc3ec980`**. Pasta atual de publicação: `../publicacao-seo-ia-2026-10-13/`, **235 arquivos**, incluindo `_headers` e `_redirects`. A fonte ativa continua em `Portfólio/`; a reorganização e memória compartilhada de 12/10, o histórico Git, os pacotes anteriores e os backups foram preservados. [QA atual](references/qa-discovery-2026-10-13/QA-FINAL.md), [auditoria publicada](references/qa-discovery-2026-10-13/post-deploy-audit.md).
+
+Criadas **`/trafego-pago/`** e **`/automacao/`**, com conteúdo dos serviços, contato, canonical próprio, `Service`/provider no mesmo `#negocio` e BreadcrumbList. A inicial nomeia sites, tráfego pago e automação em título/descrição/metadados e no catálogo existente; recebeu apenas CSS de apoio aos links, duas chamadas dos serviços e dois links no rodapé. Scripts, animações, geometria, foto, logo e conteúdo aprovado anterior foram preservados. As nove demos, `/v3` e `/site-do-jd` permanecem rastreáveis com `noindex, follow` e fora do sitemap. Não são apresentados como clientes próprios.
+
+Sitemap com **cinco URLs canônicas**: raiz, os dois serviços, `/privacy` e `/terms`. As páginas alteradas têm `lastmod` de 13/10; privacidade e termos conservam a data anterior. Verificação local: **371 arquivos, 20 HTML, 823 referências, nenhuma ausente**. Auditoria HTTP confirmou as cinco páginas, recursos, canonical/snippets, redirecionamentos, bots por sondagem e preservação dos assets; isso não substitui os testes oficiais nem prova identidade de rastreadores.
+
+Em 13/10, a conta de marca **contatonorteautoral@gmail.com**, propriedade Domínio **norteautoral.site**, confirmou a inicial **indexada**, com último Googlebot Smartphone em **12/10/2026, 18:17:07**, canonical da raiz e sitemap reconhecido. A falha de busca de 10/10 foi resolvida: sitemap **Processado**, leitura em **11/10**, três URLs. O arquivo atualizado foi enviado e recebido em 13/10, mas a conferência após envio ainda exibiu leitura de 11/10/três URLs; o processamento das cinco URLs deve ser acompanhado. Os resultados finais de inspeção e pedidos das páginas novas ficam em [SEARCH-CONSOLE.md](SEARCH-CONSOLE.md) e na QA atual.
+
+O controle **Configurações → IA generativa na Pesquisa** foi consultado em 13/10: inclusão padrão de links e conteúdo selecionada, exclusão não selecionada e Salvar desativado. Nenhuma configuração foi alterada. Esse estado permite participação nos recursos, sem comprovar seleção da marca em respostas. [Captura](references/qa-discovery-2026-10-13/gsc-ai-inclusion.png), [texto da interface](references/qa-discovery-2026-10-13/gsc-ai-inclusion.txt), [documentação oficial](https://support.google.com/webmasters/answer/16908024?hl=pt-br).
+
+IndexNow recebeu **três URLs alteradas** — raiz, tráfego pago e automação — com **HTTP 202**, validação da chave pendente. A prova pública `public/cf8454de8e5bc8a6ac18412915f36fd9.txt` deve permanecer em futuros deploys, com `X-Robots-Tag: noindex`, acesso permitido e fora do sitemap. [Registro](references/qa-discovery-2026-10-13/indexnow-submission.json). Notificação aceita não comprova rastreamento, indexação ou recomendação por IA. Nenhum plugin pago ou nova concessão OAuth ao Bing foi necessário para essa integração.
+
+O robots mantém `Allow: /`; não foi criado `llms.txt` nem requisito de treinamento GPTBot para busca. A exibição atual do favicon não foi auditada independentemente aqui, e o PNG256 estável permanece. Não houve avaliação de Perfil da Empresa. Formulários/CTAs encaminham ao contato para o visitante revisar e enviar; não implementam envio automático ou banco de leads.
+
+As duas páginas novas passaram no teste publicado do Google, HTTP 200, todos os recursos carregados, acesso/indexação permitidos, canonical próprio e um BreadcrumbList válido em cada uma. Schema Markup Validator: inicial e serviços com zero erros/avisos. Automação tem **Indexação solicitada** confirmado na interface; tráfego pago teve pedido acionado uma vez, com confirmação final pendente após interrupção do navegador. Ambas ainda não indexadas nas inspeções disponíveis. Não repetir pedidos para obter uma prova; acompanhar o processamento. [Registro dos resultados](references/qa-discovery-2026-10-13/search-console-results.json).
+
+**Próxima ação:** conferir processamento das cinco URLs e indexação individual das páginas de serviço; reunir casos próprios autorizados e referências externas verdadeiras. [Decisões de visibilidade](VISIBILIDADE-GOOGLE-IA.md). Não há garantia de prazo, posição ou seleção por sistemas de IA. A branch de armazenamento segue `portfolio-atualizado-hostinger-2026-10-10`; salvar código não publica automaticamente no Netlify.
+
+## Organização local — 12 de outubro de 2026
+
+Por confirmação do usuário, a fonte principal é `Portfólio/`, renomeada de `Portfolio-Atualizado-GitHub/`; domínio https://norteautoral.site/. Foi criado um único backup completo do portfólio atualizado em `../backups/atualizacao-2026-10-12/portfolio/Portfólio/`, com verificação SHA-256. Os arquivos públicos e o histórico Git foram preservados.
+
+O clone, pacotes de publicação e versões antigas foram movidos juntos para `../backups/historico-portfolio/`, sem criar novos backups completos desses materiais. Os quatro backups anteriores permanecem em `../backups/historico-portfolio/clone v1/backups/`. Os caminhos das seções de auditoria abaixo descrevem a localização original na data de execução; as evidências não foram regravadas. Esta etapa não alterou o site publicado, DNS ou configuração Netlify.
+
+## Revisão anterior — favicon na busca, 10 de outubro de 2026
 
 O usuário forneceu uma captura em que seu site já aparece na busca e pediu a logo no lugar do globo. Foi declarado como favicon principal da inicial o **PNG original do N dourado**, `/assets/norte-autoral/favicon.png`, **256×256**, com URL estável. O ICO existente permanece como fallback. A alteração se limita a duas declarações no head, substituindo SVG/PNG32/ICO por PNG256/ICO com MIME explícito; nenhum bitmap foi editado e os arquivos anteriores permanecem.
 

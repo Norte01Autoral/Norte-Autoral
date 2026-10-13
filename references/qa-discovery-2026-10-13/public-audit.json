@@ -1,0 +1,1963 @@
+{
+  "checkedAtUtc": "2026-10-13T04:23:29.805Z",
+  "checkedAtSaoPaulo": "13/10/2026, 01:23:29",
+  "executionDate": "2026-10-13",
+  "scope": "Read-only HTTP/TLS audit and local comparison. No browser, authenticated account, DNS/deploy/code/Git changes or credential access.",
+  "checks": {
+    "homepage200": true,
+    "tlsValidated": true,
+    "canonicalCorrect": true,
+    "homepageIndexabilityAllowed": true,
+    "allCanonicalRedirects": true,
+    "robotsAllowsAllQueriedBots": true,
+    "robotsMatchesLocal": true,
+    "sitemap200": true,
+    "sitemapOnlyThreeCanonicUrls": true,
+    "demosRastreadasNoindex": true,
+    "primaryResources200": true,
+    "primaryResourcesMatchSource": true,
+    "fourBotUserAgentsGetHomepage200": true,
+    "faviconGooglebotImage200": true,
+    "sourceHeadAndVisibleCopyPreserved": true,
+    "recordedPermalinkMatchesPublic": true
+  },
+  "errors": [],
+  "tls": {
+    "authorized": true,
+    "authorizationError": null,
+    "protocol": "TLSv1.3",
+    "subject": {
+      "CN": "norteautoral.site"
+    },
+    "issuer": {
+      "C": "US",
+      "O": "Let's Encrypt",
+      "CN": "YE2"
+    },
+    "subjectAltName": "DNS:norteautoral.site, DNS:www.norteautoral.site",
+    "validFrom": "Oct 10 17:50:00 2026 GMT",
+    "validTo": "Jan  8 17:49:59 2027 GMT"
+  },
+  "pages": [
+    {
+      "requestUrl": "https://norteautoral.site/",
+      "url": "https://norteautoral.site/",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 155380,
+      "sha256": "9a4176961b19a7c0303f44d780e40c2695de4a65ab49d1a1b018c8941fd3bfc5",
+      "title": "Norte Autoral | Sites, Meta Ads e Google Ads em Parnaíba",
+      "description": "Gabriel Holanda, da Norte Autoral, em Parnaíba, PI. Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para conectar presença digital e rotina do negócio.",
+      "canonical": "https://norteautoral.site/",
+      "robots": "index, follow, max-image-preview:large",
+      "googlebot": null,
+      "ogSiteName": "Norte Autoral",
+      "icons": [
+        {
+          "rel": "icon",
+          "type": "image/png",
+          "sizes": "256x256",
+          "href": "/assets/norte-autoral/favicon.png"
+        },
+        {
+          "rel": "shortcut icon",
+          "type": "image/x-icon",
+          "href": "/assets/norte-autoral/favicon.ico"
+        }
+      ],
+      "nodes": [
+        {
+          "@type": "WebSite",
+          "@id": "https://norteautoral.site/#website",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "alternateName": "NorteAutoral",
+          "inLanguage": "pt-BR",
+          "publisher": {
+            "@id": "https://norteautoral.site/#negocio"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://norteautoral.site/#gabriel-holanda",
+          "name": "Gabriel Holanda",
+          "url": "https://norteautoral.site/#quem",
+          "image": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg",
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://norteautoral.site/#negocio",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "description": "Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para negócios.",
+          "telephone": "+55-86-99990-0235",
+          "email": "contatonorteautoral@gmail.com",
+          "image": "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg",
+          "logo": "https://norteautoral.site/assets/norte-autoral/logo-n.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Parnaíba",
+            "addressRegion": "PI",
+            "addressCountry": "BR"
+          },
+          "founder": {
+            "@id": "https://norteautoral.site/#gabriel-holanda"
+          },
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Soluções para negócios",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sites e aplicações"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Gestão de Meta Ads e Google Ads"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Norte/OS"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sistemas e integrações"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "requestUrl": "https://norteautoral.site/privacy",
+      "url": "https://norteautoral.site/privacy",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/privacy",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 4774,
+      "sha256": "5c562b81f03564475d84998082bf40fc1a52f46332a606f75f477b1dc7e5ef15",
+      "title": "Contato e privacidade — Norte Autoral",
+      "description": "Como funciona o contato neste portfólio da Norte Autoral.",
+      "canonical": "https://norteautoral.site/privacy",
+      "robots": "index, follow",
+      "googlebot": null,
+      "ogSiteName": null,
+      "icons": [
+        {
+          "rel": "icon",
+          "href": "/assets/norte-autoral/favicon.svg"
+        }
+      ],
+      "nodes": []
+    },
+    {
+      "requestUrl": "https://norteautoral.site/terms",
+      "url": "https://norteautoral.site/terms",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/terms",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 5475,
+      "sha256": "9cdbb3a3d89330f9f50113cde95d6de5af612c3ac675b2c1da16996a692ac663",
+      "title": "Sobre este portfólio — Norte Autoral",
+      "description": "Demonstrações, referências visuais e contato da Norte Autoral.",
+      "canonical": "https://norteautoral.site/terms",
+      "robots": "index, follow",
+      "googlebot": null,
+      "ogSiteName": null,
+      "icons": [
+        {
+          "rel": "icon",
+          "href": "/assets/norte-autoral/favicon.svg"
+        }
+      ],
+      "nodes": []
+    },
+    {
+      "requestUrl": "https://norteautoral.site/robots.txt",
+      "url": "https://norteautoral.site/robots.txt",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/robots.txt",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/plain; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=3600",
+        "server": "Netlify",
+        "content-encoding": null,
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 71,
+      "sha256": "83b516c48971d9d1a65f9cbc037a71c0369d47b6f5ed1b49bb384f36fa9503d5",
+      "text": "User-agent: *\nAllow: /\n\nSitemap: https://norteautoral.site/sitemap.xml\n"
+    },
+    {
+      "requestUrl": "https://norteautoral.site/sitemap.xml",
+      "url": "https://norteautoral.site/sitemap.xml",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/sitemap.xml",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "application/xml",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=3600",
+        "server": "Netlify",
+        "content-encoding": null,
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 362,
+      "sha256": "4a251d5e1c36214f8640787ff7bba004fb48a1b720901715990910302409b88f",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://norteautoral.site/</loc><lastmod>2026-10-10</lastmod></url>\n  <url><loc>https://norteautoral.site/privacy</loc><lastmod>2026-10-10</lastmod></url>\n  <url><loc>https://norteautoral.site/terms</loc><lastmod>2026-10-10</lastmod></url>\n</urlset>\n"
+    },
+    {
+      "requestUrl": "https://norteautoral.site/marketing/portfolio/velorah-hero/dist/",
+      "url": "https://norteautoral.site/marketing/portfolio/velorah-hero/dist/",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/velorah-hero/dist/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": null,
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 763,
+      "sha256": "8f0279d67cc7bf7e5efd2bff851e7b063a05b59c015574acc1a902a03bbee67c",
+      "title": "Velorah — Estúdio Digital",
+      "description": null,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "googlebot": null,
+      "ogSiteName": null,
+      "icons": [],
+      "nodes": []
+    },
+    {
+      "requestUrl": "https://norteautoral.site/marketing/portfolio/lithos-hero/dist/",
+      "url": "https://norteautoral.site/marketing/portfolio/lithos-hero/dist/",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/lithos-hero/dist/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": null,
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 659,
+      "sha256": "7bc845d605086602e98e88752aa8f9936eacb3c1ad37728559cc0bfcef54515d",
+      "title": "Lithos — Geologia Interativa",
+      "description": null,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "googlebot": null,
+      "ogSiteName": null,
+      "icons": [],
+      "nodes": []
+    },
+    {
+      "requestUrl": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/",
+      "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/dentista-clinica-vertice/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 45017,
+      "sha256": "dbbfd7090fbe3b01a975efd383136e50924e014b9897660abf173edc9a88f12b",
+      "title": "Clínica Vértice · Ortodontia e implantes em Londrina",
+      "description": "Clínica Vértice. Ortodontia, Invisalign e implantes em Londrina, PR. Avaliação cuidadosa, plano por escrito e uma equipe que explica antes de fazer.",
+      "canonical": null,
+      "robots": "noindex, follow",
+      "googlebot": null,
+      "ogSiteName": null,
+      "icons": [],
+      "nodes": []
+    },
+    {
+      "requestUrl": "https://norteautoral.site/marketing/portfolio/convix-hero/dist/",
+      "url": "https://norteautoral.site/marketing/portfolio/convix-hero/dist/",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/convix-hero/dist/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": null,
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 678,
+      "sha256": "7f812bf209c659bda86a0d61a936e76598cac42203a585fe1619f124a7577e0d",
+      "title": "Convix Software — Software para Agências de PR",
+      "description": null,
+      "canonical": null,
+      "robots": "noindex, follow",
+      "googlebot": null,
+      "ogSiteName": null,
+      "icons": [],
+      "nodes": []
+    },
+    {
+      "requestUrl": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/",
+      "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/aureo-arquitetura/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 58786,
+      "sha256": "7f26f3737693cb742640ef72421038c5988cca0b6315a071fea0c98e38359c77",
+      "title": "Áureo Arquitetura · residencial e incorporadora · desde MMV",
+      "description": "Escritório demonstrativo de arquitetura residencial e de incorporadora. Mais de mil unidades projetadas, autoria premiada e escala provada em obra. Site demonstrativo (template) produzido pela Norte Autoral · Gabriel Holanda.",
+      "canonical": null,
+      "robots": "noindex, follow",
+      "googlebot": null,
+      "ogSiteName": null,
+      "icons": [],
+      "nodes": []
+    },
+    {
+      "requestUrl": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/",
+      "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/confeitaria-margo/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 59087,
+      "sha256": "9ffe5f67ac04e0b7cdf6d6196f38100c17d979acff0d8c07c7fffce199073136",
+      "title": "Margô · Confeitaria autoral em Londrina",
+      "description": "Bolos sob encomenda, doces de festa e brunch de fim de semana. Confeitaria autoral em Londrina, PR. Tudo assado no dia.",
+      "canonical": null,
+      "robots": "noindex, follow",
+      "googlebot": null,
+      "ogSiteName": null,
+      "icons": [],
+      "nodes": []
+    },
+    {
+      "requestUrl": "https://norteautoral.site/marketing/portfolio/instituto-liminar/",
+      "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/instituto-liminar/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 52190,
+      "sha256": "5c2125d5f2b5d2582aff044a049647cf5fdb9ed5e5f20ed6663a5ab71eab8766",
+      "title": "Instituto Liminar · Ensino superior em psicanálise",
+      "description": "Instituto de ensino superior dedicado à psicanálise. Pós-graduações reconhecidas pelo MEC, seminários de Freud a Lacan, cursos e aulas abertas. Online ao vivo, EAD e presencial.",
+      "canonical": null,
+      "robots": "noindex, follow",
+      "googlebot": null,
+      "ogSiteName": null,
+      "icons": [],
+      "nodes": []
+    },
+    {
+      "requestUrl": "https://norteautoral.site/marketing/portfolio/verene-odontologia/",
+      "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/verene-odontologia/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 42237,
+      "sha256": "86f15f158e769e2794e518318468b0d6089838f008c4cd3294a6161422545aec",
+      "title": "Verene Odontologia · Implantes e reabilitação de alto padrão",
+      "description": "Implantodontia, ortodontia, próteses e reabilitação oral. Atendimento particular com planejamento integrado e acompanhamento da mesma profissional do início ao fim. Site demonstrativo (template) produzido pela Norte Autoral · Gabriel Holanda.",
+      "canonical": null,
+      "robots": "noindex, follow",
+      "googlebot": null,
+      "ogSiteName": null,
+      "icons": [],
+      "nodes": []
+    },
+    {
+      "requestUrl": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/",
+      "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/marketing/portfolio/arquitetura-estudio-linha/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 45831,
+      "sha256": "c2dca5659d5bf8cf34b2db33ad95e883e7b7f8f914b636b51d82ff0e7d40d1d5",
+      "title": "Estúdio Linha · Arquitetura residencial autoral em Londrina",
+      "description": "Estúdio Linha. Arquitetura residencial autoral em Londrina. Casas desenhadas a partir da luz natural e da convivência com a natureza.",
+      "canonical": null,
+      "robots": "noindex, follow",
+      "googlebot": null,
+      "ogSiteName": null,
+      "icons": [],
+      "nodes": []
+    },
+    {
+      "requestUrl": "https://norteautoral.site/v3",
+      "url": "https://norteautoral.site/v3",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/v3",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 99800,
+      "sha256": "31275e8a0aeb4184e56cea5699196080c65bd3f1c9dcf9c5e7c23c110546fc99",
+      "title": "Norte Autoral | Sites, sistemas e Norte/OS",
+      "description": "Uma demonstração visual de sites, sistemas e automações da Norte Autoral, com Gabriel Holanda, em Parnaíba, PI.",
+      "canonical": "https://norteautoral.site/v3",
+      "robots": "noindex, follow",
+      "googlebot": null,
+      "ogSiteName": "Norte Autoral",
+      "icons": [
+        {
+          "rel": "icon",
+          "type": "image/svg+xml",
+          "href": "/assets/norte-autoral/favicon.svg?v=2"
+        },
+        {
+          "rel": "icon",
+          "type": "image/png",
+          "sizes": "32x32",
+          "href": "/assets/norte-autoral/favicon-32.png"
+        },
+        {
+          "rel": "shortcut icon",
+          "href": "/assets/norte-autoral/favicon.ico"
+        }
+      ],
+      "nodes": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "name": "Norte Autoral",
+          "url": "https://norteautoral.site/v3",
+          "description": "Sites, sistemas e automações para negócios, com Gabriel Holanda.",
+          "telephone": "+55-86-99990-0235",
+          "email": "contatonorteautoral@gmail.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Parnaíba",
+            "addressRegion": "PI",
+            "addressCountry": "BR"
+          },
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ]
+        }
+      ]
+    },
+    {
+      "requestUrl": "https://norteautoral.site/site-do-jd",
+      "url": "https://norteautoral.site/site-do-jd",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/site-do-jd",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 24764,
+      "sha256": "7317bb6f8f57d0a88fd225631242d189d2995a9be581db21a325f5938c94905d",
+      "title": "Como foi criado o site do JD · Estudo de referência",
+      "description": "Estudo de referência do jdandrade.art, a partir do relato original de criação. Conteúdo apresentado pela Norte Autoral.",
+      "canonical": "https://norteautoral.site/site-do-jd",
+      "robots": "noindex, follow",
+      "googlebot": null,
+      "ogSiteName": "Norte Autoral",
+      "icons": [
+        {
+          "rel": "icon",
+          "href": "/assets/norte-autoral/favicon.svg?v=2"
+        }
+      ],
+      "nodes": []
+    }
+  ],
+  "variants": [
+    {
+      "requestUrl": "http://norteautoral.site/",
+      "url": "https://norteautoral.site/",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "http://norteautoral.site/",
+          "status": 301,
+          "location": "https://norteautoral.site/"
+        },
+        {
+          "url": "https://norteautoral.site/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 155380,
+      "sha256": "9a4176961b19a7c0303f44d780e40c2695de4a65ab49d1a1b018c8941fd3bfc5",
+      "title": "Norte Autoral | Sites, Meta Ads e Google Ads em Parnaíba",
+      "description": "Gabriel Holanda, da Norte Autoral, em Parnaíba, PI. Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para conectar presença digital e rotina do negócio.",
+      "canonical": "https://norteautoral.site/",
+      "robots": "index, follow, max-image-preview:large",
+      "googlebot": null,
+      "ogSiteName": "Norte Autoral",
+      "icons": [
+        {
+          "rel": "icon",
+          "type": "image/png",
+          "sizes": "256x256",
+          "href": "/assets/norte-autoral/favicon.png"
+        },
+        {
+          "rel": "shortcut icon",
+          "type": "image/x-icon",
+          "href": "/assets/norte-autoral/favicon.ico"
+        }
+      ],
+      "nodes": [
+        {
+          "@type": "WebSite",
+          "@id": "https://norteautoral.site/#website",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "alternateName": "NorteAutoral",
+          "inLanguage": "pt-BR",
+          "publisher": {
+            "@id": "https://norteautoral.site/#negocio"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://norteautoral.site/#gabriel-holanda",
+          "name": "Gabriel Holanda",
+          "url": "https://norteautoral.site/#quem",
+          "image": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg",
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://norteautoral.site/#negocio",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "description": "Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para negócios.",
+          "telephone": "+55-86-99990-0235",
+          "email": "contatonorteautoral@gmail.com",
+          "image": "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg",
+          "logo": "https://norteautoral.site/assets/norte-autoral/logo-n.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Parnaíba",
+            "addressRegion": "PI",
+            "addressCountry": "BR"
+          },
+          "founder": {
+            "@id": "https://norteautoral.site/#gabriel-holanda"
+          },
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Soluções para negócios",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sites e aplicações"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Gestão de Meta Ads e Google Ads"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Norte/OS"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sistemas e integrações"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "requestUrl": "http://www.norteautoral.site/",
+      "url": "https://norteautoral.site/",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "http://www.norteautoral.site/",
+          "status": 301,
+          "location": "https://www.norteautoral.site/"
+        },
+        {
+          "url": "https://www.norteautoral.site/",
+          "status": 301,
+          "location": "https://norteautoral.site/"
+        },
+        {
+          "url": "https://norteautoral.site/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 155380,
+      "sha256": "9a4176961b19a7c0303f44d780e40c2695de4a65ab49d1a1b018c8941fd3bfc5",
+      "title": "Norte Autoral | Sites, Meta Ads e Google Ads em Parnaíba",
+      "description": "Gabriel Holanda, da Norte Autoral, em Parnaíba, PI. Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para conectar presença digital e rotina do negócio.",
+      "canonical": "https://norteautoral.site/",
+      "robots": "index, follow, max-image-preview:large",
+      "googlebot": null,
+      "ogSiteName": "Norte Autoral",
+      "icons": [
+        {
+          "rel": "icon",
+          "type": "image/png",
+          "sizes": "256x256",
+          "href": "/assets/norte-autoral/favicon.png"
+        },
+        {
+          "rel": "shortcut icon",
+          "type": "image/x-icon",
+          "href": "/assets/norte-autoral/favicon.ico"
+        }
+      ],
+      "nodes": [
+        {
+          "@type": "WebSite",
+          "@id": "https://norteautoral.site/#website",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "alternateName": "NorteAutoral",
+          "inLanguage": "pt-BR",
+          "publisher": {
+            "@id": "https://norteautoral.site/#negocio"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://norteautoral.site/#gabriel-holanda",
+          "name": "Gabriel Holanda",
+          "url": "https://norteautoral.site/#quem",
+          "image": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg",
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://norteautoral.site/#negocio",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "description": "Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para negócios.",
+          "telephone": "+55-86-99990-0235",
+          "email": "contatonorteautoral@gmail.com",
+          "image": "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg",
+          "logo": "https://norteautoral.site/assets/norte-autoral/logo-n.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Parnaíba",
+            "addressRegion": "PI",
+            "addressCountry": "BR"
+          },
+          "founder": {
+            "@id": "https://norteautoral.site/#gabriel-holanda"
+          },
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Soluções para negócios",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sites e aplicações"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Gestão de Meta Ads e Google Ads"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Norte/OS"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sistemas e integrações"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "requestUrl": "https://www.norteautoral.site/",
+      "url": "https://norteautoral.site/",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://www.norteautoral.site/",
+          "status": 301,
+          "location": "https://norteautoral.site/"
+        },
+        {
+          "url": "https://norteautoral.site/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 155380,
+      "sha256": "9a4176961b19a7c0303f44d780e40c2695de4a65ab49d1a1b018c8941fd3bfc5",
+      "title": "Norte Autoral | Sites, Meta Ads e Google Ads em Parnaíba",
+      "description": "Gabriel Holanda, da Norte Autoral, em Parnaíba, PI. Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para conectar presença digital e rotina do negócio.",
+      "canonical": "https://norteautoral.site/",
+      "robots": "index, follow, max-image-preview:large",
+      "googlebot": null,
+      "ogSiteName": "Norte Autoral",
+      "icons": [
+        {
+          "rel": "icon",
+          "type": "image/png",
+          "sizes": "256x256",
+          "href": "/assets/norte-autoral/favicon.png"
+        },
+        {
+          "rel": "shortcut icon",
+          "type": "image/x-icon",
+          "href": "/assets/norte-autoral/favicon.ico"
+        }
+      ],
+      "nodes": [
+        {
+          "@type": "WebSite",
+          "@id": "https://norteautoral.site/#website",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "alternateName": "NorteAutoral",
+          "inLanguage": "pt-BR",
+          "publisher": {
+            "@id": "https://norteautoral.site/#negocio"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://norteautoral.site/#gabriel-holanda",
+          "name": "Gabriel Holanda",
+          "url": "https://norteautoral.site/#quem",
+          "image": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg",
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://norteautoral.site/#negocio",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "description": "Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para negócios.",
+          "telephone": "+55-86-99990-0235",
+          "email": "contatonorteautoral@gmail.com",
+          "image": "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg",
+          "logo": "https://norteautoral.site/assets/norte-autoral/logo-n.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Parnaíba",
+            "addressRegion": "PI",
+            "addressCountry": "BR"
+          },
+          "founder": {
+            "@id": "https://norteautoral.site/#gabriel-holanda"
+          },
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Soluções para negócios",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sites e aplicações"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Gestão de Meta Ads e Google Ads"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Norte/OS"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sistemas e integrações"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "requestUrl": "https://norteautoral.site/assets/norte-autoral/favicon.png",
+      "url": "https://norteautoral.site/assets/norte-autoral/favicon.png",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/norte-autoral/favicon.png",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "image/png",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=604800",
+        "server": "Netlify",
+        "content-encoding": null,
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 38359,
+      "sha256": "2cc80b671294f47c0507bcd6299b07793d9a596e45fd05a79201536a8211ddbf",
+      "matchesLocalSha256": true,
+      "allowedByRobots": true,
+      "pngDimensions": {
+        "width": 256,
+        "height": 256
+      }
+    },
+    {
+      "requestUrl": "https://norteautoral.site/assets/norte-autoral/favicon.ico",
+      "url": "https://norteautoral.site/assets/norte-autoral/favicon.ico",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/norte-autoral/favicon.ico",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "image/vnd.microsoft.icon",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=604800",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 58514,
+      "sha256": "fc38d33132957a2ac5ddb9520ccb7a65f7bc0b8eb84393e10b3dd4e04293a4d6",
+      "matchesLocalSha256": true,
+      "allowedByRobots": true
+    },
+    {
+      "requestUrl": "https://norteautoral.site/assets/norte-autoral/logo-n-128.png",
+      "url": "https://norteautoral.site/assets/norte-autoral/logo-n-128.png",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/norte-autoral/logo-n-128.png",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "image/png",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=604800",
+        "server": "Netlify",
+        "content-encoding": null,
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 11052,
+      "sha256": "ae1a5113afb0b3419a5b27dfc31b21ab4e230fb983fc752b941d72569bc2f890",
+      "matchesLocalSha256": true,
+      "allowedByRobots": true
+    },
+    {
+      "requestUrl": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.webp",
+      "url": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.webp",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.webp",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "image/webp",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=604800",
+        "server": "Netlify",
+        "content-encoding": null,
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 85408,
+      "sha256": "67e66d54741d399913797ca0e244007262dc146731aa15398d64581263c25d99",
+      "matchesLocalSha256": true,
+      "allowedByRobots": true
+    },
+    {
+      "requestUrl": "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg",
+      "url": "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "image/jpeg",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=604800",
+        "server": "Netlify",
+        "content-encoding": null,
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 64112,
+      "sha256": "61cfa9734d171288166f8315bd520ebf76cc350b22bdebc55dea4bb07c3d5ecd",
+      "matchesLocalSha256": true,
+      "allowedByRobots": true
+    },
+    {
+      "requestUrl": "https://norteautoral.site/assets/norte-autoral/profile.css",
+      "url": "https://norteautoral.site/assets/norte-autoral/profile.css",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/norte-autoral/profile.css",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/css; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=604800",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 2981,
+      "sha256": "b1a1b1debdb756dd7da16f94a95a8a39da42f2f78e7d43c8a46afc326ab74644",
+      "matchesLocalSha256": true,
+      "allowedByRobots": true
+    },
+    {
+      "requestUrl": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-7c9831d3cb65.css",
+      "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-7c9831d3cb65.css",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/fonts.googleapis.com/css2-7c9831d3cb65.css",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/css; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=31536000,immutable",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 19984,
+      "sha256": "e0ac6627d0f1efe97362f7d7fb0a04563a965cf1d4f92ce6e33b2b38831b47b7",
+      "matchesLocalSha256": true,
+      "allowedByRobots": true
+    },
+    {
+      "requestUrl": "https://norteautoral.site/vendor/cdn.jsdelivr.net/gsap.min-bf5b26673eee.js",
+      "url": "https://norteautoral.site/vendor/cdn.jsdelivr.net/gsap.min-bf5b26673eee.js",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/cdn.jsdelivr.net/gsap.min-bf5b26673eee.js",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "application/javascript; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=31536000,immutable",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 72214,
+      "sha256": "28033e449a31ebcc396e5be8b13b63152bf03094288fb5867034321927bce087",
+      "matchesLocalSha256": true,
+      "allowedByRobots": true
+    },
+    {
+      "requestUrl": "https://norteautoral.site/vendor/cdn.jsdelivr.net/ScrollTrigger.min-8275e947aa32.js",
+      "url": "https://norteautoral.site/vendor/cdn.jsdelivr.net/ScrollTrigger.min-8275e947aa32.js",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/cdn.jsdelivr.net/ScrollTrigger.min-8275e947aa32.js",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "application/javascript; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=31536000,immutable",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 43380,
+      "sha256": "ad33c2df9ada8a663c2147357828f980d0b7ca731ef33eb3c6e4f327c3b2cda5",
+      "matchesLocalSha256": true,
+      "allowedByRobots": true
+    },
+    {
+      "requestUrl": "https://norteautoral.site/vendor/cdn.jsdelivr.net/lenis.min-273ca89be0ce.js",
+      "url": "https://norteautoral.site/vendor/cdn.jsdelivr.net/lenis.min-273ca89be0ce.js",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/vendor/cdn.jsdelivr.net/lenis.min-273ca89be0ce.js",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "application/javascript; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=31536000,immutable",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 12790,
+      "sha256": "55a065df7880463fdb4f88cc57f498a9711c5a85b3c82c1c6b81888c32a33850",
+      "matchesLocalSha256": true,
+      "allowedByRobots": true
+    },
+    {
+      "requestUrl": "https://norteautoral.site/assets/media-performance.js",
+      "url": "https://norteautoral.site/assets/media-performance.js",
+      "ua": "NorteAutoral-Discovery-Audit/1.0",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/media-performance.js",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "application/javascript; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=604800",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 1960,
+      "sha256": "3cc88349b6516ec55d798e48097650c5fc48bd81eb3dc16b212357e5920c1d77",
+      "matchesLocalSha256": true,
+      "allowedByRobots": true
+    }
+  ],
+  "botProbes": [
+    {
+      "requestUrl": "https://norteautoral.site/",
+      "url": "https://norteautoral.site/",
+      "ua": "Googlebot",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 155380,
+      "sha256": "9a4176961b19a7c0303f44d780e40c2695de4a65ab49d1a1b018c8941fd3bfc5",
+      "title": "Norte Autoral | Sites, Meta Ads e Google Ads em Parnaíba",
+      "description": "Gabriel Holanda, da Norte Autoral, em Parnaíba, PI. Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para conectar presença digital e rotina do negócio.",
+      "canonical": "https://norteautoral.site/",
+      "robots": "index, follow, max-image-preview:large",
+      "googlebot": null,
+      "ogSiteName": "Norte Autoral",
+      "icons": [
+        {
+          "rel": "icon",
+          "type": "image/png",
+          "sizes": "256x256",
+          "href": "/assets/norte-autoral/favicon.png"
+        },
+        {
+          "rel": "shortcut icon",
+          "type": "image/x-icon",
+          "href": "/assets/norte-autoral/favicon.ico"
+        }
+      ],
+      "nodes": [
+        {
+          "@type": "WebSite",
+          "@id": "https://norteautoral.site/#website",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "alternateName": "NorteAutoral",
+          "inLanguage": "pt-BR",
+          "publisher": {
+            "@id": "https://norteautoral.site/#negocio"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://norteautoral.site/#gabriel-holanda",
+          "name": "Gabriel Holanda",
+          "url": "https://norteautoral.site/#quem",
+          "image": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg",
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://norteautoral.site/#negocio",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "description": "Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para negócios.",
+          "telephone": "+55-86-99990-0235",
+          "email": "contatonorteautoral@gmail.com",
+          "image": "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg",
+          "logo": "https://norteautoral.site/assets/norte-autoral/logo-n.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Parnaíba",
+            "addressRegion": "PI",
+            "addressCountry": "BR"
+          },
+          "founder": {
+            "@id": "https://norteautoral.site/#gabriel-holanda"
+          },
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Soluções para negócios",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sites e aplicações"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Gestão de Meta Ads e Google Ads"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Norte/OS"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sistemas e integrações"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "requestUrl": "https://norteautoral.site/",
+      "url": "https://norteautoral.site/",
+      "ua": "OAI-SearchBot",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 155380,
+      "sha256": "9a4176961b19a7c0303f44d780e40c2695de4a65ab49d1a1b018c8941fd3bfc5",
+      "title": "Norte Autoral | Sites, Meta Ads e Google Ads em Parnaíba",
+      "description": "Gabriel Holanda, da Norte Autoral, em Parnaíba, PI. Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para conectar presença digital e rotina do negócio.",
+      "canonical": "https://norteautoral.site/",
+      "robots": "index, follow, max-image-preview:large",
+      "googlebot": null,
+      "ogSiteName": "Norte Autoral",
+      "icons": [
+        {
+          "rel": "icon",
+          "type": "image/png",
+          "sizes": "256x256",
+          "href": "/assets/norte-autoral/favicon.png"
+        },
+        {
+          "rel": "shortcut icon",
+          "type": "image/x-icon",
+          "href": "/assets/norte-autoral/favicon.ico"
+        }
+      ],
+      "nodes": [
+        {
+          "@type": "WebSite",
+          "@id": "https://norteautoral.site/#website",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "alternateName": "NorteAutoral",
+          "inLanguage": "pt-BR",
+          "publisher": {
+            "@id": "https://norteautoral.site/#negocio"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://norteautoral.site/#gabriel-holanda",
+          "name": "Gabriel Holanda",
+          "url": "https://norteautoral.site/#quem",
+          "image": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg",
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://norteautoral.site/#negocio",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "description": "Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para negócios.",
+          "telephone": "+55-86-99990-0235",
+          "email": "contatonorteautoral@gmail.com",
+          "image": "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg",
+          "logo": "https://norteautoral.site/assets/norte-autoral/logo-n.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Parnaíba",
+            "addressRegion": "PI",
+            "addressCountry": "BR"
+          },
+          "founder": {
+            "@id": "https://norteautoral.site/#gabriel-holanda"
+          },
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Soluções para negócios",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sites e aplicações"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Gestão de Meta Ads e Google Ads"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Norte/OS"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sistemas e integrações"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "requestUrl": "https://norteautoral.site/",
+      "url": "https://norteautoral.site/",
+      "ua": "bingbot",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 155380,
+      "sha256": "9a4176961b19a7c0303f44d780e40c2695de4a65ab49d1a1b018c8941fd3bfc5",
+      "title": "Norte Autoral | Sites, Meta Ads e Google Ads em Parnaíba",
+      "description": "Gabriel Holanda, da Norte Autoral, em Parnaíba, PI. Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para conectar presença digital e rotina do negócio.",
+      "canonical": "https://norteautoral.site/",
+      "robots": "index, follow, max-image-preview:large",
+      "googlebot": null,
+      "ogSiteName": "Norte Autoral",
+      "icons": [
+        {
+          "rel": "icon",
+          "type": "image/png",
+          "sizes": "256x256",
+          "href": "/assets/norte-autoral/favicon.png"
+        },
+        {
+          "rel": "shortcut icon",
+          "type": "image/x-icon",
+          "href": "/assets/norte-autoral/favicon.ico"
+        }
+      ],
+      "nodes": [
+        {
+          "@type": "WebSite",
+          "@id": "https://norteautoral.site/#website",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "alternateName": "NorteAutoral",
+          "inLanguage": "pt-BR",
+          "publisher": {
+            "@id": "https://norteautoral.site/#negocio"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://norteautoral.site/#gabriel-holanda",
+          "name": "Gabriel Holanda",
+          "url": "https://norteautoral.site/#quem",
+          "image": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg",
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://norteautoral.site/#negocio",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "description": "Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para negócios.",
+          "telephone": "+55-86-99990-0235",
+          "email": "contatonorteautoral@gmail.com",
+          "image": "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg",
+          "logo": "https://norteautoral.site/assets/norte-autoral/logo-n.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Parnaíba",
+            "addressRegion": "PI",
+            "addressCountry": "BR"
+          },
+          "founder": {
+            "@id": "https://norteautoral.site/#gabriel-holanda"
+          },
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Soluções para negócios",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sites e aplicações"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Gestão de Meta Ads e Google Ads"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Norte/OS"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sistemas e integrações"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "requestUrl": "https://norteautoral.site/",
+      "url": "https://norteautoral.site/",
+      "ua": "PerplexityBot",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "x-robots-tag": null,
+        "cache-control": "no-cache,max-age=0,must-revalidate",
+        "server": "Netlify",
+        "content-encoding": "br",
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 155380,
+      "sha256": "9a4176961b19a7c0303f44d780e40c2695de4a65ab49d1a1b018c8941fd3bfc5",
+      "title": "Norte Autoral | Sites, Meta Ads e Google Ads em Parnaíba",
+      "description": "Gabriel Holanda, da Norte Autoral, em Parnaíba, PI. Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para conectar presença digital e rotina do negócio.",
+      "canonical": "https://norteautoral.site/",
+      "robots": "index, follow, max-image-preview:large",
+      "googlebot": null,
+      "ogSiteName": "Norte Autoral",
+      "icons": [
+        {
+          "rel": "icon",
+          "type": "image/png",
+          "sizes": "256x256",
+          "href": "/assets/norte-autoral/favicon.png"
+        },
+        {
+          "rel": "shortcut icon",
+          "type": "image/x-icon",
+          "href": "/assets/norte-autoral/favicon.ico"
+        }
+      ],
+      "nodes": [
+        {
+          "@type": "WebSite",
+          "@id": "https://norteautoral.site/#website",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "alternateName": "NorteAutoral",
+          "inLanguage": "pt-BR",
+          "publisher": {
+            "@id": "https://norteautoral.site/#negocio"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://norteautoral.site/#gabriel-holanda",
+          "name": "Gabriel Holanda",
+          "url": "https://norteautoral.site/#quem",
+          "image": "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg",
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://norteautoral.site/#negocio",
+          "url": "https://norteautoral.site/",
+          "name": "Norte Autoral",
+          "description": "Criação de sites, Meta Ads, Google Ads, sistemas e Norte/OS para negócios.",
+          "telephone": "+55-86-99990-0235",
+          "email": "contatonorteautoral@gmail.com",
+          "image": "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg",
+          "logo": "https://norteautoral.site/assets/norte-autoral/logo-n.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Parnaíba",
+            "addressRegion": "PI",
+            "addressCountry": "BR"
+          },
+          "founder": {
+            "@id": "https://norteautoral.site/#gabriel-holanda"
+          },
+          "sameAs": [
+            "https://instagram.com/gabrielholanda._"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Soluções para negócios",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sites e aplicações"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Gestão de Meta Ads e Google Ads"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Norte/OS"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sistemas e integrações"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "requestUrl": "https://norteautoral.site/assets/norte-autoral/favicon.png",
+      "url": "https://norteautoral.site/assets/norte-autoral/favicon.png",
+      "ua": "Googlebot-Image",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://norteautoral.site/assets/norte-autoral/favicon.png",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "headers": {
+        "content-type": "image/png",
+        "x-robots-tag": null,
+        "cache-control": "public,max-age=604800",
+        "server": "Netlify",
+        "content-encoding": null,
+        "cf-mitigated": null,
+        "www-authenticate": null
+      },
+      "bytes": 38359,
+      "sha256": "2cc80b671294f47c0507bcd6299b07793d9a596e45fd05a79201536a8211ddbf"
+    }
+  ],
+  "robots": {
+    "rules": [
+      "User-agent: *",
+      "Allow: /",
+      "Sitemap: https://norteautoral.site/sitemap.xml"
+    ],
+    "nonemptyDisallows": [],
+    "explicitAllBotAllow": true
+  },
+  "sitemap": {
+    "urls": [
+      "https://norteautoral.site/",
+      "https://norteautoral.site/privacy",
+      "https://norteautoral.site/terms"
+    ],
+    "entries": [
+      {
+        "url": "https://norteautoral.site/",
+        "status": 200,
+        "canonical": "https://norteautoral.site/",
+        "noindex": false,
+        "canonicalAndIndexable": true
+      },
+      {
+        "url": "https://norteautoral.site/privacy",
+        "status": 200,
+        "canonical": "https://norteautoral.site/privacy",
+        "noindex": false,
+        "canonicalAndIndexable": true
+      },
+      {
+        "url": "https://norteautoral.site/terms",
+        "status": 200,
+        "canonical": "https://norteautoral.site/terms",
+        "noindex": false,
+        "canonicalAndIndexable": true
+      }
+    ]
+  },
+  "comparison": {
+    "localSha256": "4d20a5dc64298041e23ddfd3f435e0751e1abc7df65596cf2a767783b779b4c3",
+    "publishedSha256": "9a4176961b19a7c0303f44d780e40c2695de4a65ab49d1a1b018c8941fd3bfc5",
+    "rawBytesEqual": false,
+    "normalizedBytesEqual": false,
+    "onlyKnownNineDemoLinkTransformations": true,
+    "normalizedHeadEqual": true,
+    "visibleCopyEqual": true,
+    "localVisibleCopySha256": "b798581d987cf479c126ec7288da3e5938c4d4ef350b83612ecad5c2774638da",
+    "publicVisibleCopySha256": "b798581d987cf479c126ec7288da3e5938c4d4ef350b83612ecad5c2774638da",
+    "seoMetadataEqual": true,
+    "recordedDeployId": "6acae4f0215a53089aa84c06",
+    "deployIdSource": "AGENTS.md, PROJECT-STATE.md and NETLIFY.md. Active deploy not authenticated/requeried.",
+    "publicMatchesRecordedDeployPermalink": true,
+    "recordedDeployPermalink": "https://6acae4f0215a53089aa84c06--rococo-liger-832df6.netlify.app/"
+  },
+  "htmlContent": {
+    "characters": 11674,
+    "brand": true,
+    "gabriel": true,
+    "parnaiba": true,
+    "email": true,
+    "whatsappLinkInHtml": true,
+    "publicTextExcerpt": "Norte Autoral | Sites, Meta Ads e Google Ads em Parnaíba 01 / 07 Hoje Norte Autoral Sites Sistemas Norte/OS Processo Quem Conversar Soluções digitais para negócios Gabriel Holanda · Norte Autoral Sites. 01 ↳ ver os sites 1 feixe · 3 frentes Sistemas. 02 ↳ ver exemplos Norte/OS. 03 ↳ ver o sistema Sites, sistemas e Norte/OS para sua empresa. Também trabalho com Meta Ads e Google Ads para conectar sua presença digital às campanhas do negócio. Tecnologia com a cara do seu negócio Me conta o seu projeto → Ver sites prontos Mova o mouse. A luz vai aonde você aponta Toque na tela. A luz vai aonde você tocar ver Sites Norte/OS Landing pages Meta Ads Google Ads Automação com IA Painéis internos Integrações WhatsApp com IA Manuais de sistema Sites Norte/OS Landing pages Meta Ads Google Ads Automação com IA Painéis internos Integrações WhatsApp com IA Manuais de sistema 01 01 · Hoje O seu negócio mora em lugares demais . O pedido chega pelo WhatsApp. O orçamento vai por e-mail. A agenda vive numa planilha. O post de quinta ficou pra depois. E o site conta uma versão antiga do que você faz. WhatsApp 22:41 Oi! Vocês fazem orçamento? 3 E-mail ontem Re: Re: orçamento (3) Conseguiu ver o que te mandei? dentista em Parnaíba postar na quinta postar na segunda? agenda_v7_final.xlsx Instagram Último post há 23 dias @cliente Qual o horário de vocês no sábado? Sem resposta Carregando SEG 14 9h ligar pro fornecedor 14h ??? tabela_de_precos.pdf 2,4 MB Eu junto tudo em três frentes . O site recebe o cliente. Os sistemas organizam a rotina. A automação conecta as ferramentas e reduz tarefas repetit"
+  },
+  "limitations": [
+    "User-Agent probes originate from this environment, not authenticated crawler IPs. A 200 response cannot prove a real crawler visited or was allowed by IP/WAF policies.",
+    "Robots access and technical indexability do not prove current Google/Bing index state, sitemap processing, ranking, recommendation by an AI system or favicon presentation in search.",
+    "No Search Console/API was queried here. Existing index/request facts are historical and are not inferred from this audit.",
+    "TLS certificates were validated with standard platform verification; no insecure overrides were used.",
+    "Cache headers were observed only; no cache purge or provider settings were changed.",
+    "Recorded deploy identification comes from local documentation plus equal immutable permalink body, not an authenticated active-deploy query.",
+    "No contact was submitted; HTML contact destinations were observed only."
+  ],
+  "observedBlockers": {
+    "unexpectedHttpErrors": [],
+    "wafChallengeIndication": null,
+    "authRequirementIndication": null,
+    "rateLimitResponses": 0,
+    "interpretation": "No blocker demonstrated if HTTP status/indexability/resource checks pass. Absence of a challenge for these probes does not rule out crawler-IP-based policies."
+  }
+}

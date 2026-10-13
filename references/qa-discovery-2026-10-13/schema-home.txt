@@ -1,0 +1,443 @@
+- link "Schema.org":
+  - /url: https://schema.org/
+- list:
+  - link "Documentation":
+    - /url: https://schema.org/docs/documents.html
+  - link "Schemas":
+    - /url: https://schema.org/docs/schemas.html
+  - link "Validate":
+    - /url: /
+  - link "About":
+    - /url: https://schema.org/docs/about.html
+- textbox "search"
+- generic: public
+- generic: https://norteautoral.site/
+- button "Testar de novo"
+- button "language_japanese_kana":
+  - generic: language_japanese_kana
+- button "info":
+  - generic: info
+- textbox
+- generic: "1"
+- text: <!doctype html>
+- generic: "2"
+- text: <html lang="pt-BR" data-profile="norte-autoral">
+- generic: "3"
+- text: <head>
+- generic: "4"
+- text: <meta charset="utf-8">
+- generic: "5"
+- text: <meta name="viewport" content="width=device-width, initial-scale=1">
+- generic: "6"
+- text: <meta name="theme-color" content="#0A0A0A">
+- generic: "7"
+- text: <title>Norte Autoral | Sites, tráfego pago e automação em Parnaíba</title>
+- generic: "8"
+- text: "<meta name=\"description\" content=\"Norte Autoral, de Gabriel Holanda, em Parnaíba, PI: sites, tráfego pago com Meta Ads e Google Ads, automação com IA e integrações para negócios.\">"
+- generic: "9"
+- text: <meta name="author" content="Gabriel Holanda · Norte Autoral">
+- generic: "10"
+- text: <meta name="robots" content="index, follow, max-image-preview:large">
+- generic: "11"
+- text: <link rel="canonical" href="https://norteautoral.site/">
+- generic: "12"
+- text: <meta property="og:type" content="website">
+- generic: "13"
+- text: <meta property="og:title" content="Norte Autoral | Sites, tráfego pago e automação em Parnaíba">
+- generic: "14"
+- text: <meta property="og:description" content="Sites, tráfego pago com Meta Ads e Google Ads, automação e integrações com Gabriel Holanda, da Norte Autoral, em Parnaíba, PI.">
+- generic: "15"
+- text: <meta property="og:url" content="https://norteautoral.site/">
+- generic: "16"
+- text: <meta property="og:image" content="https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg">
+- generic: "17"
+- text: <meta property="og:image:width" content="1200">
+- generic: "18"
+- text: <meta property="og:image:height" content="630">
+- generic: "19"
+- text: <meta property="og:image:alt" content="Norte Autoral · Gabriel Holanda. Sites, Meta Ads, Google Ads e Norte/OS. Parnaíba, PI.">
+- generic: "20"
+- text: <meta property="og:site_name" content="Norte Autoral">
+- generic: "21"
+- text: <meta property="og:locale" content="pt_BR">
+- generic: "22"
+- text: <meta name="twitter:card" content="summary_large_image">
+- generic: "23"
+- text: <meta name="twitter:title" content="Norte Autoral | Sites, tráfego pago e automação em Parnaíba">
+- generic: "24"
+- text: <meta name="twitter:description" content="Sites, tráfego pago com Meta Ads e Google Ads, automação e integrações com Gabriel Holanda, da Norte Autoral, em Parnaíba, PI.">
+- generic: "25"
+- text: <meta name="twitter:image" content="https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg">
+- generic: "26"
+- text: <meta name="twitter:image:alt" content="Norte Autoral · Gabriel Holanda. Sites, Meta Ads, Google Ads e Norte/OS. Parnaíba, PI.">
+- generic: "27"
+- text: <script type="application/ld+json">
+- generic: "28"
+- text: "{"
+- generic: "29"
+- text: "\"@context\": \"https://schema.org\","
+- generic: "30"
+- text: "\"@graph\": ["
+- generic: "31"
+- text: "{"
+- generic: "32"
+- text: "\"@type\": \"WebSite\","
+- generic: "33"
+- text: "\"@id\": \"https://norteautoral.site/#website\","
+- generic: "34"
+- text: "\"url\": \"https://norteautoral.site/\","
+- generic: "35"
+- text: "\"name\": \"Norte Autoral\","
+- generic: "36"
+- text: "\"alternateName\": \"NorteAutoral\","
+- generic: WebSite
+- button "All (1) arrow_drop_down":
+  - text: All (1)
+  - generic: arrow_drop_down
+- list:
+  - text: WebSite
+  - generic: "ID: https://norteautoral.site/#website"
+  - generic: 0 ERROS
+  - generic: 0 AVISOS
+  - generic: expand_less
+  - table:
+    - rowgroup:
+      - row "@type WebSite":
+        - cell "@type":
+          - generic: "@type"
+        - cell "WebSite":
+          - generic: WebSite
+      - row "@id https://norteautoral.site/#website":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://norteautoral.site/#website":
+          - generic: https://norteautoral.site/#website
+      - row "url https://norteautoral.site/":
+        - cell "url":
+          - generic: url
+        - cell "https://norteautoral.site/":
+          - generic: https://norteautoral.site/
+      - row "name Norte Autoral":
+        - cell "name":
+          - generic: name
+        - cell "Norte Autoral":
+          - generic: Norte Autoral
+      - row "alternateName NorteAutoral":
+        - cell "alternateName":
+          - generic: alternateName
+        - cell "NorteAutoral":
+          - generic: NorteAutoral
+      - row "inLanguage pt-BR":
+        - cell "inLanguage":
+          - generic: inLanguage
+        - cell "pt-BR":
+          - generic: pt-BR
+      - row "publisher":
+        - cell "publisher":
+          - generic: publisher
+        - cell
+      - row "@type Organization":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Organization":
+          - generic: Organization
+      - row "@id https://norteautoral.site/#negocio":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://norteautoral.site/#negocio":
+          - generic: https://norteautoral.site/#negocio
+      - row "url https://norteautoral.site/":
+        - cell "url":
+          - generic: url
+        - cell "https://norteautoral.site/":
+          - generic: https://norteautoral.site/
+      - row "name Norte Autoral":
+        - cell "name":
+          - generic: name
+        - cell "Norte Autoral":
+          - generic: Norte Autoral
+      - row "description Criação de sites, tráfego pago com Meta Ads e Google Ads, automação com IA, sistemas e integrações para negócios.":
+        - cell "description":
+          - generic: description
+        - cell "Criação de sites, tráfego pago com Meta Ads e Google Ads, automação com IA, sistemas e integrações para negócios.":
+          - generic: Criação de sites, tráfego pago com Meta Ads e Google Ads, automação com IA, sistemas e integrações para negócios.
+      - row "telephone +55-86-99990-0235":
+        - cell "telephone":
+          - generic: telephone
+        - cell "+55-86-99990-0235":
+          - generic: +55-86-99990-0235
+      - row "email contatonorteautoral@gmail.com":
+        - cell "email":
+          - generic: email
+        - cell "contatonorteautoral@gmail.com":
+          - generic: contatonorteautoral@gmail.com
+      - row "image https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg":
+        - cell "image":
+          - generic: image
+        - cell "https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg":
+          - generic: https://norteautoral.site/assets/norte-autoral/og-norte-autoral.jpg
+      - row "logo https://norteautoral.site/assets/norte-autoral/logo-n.png":
+        - cell "logo":
+          - generic: logo
+        - cell "https://norteautoral.site/assets/norte-autoral/logo-n.png":
+          - generic: https://norteautoral.site/assets/norte-autoral/logo-n.png
+      - row "sameAs https://instagram.com/gabrielholanda._":
+        - cell "sameAs":
+          - generic: sameAs
+        - cell "https://instagram.com/gabrielholanda._":
+          - generic: https://instagram.com/gabrielholanda._
+      - row "address":
+        - cell "address":
+          - generic: address
+        - cell
+      - row "@type PostalAddress":
+        - cell "@type":
+          - generic: "@type"
+        - cell "PostalAddress":
+          - generic: PostalAddress
+      - row "addressLocality Parnaíba":
+        - cell "addressLocality":
+          - generic: addressLocality
+        - cell "Parnaíba":
+          - generic: Parnaíba
+      - row "addressRegion PI":
+        - cell "addressRegion":
+          - generic: addressRegion
+        - cell "PI":
+          - generic: PI
+      - row "addressCountry":
+        - cell "addressCountry":
+          - generic: addressCountry
+        - cell
+      - row "@type Country":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Country":
+          - generic: Country
+      - row "name BR":
+        - cell "name":
+          - generic: name
+        - cell "BR":
+          - generic: BR
+      - row "founder":
+        - cell "founder":
+          - generic: founder
+        - cell
+      - row "@type Person":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Person":
+          - generic: Person
+      - row "@id https://norteautoral.site/#gabriel-holanda":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://norteautoral.site/#gabriel-holanda":
+          - generic: https://norteautoral.site/#gabriel-holanda
+      - row "name Gabriel Holanda":
+        - cell "name":
+          - generic: name
+        - cell "Gabriel Holanda":
+          - generic: Gabriel Holanda
+      - row "url https://norteautoral.site/#quem":
+        - cell "url":
+          - generic: url
+        - cell "https://norteautoral.site/#quem":
+          - generic: https://norteautoral.site/#quem
+      - row "image https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg":
+        - cell "image":
+          - generic: image
+        - cell "https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg":
+          - generic: https://norteautoral.site/assets/norte-autoral/gabriel-holanda.jpg
+      - row "sameAs https://instagram.com/gabrielholanda._":
+        - cell "sameAs":
+          - generic: sameAs
+        - cell "https://instagram.com/gabrielholanda._":
+          - generic: https://instagram.com/gabrielholanda._
+      - row "hasOfferCatalog":
+        - cell "hasOfferCatalog":
+          - generic: hasOfferCatalog
+        - cell
+      - row "@type OfferCatalog":
+        - cell "@type":
+          - generic: "@type"
+        - cell "OfferCatalog":
+          - generic: OfferCatalog
+      - row "name Soluções para negócios":
+        - cell "name":
+          - generic: name
+        - cell "Soluções para negócios":
+          - generic: Soluções para negócios
+      - row "itemListElement":
+        - cell "itemListElement":
+          - generic: itemListElement
+        - cell
+      - row "@type Offer":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Offer":
+          - generic: Offer
+      - row "itemOffered":
+        - cell "itemOffered":
+          - generic: itemOffered
+        - cell
+      - row "@type Service":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Service":
+          - generic: Service
+      - row "name Sites e aplicações":
+        - cell "name":
+          - generic: name
+        - cell "Sites e aplicações":
+          - generic: Sites e aplicações
+      - row "itemListElement":
+        - cell "itemListElement":
+          - generic: itemListElement
+        - cell
+      - row "@type Offer":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Offer":
+          - generic: Offer
+      - row "itemOffered":
+        - cell "itemOffered":
+          - generic: itemOffered
+        - cell
+      - row "@type Service":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Service":
+          - generic: Service
+      - row "@id https://norteautoral.site/trafego-pago/#servico":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://norteautoral.site/trafego-pago/#servico":
+          - generic: https://norteautoral.site/trafego-pago/#servico
+      - row "name Tráfego pago com Meta Ads e Google Ads":
+        - cell "name":
+          - generic: name
+        - cell "Tráfego pago com Meta Ads e Google Ads":
+          - generic: Tráfego pago com Meta Ads e Google Ads
+      - row "serviceType Gestão de tráfego pago":
+        - cell "serviceType":
+          - generic: serviceType
+        - cell "Gestão de tráfego pago":
+          - generic: Gestão de tráfego pago
+      - row "url https://norteautoral.site/trafego-pago/":
+        - cell "url":
+          - generic: url
+        - cell "https://norteautoral.site/trafego-pago/":
+          - generic: https://norteautoral.site/trafego-pago/
+      - row "description Planejamento, gestão e acompanhamento de campanhas, conectando anúncios às páginas do negócio.":
+        - cell "description":
+          - generic: description
+        - cell "Planejamento, gestão e acompanhamento de campanhas, conectando anúncios às páginas do negócio.":
+          - generic: Planejamento, gestão e acompanhamento de campanhas, conectando anúncios às páginas do negócio.
+      - row "areaServed Parnaíba, PI, Brasil":
+        - cell "areaServed":
+          - generic: areaServed
+        - cell "Parnaíba, PI, Brasil":
+          - generic: Parnaíba, PI, Brasil
+      - row "provider":
+        - cell "provider":
+          - generic: provider
+        - cell
+      - row "@type Organization":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Organization":
+          - generic: Organization
+      - row "@id https://norteautoral.site/#negocio":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://norteautoral.site/#negocio":
+          - generic: https://norteautoral.site/#negocio
+      - row "itemListElement":
+        - cell "itemListElement":
+          - generic: itemListElement
+        - cell
+      - row "@type Offer":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Offer":
+          - generic: Offer
+      - row "itemOffered":
+        - cell "itemOffered":
+          - generic: itemOffered
+        - cell
+      - row "@type Service":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Service":
+          - generic: Service
+      - row "name Norte/OS":
+        - cell "name":
+          - generic: name
+        - cell "Norte/OS":
+          - generic: Norte/OS
+      - row "itemListElement":
+        - cell "itemListElement":
+          - generic: itemListElement
+        - cell
+      - row "@type Offer":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Offer":
+          - generic: Offer
+      - row "itemOffered":
+        - cell "itemOffered":
+          - generic: itemOffered
+        - cell
+      - row "@type Service":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Service":
+          - generic: Service
+      - row "@id https://norteautoral.site/automacao/#servico":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://norteautoral.site/automacao/#servico":
+          - generic: https://norteautoral.site/automacao/#servico
+      - row "name Automação e integrações para negócios":
+        - cell "name":
+          - generic: name
+        - cell "Automação e integrações para negócios":
+          - generic: Automação e integrações para negócios
+      - row "serviceType Automação com IA e integrações":
+        - cell "serviceType":
+          - generic: serviceType
+        - cell "Automação com IA e integrações":
+          - generic: Automação com IA e integrações
+      - row "url https://norteautoral.site/automacao/":
+        - cell "url":
+          - generic: url
+        - cell "https://norteautoral.site/automacao/":
+          - generic: https://norteautoral.site/automacao/
+      - row "description Fluxos sob medida para conectar ferramentas, organizar informações e reduzir tarefas repetitivas, com atendimento humano onde necessário.":
+        - cell "description":
+          - generic: description
+        - cell "Fluxos sob medida para conectar ferramentas, organizar informações e reduzir tarefas repetitivas, com atendimento humano onde necessário.":
+          - generic: Fluxos sob medida para conectar ferramentas, organizar informações e reduzir tarefas repetitivas, com atendimento humano onde necessário.
+      - row "areaServed Parnaíba, PI, Brasil":
+        - cell "areaServed":
+          - generic: areaServed
+        - cell "Parnaíba, PI, Brasil":
+          - generic: Parnaíba, PI, Brasil
+      - row "provider":
+        - cell "provider":
+          - generic: provider
+        - cell
+      - row "@type Organization":
+        - cell "@type":
+          - generic: "@type"
+        - cell "Organization":
+          - generic: Organization
+      - row "@id https://norteautoral.site/#negocio":
+        - cell "@id":
+          - generic: "@id"
+        - cell "https://norteautoral.site/#negocio":
+          - generic: https://norteautoral.site/#negocio
+- button "play_arrow" [disabled]:
+  - generic: play_arrow
+- generic: VALIDAR
+- button

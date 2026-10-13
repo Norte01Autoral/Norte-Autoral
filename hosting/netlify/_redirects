@@ -8,6 +8,8 @@ http://norteautoral.site/* https://norteautoral.site/:splat 301!
 
 # Direct index URLs use their real directory; no trailing-slash-only rules.
 /index.html / 301!
+/trafego-pago/index.html /trafego-pago/ 301!
+/automacao/index.html /automacao/ 301!
 /marketing/portfolio/arquitetura-estudio-linha/index.html /marketing/portfolio/arquitetura-estudio-linha/ 301!
 /marketing/portfolio/aureo-arquitetura/index.html /marketing/portfolio/aureo-arquitetura/ 301!
 /marketing/portfolio/confeitaria-margo/index.html /marketing/portfolio/confeitaria-margo/ 301!

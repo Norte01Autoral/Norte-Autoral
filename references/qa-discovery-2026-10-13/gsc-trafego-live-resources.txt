@@ -1,0 +1,175 @@
+- banner:
+  - button "Menu principal":
+  - link "Google Search Console":
+    - /url: ./search-console?resource_id=sc-domain%3Anorteautoral.site
+  - search:
+    - textbox [disabled]: Inspecionar qualquer URL de "norteautoral.site"
+    - combobox "Inspecionar qualquer URL de norteautoral.site"
+    - button "Pesquisa":
+  - button "Ajuda":
+    - generic: help_outline
+  - tooltip: Ajuda
+  - button "Configurações de usuário":
+    - generic: manage_accounts
+  - tooltip: Configurações de usuário
+  - 'button "Mensagens não lidas: 2"':
+    - generic: notifications
+  - tooltip: Mensagens
+  - generic: "2"
+  - button "Google Apps":
+  - 'button "Conta do Google: Norte Autoral (contatonorteautoral@gmail.com)"':
+- dialog "navigational drawer":
+  - navigation "Primário":
+    - button "Pesquise a propriedade":
+      - img "favicon"
+      - combobox "norteautoral.site"
+      - generic: 
+    - link "Visão geral":
+      - /url: ./search-console?resource_id=sc-domain%3Anorteautoral.site
+      - generic: home
+      - generic: Visão geral
+    - link "Insights":
+      - /url: ./search-console/performance/insights?resource_id=sc-domain%3Anorteautoral.site
+      - generic: lightbulb_2
+      - generic: Insights
+    - link "Desempenho":
+      - /url: ./search-console/performance/search-analytics?resource_id=sc-domain%3Anorteautoral.site
+      - generic: trending_up
+      - generic: Desempenho
+    - button "Inspeção de URL":
+      - generic: search
+      - generic: Inspeção de URL
+    - generic: Indexação
+    - button "Seção de relatórios de Indexação" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "Páginas":
+      - /url: ./search-console/index?resource_id=sc-domain%3Anorteautoral.site
+      - generic: file_copy
+      - generic: Páginas
+    - link "Sitemaps":
+      - /url: ./search-console/sitemaps?resource_id=sc-domain%3Anorteautoral.site
+      - generic: account_tree
+      - generic: Sitemaps
+    - link "Remoções":
+      - /url: ./search-console/removals?resource_id=sc-domain%3Anorteautoral.site
+      - generic: visibility_off
+      - generic: Remoções
+    - generic: Experiência
+    - button "Seção de relatórios de Experiência" [expanded]:
+      - generic: keyboard_arrow_up
+    - link "Core Web Vitals":
+      - /url: ./search-console/core-web-vitals?resource_id=sc-domain%3Anorteautoral.site
+      - generic: speed
+      - generic: Core Web Vitals
+    - generic: Segurança e ações manuais
+    - button "Seção de relatórios de Segurança e ações manuais":
+      - generic: keyboard_arrow_down
+    - link "Relatório de links":
+      - /url: ./search-console/links?resource_id=sc-domain%3Anorteautoral.site
+      - generic: link_2
+      - generic: Links
+    - link "Conquistas":
+      - /url: ./search-console/achievements?resource_id=sc-domain%3Anorteautoral.site
+      - generic: trophy
+      - generic: Conquistas
+    - link "Configurações":
+      - /url: ./search-console/settings?resource_id=sc-domain%3Anorteautoral.site
+      - generic: settings
+      - generic: Configurações
+    - button "Enviar comentário":
+      - generic: feedback
+      - generic: Enviar comentário
+    - button "Sobre o Search Console":
+      - generic: info
+      - generic: Sobre o Search Console
+    - link "Privacidade":
+      - /url: https://myaccount.google.com/privacypolicy?hl=pt-BR
+    - link "Termos":
+      - /url: https://myaccount.google.com/termsofservice?hl=pt-BR
+- generic: https://norteautoral.site/trafego-pago/
+- navigation "Indicadores de localização atual":
+  - heading "Inspeção de URL" [level=1]
+- link "Índice do Google":
+  - /url: ./search-console/inspect?resource_id=sc-domain%3Anorteautoral.site&id=EaqTg0IW5hOWOVBWpozxvw&alt_id=red1QVkd1EwtBjN3C_62zg
+  - generic: Índice do Google
+- button "Teste em tempo real" [disabled]:
+  - generic: Teste em tempo real
+- main:
+  - generic: "Testado em: 13 de out. de 2026, 01:49"
+  - button "Testar o URL novamente":
+    - generic: 
+  - generic: check_circle
+  - generic: O URL está disponível para o Google
+  - text: Se for indexado e selecionado como canônico, o URL poderá aparecer nos resultados da Pesquisa Google com todas as melhorias relevantes.
+  - link "Saiba mais":
+    - /url: https://support.google.com/webmasters/answer/9012289#url_can_be_on_google
+  - button "Ver a página testada":
+    - generic: Ver a página testada
+  - generic: A página foi alterada?
+  - button "Solicitar indexaçãoSolicitar novamente":
+    - generic: Solicitar indexação
+  - button "Disponibilidade da página É possível indexar a página" [expanded]:
+    - generic: check_circle
+    - generic: Disponibilidade da página
+    - generic: É possível indexar a página
+    - generic: 
+  - text: O URL só será indexado se
+  - link "certas condições":
+    - /url: https://support.google.com/webmasters/answer/9012289#will_i_be_indexed
+  - text: forem atendidas
+  - generic: Detecção
+  - generic: Informação não verificada nos testes ao vivo
+  - generic: Rastreamento
+  - generic: Tempo
+  - generic: 13 de out. de 2026, 01:49:30
+  - generic: Rastreada como
+  - generic: Smartphone da ferramenta de inspeção do Google
+  - generic: O rastreamento é permitido?
+  - generic: Sim
+  - generic: Busca de página
+  - generic: Com êxito.
+  - generic: A indexação é permitida?
+  - generic: Sim
+  - generic: Indexação
+  - generic: URL canônico declarado pelo usuário
+  - generic: https://norteautoral.site/trafego-pago/
+  - generic: URL canônico selecionado pelo Google
+  - button "null":
+    - generic: 
+  - generic: Informação definida somente após a indexação
+  - link "Link para documentação mais elaborada":
+    - /url: https://support.google.com/webmasters/answer/9012289#url_can_be_on_google
+    - generic: Saiba mais
+  - generic: Melhorias e experiência
+  - link "Indicadores de localização atual 1 item válido detectado":
+    - /url: ./search-console/inspect/r/breadcrumbs?resource_id=sc-domain%3Anorteautoral.site&id=red1QVkd1EwtBjN3C_62zg&alt_id=EaqTg0IW5hOWOVBWpozxvw
+    - generic: check_circle
+    - generic: Indicadores de localização atual
+    - generic: 1 item válido detectado
+    - generic: 
+- button "Fechar":
+  - generic: 
+- generic: Página testada
+- tablist:
+  - tab "html":
+    - generic: html
+  - tab "captura de tela":
+    - generic: captura de tela
+  - tab "Mais informações" [active] [selected]:
+    - generic: Mais informações
+- tabpanel:
+  - button "Tipo de conteúdo text/html" [disabled]:
+    - generic: Tipo de conteúdo
+    - generic: text/html
+  - button "Resposta HTTP 200 OK":
+    - generic: Resposta HTTP
+    - generic: 200 OK
+    - generic: 
+  - button "Recursos da página Todos os recursos foram carregados":
+    - generic: Recursos da página
+    - generic: Todos os recursos foram carregados
+    - generic: 
+  - button "Mensagens do console JavaScript Nenhuma mensagem" [disabled]:
+    - generic: Mensagens do console JavaScript
+    - generic: Nenhuma mensagem
+    - generic: 
